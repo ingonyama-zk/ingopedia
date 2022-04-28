@@ -1,5 +1,5 @@
 
-# Ingopedia
+# ingopedia
 
 ## Zero Knowledge
 
