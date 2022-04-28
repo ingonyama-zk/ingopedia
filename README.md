@@ -182,7 +182,7 @@
     * [Plookup in action -Talk](https://github.com/arielgabizon/Lectures/blob/master/plookupinactionDystopia2020.pdf)
     * [Plonk and Plookup - Metastate](https://research.metastate.dev/on-plonk-and-plookup/)
     * [Plonk and Plookup - Dima Kharatovich](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/BJpNmNW0L)
-    * [Mina Protcol](https://o1-labs.github.io/mina-book/crypto/overview.html)
+    * [Mina Protocol](https://o1-labs.github.io/proof-systems/introduction.html)
 * [Zilch - 2021](https://eprint.iacr.org/2020/1155.pdf), [code](https://github.com/TrustworthyComputing/Zilch)
 * [Darlin - 2021](https://arxiv.org/pdf/2107.04315.pdf),[code](https://github.com/HorizenOfficial/ginger-lib)
 * [Plonkup -2021](https://eprint.iacr.org/2022/086.pdf)
