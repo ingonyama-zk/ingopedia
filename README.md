@@ -72,7 +72,7 @@
 * **Gaming**:
     * [Dark Forest - the zk SNARK game](https://blog.zkga.me/announcing-v6)
 * **Comprehensive protocol books**:
-    * [Mina Protcol](https://o1-labs.github.io/mina-book/crypto/overview.html)
+    * [Mina Protcol](https://o1-labs.github.io/proof-systems/introduction.html)
     * [Halo 2 book](https://zcash.github.io/halo2/index.html)
 * **ZK Rollups**
     * [Zk rollups an incomplete guide](https://vitalik.ca/general/2021/01/05/rollup.html#:~:text=One%20important%20compression,SNARKs%20are%20valid.)
