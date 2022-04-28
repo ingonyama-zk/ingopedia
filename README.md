@@ -14,6 +14,7 @@
 ### Articles
 * **Introductory**: 
     * [Amit Sahai explaining ZK to people of all ages - video](https://www.youtube.com/watch?v=fOGdb1CTu5c)
+    * [ZudoKu - intuitive no-math ZK Primer using Sudokus](https://zudoku.xyz/)
     * [Zk blog](http://www.zeroknowledgeblog.com/index.php)
     * [Zk_primer_1 M.Green](https://blog.cryptographyengineering.com/2014/11/27/-knowledge-proofs-illustrated-primer/)
     * [Zk_primer_2 M.Green](https://blog.cryptographyengineering.com/2017/01/21/zero-knowledge-proofs-an-illustrated-primer-part-2/)
