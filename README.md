@@ -13,6 +13,7 @@
 
 ### Articles
 * **Introductory**: 
+    * [An incomplete guide to zk: why zk matters](https://mirror.xyz/fundamentalabs.eth/24i98adRylhjdcqV1TnsT8ZbkIXCulCrDTIrsrziQmY)
     * [Amit Sahai explaining ZK to people of all ages - video](https://www.youtube.com/watch?v=fOGdb1CTu5c)
     * [ZudoKu - intuitive no-math ZK Primer using Sudokus](https://zudoku.xyz/)
     * [Zk blog](http://www.zeroknowledgeblog.com/index.php)
@@ -49,6 +50,8 @@
     * [Cryptohack - hands on cryptography](https://cryptohack.org)
     * [Zk hack puzzles](https://www.zkhack.dev/mini.html)
     * [Hands on ZK - ZK learning group](https://0xparc.notion.site/ZK-Learning-Group-Topics-f53933eecc2f41438c6c2bdd5b42ee2d)
+    * [Intro to zk: do it yourself circuits](https://github.com/enricobottazzi)
+    * [Zk Sudoku - Python](https://medium.com/coinmonks/walkthrough-of-an-interactive-zero-knowledge-proof-for-sudoku-puzzle-ac563588f1a8)
 * **Ethereum**
     * [vitalik blog](https://notes.ethereum.org/@vbuterin)
     * [Ethereum-powered ZK-Rollups: World Beaters](https://hackmd.io/QkOUJ-UJQ-CJ7cs_yx6_GA)
