@@ -256,7 +256,8 @@
     * [New sharding design with tight beacon and shard block integration - Dankrad Feist](https://notes.ethereum.org/@dankrad/new_sharding#)
     * [Barycentric low deg check - Dankrad Feist](https://notes.ethereum.org/@dankrad/barycentric_low_degree_check)
     * [Protodanksharding - FAQ Vitalik](https://notes.ethereum.org/@vbuterin/proto_danksharding_faq#What-is-Danksharding)
-    * [A quick barycentric evaluation tutorial - Vitalik](/_s30wKn7TWKAvMF4xQWH8A)
+    * [A quick barycentric evaluation tutorial - Vitalik](https://hackmd.io/@vbuterin/barycentric_evaluation)
+    * [Barycentric interpolation - Math Oxford](https://people.maths.ox.ac.uk/trefethen/barycentric.pdf)
     * [Fast KZG proofs](https://alinush.github.io/2021/06/17/Feist-Khovratovich-technique-for-computing-KZG-proofs-fast.html)
     * [Amortized KZG - Kharatovich](https://github.com/khovratovich/Kate/blob/master/Kate_amortized.pdf)
 * **Vector Commitments**
