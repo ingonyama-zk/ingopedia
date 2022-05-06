@@ -110,7 +110,9 @@
 * [All about Verifiable Delay Functions (VDF's) - VDFresearch ](https://vdfresearch.org)
 * [Chiesea - Thesis - Recursive SNARK](https://dspace.mit.edu/handle/1721.1/61151)
 * [Berry Lecture Notes](https://www.win.tue.nl/~berry/CryptographicProtocols/LectureNotes.pdf)
-* [ApliedZk worjshop](https://0xparc.notion.site/Applied-ZK-Workshop-Reading-List-65cefa4bb6064dacb112b82f70ecc6f2)
+* [AppliedZk workshop](https://0xparc.notion.site/Applied-ZK-Workshop-Reading-List-65cefa4bb6064dacb112b82f70ecc6f2)
+* [Zk summit videos](https://www.youtube.com/playlist?list=PLj80z0cJm8QFnY6VLVa84nr-21DNvjWH7)
+    * [Zk summit 2022 slides](https://drive.google.com/drive/folders/1_2PUrP5HU1ehDVkG6-sVTx498Bv_YZha)
 
 ### ZK protocols and implementations
 * [Pinocchio  - 2013](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6547113) 
