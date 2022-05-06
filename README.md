@@ -74,6 +74,7 @@
 * **Comprehensive protocol books**:
     * [Mina Protcol](https://o1-labs.github.io/proof-systems/introduction.html)
     * [Halo 2 book](https://zcash.github.io/halo2/index.html)
+    * [Filecoin](https://spec.filecoin.io)
 * **ZK Rollups**
     * [Zk rollups an incomplete guide](https://vitalik.ca/general/2021/01/05/rollup.html#:~:text=One%20important%20compression,SNARKs%20are%20valid.)
     * [Decentralized zk-Rollup](https://hackmd.io/SzneKXSWRJ6yJxzgFm9MwQ?view)
@@ -86,7 +87,7 @@
 * [Anatomy of a STARK](https://aszepieniec.github.io/stark-anatomy/)
 * [STARK vs SNARK](https://consensys.net/blog/blockchain-explained/zero-knowledge-proofs-starks-vs-snarks/)
 * [STARK Week](/yB2SAnURS-iF4wzypI2-7A)
-* [Dmitry Khovatrovich notes](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ)
+* [Dmitry Khovratovich notes](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ)
 * [MIT research site](https://dci.mit.edu/all-research)
     * [Zk sharks - MIT](https://dci.mit.edu/zksharks) 
 
@@ -103,7 +104,7 @@
 * [An Introduction to Secret-Sharing-Based Secure Multiparty Computation - Daniel Escudero](https://eprint.iacr.org/2022/062.pdf)
 * [Proofs Arguments and Zero Knowledge - Justin Thaler](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
     * This is a regularly updated book, discord zk study club from mid april.
-* [ZKP - Modular approach -Yuval Ushai](https://zkproof.org/author/yuvalishai/)
+* [ZKP - Modular approach -Yuval Ishai](https://zkproof.org/author/yuvalishai/)
 * [A review of zk-SNARKS](https://arxiv.org/abs/2202.06877)
 * [Recursive SNARKs - Stanford lecs](https://cs251.stanford.edu/lectures/lecture18.pdf)
 * [All about Verifiable Delay Functions (VDF's) - VDFresearch ](https://vdfresearch.org)
@@ -121,6 +122,7 @@
     *  [Code: ConSensys - gnark](https://github.com/ConsenSys/gnark),[Code: Arkworks](https://github.com/arkworks-rs/groth16)
     *  [Proof of forgery](https://medium.com/ppio/how-to-generate-a-groth16-proof-for-forgery-9f857b0dcafd)
     *  [Groth16 aggregation proposal](https://docs.zkproof.org/pages/standards/accepted-workshop4/proposal-aggregation.pdf)
+    *  [Groth - Talk](https://www.youtube.com/watch?v=OseAdq0CoOY)
 * [Ligero - 2017](https://dl.acm.org/doi/pdf/10.1145/3133956.3134104)
 * [ZoKrates - 2018](https://www.depositonce.tu-berlin.de/bitstream/11303/13087/4/eberhardt_jacob.pdf), [Code: ZoKrates](https://zokrates.github.io)
 * [xjSNARK - 2018](https://akosba.github.io/papers/xjsnark.pdf)
@@ -183,7 +185,7 @@
     * [code: Jellyfish](https://github.com/EspressoSystems/jellyfish)
     * [Plookup in action -Talk](https://github.com/arielgabizon/Lectures/blob/master/plookupinactionDystopia2020.pdf)
     * [Plonk and Plookup - Metastate](https://research.metastate.dev/on-plonk-and-plookup/)
-    * [Plonk and Plookup - Dima Kharatovich](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/BJpNmNW0L)
+    * [Plonk and Plookup - Khovratovich](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/BJpNmNW0L)
     * [Mina Protocol](https://o1-labs.github.io/proof-systems/introduction.html)
 * [Zilch - 2021](https://eprint.iacr.org/2020/1155.pdf), [code](https://github.com/TrustworthyComputing/Zilch)
 * [Darlin - 2021](https://arxiv.org/pdf/2107.04315.pdf),[code](https://github.com/HorizenOfficial/ginger-lib)
@@ -264,7 +266,7 @@
     * [A quick barycentric evaluation tutorial - Vitalik](https://hackmd.io/@vbuterin/barycentric_evaluation)
     * [Barycentric interpolation - Math Oxford](https://people.maths.ox.ac.uk/trefethen/barycentric.pdf)
     * [Fast KZG proofs](https://alinush.github.io/2021/06/17/Feist-Khovratovich-technique-for-computing-KZG-proofs-fast.html)
-    * [Amortized KZG - Kharatovich](https://github.com/khovratovich/Kate/blob/master/Kate_amortized.pdf)
+    * [Amortized KZG - Khovratovich](https://github.com/khovratovich/Kate/blob/master/Kate_amortized.pdf)
 * **Vector Commitments**
     * [Verkle Trie - Dankrad Feist](https://dankradfeist.de/ethereum/2021/06/18/verkle-trie-for-eth1.html)
     * [Aggregatable vector sub commitments](https://alinush.github.io/2020/05/06/aggregatable-subvector-commitments-for-stateless-cryptocurrencies.html#aggregating-proofs-into-subvector-profs)
@@ -302,13 +304,17 @@
 * [Improved Fast exponentiations - Bodo Moller](https://www.bmoeller.de/pdf/fastexp-icisc2002.pdf)
 * [Fast exponentiation with precomputation - Brickell Gordon et al](https://www.dmgordon.org/papers/fast.pdf)
 * [Matter labs -ALgorithms](https://github.com/matter-labs/eip1962/blob/master/documentation/Algorithms_for_EIP1962.pdf)
+* [Ryah Henry - Thesis](https://cacr.uwaterloo.ca/techreports/2010/cacr2010-26.pdf)
 * **Hardware acceleration**
     * [MSM with FPGA -Connor Masterson thesis](https://github.com/connormas/MultiScalarMultiplication/blob/main/ConnorMastersonThesisV2.pdf)
+
 
 ## Modular arithmetic
 * [A Fast Large-Integer Extended GCD Algorithm and Hardware Design for Verifiable Delay Functions and Modular Inversion](https://eprint.kobi.one/2021/1292)
 * [Optimized Binary GCD for Modular Inversion](https://eprint.iacr.org/2020/972.pdf)
 * [Library of Algorithms](https://www.jjj.de/fxt/#fxtbook)
+* [Modular Multiplication and Hardware implementations - Review](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.116.512&rep=rep1&type=pdf)
+* [Evaluation of large integer multiplications in hardware - Review](https://pureadmin.qub.ac.uk/ws/portalfiles/portal/125812965/Evaluation_of_large_integer_multiplication_methods_R2.pdf)
 ## Related Math
 * [The Matrix cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
 * [Ideal Class Groups](https://blogs.ams.org/mathgradblog/2018/02/10/introduction-ideal-class-groups/)
@@ -322,6 +328,7 @@
     * [Poseidon in Filecoin - Dmitry Khovratovich](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/BJjaxXd9U)
 * [Rescue-Prime: a Standard Specification (SoK)](https://eprint.iacr.org/2020/1143.pdf) 
 * [MiMc](https://eprint.iacr.org/2016/492.pdf)
+    * [Mimc7 in Plonk - Custom gates](https://kobi.one/2021/05/20/plonk-custom-gates.html)
 * [Reinforced concrete](https://drive.google.com/file/d/1MCIqD8XwKrHVBQPc26XjAmM9RyrLDpjw/view)
     * [implementation](https://www.rc-hash.info)
     * [Plonkup reinforced concrete zkstudyclub](https://www.youtube.com/watch?v=Pnc9J7uQgqs)
