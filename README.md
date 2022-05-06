@@ -304,13 +304,17 @@
 * [Improved Fast exponentiations - Bodo Moller](https://www.bmoeller.de/pdf/fastexp-icisc2002.pdf)
 * [Fast exponentiation with precomputation - Brickell Gordon et al](https://www.dmgordon.org/papers/fast.pdf)
 * [Matter labs -ALgorithms](https://github.com/matter-labs/eip1962/blob/master/documentation/Algorithms_for_EIP1962.pdf)
+* [Ryah Henry - Thesis](https://cacr.uwaterloo.ca/techreports/2010/cacr2010-26.pdf)
 * **Hardware acceleration**
     * [MSM with FPGA -Connor Masterson thesis](https://github.com/connormas/MultiScalarMultiplication/blob/main/ConnorMastersonThesisV2.pdf)
+
 
 ## Modular arithmetic
 * [A Fast Large-Integer Extended GCD Algorithm and Hardware Design for Verifiable Delay Functions and Modular Inversion](https://eprint.kobi.one/2021/1292)
 * [Optimized Binary GCD for Modular Inversion](https://eprint.iacr.org/2020/972.pdf)
 * [Library of Algorithms](https://www.jjj.de/fxt/#fxtbook)
+* [Modular Multiplication and Hardware implementations - Review](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.116.512&rep=rep1&type=pdf)
+* [Evaluation of large integer multiplications in hardware - Review](https://pureadmin.qub.ac.uk/ws/portalfiles/portal/125812965/Evaluation_of_large_integer_multiplication_methods_R2.pdf)
 ## Related Math
 * [The Matrix cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
 * [Ideal Class Groups](https://blogs.ams.org/mathgradblog/2018/02/10/introduction-ideal-class-groups/)
@@ -324,6 +328,7 @@
     * [Poseidon in Filecoin - Dmitry Khovratovich](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/BJjaxXd9U)
 * [Rescue-Prime: a Standard Specification (SoK)](https://eprint.iacr.org/2020/1143.pdf) 
 * [MiMc](https://eprint.iacr.org/2016/492.pdf)
+    * [Mimc7 in Plonk - Custom gates](https://kobi.one/2021/05/20/plonk-custom-gates.html)
 * [Reinforced concrete](https://drive.google.com/file/d/1MCIqD8XwKrHVBQPc26XjAmM9RyrLDpjw/view)
     * [implementation](https://www.rc-hash.info)
     * [Plonkup reinforced concrete zkstudyclub](https://www.youtube.com/watch?v=Pnc9J7uQgqs)
