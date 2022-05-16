@@ -14,7 +14,9 @@
 ### Articles
 * **Introductory**: 
     * [An incomplete guide to zk: why zk matters](https://mirror.xyz/fundamentalabs.eth/24i98adRylhjdcqV1TnsT8ZbkIXCulCrDTIrsrziQmY)
+    * [ZKP beginner resources](https://community.zeroknowledge.fm/t/learning-zkps-beginner-resources/302/19)
     * [Amit Sahai explaining ZK to people of all ages - video](https://www.youtube.com/watch?v=fOGdb1CTu5c)
+    * [An introduction to how zk snarks are possible - Vitalik](https://vitalik.ca/general/2021/01/26/snarks.html)
     * [ZudoKu - intuitive no-math ZK Primer using Sudokus](https://zudoku.xyz/)
     * [Zk blog](http://www.zeroknowledgeblog.com/index.php)
     * [Zk_primer_1 M.Green](https://blog.cryptographyengineering.com/2014/11/27/-knowledge-proofs-illustrated-primer/)
@@ -25,7 +27,9 @@
 * **Trusted Setup**: 
     * [Introduction -Vitalik](https://vitalik.ca/general/2022/03/14/trustedsetup.html)
     * [Aztec Ceremony](https://medium.com/aztec-protocol/aztec-how-the-ceremony-works-9f021cf190d0)
-    *  [Trusted setup - Tau](https://zeroknowledge.fm/the-power-of-tau-or-how-i-learned-to-stop-worrying-and-love-the-setup/)
+    * [Trusted setup - Tau](https://zeroknowledge.fm/the-power-of-tau-or-how-i-learned-to-stop-worrying-and-love-the-setup/)
+    * [Setup ceremonies](https://zkproof.org/2021/06/30/setup-ceremonies/)
+    * [Zk snark setup phase](https://medium.com/qed-it/diving-into-the-snarks-setup-phase-b7660242a0d7)
 * **Vitalik Snark tutorial**: 
     * [Snarks 1: QAP from zero to hero](https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649)
     * [Snarks 2: Elliptic curve pairings](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627)
@@ -52,6 +56,7 @@
     * [Hands on ZK - ZK learning group](https://0xparc.notion.site/ZK-Learning-Group-Topics-f53933eecc2f41438c6c2bdd5b42ee2d)
     * [Intro to zk: do it yourself circuits](https://github.com/enricobottazzi)
     * [Zk Sudoku - Python](https://medium.com/coinmonks/walkthrough-of-an-interactive-zero-knowledge-proof-for-sudoku-puzzle-ac563588f1a8)
+    * [Arnacube implementations](https://arnaucube.com)
 * **Ethereum**
     * [vitalik blog](https://notes.ethereum.org/@vbuterin)
     * [Ethereum-powered ZK-Rollups: World Beaters](https://hackmd.io/QkOUJ-UJQ-CJ7cs_yx6_GA)
@@ -78,6 +83,7 @@
 * **ZK Rollups**
     * [Zk rollups an incomplete guide](https://vitalik.ca/general/2021/01/05/rollup.html#:~:text=One%20important%20compression,SNARKs%20are%20valid.)
     * [Decentralized zk-Rollup](https://hackmd.io/SzneKXSWRJ6yJxzgFm9MwQ?view)
+    * [Zk rollups popular](https://limechain.tech/blog/optimistic-rollups-vs-zk-rollups/)
 * **Accelerating Zero Knowledge**:
     * [Supranational VDF's and crypto accelerators](https://medium.com/@supranational)
     * [Supranational codes](https://github.com/supranational)
@@ -110,7 +116,9 @@
 * [All about Verifiable Delay Functions (VDF's) - VDFresearch ](https://vdfresearch.org)
 * [Chiesea - Thesis - Recursive SNARK](https://dspace.mit.edu/handle/1721.1/61151)
 * [Berry Lecture Notes](https://www.win.tue.nl/~berry/CryptographicProtocols/LectureNotes.pdf)
-* [ApliedZk worjshop](https://0xparc.notion.site/Applied-ZK-Workshop-Reading-List-65cefa4bb6064dacb112b82f70ecc6f2)
+* [AppliedZk workshop](https://0xparc.notion.site/Applied-ZK-Workshop-Reading-List-65cefa4bb6064dacb112b82f70ecc6f2)
+* [Zk summit videos](https://www.youtube.com/playlist?list=PLj80z0cJm8QFnY6VLVa84nr-21DNvjWH7)
+    * [Zk summit 2022 slides](https://drive.google.com/drive/folders/1_2PUrP5HU1ehDVkG6-sVTx498Bv_YZha)
 
 ### ZK protocols and implementations
 * [Pinocchio  - 2013](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6547113) 
@@ -154,6 +162,7 @@
     * [Turboplonk](https://docs.zkproof.org/pages/standards/accepted-workshop3/proposal-turbo_plonk.pdf)
     * [Custom gates in plonk](https://www.plonk.cafe/t/details-of-custom-gate/122)
     * [Plonk: Thomas Piellard](https://hackmd.io/@gnark/plonk)
+    * [Multi set checks in Plonk and Plookup: Gabizon](https://hackmd.io/@arielg/ByFgSDA7D)
 * [Redshift - 2019](https://eprint.iacr.org/2019/1400)
   * [Redhsift Summary](https://www.smartcontractresearch.org/t/research-summary-redshift-transparent-snarks-from-list-polynominal-commitment-iops/344)
 * [Spartan  - 2019](https://eprint.iacr.org/2019/550.pdf) 
@@ -187,6 +196,7 @@
     * [Plonk and Plookup - Metastate](https://research.metastate.dev/on-plonk-and-plookup/)
     * [Plonk and Plookup - Khovratovich](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/BJpNmNW0L)
     * [Mina Protocol](https://o1-labs.github.io/proof-systems/introduction.html)
+    * [AES with lookup : Daira Hopwood](https://hackmd.io/m0fnJ_lPTPahWAhfaiQA7Q#With-smaller-38-sized-tables)
 * [Zilch - 2021](https://eprint.iacr.org/2020/1155.pdf), [code](https://github.com/TrustworthyComputing/Zilch)
 * [Darlin - 2021](https://arxiv.org/pdf/2107.04315.pdf),[code](https://github.com/HorizenOfficial/ginger-lib)
 * [Plonkup -2021](https://eprint.iacr.org/2022/086.pdf)
@@ -227,6 +237,7 @@
 * [Elliptic curve Arithmetic Curve addition - Doche-Lange](http://koclab.cs.ucsb.edu/teaching/ecc/eccPapers/DocheLange-ch13.pdf)
 * [Elliptic Curve Arithmetic Exponentiation -Doche Lange](http://koclab.cs.ucsb.edu/teaching/ecc/eccPapers/Doche-ch09.pdf)
 * [Elliptic curves of characteristic 2 or 3 - John Cook](https://dzone.com/articles/all-elliptic-curves-over-fields-of-order-2-and-3)
+* [Addition/Doubling formulae](https://www.hyperelliptic.org)
 * **Pairings**:
     * [Pairings for beginners - Craig Costello](https://static1.squarespace.com/static/5fdbb09f31d71c1227082339/t/5ff394720493bd28278889c6/1609798774687/PairingsForBeginners.pdf)
     * [Pairings - Vitalik Buterin](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627)
@@ -234,6 +245,8 @@
     * [Estimating the Bit Security of Pairing-Friendly Curves - NCCgroup](https://research.nccgroup.com/2022/02/03/estimating-the-bit-security-of-pairing-friendly-curves/)
     * [Bilinear pairings in cryptography - Dennis Meffert](https://www.math.ru.nl/~bosma/Students/MScThesis_DennisMeffert.pdf)
     * [Pairings and poly commitments - David Wong](https://cryptologie.net/article/525/pairing-based-polynomial-commitments-and-kate-polynomial-commitments/)
+    * [Circom pairing](https://0xparc.org/blog/zk-pairing-1)
+      * [Code](https://github.com/yi-sun/circom-pairing)
 * **Specific curves**
     * [BLS12-381 For The Rest Of Us](https://hackmd.io/mikF5LkFQoqXM1EuplRj2Q)
     * [Benchmarking pairing-friendly elliptic curves libraries](https://hackmd.io/2JH4uBFCTbehqorEzQxv9w)
@@ -273,6 +286,8 @@
     * [Catalano-Fiore VC](https://alinush.github.io/2020/11/24/Catalano-Fiore-Vector-Commitments.html)
 * **FRI Fast Reed Solomon Interactive Oracle Proofs of Proximity**
   * [FRI hackernoon](https://hackernoon.com/zero-knowledge-proof-algorithm-zk-stark-fri-protocol)
+  * [FRI properties](https://hackmd.io/@sin7y/r1r0IE40K)
+  * [FRI erasure code fraud proof](https://ethresear.ch/t/fri-as-erasure-code-fraud-proof/6610)
 
 ## Fast Fourier Transforms on Finite Fields
 * [FFT - Vitalik](https://vitalik.ca/general/2019/05/12/fft.html)
@@ -326,13 +341,25 @@
     * [code: snarkVM Aleo Poseidon](https://github.com/AleoHQ/snarkVM/blob/testnet3/algorithms/src/crh/poseidon.rs)
     * [Encoding of long objects in Poseidon - Dmitry Khovratovich](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/BkfS78Y9L)
     * [Poseidon in Filecoin - Dmitry Khovratovich](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/BJjaxXd9U)
+    * [Talk Grassi](https://www.usenix.org/system/files/sec21_slides_grassi.pdf)
+    * [code: Dusk network](https://github.com/dusk-network/Poseidon252)
+    * [code: Dust netowrk - Poseidon merkle](https://github.com/dusk-network/dusk-poseidon-merkle)
+    * [code: Triplewz - GO](https://github.com/triplewz/poseidon)
 * [Rescue-Prime: a Standard Specification (SoK)](https://eprint.iacr.org/2020/1143.pdf) 
+  * [Observations on Rescue](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/SJMVAPfjL)
 * [MiMc](https://eprint.iacr.org/2016/492.pdf)
     * [Mimc7 in Plonk - Custom gates](https://kobi.one/2021/05/20/plonk-custom-gates.html)
+    * [Mimc Roy slides](https://iacr.org/cryptodb/archive/2016/ASIACRYPT/presentation/27874.pdf)
 * [Reinforced concrete](https://drive.google.com/file/d/1MCIqD8XwKrHVBQPc26XjAmM9RyrLDpjw/view)
     * [implementation](https://www.rc-hash.info)
     * [Plonkup reinforced concrete zkstudyclub](https://www.youtube.com/watch?v=Pnc9J7uQgqs)
     * [Dusk network](https://dusk.network/news/development-update-34)
 * [Sinsemilla: A circuit-efficient, lookup-based collision-resistant hash function](/iOw7-HpFQY6dPF1aFY8pAw)
     * [halo book](https://zcash.github.io/orchard/design/circuit/gadgets/sinsemilla.html)
-* [Merkle trees](https://www.rfc-editor.org/rfc/rfc6962#section-2.1) 
+    * [ZCash protocol specification](https://zips.z.cash/protocol/protocol.pdf#concretesinsemillahash)
+* **Merkle Trees**
+  * [Merkle trees](https://www.rfc-editor.org/rfc/rfc6962#section-2.1) 
+  * [Sparse Merkle trees](https://docs.iden3.io/publications/pdfs/Merkle-Tree.pdf) 
+* [S box properties](https://www.diva-portal.org/smash/get/diva2:618670/FULLTEXT01.pdf)
+* **Hash Bounties**
+    * [Algebraic Hash bounties](https://hackmd.io/l2JT8AQITJ2xRZpGErPnzA#Decomposition-parameters)
