@@ -34,16 +34,29 @@
     * [Snarks 1: QAP from zero to hero](https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649)
     * [Snarks 2: Elliptic curve pairings](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627)
     * [Snarks 3: Zk snarks](https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6)
-* **Vitalik Stark Tutorials**: 
+* **All about STARKS**: 
+  * [Stark from home](https://www.youtube.com/playlist?list=PLcIyXLwiPilUFGw7r2uyWerOkbx4GFMXq)
+  * [Stark 101 - hands on](https://starkware.co/stark-101/)
+  * **Papers**
+    * [STARK paper](https://eprint.iacr.org/2018/046.pdf)
+    * [DEEP - FRI](https://eprint.iacr.org/2019/336.pdf)
+    * [Proximity Gaps for Reed-Solomon Codes](https://eccc.weizmann.ac.il/report/2020/083/)
+  * **Vitalik Stark tutorials**: 
     * [Starks 1 proofs with polynomials](https://vitalik.ca/general/2017/11/09/starks_part_1.html)
     * [Starks 2](https://vitalik.ca/general/2017/11/22/starks_part_2.html)
     * [Starks 3](https://vitalik.ca/general/2018/07/21/starks_part_3.html)
-* **STARK Math series**:
-  * [Journey Begins](https://medium.com/starkware/stark-math-the-journey-begins-51bd2b063c71)
-  * [Arithmetization I](https://medium.com/starkware/arithmetization-i-15c046390862)
-  * [Arithmetization II](https://medium.com/starkware/arithmetization-ii-403c3b3f4355)
-  * [Low Degree Testing](https://medium.com/starkware/low-degree-testing-f7614f5172db)
-  * [A framework for efficient STARKS](https://medium.com/starkware/a-framework-for-efficient-starks-19608ba06fbe)
+  * **STARK Math series**:
+    * [Journey Begins](https://medium.com/starkware/stark-math-the-journey-begins-51bd2b063c71)
+    * [Arithmetization I](https://medium.com/starkware/arithmetization-i-15c046390862)
+    * [Arithmetization II](https://medium.com/starkware/arithmetization-ii-403c3b3f4355)
+    * [Low Degree Testing](https://medium.com/starkware/low-degree-testing-f7614f5172db)
+    * [A framework for efficient STARKS](https://medium.com/starkware/a-framework-for-efficient-starks-19608ba06fbe)
+  * [Anatomy of a STARK](https://aszepieniec.github.io/stark-anatomy/)
+  * [STARK vs SNARK](https://consensys.net/blog/blockchain-explained/zero-knowledge-proofs-starks-vs-snarks/)
+  * [STARK Week](/yB2SAnURS-iF4wzypI2-7A)
+  * [EthSTARK](https://www.youtube.com/watch?v=rReCK7TWCJI)
+    * [code](https://github.com/starkware-libs/ethSTARK)
+    * [documentation](https://eprint.iacr.org/2021/582.pdf)
 * **Recursive Snarks**:
     * [Recursive SNARK -zkProof](https://zkproof.org/2020/06/08/recursive-snarks/)
     * [Recursive SNARK - overview - Michael Straka](https://www.michaelstraka.com/posts/recursivesnarks/)
@@ -90,9 +103,6 @@
     * [Decentralized Speed: Advances in Zero Knowledge Proofs](https://a16z.com/2022/04/15/zero-knowledge-proofs-hardware-decentralization-innovation/)
     * [Hardware Acceleration for Zero Knowledge Proofs](https://www.paradigm.xyz/2022/04/zk-hardware)
     * [ZK and TLS](https://youtu.be/zwIl8pqiZeA?t=1243)
-* [Anatomy of a STARK](https://aszepieniec.github.io/stark-anatomy/)
-* [STARK vs SNARK](https://consensys.net/blog/blockchain-explained/zero-knowledge-proofs-starks-vs-snarks/)
-* [STARK Week](/yB2SAnURS-iF4wzypI2-7A)
 * [Dmitry Khovratovich notes](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ)
 * [MIT research site](https://dci.mit.edu/all-research)
     * [Zk sharks - MIT](https://dci.mit.edu/zksharks) 
@@ -357,9 +367,12 @@
 * [Sinsemilla: A circuit-efficient, lookup-based collision-resistant hash function](/iOw7-HpFQY6dPF1aFY8pAw)
     * [halo book](https://zcash.github.io/orchard/design/circuit/gadgets/sinsemilla.html)
     * [ZCash protocol specification](https://zips.z.cash/protocol/protocol.pdf#concretesinsemillahash)
+* [Blake](https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf)
+    * [code](https://github.com/BLAKE3-team/BLAKE3)
 * **Merkle Trees**
   * [Merkle trees](https://www.rfc-editor.org/rfc/rfc6962#section-2.1) 
-  * [Sparse Merkle trees](https://docs.iden3.io/publications/pdfs/Merkle-Tree.pdf) 
+  * [Sparse Merkle trees](https://docs.iden3.io/publications/pdfs/Merkle-Tree.pdf)
+  * [Merkle Commitment scheme](https://courses.cs.ut.ee/MTAT.07.003/2019_fall/uploads/Main/0701-merkle-trees.pdf) 
 * [S box properties](https://www.diva-portal.org/smash/get/diva2:618670/FULLTEXT01.pdf)
 * **Hash Bounties**
     * [Algebraic Hash bounties](https://hackmd.io/l2JT8AQITJ2xRZpGErPnzA#Decomposition-parameters)
