@@ -35,8 +35,8 @@
     * [Snarks 2: Elliptic curve pairings](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627)
     * [Snarks 3: Zk snarks](https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6)
 * **All about STARKS**: 
-  * [Stark from home](https://www.youtube.com/playlist?list=PLcIyXLwiPilUFGw7r2uyWerOkbx4GFMXq)
-  * [Stark 101 - hands on](https://starkware.co/stark-101/)
+  * **Introduction**
+    * [Stark from home](https://www.youtube.com/playlist?list=PLcIyXLwiPilUFGw7r2uyWerOkbx4GFMXq)
   * **Papers**
     * [STARK paper](https://eprint.iacr.org/2018/046.pdf)
     * [DEEP - FRI](https://eprint.iacr.org/2019/336.pdf)
@@ -51,6 +51,7 @@
     * [Arithmetization II](https://medium.com/starkware/arithmetization-ii-403c3b3f4355)
     * [Low Degree Testing](https://medium.com/starkware/low-degree-testing-f7614f5172db)
     * [A framework for efficient STARKS](https://medium.com/starkware/a-framework-for-efficient-starks-19608ba06fbe)
+  * [Stark 101 - hands on](https://starkware.co/stark-101/)
   * [Anatomy of a STARK](https://aszepieniec.github.io/stark-anatomy/)
   * [STARK vs SNARK](https://consensys.net/blog/blockchain-explained/zero-knowledge-proofs-starks-vs-snarks/)
   * [STARK Week](/yB2SAnURS-iF4wzypI2-7A)
@@ -63,7 +64,6 @@
     * [Fast Recursive arguments based on Plonk and Halo](https://mirprotocol.org/blog/Fast-recursive-arguments-based-on-Plonk-and-Halo)
 * **Zero Knowledge Hands-on**:
     * [zero knowledge with Bellman](https://hongchao.me/zksnark/)
-    * [Starkware 101](https://starkware.co/stark-101/)
     * [Cryptohack - hands on cryptography](https://cryptohack.org)
     * [Zk hack puzzles](https://www.zkhack.dev/mini.html)
     * [Hands on ZK - ZK learning group](https://0xparc.notion.site/ZK-Learning-Group-Topics-f53933eecc2f41438c6c2bdd5b42ee2d)
