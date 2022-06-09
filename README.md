@@ -1,5 +1,5 @@
 
-# ingopedia
+# Ingopedia
 
 ## Zero Knowledge
 
@@ -83,6 +83,7 @@
   * [Ethereum - Proof of Efficiency: New consensus mechanism](https://ethresear.ch/t/proof-of-efficiency-a-new-consensus-mechanism-for-zk-rollups/11988)
 * **General**
   * [Digital identity in ZK](https://0xparc.org/blog/zk-id-1)
+  * [ZKp security in practice](https://www.youtube.com/watch?v=l_pIrHVz87I)
   * [Wei Dai - Navigating privacy in Blockchains](https://wdai.us/posts/navigating-privacy/)
   * [Zk lottery](https://killari.medium.com/zero-knowledge-lottery-437e456dc3f2)
   * [Threshold Encryption](https://medium.com/@daniel.escudero/physical-threshold-encryption-7a6d5a101e21)
@@ -91,9 +92,16 @@
   * [Frozen heart vulnerability: Bulletproof](https://blog.trailofbits.com/2022/04/15/the-frozen-heart-vulnerability-in-bulletproofs/)
   * [Frozen heart vulnerability: Plonk](https://blog.trailofbits.com/2022/04/18/the-frozen-heart-vulnerability-in-plonk/)
   * [Stress testing Zk systems: Zk docs](https://www.zkdocs.com/docs/zkdocs/)
+  * [An intuitiive understanding of cryptography](https://github.com/cryptosubtlety/intuitive-advanced-cryptography/blob/master/advancedcrypto.pdf)
+  * [Zero knowledge Proof mining](https://medium.com/6block/zero-knowledge-proof-mining-9bc12fbbbd55)
+  * [zk ML](https://0xparc.org/blog/zk-mnist)
+* **MPC**
+  * [Yau;s garbled circuits: MPC](https://cronokirby.com/posts/2022/05/explaining-yaos-garbled-circuits/)
+  * [A gentle introduction to YAU's Garbled circuits](https://web.mit.edu/sonka89/www/papers/2017ygc.pdf)
 * **Gaming**:
   * [Dark Forest - the zk SNARK game](https://blog.zkga.me/announcing-v6)
   * [Cairo Games Vol2: Solns](https://solvable.group/posts/cairo-games-vol2/)
+  * [Blockchain games and game mechanics](https://medium.com/@0xhank/9-hidden-information-mechanics-and-how-to-port-them-into-blockchain-games-2d862f0e16ff)
 * **Comprehensive protocol books**:
   * [Mina Protcol](https://o1-labs.github.io/proof-systems/introduction.html)
   * [Halo 2 book](https://zcash.github.io/halo2/index.html)
@@ -119,7 +127,7 @@
 * [De-mystifying Zk proofs -workshop](https://docs.google.com/presentation/d/1gfB6WZMvM9mmDKofFibIgsyYShdf0RV_Y8TLz3k1Ls0/edit#slide=id.p)
 * [BIU_Crypto_School_2019 -Zero Knowledge](https://cyber.biu.ac.il/event/the-9th-biu-winter-school-on-cryptography/)
   * [Youtube link](https://www.youtube.com/playlist?list=PL8Vt-7cSFnw29cLUVqAIuMlg1QJ-szV0K)
-* [BIU_Crypto_School_2022 - Advances in Secure computation](https://cyber.biu.ac.il/event/the-12th-biu-winter-school-on-cryptography/)
+* [BIU_Crypto_School_2022 - Advances in Secure computation](https://cyber.biu.ac.il/event/https://eprint.iacr.org/2022/458the-12th-biu-winter-school-on-cryptography/)
 * [Foundations of Block chains - Tim Roughgarden](https://www.youtube.com/playlist?list=PLEGCF-WLh2RLOHv_xUGLqRts_9JxrckiA)
 * [Foundations of probabilistic proofs - Alessandro Chisea](https://www.youtube.com/playlist?list=PLGkwtcB-DfpzST-medFVvrKhinZisfluC)
 * [Basics of zkSTARK and zkSNARK](https://alexbeckett.medium.com/the-basics-of-zkstarks-and-zksnarks-3fee758496e8)
@@ -133,6 +141,7 @@
 * [Chiesea - Thesis - Recursive SNARK](https://dspace.mit.edu/handle/1721.1/61151)
 * [Berry Lecture Notes](https://www.win.tue.nl/~berry/CryptographicProtocols/LectureNotes.pdf)
 * [AppliedZk workshop](https://0xparc.notion.site/Applied-ZK-Workshop-Reading-List-65cefa4bb6064dacb112b82f70ecc6f2)
+* [Cryptographic Protocls: lectures](https://www.win.tue.nl/~berry/CryptographicProtocols/LectureNotes.pdf)
 * [Zk summit videos](https://www.youtube.com/playlist?list=PLj80z0cJm8QFnY6VLVa84nr-21DNvjWH7)
   * [Zk summit 2022 slides](https://drive.google.com/drive/folders/1_2PUrP5HU1ehDVkG6-sVTx498Bv_YZha)
 
@@ -233,6 +242,7 @@
 * [Halo 2 - library](https://zcash.github.io/halo2/index.html)
   * [Guide to Halo2 source code](https://starli.medium.com/zero-knowledge-proof-a-guide-to-halo2-source-code-9be0cf792f18)
 * [Gemini - 2022](https://eprint.iacr.org/2022/420), [Arkworks](https://github.com/arkworks-rs/gemini)
+  * [talk](https://www.youtube.com/watch?v=Suv7MN131f8)
 
 # Elliptic Curves/Polynomial Commitments/R1CS/QAP/FFT/MSM/hash functions
 
@@ -245,6 +255,7 @@
 ## Elliptic curves
 
 * [An introduction to the Arithmetic of Elliptic curves - Comprehensive series of lectures - Pre req: Galois Theory,](https://www.youtube.com/playlist?list=PLYpVTXjEi1oe1OeAllJpNhFoI4B7Ws8Yl)
+* [Cures over finite fields - Lectures](https://www.youtube.com/watch?v=QrTLOK7evr0&list=PLYpVTXjEi1of_6j2oUEAqOo8eLI5qws8i)
 * [Elliptic curves Chapter 4 Washington](http://koclab.cs.ucsb.edu/teaching/ecc/eccPapers/Washington-ch04.pdf)
 * [Elliptic Curves: MIT lectures](https://math.mit.edu/classes/18.783/2017/lectures.html)
 * [Corbellini - ECC](https://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/)
@@ -265,6 +276,7 @@
   * [Pairings - Vitalik Buterin](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627)
   * [Pairing friendly curves](https://members.loria.fr/AGuillevic/pairing-friendly-curves/)
   * [Estimating the Bit Security of Pairing-Friendly Curves - NCCgroup](https://research.nccgroup.com/2022/02/03/estimating-the-bit-security-of-pairing-friendly-curves/)
+  * [Groth_Sahai proofs are not scary](https://crypto.ethereum.org/blog/groth-sahai-blogpost)
   * [Bilinear pairings in cryptography - Dennis Meffert](https://www.math.ru.nl/~bosma/Students/MScThesis_DennisMeffert.pdf)
   * [Pairings and poly commitments - David Wong](https://cryptologie.net/article/525/pairing-based-polynomial-commitments-and-kate-polynomial-commitments/)
   * [Circom pairing](https://0xparc.org/blog/zk-pairing-1)
@@ -277,8 +289,10 @@
   * [A deep dive into ed25519](https://cendyne.dev/posts/2022-03-06-ed25519-signatures.html)
   * [Pasta curves -Electric coin](https://electriccoin.co/blog/the-pasta-curves-for-halo-2-and-beyond/)
 
-## Rank 1 constraint system/Algebraic Circuits/QAP/Polynomial commitments/FRI
+## Arithmetization
 
+* **General**
+  * [Arithmetic Circuits: A survey](https://www.cs.tau.ac.il/~shpilka/publications/SY10.pdf)
 * **R1CS constraint system**
   * [Daira Hopwood - Efficient R1CS circuits: Video](https://www.youtube.com/watch?v=Uug5p05_wqs)
     * [Notes](https://docs.google.com/document/d/1aZ1GUAJOBFuqD4GOo9HqAH8w4xJo7HM4Bjte5-wkdnU/edit)
@@ -289,33 +303,11 @@
   * [Alex Pinto - Vanishing polynomial for QAP](http://coders-errand.com/the-vanishing-polynomial-for-qaps/)
   * [QAP from zero to hero: Vitalik](https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649)
   * [R1CS workshop - Mir](https://github.com/mir-protocol/r1cs-workshop/blob/master/workshop.pdf)
-* **Polynomials and Commitments**
-  * [Finite fields and polynomials](https://www.maths.tcd.ie/pub/Maths/Courseware/373-2000/FiniteFields.pdf)
-  * [KZG commitments](https://alinush.github.io/2020/05/06/kzg-polynomial-commitments.html)
-  * [Polynomial commitments - Dankrad Feist](https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html)
-  * [PCS multiproofs using random evaluation - Dankrad Feist](https://dankradfeist.de/ethereum/2021/06/18/pcs-multiproofs.html#evaluating-a-polynomial-in-evaluation-form-on-a-point-outside-the-domain)
-  * [Schwarz - Zippel Lemma](https://brilliant.org/wiki/schwartz-zippel-lemma/)
-  * [Inner product arguments - Dankrad Feist](https://dankradfeist.de/ethereum/2021/07/27/inner-product-arguments.html)
-  * [New sharding design with tight beacon and shard block integration - Dankrad Feist](https://notes.ethereum.org/@dankrad/new_sharding#)
-  * [Barycentric low deg check - Dankrad Feist](https://notes.ethereum.org/@dankrad/barycentric_low_degree_check)
-  * [Protodanksharding - FAQ Vitalik](https://notes.ethereum.org/@vbuterin/proto_danksharding_faq#What-is-Danksharding)
-  * [A quick barycentric evaluation tutorial - Vitalik](https://hackmd.io/@vbuterin/barycentric_evaluation)
-  * [Barycentric interpolation - Math Oxford](https://people.maths.ox.ac.uk/trefethen/barycentric.pdf)
-  * [Fast KZG proofs](https://alinush.github.io/2021/06/17/Feist-Khovratovich-technique-for-computing-KZG-proofs-fast.html)
-  * [Amortized KZG - Khovratovich](https://github.com/khovratovich/Kate/blob/master/Kate_amortized.pdf)
-* **Vector Commitments**
-  * [Verkle Trie - Dankrad Feist](https://dankradfeist.de/ethereum/2021/06/18/verkle-trie-for-eth1.html)
-  * [Aggregatable vector sub commitments](https://alinush.github.io/2020/05/06/aggregatable-subvector-commitments-for-stateless-cryptocurrencies.html#aggregating-proofs-into-subvector-profs)
-  * [Catalano-Fiore VC](https://alinush.github.io/2020/11/24/Catalano-Fiore-Vector-Commitments.html)
-* **FRI Fast Reed Solomon Interactive Oracle Proofs of Proximity**
-  * [FRI hackernoon](https://hackernoon.com/zero-knowledge-proof-algorithm-zk-stark-fri-protocol)
-  * [FRI properties](https://hackmd.io/@sin7y/r1r0IE40K)
-  * [FRI erasure code fraud proof](https://ethresear.ch/t/fri-as-erasure-code-fraud-proof/6610)
 * **AIR Arithmetization** 
   * [AIR to RAPs - Gabizon](https://hackmd.io/@aztec-network/plonk-arithmetiization-air)
   * [AIR-Multivariate Sumcheck - W.Borgeaud](https://solvable.group/posts/air-multivariate-sumcheck/)
 
-## Fast Fourier Transforms on Finite Fields
+## Fast Fourier Transforms on Finite Fields (NTT: Number Theoretic transform)
 
 * [FFT - Vitalik](https://vitalik.ca/general/2019/05/12/fft.html)
 * [Reed-Solomon code: Vitalik](https://ethresear.ch/t/reed-solomon-erasure-code-recovery-in-n-log-2-n-time-with-ffts/3039)
@@ -332,8 +324,37 @@
 * [FFT - Ferror Moreno thesis](https://www.uprm.edu/cise/wp-content/uploads/sites/171/2018/12/ferrermoreno.pdf)
 * [Zcash once again for FFT](https://zcash.github.io/halo2/background/polynomials.html)
 * [FFT for polynomial multiplication](https://cse.hkust.edu.hk/mjg_lib/Classes/COMP3711H_Fall16/lectures/FFT_Slides.pdf)
+* [A quick barycentric evaluation tutorial - Vitalik](https://hackmd.io/@vbuterin/barycentric_evaluation)
+* [Barycentric interpolation - Math Oxford](https://people.maths.ox.ac.uk/trefethen/barycentric.pdf)
 * Hardware acceleration
   * [Thesis: BUNTTERFLY: A Flexible Hardware Generator for the Number Theoretic Transform - Jason Vranek](https://escholarship.org/content/qt37t8364f/qt37t8364f.pdf)
+
+## Polynomial Commitment Schemes
+
+* **General**
+  * [Overview of commitment schemes: Justin Drakes](https://youtu.be/bz16BURH_u8)
+  * [Comparison of Commitment Schemes](https://hackernoon.com/kzg10-ipa-fri-and-darks-analysis-of-polynomial-commitment-schemes)
+  * [Finite fields and polynomials](https://www.maths.tcd.ie/pub/Maths/Courseware/373-2000/FiniteFields.pdf)
+  * [PCS multiproofs using random evaluation - Dankrad Feist](https://dankradfeist.de/ethereum/2021/06/18/pcs-multiproofs.html#evaluating-a-polynomial-in-evaluation-form-on-a-point-outside-the-domain)
+  * [Schwarz - Zippel Lemma](https://brilliant.org/wiki/schwartz-zippel-lemma/)
+* **KZG**
+  * [KZG commitments](https://alinush.github.io/2020/05/06/kzg-polynomial-commitments.html)
+  * [Polynomial commitments - Dankrad Feist](https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html)
+  * [Fast KZG proofs](https://alinush.github.io/2021/06/17/Feist-Khovratovich-technique-for-computing-KZG-proofs-fast.html)
+  * [Amortized KZG - Khovratovich](https://github.com/khovratovich/Kate/blob/master/Kate_amortized.pdf)
+  * [New sharding design with tight beacon and shard block integration - Dankrad Feist](https://notes.ethereum.org/@dankrad/new_sharding#)
+  * [Protodanksharding - FAQ Vitalik](https://notes.ethereum.org/@vbuterin/proto_danksharding_faq#What-is-Danksharding)
+* **Vector Commitments**
+  * [Verkle Trie - Dankrad Feist](https://dankradfeist.de/ethereum/2021/06/18/verkle-trie-for-eth1.html)
+  * [Aggregatable vector sub commitments](https://alinush.github.io/2020/05/06/aggregatable-subvector-commitments-for-stateless-cryptocurrencies.html#aggregating-proofs-into-subvector-profs)
+  * [Catalano-Fiore VC](https://alinush.github.io/2020/11/24/Catalano-Fiore-Vector-Commitments.html)
+* **FRI Fast Reed Solomon Interactive Oracle Proofs of Proximity**
+  * [FRI hackernoon](https://hackernoon.com/zero-knowledge-proof-algorithm-zk-stark-fri-protocol)
+  * [FRI properties](https://hackmd.io/@sin7y/r1r0IE40K)
+  * [FRI erasure code fraud proof](https://ethresear.ch/t/fri-as-erasure-code-fraud-proof/6610)
+  * [Barycentric low deg check - Dankrad Feist](https://notes.ethereum.org/@dankrad/barycentric_low_degree_check)
+* **Inner product Arguments (IPA)** 
+  * [Inner product arguments - Dankrad Feist](https://dankradfeist.de/ethereum/2021/07/27/inner-product-arguments.html)
 
 ## Multi Scalar Multiplications
 
@@ -397,3 +418,31 @@
 * [S box properties](https://www.diva-portal.org/smash/get/diva2:618670/FULLTEXT01.pdf)
 * **Hash Bounties**
   * [Algebraic Hash bounties](https://hackmd.io/l2JT8AQITJ2xRZpGErPnzA#Decomposition-parameters)
+
+# Homomorphic Encryption
+
+## articles
+
+* **TFHE deep dive: ZAMA AI - Ilaria Chilloti**
+  * [Part 1: Ciphertext types](https://www.zama.ai/post/tfhe-deep-dive-part-1?utm_source=tfhe_deep_dive_part_I&utm_medium=substack&utm_campaign=blogpost)
+  * [Part 2: Encoding and linear ops](https://www.zama.ai/post/tfhe-deep-dive-part-2?utm_source=tfhe_deep_dive_part_I&utm_medium=substack&utm_campaign=blogpost)
+  * [part 3: key switching and levelled multiplications](https://www.zama.ai/post/tfhe-deep-dive-part-3?utm_source=tfhe_deep_dive_part_3&utm_medium=substack&utm_campaign=blogpost)
+  * [Part 4: programmable bootstrapping](https://www.zama.ai/post/tfhe-deep-dive-part-4)
+  * **General**
+    * [Encrypted search using FHE](https://medium.com/zama-ai/encrypted-search-using-fully-homomorphic-encryption-99cd163b94)
+    * [Exploring FHE: Vitalik](https://notes.ethereum.org/@vbuterin/r19UMPTiI)
+    * [ML and FHE](https://medium.com/zama-ai/the-r-evolution-of-fhe-485b54a6e69c) 
+
+## HE Libraries/implementations
+
+* [Awesome FHE library list](https://github.com/jonaschn/awesome-he)
+* [Microsoft SEAL](https://github.com/microsoft/SEAL#introduction)
+* [TenSEAL - Openmined](https://github.com/OpenMined/TenSEAL)
+* [PySyft - Openmined](https://github.com/OpenMined/PySyft)
+* [Tfhe - torus](https://github.com/krakhit/tfhe)
+* [Google - FHE](https://github.com/google/fully-homomorphic-encryption)
+* [IBM - FHE](https://github.com/IBM/fhe-toolkit-macos)
+* [PALISADE](https://palisade-crypto.org/software-library/)
+* [Zama AI - Concrete - Rust](https://github.com/zama-ai/concrete)
+* [Paillier - Julia](https://github.com/krakhit/Paillier.jl)
+* [Cupcake - Facebook Research](https://github.com/facebookresearch/Cupcake)
