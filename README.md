@@ -11,6 +11,7 @@
 * [Awesome - Matter labs - ZK proofs](https://github.com/matter-labs/awesome-zero-knowledge-proofs)
 * [Awesome - Mikerah - Privacy on Blockchains](https://github.com/Mikerah/awesome-privacy-on-blockchains)
 * [Resource: Awesome_Plonk](https://github.com/Fluidex/awesome-plonk)
+* [ZK research 0x](https://0xst.notion.site/ZK-Research-94ba836c3b2a4e2491a871364ee5b13b)
 
 ### Articles
 
@@ -100,6 +101,8 @@
   * [Zero knowledge Proof mining](https://medium.com/6block/zero-knowledge-proof-mining-9bc12fbbbd55)
   * [zk ML](https://0xparc.org/blog/zk-mnist)
   * [Practical Cryptography for Devs: Nakov](https://cryptobook.nakov.com)
+  * [deep dive into DKG chain of snarks and arkworks](https://research.protocol.ai/blog/2022/a-deep-dive-into-dkg-chain-of-snarks-and-arkworks/#benchmarks)
+  * [Range Checks in Miden VM](https://hackmd.io/D-vjBYtHQB2BuOB-HMUG5Q)
 * **MPC**
   * [Yau;s garbled circuits: MPC](https://cronokirby.com/posts/2022/05/explaining-yaos-garbled-circuits/)
   * [A gentle introduction to YAU's Garbled circuits](https://web.mit.edu/sonka89/www/papers/2017ygc.pdf)
@@ -133,6 +136,7 @@
 * [BIU_Crypto_School_2019 -Zero Knowledge](https://cyber.biu.ac.il/event/the-9th-biu-winter-school-on-cryptography/)
   * [Youtube link](https://www.youtube.com/playlist?list=PL8Vt-7cSFnw29cLUVqAIuMlg1QJ-szV0K)
 * [BIU_Crypto_School_2022 - Advances in Secure computation](https://cyber.biu.ac.il/event/https://eprint.iacr.org/2022/458the-12th-biu-winter-school-on-cryptography/)
+* [Cryptography lectures](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg)
 * [Foundations of Block chains - Tim Roughgarden](https://www.youtube.com/playlist?list=PLEGCF-WLh2RLOHv_xUGLqRts_9JxrckiA)
 * [Foundations of probabilistic proofs - Alessandro Chisea](https://www.youtube.com/playlist?list=PLGkwtcB-DfpzST-medFVvrKhinZisfluC)
 * [Basics of zkSTARK and zkSNARK](https://alexbeckett.medium.com/the-basics-of-zkstarks-and-zksnarks-3fee758496e8)
@@ -256,6 +260,7 @@
 * [An introduction to the theory of finite fields](https://webusers.imj-prg.fr/~michel.waldschmidt/articles/pdf/FiniteFields.pdf)
 * [MIT lectures -FInite Field arithmetic](https://math.mit.edu/classes/18.783/2019/LectureNotes3.pdf)
 * [Finite field arithmetic Doche Lange](http://koclab.cs.ucsb.edu/teaching/ecc/eccPapers/Doche-ch11.pdf)
+* [Aztec emulated field and group operations](https://hackmd.io/@arielg/B13JoihA8)
 
 ## Elliptic curves
 
