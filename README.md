@@ -11,6 +11,7 @@
 * [Awesome - Matter labs - ZK proofs](https://github.com/matter-labs/awesome-zero-knowledge-proofs)
 * [Awesome - Mikerah - Privacy on Blockchains](https://github.com/Mikerah/awesome-privacy-on-blockchains)
 * [Resource: Awesome_Plonk](https://github.com/Fluidex/awesome-plonk)
+* [ZK research 0x](https://0xst.notion.site/ZK-Research-94ba836c3b2a4e2491a871364ee5b13b)
 
 ### Articles
 
@@ -18,8 +19,10 @@
   * [An incomplete guide to zk: why zk matters](https://mirror.xyz/fundamentalabs.eth/24i98adRylhjdcqV1TnsT8ZbkIXCulCrDTIrsrziQmY)
   * [PCP - Probablistically Checkable Proofs](https://www.quantamagazine.org/how-computer-scientists-learned-to-reinvent-the-proof-20220523/)
   * [ZKP beginner resources](https://community.zeroknowledge.fm/t/learning-zkps-beginner-resources/302/19)
+  * [ZK jargon decoder](https://nmohnblatt.github.io/zk-jargon-decoder/foreword.html)
   * [Amit Sahai explaining ZK to people of all ages - video](https://www.youtube.com/watch?v=fOGdb1CTu5c)
   * [An introduction to how zk snarks are possible - Vitalik](https://vitalik.ca/general/2021/01/26/snarks.html)
+  * [Using zkSnarks for privacy: Vitalik](https://vitalik.ca/general/2022/06/15/using_snarks.html)
   * [ZudoKu - intuitive no-math ZK Primer using Sudokus](https://zudoku.xyz/)
   * [Zk blog](http://www.zeroknowledgeblog.com/index.php)
   * [Zk_primer_1 M.Green](https://blog.cryptographyengineering.com/2014/11/27/-knowledge-proofs-illustrated-primer/)
@@ -91,10 +94,15 @@
   * [Vulnerability in Fiat-Shamir](https://blog.trailofbits.com/2021/02/19/serving-up-zero-knowledge-proofs/)
   * [Frozen heart vulnerability: Bulletproof](https://blog.trailofbits.com/2022/04/15/the-frozen-heart-vulnerability-in-bulletproofs/)
   * [Frozen heart vulnerability: Plonk](https://blog.trailofbits.com/2022/04/18/the-frozen-heart-vulnerability-in-plonk/)
+  * [Hertzbleed attack: sidechannel](https://ellipticnews.wordpress.com/2022/06/14/hertzbleed-attack/)
+    * [paper](https://www.hertzbleed.com/hertzbleed.pdf)
   * [Stress testing Zk systems: Zk docs](https://www.zkdocs.com/docs/zkdocs/)
   * [An intuitiive understanding of cryptography](https://github.com/cryptosubtlety/intuitive-advanced-cryptography/blob/master/advancedcrypto.pdf)
   * [Zero knowledge Proof mining](https://medium.com/6block/zero-knowledge-proof-mining-9bc12fbbbd55)
   * [zk ML](https://0xparc.org/blog/zk-mnist)
+  * [Practical Cryptography for Devs: Nakov](https://cryptobook.nakov.com)
+  * [deep dive into DKG chain of snarks and arkworks](https://research.protocol.ai/blog/2022/a-deep-dive-into-dkg-chain-of-snarks-and-arkworks/#benchmarks)
+  * [Range Checks in Miden VM](https://hackmd.io/D-vjBYtHQB2BuOB-HMUG5Q)
 * **MPC**
   * [Yau;s garbled circuits: MPC](https://cronokirby.com/posts/2022/05/explaining-yaos-garbled-circuits/)
   * [A gentle introduction to YAU's Garbled circuits](https://web.mit.edu/sonka89/www/papers/2017ygc.pdf)
@@ -128,6 +136,7 @@
 * [BIU_Crypto_School_2019 -Zero Knowledge](https://cyber.biu.ac.il/event/the-9th-biu-winter-school-on-cryptography/)
   * [Youtube link](https://www.youtube.com/playlist?list=PL8Vt-7cSFnw29cLUVqAIuMlg1QJ-szV0K)
 * [BIU_Crypto_School_2022 - Advances in Secure computation](https://cyber.biu.ac.il/event/https://eprint.iacr.org/2022/458the-12th-biu-winter-school-on-cryptography/)
+* [Cryptography lectures](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg)
 * [Foundations of Block chains - Tim Roughgarden](https://www.youtube.com/playlist?list=PLEGCF-WLh2RLOHv_xUGLqRts_9JxrckiA)
 * [Foundations of probabilistic proofs - Alessandro Chisea](https://www.youtube.com/playlist?list=PLGkwtcB-DfpzST-medFVvrKhinZisfluC)
 * [Basics of zkSTARK and zkSNARK](https://alexbeckett.medium.com/the-basics-of-zkstarks-and-zksnarks-3fee758496e8)
@@ -251,10 +260,12 @@
 * [An introduction to the theory of finite fields](https://webusers.imj-prg.fr/~michel.waldschmidt/articles/pdf/FiniteFields.pdf)
 * [MIT lectures -FInite Field arithmetic](https://math.mit.edu/classes/18.783/2019/LectureNotes3.pdf)
 * [Finite field arithmetic Doche Lange](http://koclab.cs.ucsb.edu/teaching/ecc/eccPapers/Doche-ch11.pdf)
+* [Aztec emulated field and group operations](https://hackmd.io/@arielg/B13JoihA8)
 
 ## Elliptic curves
 
 * [An introduction to the Arithmetic of Elliptic curves - Comprehensive series of lectures - Pre req: Galois Theory,](https://www.youtube.com/playlist?list=PLYpVTXjEi1oe1OeAllJpNhFoI4B7Ws8Yl)
+* [ECC cryptobook](https://cryptobook.nakov.com/asymmetric-key-ciphers/elliptic-curve-cryptography-ecc)
 * [Cures over finite fields - Lectures](https://www.youtube.com/watch?v=QrTLOK7evr0&list=PLYpVTXjEi1of_6j2oUEAqOo8eLI5qws8i)
 * [Elliptic curves Chapter 4 Washington](http://koclab.cs.ucsb.edu/teaching/ecc/eccPapers/Washington-ch04.pdf)
 * [Elliptic Curves: MIT lectures](https://math.mit.edu/classes/18.783/2017/lectures.html)
