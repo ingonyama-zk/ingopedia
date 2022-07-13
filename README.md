@@ -24,12 +24,18 @@
   * [An introduction to how zk snarks are possible - Vitalik](https://vitalik.ca/general/2021/01/26/snarks.html)
   * [Using zkSnarks for privacy: Vitalik](https://vitalik.ca/general/2022/06/15/using_snarks.html)
   * [ZudoKu - intuitive no-math ZK Primer using Sudokus](https://zudoku.xyz/)
+  * [Introduction to Zk SNARKS -Decentriq](https://blog.decentriq.com/zk-snarks-primer-part-one/)
   * [Zk blog](http://www.zeroknowledgeblog.com/index.php)
   * [Zk_primer_1 M.Green](https://blog.cryptographyengineering.com/2014/11/27/-knowledge-proofs-illustrated-primer/)
   * [Zk_primer_2 M.Green](https://blog.cryptographyengineering.com/2017/01/21/zero-knowledge-proofs-an-illustrated-primer-part-2/)
   * [Interactive_proofs and Zk](https://medium.com/magicofc/interactive-proofs-and-zero-knowledge-b32f6c8d66c3)
   * [Zk - proofs with examples](https://media.consensys.net/introduction-to-zksnarks-with-examples-3283b554fc3b)
   * [Merkle Trees](https://decentralizedthoughts.github.io/2020-12-22-what-is-a-merkle-tree/)
+  * [KU Lueven: Intro to ZK part 1](https://www.esat.kuleuven.be/cosic/blog/co6gc-introduction-to-zero-knowledge-proofs-1/)
+  * [Simple intro to ZKP](https://medium.com/degate/the-simple-introduction-to-zero-knowledge-proofs-6d8639dd6253)
+  * [A cambrian explosion of crypto proofs -Ben Sasson](https://nakamoto.com/cambrian-explosion-of-crypto-proofs/)
+  * Hunting of the SNARK Walton-Pocock: [Part 1](https://medium.com/aztec-protocol/the-hunting-of-the-snark-1-3-a610c28317c7), [Part 2](https://medium.com/aztec-protocol/the-hunting-of-the-snark-2-3-673e1830938f),[Part 3](https://medium.com/aztec-protocol/the-hunting-of-the-snark-3-3-c0a6e17c6d92)
+  * [On interactive proofs and ZKP - Yannik Goldgrabe](https://medium.com/magicofc/interactive-proofs-and-zero-knowledge-b32f6c8d66c3)
 * **Trusted Setup**:
   * [Introduction -Vitalik](https://vitalik.ca/general/2022/03/14/trustedsetup.html)
   * [Aztec Ceremony](https://medium.com/aztec-protocol/aztec-how-the-ceremony-works-9f021cf190d0)
@@ -43,6 +49,7 @@
 * **All about STARKS**:
   * **Introduction**
     * [Stark from home](https://www.youtube.com/playlist?list=PLcIyXLwiPilUFGw7r2uyWerOkbx4GFMXq)
+    * [STARK glossary](https://medium.com/starkware/starks-starkex-and-starknet-9a426680745a)
   * **Papers**
     * [STARK paper](https://eprint.iacr.org/2018/046.pdf)
     * [DEEP - FRI](https://eprint.iacr.org/2019/336.pdf)
@@ -60,14 +67,17 @@
   * [Stark 101 - hands on](https://starkware.co/stark-101/)
   * [Anatomy of a STARK](https://aszepieniec.github.io/stark-anatomy/)
   * [STARK vs SNARK](https://consensys.net/blog/blockchain-explained/zero-knowledge-proofs-starks-vs-snarks/)
+    * [SNARK vs STARK vs Bulletproofs](https://ethereum.stackexchange.com/questions/59145/zk-snarks-vs-zk-starks-vs-bulletproofs-updated/63778#63778)
   * [STARK Week](/yB2SAnURS-iF4wzypI2-7A)
   * [EthSTARK](https://www.youtube.com/watch?v=rReCK7TWCJI)
     * [code](https://github.com/starkware-libs/ethSTARK)
     * [documentation](https://eprint.iacr.org/2021/582.pdf)
+  * [Recursive STARK -Avihu Levy](https://www.youtube.com/watch?v=hjTCIT9BGkA)
 * **Recursive Snarks**:
   * [Recursive SNARK -zkProof](https://zkproof.org/2020/06/08/recursive-snarks/)
   * [Recursive SNARK - overview - Michael Straka](https://www.michaelstraka.com/posts/recursivesnarks/)
   * [Fast Recursive arguments based on Plonk and Halo](https://mirprotocol.org/blog/Fast-recursive-arguments-based-on-Plonk-and-Halo)
+  * [Field selection for recursive SNARKS](https://medium.com/delendum/field-selection-for-recursive-snarks-726ad56c3a3c)
 * **Zero Knowledge Hands-on**:
   * [zero knowledge with Bellman](https://hongchao.me/zksnark/)
   * [Cryptohack - hands on cryptography](https://cryptohack.org)
@@ -76,6 +86,8 @@
   * [Intro to zk: do it yourself circuits](https://github.com/enricobottazzi)
   * [Zk Sudoku - Python](https://medium.com/coinmonks/walkthrough-of-an-interactive-zero-knowledge-proof-for-sudoku-puzzle-ac563588f1a8)
   * [Arnacube implementations](https://arnaucube.com)
+  * [Rust Cryptographic libraries](https://cryptography.rs)
+  * [DAPP fron scratch - Vivian Plasencia](https://vivianblog.hashnode.dev/how-to-create-a-zero-knowledge-dapp-from-zero-to-production)
 * **Ethereum**
   * [vitalik blog](https://notes.ethereum.org/@vbuterin)
   * [Ethereum-powered ZK-Rollups: World Beaters](https://hackmd.io/QkOUJ-UJQ-CJ7cs_yx6_GA)
@@ -103,6 +115,7 @@
   * [Practical Cryptography for Devs: Nakov](https://cryptobook.nakov.com)
   * [deep dive into DKG chain of snarks and arkworks](https://research.protocol.ai/blog/2022/a-deep-dive-into-dkg-chain-of-snarks-and-arkworks/#benchmarks)
   * [Range Checks in Miden VM](https://hackmd.io/D-vjBYtHQB2BuOB-HMUG5Q)
+  * [GKR implementaton - Justin Thaler](https://www.youtube.com/watch?v=gIlyfR1R2pA)
 * **MPC**
   * [Yau;s garbled circuits: MPC](https://cronokirby.com/posts/2022/05/explaining-yaos-garbled-circuits/)
   * [A gentle introduction to YAU's Garbled circuits](https://web.mit.edu/sonka89/www/papers/2017ygc.pdf)
@@ -124,6 +137,7 @@
   * [Decentralized Speed: Advances in Zero Knowledge Proofs](https://a16z.com/2022/04/15/zero-knowledge-proofs-hardware-decentralization-innovation/)
   * [Hardware Acceleration for Zero Knowledge Proofs](https://www.paradigm.xyz/2022/04/zk-hardware)
   * [ZK and TLS](https://youtu.be/zwIl8pqiZeA?t=1243)
+  * [Algorithms for modern Hardware](https://en.algorithmica.org/hpc/)
 * [Dmitry Khovratovich notes](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ)
 * [MIT research site](https://dci.mit.edu/all-research)
   * [Zk sharks - MIT](https://dci.mit.edu/zksharks)
@@ -151,6 +165,8 @@
 * [Berry Lecture Notes](https://www.win.tue.nl/~berry/CryptographicProtocols/LectureNotes.pdf)
 * [AppliedZk workshop](https://0xparc.notion.site/Applied-ZK-Workshop-Reading-List-65cefa4bb6064dacb112b82f70ecc6f2)
 * [Cryptographic Protocls: lectures](https://www.win.tue.nl/~berry/CryptographicProtocols/LectureNotes.pdf)
+* [CS355:Topics in Cryptography- Stanford online](https://crypto.stanford.edu/cs355/22sp/)
+* [Zero Knowledge: A tutorial by Oded Goldreich](https://www.wisdom.weizmann.ac.il/~oded/PS/zk-tut10.ps)
 * [Zk summit videos](https://www.youtube.com/playlist?list=PLj80z0cJm8QFnY6VLVa84nr-21DNvjWH7)
   * [Zk summit 2022 slides](https://drive.google.com/drive/folders/1_2PUrP5HU1ehDVkG6-sVTx498Bv_YZha)
 
@@ -159,6 +175,7 @@
 * [Pinocchio  - 2013](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6547113)
 * [TinyRAM - 2013](https://eprint.iacr.org/2013/507.pdf)
 * [vnTinyRAM - 2014](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-ben-sasson.pdf)
+  * [Mike Hearn](https://blog.plan99.net/vntinyram-7b9d5b299097)
 * [Geppetto - 2015](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7163030)
 * [Buffet - 2015](https://www.ndss-symposium.org/ndss2015/ndss-2015-programme/efficient-ram-and-control-flow-verifiable-outsourced-computation/)
 * [Groth -2016](https://eprint.iacr.org/2016/260.pdf)
@@ -168,6 +185,8 @@
   * [Groth - Talk](https://www.youtube.com/watch?v=OseAdq0CoOY)
 * [Ligero - 2017](https://dl.acm.org/doi/pdf/10.1145/3133956.3134104)
 * [ZoKrates - 2018](https://www.depositonce.tu-berlin.de/bitstream/11303/13087/4/eberhardt_jacob.pdf), [Code: ZoKrates](https://zokrates.github.io)
+  * [Proving hash preimage with Zokrates - Decentriq](https://blog.decentriq.com/proving-hash-pre-image-zksnarks-zokrates/)
+  * [Efficient ECC in Zokrates- Decentriq](https://blog.decentriq.com/efficient-ecc-in-zksnarks-using-zokrates/)
 * [xjSNARK - 2018](https://akosba.github.io/papers/xjsnark.pdf)
 * [vRAM - 2018](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8418645)
 * [Bulletproof - 2018](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8418611)
@@ -282,6 +301,7 @@
 * [Elliptic Curve Arithmetic Exponentiation -Doche Lange](http://koclab.cs.ucsb.edu/teaching/ecc/eccPapers/Doche-ch09.pdf)
 * [Elliptic curves of characteristic 2 or 3 - John Cook](https://dzone.com/articles/all-elliptic-curves-over-fields-of-order-2-and-3)
 * [Addition/Doubling formulae](https://www.hyperelliptic.org)
+* [Visualize Elliptic curves](https://curves.xargs.org)
 * **Pairings**:
   * [Pairings for beginners - Craig Costello](https://static1.squarespace.com/static/5fdbb09f31d71c1227082339/t/5ff394720493bd28278889c6/1609798774687/PairingsForBeginners.pdf)
   * [Pairings - Vitalik Buterin](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627)
@@ -348,6 +368,7 @@
   * [Finite fields and polynomials](https://www.maths.tcd.ie/pub/Maths/Courseware/373-2000/FiniteFields.pdf)
   * [PCS multiproofs using random evaluation - Dankrad Feist](https://dankradfeist.de/ethereum/2021/06/18/pcs-multiproofs.html#evaluating-a-polynomial-in-evaluation-form-on-a-point-outside-the-domain)
   * [Schwarz - Zippel Lemma](https://brilliant.org/wiki/schwartz-zippel-lemma/)
+  * [Intro to Sumcheck protocol -oxsage](https://medium.com/yearofzk/rust-guide-sum-check-protocol-18ceb8affdb2)
 * **KZG**
   * [KZG commitments](https://alinush.github.io/2020/05/06/kzg-polynomial-commitments.html)
   * [Polynomial commitments - Dankrad Feist](https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html)
@@ -408,6 +429,8 @@
   * [code: Dusk network](https://github.com/dusk-network/Poseidon252)
   * [code: Dust netowrk - Poseidon merkle](https://github.com/dusk-network/dusk-poseidon-merkle)
   * [code: Triplewz - GO](https://github.com/triplewz/poseidon)
+  * [Poseidon vs Rescye](https://ethresear.ch/t/performance-of-rescue-and-poseidon-hash-functions/7161)
+  * [Plonky2: Poseidon gate](https://medium.com/@wanghs.thu/into-poseidon-hash-37d03ef0b26e)
 * [Rescue-Prime: a Standard Specification (SoK)](https://eprint.iacr.org/2020/1143.pdf)
   * [Observations on Rescue](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/SJMVAPfjL)
 * [MiMc](https://eprint.iacr.org/2016/492.pdf)
@@ -457,3 +480,10 @@
 * [Zama AI - Concrete - Rust](https://github.com/zama-ai/concrete)
 * [Paillier - Julia](https://github.com/krakhit/Paillier.jl)
 * [Cupcake - Facebook Research](https://github.com/facebookresearch/Cupcake)
+
+# PQC (Post Quantum Cryptography)
+
+## General
+
+* [NIST announcement for PQC algorithms](https://www.nist.gov/news-events/news/2022/07/nist-announces-first-four-quantum-resistant-cryptographic-algorithms)
+  * [NIST summary](https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8413.pdf)
