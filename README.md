@@ -116,9 +116,15 @@
   * [deep dive into DKG chain of snarks and arkworks](https://research.protocol.ai/blog/2022/a-deep-dive-into-dkg-chain-of-snarks-and-arkworks/#benchmarks)
   * [Range Checks in Miden VM](https://hackmd.io/D-vjBYtHQB2BuOB-HMUG5Q)
   * [GKR implementaton - Justin Thaler](https://www.youtube.com/watch?v=gIlyfR1R2pA)
+  * [Verifiable computing stack](https://www.guiltygyoza.xyz/2022/05/verifiable-computing-stack)
+  * [ZKp from Information theoretic Proof systems 1 - Yuval Ishai](https://zkproof.org/2020/08/12/information-theoretic-proof-systems/)
+  * [ZKP from Information theoretic Proof systems 2 -  Yuval Ishai](https://zkproof.org/2020/10/15/information-theoretic-proof-systems-part-ii/)
+  * [A cambrian explosion of ZKP's - Ben-Sasson](https://nakamoto.com/cambrian-explosion-of-crypto-proofs/)
+  * [Secure computing and hardware acceleration](https://www.sigarch.org/cryptography-for-secure-computing-a-new-hardware-acceleration-opportunity/)
 * **MPC**
   * [Yau;s garbled circuits: MPC](https://cronokirby.com/posts/2022/05/explaining-yaos-garbled-circuits/)
   * [A gentle introduction to YAU's Garbled circuits](https://web.mit.edu/sonka89/www/papers/2017ygc.pdf)
+  * [Setup ceremonies - Pruden & Matlala](https://zkproof.org/2021/06/30/setup-ceremonies/)
 * **Gaming**:
   * [Dark Forest - the zk SNARK game](https://blog.zkga.me/announcing-v6)
   * [Cairo Games Vol2: Solns](https://solvable.group/posts/cairo-games-vol2/)
@@ -183,6 +189,7 @@
   * [Proof of forgery](https://medium.com/ppio/how-to-generate-a-groth16-proof-for-forgery-9f857b0dcafd)
   * [Groth16 aggregation proposal](https://docs.zkproof.org/pages/standards/accepted-workshop4/proposal-aggregation.pdf)
   * [Groth - Talk](https://www.youtube.com/watch?v=OseAdq0CoOY)
+  * [Deep into bellman library - Star Li](https://starli.medium.com/zkp-deep-into-bellman-library-9b1bf52cb1a6)
 * [Ligero - 2017](https://dl.acm.org/doi/pdf/10.1145/3133956.3134104)
 * [ZoKrates - 2018](https://www.depositonce.tu-berlin.de/bitstream/11303/13087/4/eberhardt_jacob.pdf), [Code: ZoKrates](https://zokrates.github.io)
   * [Proving hash preimage with Zokrates - Decentriq](https://blog.decentriq.com/proving-hash-pre-image-zksnarks-zokrates/)
@@ -234,6 +241,7 @@
   * [Thesis](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2021/EECS-2021-99.pdf)
   * [Eurocrypt 2020: Talk video](https://www.youtube.com/watch?v=3mZWa6tJaMI)
   * [ZK summit - Talk: Pratyush](https://www.youtube.com/watch?v=bJDLf8KLdL0)
+  * [Sin7y tech review: blog](https://hackmd.io/@sin7y/BJV47Q_nq)
 * [Fractal -2020](https://eprint.iacr.org/2019/1076)
   * [Fractal - talk](https://www.youtube.com/watch?v=TcRhC5U353I)
   * [code: Sciprlabs-Libiop](https://github.com/scipr-lab/libiop)
@@ -401,6 +409,7 @@
 * [Fast exponentiation with precomputation - Brickell Gordon et al](https://www.dmgordon.org/papers/fast.pdf)
 * [Matter labs -ALgorithms](https://github.com/matter-labs/eip1962/blob/master/documentation/Algorithms_for_EIP1962.pdf)
 * [Ryah Henry - Thesis](https://cacr.uwaterloo.ca/techreports/2010/cacr2010-26.pdf)
+* [Efficient Multi exponentiation: Bucket method - Bootle](https://jbootle.github.io/Misc/pippenger.pdf)
 * **Hardware acceleration**
   * [MSM with FPGA -Connor Masterson thesis](https://github.com/connormas/MultiScalarMultiplication/blob/main/ConnorMastersonThesisV2.pdf)
 
@@ -411,6 +420,7 @@
 * [Library of Algorithms](https://www.jjj.de/fxt/#fxtbook)
 * [Modular Multiplication and Hardware implementations - Review](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.116.512&rep=rep1&type=pdf)
 * [Evaluation of large integer multiplications in hardware - Review](https://pureadmin.qub.ac.uk/ws/portalfiles/portal/125812965/Evaluation_of_large_integer_multiplication_methods_R2.pdf)
+* [Hardware friendly modular mult](http://ingonyama.com/s/modular_multiplication.pdf)
 
 ## Related Math
 
@@ -422,6 +432,7 @@
 * [POSEIDON: A New Hash Function for Zero-Knowledge Proof Systems](https://eprint.iacr.org/2019/458.pdf)
   * [some documentation](https://www.poseidon-hash.info)
   * [code: filecoin](https://github.com/filecoin-project/neptune/blob/master/spec/poseidon_spec.pdf)
+  * [code: Ingonyama (python)](https://github.com/ingonyama-zk/poseidon-hash)
   * [code: snarkVM Aleo Poseidon](https://github.com/AleoHQ/snarkVM/blob/testnet3/algorithms/src/crh/poseidon.rs)
   * [Encoding of long objects in Poseidon - Dmitry Khovratovich](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/BkfS78Y9L)
   * [Poseidon in Filecoin - Dmitry Khovratovich](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/BJjaxXd9U)
