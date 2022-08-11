@@ -36,6 +36,8 @@
   * [A cambrian explosion of crypto proofs -Ben Sasson](https://nakamoto.com/cambrian-explosion-of-crypto-proofs/)
   * Hunting of the SNARK Walton-Pocock: [Part 1](https://medium.com/aztec-protocol/the-hunting-of-the-snark-1-3-a610c28317c7), [Part 2](https://medium.com/aztec-protocol/the-hunting-of-the-snark-2-3-673e1830938f),[Part 3](https://medium.com/aztec-protocol/the-hunting-of-the-snark-3-3-c0a6e17c6d92)
   * [On interactive proofs and ZKP - Yannik Goldgrabe](https://medium.com/magicofc/interactive-proofs-and-zero-knowledge-b32f6c8d66c3)
+  * [Exploring ZK with Groth](https://www.youtube.com/watch?v=pYuao-b57U4)
+  * [Breaking supersingular isogeny DH - Galbraith](https://ellipticnews.wordpress.com/2022/07/31/breaking-supersingular-isogeny-diffie-hellman-sidh/)
 * **Trusted Setup**:
   * [Introduction -Vitalik](https://vitalik.ca/general/2022/03/14/trustedsetup.html)
   * [Aztec Ceremony](https://medium.com/aztec-protocol/aztec-how-the-ceremony-works-9f021cf190d0)
@@ -66,6 +68,7 @@
     * [A framework for efficient STARKS](https://medium.com/starkware/a-framework-for-efficient-starks-19608ba06fbe)
   * [Stark 101 - hands on](https://starkware.co/stark-101/)
   * [Anatomy of a STARK](https://aszepieniec.github.io/stark-anatomy/)
+  * [BrainSTARK](https://aszepieniec.github.io/stark-brainfuck/)
   * [STARK vs SNARK](https://consensys.net/blog/blockchain-explained/zero-knowledge-proofs-starks-vs-snarks/)
     * [SNARK vs STARK vs Bulletproofs](https://ethereum.stackexchange.com/questions/59145/zk-snarks-vs-zk-starks-vs-bulletproofs-updated/63778#63778)
   * [STARK Week](/yB2SAnURS-iF4wzypI2-7A)
@@ -88,6 +91,10 @@
   * [Arnacube implementations](https://arnaucube.com)
   * [Rust Cryptographic libraries](https://cryptography.rs)
   * [DAPP fron scratch - Vivian Plasencia](https://vivianblog.hashnode.dev/how-to-create-a-zero-knowledge-dapp-from-zero-to-production)
+  * [Crrl: Cryptography research library - Thomas Pornin](https://github.com/pornin/crrl)
+  * [Zordle - Zk wordle](https://github.com/nalinbhardwaj/zordle)
+  * [Mental Poker: Part 1](https://geometryresearch.xyz/notebook/mental-poker-in-the-age-of-snarks-part-1)
+  * [Mental poker: Part 2](https://geometryresearch.xyz/notebook/mental-poker-in-the-age-of-snarks-part-2)
 * **Ethereum**
   * [vitalik blog](https://notes.ethereum.org/@vbuterin)
   * [Ethereum-powered ZK-Rollups: World Beaters](https://hackmd.io/QkOUJ-UJQ-CJ7cs_yx6_GA)
@@ -148,6 +155,7 @@
 * [MIT research site](https://dci.mit.edu/all-research)
   * [Zk sharks - MIT](https://dci.mit.edu/zksharks)
 
+
 ### Zero Knowledge Lectures/books/videos/Schools
 
 * [Why and how Zero knowledge works](https://arxiv.org/pdf/1906.07221.pdf)
@@ -175,6 +183,7 @@
 * [Zero Knowledge: A tutorial by Oded Goldreich](https://www.wisdom.weizmann.ac.il/~oded/PS/zk-tut10.ps)
 * [Zk summit videos](https://www.youtube.com/playlist?list=PLj80z0cJm8QFnY6VLVa84nr-21DNvjWH7)
   * [Zk summit 2022 slides](https://drive.google.com/drive/folders/1_2PUrP5HU1ehDVkG6-sVTx498Bv_YZha)
+* [An evolution of ZKP - Sarah Meiklejohn](https://www.youtube.com/watch?v=HO97kVMI3SE)
 
 ### ZK protocols and implementations
 
@@ -223,6 +232,7 @@
   * [Turboplonk](https://docs.zkproof.org/pages/standards/accepted-workshop3/proposal-turbo_plonk.pdf)
   * [Custom gates in plonk](https://www.plonk.cafe/t/details-of-custom-gate/122)
   * [Plonk: Thomas Piellard](https://hackmd.io/@gnark/plonk)
+  * [ZKP intro to Plonk - Star Li](https://starli.medium.com/zkp-plonk-algorithm-introduction-834556a32a)
   * [Multi set checks in Plonk and Plookup: Gabizon](https://hackmd.io/@arielg/ByFgSDA7D)
   * [Plonk - Kimchi: Mina Protocol](https://eng-blog.o1labs.org/posts/plonk/)
     * [Kimchi](https://minaprotocol.com/blog/kimchi-the-latest-update-to-minas-proof-system)
@@ -279,6 +289,9 @@
   * [Guide to Halo2 source code](https://starli.medium.com/zero-knowledge-proof-a-guide-to-halo2-source-code-9be0cf792f18)
 * [Gemini - 2022](https://eprint.iacr.org/2022/420), [Arkworks](https://github.com/arkworks-rs/gemini)
   * [talk](https://www.youtube.com/watch?v=Suv7MN131f8)
+* [Caulk - 2022](https://eprint.iacr.org/2022/621.pdf)
+  * [Code](https://github.com/caulk-crypto/caulk)
+  * [Caulk+](https://eprint.iacr.org/2022/957)
 
 # Elliptic Curves/Polynomial Commitments/R1CS/QAP/FFT/MSM/hash functions
 
@@ -360,6 +373,7 @@
   * [ECFFT algorithm](https://solvable.group/posts/ecfft/)
   * [Rust Implementation -Wboregaud](https://github.com/wborgeaud/ecfft-bn254)
   * [Rust ECFFT BN254- Wboregeaud](https://solvable.group/posts/ecfft-bn254/)
+* [ECFFT-2 Ben-Sasson et.al](https://eccc.weizmann.ac.il/report/2022/110/)
 * [FFT - Ferror Moreno thesis](https://www.uprm.edu/cise/wp-content/uploads/sites/171/2018/12/ferrermoreno.pdf)
 * [Zcash once again for FFT](https://zcash.github.io/halo2/background/polynomials.html)
 * [FFT for polynomial multiplication](https://cse.hkust.edu.hk/mjg_lib/Classes/COMP3711H_Fall16/lectures/FFT_Slides.pdf)
@@ -367,6 +381,7 @@
 * [Barycentric interpolation - Math Oxford](https://people.maths.ox.ac.uk/trefethen/barycentric.pdf)
 * Hardware acceleration
   * [Thesis: BUNTTERFLY: A Flexible Hardware Generator for the Number Theoretic Transform - Jason Vranek](https://escholarship.org/content/qt37t8364f/qt37t8364f.pdf)
+  * [PipeMSM](https://eprint.iacr.org/2022/999)
 
 ## Polynomial Commitment Schemes
 
