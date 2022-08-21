@@ -35,6 +35,7 @@
   * [Simple intro to ZKP](https://medium.com/degate/the-simple-introduction-to-zero-knowledge-proofs-6d8639dd6253)
   * [A cambrian explosion of crypto proofs -Ben Sasson](https://nakamoto.com/cambrian-explosion-of-crypto-proofs/)
   * Hunting of the SNARK Walton-Pocock: [Part 1](https://medium.com/aztec-protocol/the-hunting-of-the-snark-1-3-a610c28317c7), [Part 2](https://medium.com/aztec-protocol/the-hunting-of-the-snark-2-3-673e1830938f),[Part 3](https://medium.com/aztec-protocol/the-hunting-of-the-snark-3-3-c0a6e17c6d92)
+  * [Proofs, Arguments, and Zero-Knowledge](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.html)
   * [On interactive proofs and ZKP - Yannik Goldgrabe](https://medium.com/magicofc/interactive-proofs-and-zero-knowledge-b32f6c8d66c3)
   * [Exploring ZK with Groth](https://www.youtube.com/watch?v=pYuao-b57U4)
   * [Breaking supersingular isogeny DH - Galbraith](https://ellipticnews.wordpress.com/2022/07/31/breaking-supersingular-isogeny-diffie-hellman-sidh/)
