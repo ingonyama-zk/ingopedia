@@ -513,4 +513,4 @@
 ## General
 
 * [NIST announcement for PQC algorithms](https://www.nist.gov/news-events/news/2022/07/nist-announces-first-four-quantum-resistant-cryptographic-algorithms)
- * [NIST summary](https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8413.pdf)
+* [NIST summary](https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8413.pdf)
