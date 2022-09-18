@@ -12,11 +12,13 @@
 * [Awesome - Mikerah - Privacy on Blockchains](https://github.com/Mikerah/awesome-privacy-on-blockchains)
 * [Resource: Awesome_Plonk](https://github.com/Fluidex/awesome-plonk)
 * [ZK research 0x](https://0xst.notion.site/ZK-Research-94ba836c3b2a4e2491a871364ee5b13b)
+* [ZK canon](https://a16zcrypto.com/zero-knowledge-canon/)
 
 ### Articles
 
 * **Introductory**:
   * [An incomplete guide to zk: why zk matters](https://mirror.xyz/fundamentalabs.eth/24i98adRylhjdcqV1TnsT8ZbkIXCulCrDTIrsrziQmY)
+  * [Applications of ZKPs](https://www.youtube.com/watch?v=m5WiIOC3xcM)
   * [PCP - Probablistically Checkable Proofs](https://www.quantamagazine.org/how-computer-scientists-learned-to-reinvent-the-proof-20220523/)
   * [ZKP beginner resources](https://community.zeroknowledge.fm/t/learning-zkps-beginner-resources/302/19)
   * [ZK jargon decoder](https://nmohnblatt.github.io/zk-jargon-decoder/foreword.html)
@@ -128,6 +130,8 @@
   * [ZKP from Information theoretic Proof systems 2 -  Yuval Ishai](https://zkproof.org/2020/10/15/information-theoretic-proof-systems-part-ii/)
   * [A cambrian explosion of ZKP's - Ben-Sasson](https://nakamoto.com/cambrian-explosion-of-crypto-proofs/)
   * [Secure computing and hardware acceleration](https://www.sigarch.org/cryptography-for-secure-computing-a-new-hardware-acceleration-opportunity/)
+  * [Crypto canon](https://a16z.com/2018/02/10/crypto-readings-resources/)
+  * [DAO canon](https://future.com/dao-canon/)
 * **MPC**
   * [Yau;s garbled circuits: MPC](https://cronokirby.com/posts/2022/05/explaining-yaos-garbled-circuits/)
   * [A gentle introduction to YAU's Garbled circuits](https://web.mit.edu/sonka89/www/papers/2017ygc.pdf)
@@ -151,6 +155,7 @@
   * [Hardware Acceleration for Zero Knowledge Proofs](https://www.paradigm.xyz/2022/04/zk-hardware)
   * [ZK and TLS](https://youtu.be/zwIl8pqiZeA?t=1243)
   * [Algorithms for modern Hardware](https://en.algorithmica.org/hpc/)
+  * [Low latency multipliers and cryptographic puzzles](https://blog.janestreet.com/really-low-latency-multipliers-and-cryptographic-puzzles/)
 * [Dmitry Khovratovich notes](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ)
 * [MIT research site](https://dci.mit.edu/all-research)
   * [Zk sharks - MIT](https://dci.mit.edu/zksharks)
@@ -195,6 +200,7 @@
 * [Buffet - 2015](https://www.ndss-symposium.org/ndss2015/ndss-2015-programme/efficient-ram-and-control-flow-verifiable-outsourced-computation/)
 * [Groth -2016](https://eprint.iacr.org/2016/260.pdf)
   * [Code: ConSensys - gnark](https://github.com/ConsenSys/gnark),[Code: Arkworks](https://github.com/arkworks-rs/groth16)
+  * [Groth16 Malleability - Geometry research](https://geometry.xyz/notebook/groth16-malleability)
   * [Proof of forgery](https://medium.com/ppio/how-to-generate-a-groth16-proof-for-forgery-9f857b0dcafd)
   * [Groth16 aggregation proposal](https://docs.zkproof.org/pages/standards/accepted-workshop4/proposal-aggregation.pdf)
   * [Groth - Talk](https://www.youtube.com/watch?v=OseAdq0CoOY)
@@ -379,9 +385,13 @@
 * [FFT for polynomial multiplication](https://cse.hkust.edu.hk/mjg_lib/Classes/COMP3711H_Fall16/lectures/FFT_Slides.pdf)
 * [A quick barycentric evaluation tutorial - Vitalik](https://hackmd.io/@vbuterin/barycentric_evaluation)
 * [Barycentric interpolation - Math Oxford](https://people.maths.ox.ac.uk/trefethen/barycentric.pdf)
-* Hardware acceleration
-  * [Thesis: BUNTTERFLY: A Flexible Hardware Generator for the Number Theoretic Transform - Jason Vranek](https://escholarship.org/content/qt37t8364f/qt37t8364f.pdf)
-  * [PipeMSM](https://eprint.iacr.org/2022/999)
+* [Thesis: BUNTTERFLY: A Flexible Hardware Generator for the Number Theoretic Transform - Jason Vranek](https://escholarship.org/content/qt37t8364f/qt37t8364f.pdf)
+  
+## Hardware acceleration for Zero Knowledge
+
+* [PipeMSM - Ingonyama](https://eprint.iacr.org/2022/999)
+* [Cloud ZK](https://medium.com/@ingonyama/cloud-zk-a-toolkit-for-developing-zkp-acceleration-in-the-cloud-3d670c09c6ed)
+  * [Cloud ZK - Ingonyama](https://github.com/ingonyama-zk/cloud-ZK)
 
 ## Polynomial Commitment Schemes
 
