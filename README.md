@@ -147,7 +147,13 @@
   * [Yau;s garbled circuits: MPC](https://cronokirby.com/posts/2022/05/explaining-yaos-garbled-circuits/)
   * [A gentle introduction to YAU's Garbled circuits](https://web.mit.edu/sonka89/www/papers/2017ygc.pdf)
   * [Setup ceremonies - Pruden & Matlala](https://zkproof.org/2021/06/30/setup-ceremonies/)
-* **Gaming**:
+  * [Collaborative zk-Snarks](https://eprint.iacr.org/2021/1530)
+  * [a Multi-Prover Zero-Knowledge Proof System](https://link.springer.com/chapter/10.1007/978-3-030-88428-4_17)
+  * [Trinocchio: Privacy-Preserving Outsourcing by Distributed Verifiable Computation](https://link.springer.com/chapter/10.1007/978-3-319-39555-5_19)
+  * [Zero-Knowledge Proofs on Secret-Shared Data via Fully Linear PCPs](https://eprint.iacr.org/2019/188.pdf)
+  * [Prio: Private, Robust, and Scalable Computation of Aggregate Statistics](https://arxiv.org/pdf/1703.06255.pdf)
+  * [ATLAS (Goyal, CMU) Efficient and Scalable MPC in the Honest Majority Setting](https://eprint.iacr.org/2021/833)
+  * **Gaming**:
   * [Dark Forest - the zk SNARK game](https://blog.zkga.me/announcing-v6)
   * [Cairo Games Vol2: Solns](https://solvable.group/posts/cairo-games-vol2/)
   * [Blockchain games and game mechanics](https://medium.com/@0xhank/9-hidden-information-mechanics-and-how-to-port-them-into-blockchain-games-2d862f0e16ff)
@@ -314,6 +320,7 @@
 
 ## Finite Fields
 
+* [Number theory explained from first principles](https://explained-from-first-principles.com/number-theory)
 * [An introduction to the theory of finite fields](https://webusers.imj-prg.fr/~michel.waldschmidt/articles/pdf/FiniteFields.pdf)
 * [MIT lectures -FInite Field arithmetic](https://math.mit.edu/classes/18.783/2019/LectureNotes3.pdf)
 * [Finite field arithmetic Doche Lange](http://koclab.cs.ucsb.edu/teaching/ecc/eccPapers/Doche-ch11.pdf)
