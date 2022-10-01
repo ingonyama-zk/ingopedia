@@ -153,7 +153,7 @@
   * [Zero-Knowledge Proofs on Secret-Shared Data via Fully Linear PCPs](https://eprint.iacr.org/2019/188.pdf)
   * [Prio: Private, Robust, and Scalable Computation of Aggregate Statistics](https://arxiv.org/pdf/1703.06255.pdf)
   * [ATLAS (Goyal, CMU) Efficient and Scalable MPC in the Honest Majority Setting](https://eprint.iacr.org/2021/833)
-  * **Gaming**:
+* **Gaming**
   * [Dark Forest - the zk SNARK game](https://blog.zkga.me/announcing-v6)
   * [Cairo Games Vol2: Solns](https://solvable.group/posts/cairo-games-vol2/)
   * [Blockchain games and game mechanics](https://medium.com/@0xhank/9-hidden-information-mechanics-and-how-to-port-them-into-blockchain-games-2d862f0e16ff)
