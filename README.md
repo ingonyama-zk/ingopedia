@@ -18,6 +18,7 @@
 ### Articles
 
 * **Introductory**:
+  * [ZK Whiteboard Sessions](https://www.youtube.com/playlist?list=PLj80z0cJm8QErn3akRcqvxUsyXWC81OGq)
   * [An incomplete guide to zk: why zk matters](https://mirror.xyz/fundamentalabs.eth/24i98adRylhjdcqV1TnsT8ZbkIXCulCrDTIrsrziQmY)
   * [Applications of ZKPs](https://www.youtube.com/watch?v=m5WiIOC3xcM)
   * [PCP - Probablistically Checkable Proofs](https://www.quantamagazine.org/how-computer-scientists-learned-to-reinvent-the-proof-20220523/)
