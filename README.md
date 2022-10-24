@@ -166,6 +166,16 @@
   * [Zk rollups an incomplete guide](https://vitalik.ca/general/2021/01/05/rollup.html#:~:text=One%20important%20compression,SNARKs%20are%20valid.)
   * [Decentralized zk-Rollup](https://hackmd.io/SzneKXSWRJ6yJxzgFm9MwQ?view)
   * [Zk rollups popular](https://limechain.tech/blog/optimistic-rollups-vs-zk-rollups/)
+  * [Ethereum: Zk rollups](https://ethereum.org/ph/developers/docs/scaling/zk-rollups/)
+  * [How ZK rollups work: Simon Brown](https://medium.com/fcats-blockchain-incubator/how-zk-rollups-work-8ac4d7155b0e)
+  * 
+* **ZK bridges**
+  * [Vulnerabilities in ZK bridges](https://blog.chainalysis.com/reports/cross-chain-bridge-hacks-2022/)
+  * [Primer on Cross chain bridges and how to break them: Niv Yehezkel](https://www.youtube.com/watch?v=tdQ995ahadQ)
+  * [Block chain bridges: Introduction](https://medium.com/1kxnetwork/blockchain-bridges-5db6afac44f8)
+  * [Introduction to validating bridges and L2 protocols - Patrick McCory](https://www.youtube.com/watch?v=VLWPl7PsPDQ)
+  * [Bridging the blockchain multiverse with ZKP](https://medium.com/@ingonyama/bridging-the-multichain-universe-with-zero-knowledge-proofs-6157464fbc86)
+
 * **Accelerating Zero Knowledge**:
   * [Supranational VDF's and crypto accelerators](https://medium.com/@supranational)
   * [Supranational codes](https://github.com/supranational)
@@ -471,10 +481,16 @@
 * [The Matrix cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
 * [Ideal Class Groups](https://blogs.ams.org/mathgradblog/2018/02/10/introduction-ideal-class-groups/)
 
-## Hash functions
+## Hash functions in ZK
 
+* [ZKP friendly hash functions: SOK](https://github.com/ingonyama-zk/papers/blob/main/sok_zk_friendly_hashes.pdf)
+* [Merlin: Fiat-Shamir magic generator](https://merlin.cool/index.html)
+* [Keccak: Sponge and Duplex constructions](https://keccak.team/sponge_duplex.html)
+  * [Sponge functions: paper](https://keccak.team/files/SpongeFunctions.pdf)
 * [POSEIDON: A New Hash Function for Zero-Knowledge Proof Systems](https://eprint.iacr.org/2019/458.pdf)
   * [some documentation](https://www.poseidon-hash.info)
+  * [Encryption With Poseidon: Dima Khovratovich](https://drive.google.com/file/d/1EVrP3DzoGbmzkRmYnyEDcIQcXVU7GlOd/view)
+  * [SAFE A tool box for Poseidon API](https://hackmd.io/bHgsH6mMStCVibM_wYvb2w?view)
   * [code: filecoin](https://github.com/filecoin-project/neptune/blob/master/spec/poseidon_spec.pdf)
   * [code: Ingonyama (python)](https://github.com/ingonyama-zk/poseidon-hash)
   * [code: snarkVM Aleo Poseidon](https://github.com/AleoHQ/snarkVM/blob/testnet3/algorithms/src/crh/poseidon.rs)
@@ -486,6 +502,7 @@
   * [code: Triplewz - GO](https://github.com/triplewz/poseidon)
   * [Poseidon vs Rescye](https://ethresear.ch/t/performance-of-rescue-and-poseidon-hash-functions/7161)
   * [Plonky2: Poseidon gate](https://medium.com/@wanghs.thu/into-poseidon-hash-37d03ef0b26e)
+  * [Penumbra: Poseidon Decaf377](https://protocol.penumbra.zone/main/crypto/poseidon/overview.html)
 * [Rescue-Prime: a Standard Specification (SoK)](https://eprint.iacr.org/2020/1143.pdf)
   * [Observations on Rescue](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/SJMVAPfjL)
 * [MiMc](https://eprint.iacr.org/2016/492.pdf)
@@ -495,6 +512,7 @@
   * [implementation](https://www.rc-hash.info)
   * [Plonkup reinforced concrete zkstudyclub](https://www.youtube.com/watch?v=Pnc9J7uQgqs)
   * [Dusk network](https://dusk.network/news/development-update-34)
+  * [Code: Luke Pearson](https://github.com/LukePearson1/reinforced-concrete)
 * [Sinsemilla: A circuit-efficient, lookup-based collision-resistant hash function](/iOw7-HpFQY6dPF1aFY8pAw)
   * [halo book](https://zcash.github.io/orchard/design/circuit/gadgets/sinsemilla.html)
   * [ZCash protocol specification](https://zips.z.cash/protocol/protocol.pdf#concretesinsemillahash)
