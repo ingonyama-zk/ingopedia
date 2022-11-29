@@ -109,6 +109,7 @@
   * [Zordle - Zk wordle](https://github.com/nalinbhardwaj/zordle)
   * [Mental Poker: Part 1](https://geometryresearch.xyz/notebook/mental-poker-in-the-age-of-snarks-part-1)
   * [Mental poker: Part 2](https://geometryresearch.xyz/notebook/mental-poker-in-the-age-of-snarks-part-2)
+  * [0xparc learning groups - covering cricom and halo2](https://learn.0xparc.org/materials/halo2/learning-group-1/introduction/)
 * **Ethereum**
   * [vitalik blog](https://notes.ethereum.org/@vbuterin)
   * [Ethereum-powered ZK-Rollups: World Beaters](https://hackmd.io/QkOUJ-UJQ-CJ7cs_yx6_GA)
