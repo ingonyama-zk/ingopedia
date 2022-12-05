@@ -119,12 +119,9 @@
   * [Zordle - Zk wordle](https://github.com/nalinbhardwaj/zordle)
   * [Mental Poker: Part 1](https://geometryresearch.xyz/notebook/mental-poker-in-the-age-of-snarks-part-1)
   * [Mental poker: Part 2](https://geometryresearch.xyz/notebook/mental-poker-in-the-age-of-snarks-part-2)
-<<<<<<< Updated upstream
   * [0xparc learning groups - covering cricom and halo2](https://learn.0xparc.org/materials/halo2/learning-group-1/introduction/)
-=======
   * [Constructing ZK SNARK circuits -  DSL Zk calculator](https://jtriley.substack.com/p/constructing-zk-snark-circuits?r=1qyfrf&utm_campaign=post&utm_medium=web)
   * [Social Applied ZK projects on Ethereum](https://shreyj.com/socialzk/)
->>>>>>> Stashed changes
 * **Ethereum**
   * [vitalik blog](https://notes.ethereum.org/@vbuterin)
   * [Ethereum-powered ZK-Rollups: World Beaters](https://hackmd.io/QkOUJ-UJQ-CJ7cs_yx6_GA)
@@ -212,12 +209,6 @@
 * [Dmitry Khovratovich notes](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ)
 * [MIT research site](https://dci.mit.edu/all-research)
   * [Zk sharks - MIT](https://dci.mit.edu/zksharks)
-
-
-* **Accelerating FHE**
-  * **Papers**
-    * [FPT: a Fixed-Point Accelerator for Torus Fully Homomorphic Encryption](https://eprint.kobi.one/2022/1635)
-
 
 ### Zero Knowledge Lectures/books/videos/Schools
 
@@ -611,6 +602,12 @@
 * [Zama AI - Concrete - Rust](https://github.com/zama-ai/concrete)
 * [Paillier - Julia](https://github.com/krakhit/Paillier.jl)
 * [Cupcake - Facebook Research](https://github.com/facebookresearch/Cupcake)
+
+## Accelerating FHE
+
+* **Papers**
+  * [FPT: a Fixed-Point Accelerator for Torus Fully Homomorphic Encryption](https://eprint.kobi.one/2022/1635)
+
 
 # PQC (Post Quantum Cryptography)
 
