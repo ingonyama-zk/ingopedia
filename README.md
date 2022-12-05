@@ -14,6 +14,7 @@
 * [Resource: Awesome_Plonk](https://github.com/Fluidex/awesome-plonk)
 * [ZK research 0x](https://0xst.notion.site/ZK-Research-94ba836c3b2a4e2491a871364ee5b13b)
 * [ZK canon](https://a16zcrypto.com/zero-knowledge-canon/)
+* [Moonmath manual](https://leastauthority.com/community-matters/moonmath-manual/)
 
 ### Articles
 
@@ -52,6 +53,12 @@
   * [Part 7: Zero Knowledge Virtual Machines (zkVM)](https://zkhack.dev/whiteboard/module-seven/)
   * [Part 8: Achieving Decentralised Private Computation](https://zkhack.dev/whiteboard/module-eight/)
   * [Part 9: Introduction to zkRollups](https://zkhack.dev/whiteboard/module-nine/)
+  * [Plonk origin and roadmap](https://www.youtube.com/watch?v=GKja-cJFYdA&list=PLj80z0cJm8QErn3akRcqvxUsyXWC81OGq&index=11)
+  * [Part 10: Polygon zkEVM](https://zkhack.dev/whiteboard/module-ten/)
+  * [Part 11: zk SWAPS](https://zkhack.dev/whiteboard/module-eleven/)
+  * [Part 12: zk ID - Polygon Zero](https://zkhack.dev/whiteboard/module-twelve/)
+  * [Part 13: Plonky2 - recursive proofs](https://zkhack.dev/whiteboard/module-thirteen/)
+  * [Part 14: Nova - recursive snark, VDF application](https://zkhack.dev/whiteboard/module-fourteen/)
 * **Trusted Setup**:
   * [Introduction -Vitalik](https://vitalik.ca/general/2022/03/14/trustedsetup.html)
   * [Aztec Ceremony](https://medium.com/aztec-protocol/aztec-how-the-ceremony-works-9f021cf190d0)
@@ -66,6 +73,7 @@
   * **Introduction**
     * [Stark from home](https://www.youtube.com/playlist?list=PLcIyXLwiPilUFGw7r2uyWerOkbx4GFMXq)
     * [STARK glossary](https://medium.com/starkware/starks-starkex-and-starknet-9a426680745a)
+    * [Stark Thread - Eli Ben Sasson](https://twitter.com/EliBenSasson/status/1578380154476208131)
   * **Papers**
     * [STARK paper](https://eprint.iacr.org/2018/046.pdf)
     * [DEEP - FRI](https://eprint.iacr.org/2019/336.pdf)
@@ -82,6 +90,8 @@
     * [A framework for efficient STARKS](https://medium.com/starkware/a-framework-for-efficient-starks-19608ba06fbe)
   * [Stark 101 - hands on](https://starkware.co/stark-101/)
   * [Anatomy of a STARK](https://aszepieniec.github.io/stark-anatomy/)
+    * [Part2: BrainSTARK](https://aszepieniec.github.io/stark-brainfuck/index)
+    * [Code: Brainfuck](https://github.com/andrewmilson/ministark/tree/main/examples/brainfuck)
   * [BrainSTARK](https://aszepieniec.github.io/stark-brainfuck/)
   * [STARK vs SNARK](https://consensys.net/blog/blockchain-explained/zero-knowledge-proofs-starks-vs-snarks/)
     * [SNARK vs STARK vs Bulletproofs](https://ethereum.stackexchange.com/questions/59145/zk-snarks-vs-zk-starks-vs-bulletproofs-updated/63778#63778)
@@ -110,6 +120,8 @@
   * [Mental Poker: Part 1](https://geometryresearch.xyz/notebook/mental-poker-in-the-age-of-snarks-part-1)
   * [Mental poker: Part 2](https://geometryresearch.xyz/notebook/mental-poker-in-the-age-of-snarks-part-2)
   * [0xparc learning groups - covering cricom and halo2](https://learn.0xparc.org/materials/halo2/learning-group-1/introduction/)
+  * [Constructing ZK SNARK circuits -  DSL Zk calculator](https://jtriley.substack.com/p/constructing-zk-snark-circuits?r=1qyfrf&utm_campaign=post&utm_medium=web)
+  * [Social Applied ZK projects on Ethereum](https://shreyj.com/socialzk/)
 * **Ethereum**
   * [vitalik blog](https://notes.ethereum.org/@vbuterin)
   * [Ethereum-powered ZK-Rollups: World Beaters](https://hackmd.io/QkOUJ-UJQ-CJ7cs_yx6_GA)
@@ -136,7 +148,12 @@
   * [zk ML](https://0xparc.org/blog/zk-mnist)
   * [Practical Cryptography for Devs: Nakov](https://cryptobook.nakov.com)
   * [deep dive into DKG chain of snarks and arkworks](https://research.protocol.ai/blog/2022/a-deep-dive-into-dkg-chain-of-snarks-and-arkworks/#benchmarks)
-  * [Range Checks in Miden VM](https://hackmd.io/D-vjBYtHQB2BuOB-HMUG5Q)
+  * [Decentralizing zk rollups](https://delendum.xyz/2022/11/27/decentralization-of-zk-rollups.html)
+  * **Miden VM**
+    * [Range Checks in Miden VM](https://hackmd.io/D-vjBYtHQB2BuOB-HMUG5Q)
+    * [Miden VM program decoder](https://hackmd.io/_aaDBzbWRz6EwQQRtK1pzw)
+    * [Memory in MidenVM](https://hackmd.io/@bobbinth/HJr56BKKt)
+    * [u32 in MidenVM](https://hackmd.io/NC-yRmmtRQSvToTHb96e8Q#u32-operations-in-Miden-VM)
   * [GKR implementaton - Justin Thaler](https://www.youtube.com/watch?v=gIlyfR1R2pA)
   * [Verifiable computing stack](https://www.guiltygyoza.xyz/2022/05/verifiable-computing-stack)
   * [ZKp from Information theoretic Proof systems 1 - Yuval Ishai](https://zkproof.org/2020/08/12/information-theoretic-proof-systems/)
@@ -145,6 +162,8 @@
   * [Secure computing and hardware acceleration](https://www.sigarch.org/cryptography-for-secure-computing-a-new-hardware-acceleration-opportunity/)
   * [Crypto canon](https://a16z.com/2018/02/10/crypto-readings-resources/)
   * [DAO canon](https://future.com/dao-canon/)
+  * [Having a safe CEX: proof of solvency and beyond](https://vitalik.ca/general/2022/11/19/proof_of_solvency.html)
+  * [What's next in ZK](https://delendum.xyz/2022/11/22/what-to-build-next-in-zero-knowledge.html)
 * **MPC**
   * [Yau;s garbled circuits: MPC](https://cronokirby.com/posts/2022/05/explaining-yaos-garbled-circuits/)
   * [A gentle introduction to YAU's Garbled circuits](https://web.mit.edu/sonka89/www/papers/2017ygc.pdf)
@@ -159,6 +178,8 @@
   * [Dark Forest - the zk SNARK game](https://blog.zkga.me/announcing-v6)
   * [Cairo Games Vol2: Solns](https://solvable.group/posts/cairo-games-vol2/)
   * [Blockchain games and game mechanics](https://medium.com/@0xhank/9-hidden-information-mechanics-and-how-to-port-them-into-blockchain-games-2d862f0e16ff)
+  * [Crypto gaming - A practical thesis](https://medium.com/collab-currency/crypto-gaming-a-most-practical-thesis-ec4f55f53408)
+  * [The strongest Crypto gaming thesis](https://gubsheep.substack.com/p/the-strongest-crypto-gaming-thesis)
 * **Comprehensive protocol books**:
   * [Mina Protcol](https://o1-labs.github.io/proof-systems/introduction.html)
   * [Halo 2 book](https://zcash.github.io/halo2/index.html)
@@ -169,14 +190,14 @@
   * [Zk rollups popular](https://limechain.tech/blog/optimistic-rollups-vs-zk-rollups/)
   * [Ethereum: Zk rollups](https://ethereum.org/ph/developers/docs/scaling/zk-rollups/)
   * [How ZK rollups work: Simon Brown](https://medium.com/fcats-blockchain-incubator/how-zk-rollups-work-8ac4d7155b0e)
-  * 
 * **ZK bridges**
   * [Vulnerabilities in ZK bridges](https://blog.chainalysis.com/reports/cross-chain-bridge-hacks-2022/)
   * [Primer on Cross chain bridges and how to break them: Niv Yehezkel](https://www.youtube.com/watch?v=tdQ995ahadQ)
   * [Block chain bridges: Introduction](https://medium.com/1kxnetwork/blockchain-bridges-5db6afac44f8)
   * [Introduction to validating bridges and L2 protocols - Patrick McCory](https://www.youtube.com/watch?v=VLWPl7PsPDQ)
   * [Bridging the blockchain multiverse with ZKP](https://medium.com/@ingonyama/bridging-the-multichain-universe-with-zero-knowledge-proofs-6157464fbc86)
-
+  * [Cross chain Futur - Delendum](https://delendum.xyz/2022/11/28/crosschain-future.html)
+  * [Navigating privacy on Blockchains - Wei Dai](https://wdai.us/posts/navigating-privacy/)
 * **Accelerating Zero Knowledge**:
   * [Supranational VDF's and crypto accelerators](https://medium.com/@supranational)
   * [Supranational codes](https://github.com/supranational)
@@ -189,15 +210,19 @@
 * [MIT research site](https://dci.mit.edu/all-research)
   * [Zk sharks - MIT](https://dci.mit.edu/zksharks)
 
-
 ### Zero Knowledge Lectures/books/videos/Schools
 
 * [Why and how Zero knowledge works](https://arxiv.org/pdf/1906.07221.pdf)
 * [The math behind ZkSNARK - video](https://www.youtube.com/watch?v=iRQw2RpQAVc)
 * [De-mystifying Zk proofs -workshop](https://docs.google.com/presentation/d/1gfB6WZMvM9mmDKofFibIgsyYShdf0RV_Y8TLz3k1Ls0/edit#slide=id.p)
-* [BIU_Crypto_School_2019 -Zero Knowledge](https://cyber.biu.ac.il/event/the-9th-biu-winter-school-on-cryptography/)
+* [An evolution of ZKP - Sarah Meiklejohn](https://www.youtube.com/watch?v=HO97kVMI3SE)
+* **Schools/Courses** 
+  * [BIU_Crypto_School_2019 -Zero Knowledge](https://cyber.biu.ac.il/event/the-9th-biu-winter-school-on-cryptography/)
   * [Youtube link](https://www.youtube.com/playlist?list=PL8Vt-7cSFnw29cLUVqAIuMlg1QJ-szV0K)
-* [BIU_Crypto_School_2022 - Advances in Secure computation](https://cyber.biu.ac.il/event/https://eprint.iacr.org/2022/458the-12th-biu-winter-school-on-cryptography/)
+  * [BIU_Crypto_School_2022 - Advances in Secure computation](https://cyber.biu.ac.il/event/https://eprint.iacr.org/2022/458the-12th-biu-winter-school-on-cryptography/)
+  * [Defi MOOC](https://defi-learning.org/f22)
+  * [Zero Knowledge Proof MOOC](https://zk-learning.org)
+  * [CS355:Topics in Cryptography- Stanford online](https://crypto.stanford.edu/cs355/22sp/)
 * [Cryptography lectures](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg)
 * [Foundations of Block chains - Tim Roughgarden](https://www.youtube.com/playlist?list=PLEGCF-WLh2RLOHv_xUGLqRts_9JxrckiA)
 * [Foundations of probabilistic proofs - Alessandro Chisea](https://www.youtube.com/playlist?list=PLGkwtcB-DfpzST-medFVvrKhinZisfluC)
@@ -211,13 +236,13 @@
 * [All about Verifiable Delay Functions (VDF's) - VDFresearch](https://vdfresearch.org)
 * [Chiesea - Thesis - Recursive SNARK](https://dspace.mit.edu/handle/1721.1/61151)
 * [Berry Lecture Notes](https://www.win.tue.nl/~berry/CryptographicProtocols/LectureNotes.pdf)
-* [AppliedZk workshop](https://0xparc.notion.site/Applied-ZK-Workshop-Reading-List-65cefa4bb6064dacb112b82f70ecc6f2)
 * [Cryptographic Protocls: lectures](https://www.win.tue.nl/~berry/CryptographicProtocols/LectureNotes.pdf)
-* [CS355:Topics in Cryptography- Stanford online](https://crypto.stanford.edu/cs355/22sp/)
 * [Zero Knowledge: A tutorial by Oded Goldreich](https://www.wisdom.weizmann.ac.il/~oded/PS/zk-tut10.ps)
-* [Zk summit videos](https://www.youtube.com/playlist?list=PLj80z0cJm8QFnY6VLVa84nr-21DNvjWH7)
+* **Workshops/conferences**
+  * [AppliedZk workshop](https://0xparc.notion.site/Applied-ZK-Workshop-Reading-List-65cefa4bb6064dacb112b82f70ecc6f2)
+  * [Zk summit videos](https://www.youtube.com/playlist?list=PLj80z0cJm8QFnY6VLVa84nr-21DNvjWH7)
   * [Zk summit 2022 slides](https://drive.google.com/drive/folders/1_2PUrP5HU1ehDVkG6-sVTx498Bv_YZha)
-* [An evolution of ZKP - Sarah Meiklejohn](https://www.youtube.com/watch?v=HO97kVMI3SE)
+* [Berkley workshop 2022](https://rdi.berkeley.edu/zkp-workshop-2022/)
 
 ### ZK protocols and implementations
 
@@ -248,6 +273,8 @@
 * [Hyrax - 2018](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8418646)
 * [zk-STARK -2018](https://eprint.iacr.org/2018/046.pdf)
   * [Code: Winterfell -multi threaded zk STARK](https://docs.rs/winterfell/latest/winterfell/), [Crate: Winterfell](https://docs.rs/winterfell/latest/winterfell/)
+  * [CAIRO](https://github.com/starkware-libs/cairo)
+  * [MiniSTARK](https://github.com/andrewmilson/ministark)
 * [Sonic - 2019](https://eprint.iacr.org/2019/099.pdf)
   * [Sonic - Benthams Gaze](https://www.benthamsgaze.org/2019/02/07/introducing-sonic-a-practical-zk-snark-with-a-nearly-trustless-setup/)
 * [Plonk - 2019](https://eprint.iacr.org/2019/953.pdf)
@@ -314,7 +341,8 @@
 * [Nova - 2021](https://eprint.iacr.org/2021/370.pdf), [code](https://github.com/microsoft/Nova)
             - [Srinath Setty - Talk](https://drive.google.com/file/d/1aLQeB_ca9k7NrWRHY00QauZIe7hmt6_u/view)
             - [Srinath Setty - Video](https://www.youtube.com/watch?v=mY-LWXKsBLc)
-* [Plonky2 - 2022](https://github.com/mir-protocol/plonky2/blob/main/plonky2.pdf),
+            - [Nova - Entropy](https://www.entropy1729.com/incrementally-verifiable-computation-nova/)
+* [Plonky2 - 2022](https://github.com/mir-protocol/plonky2/blob/main/plonky2.pdf)
   * [code](https://github.com/mir-protocol/plonky2)
   * [documentation](https://github.com/mir-protocol/plonky2/blob/main/plonky2.pdf)
   * [Plonky: code](https://github.com/mir-protocol/plonky)
@@ -327,6 +355,12 @@
 * [Caulk - 2022](https://eprint.iacr.org/2022/621.pdf)
   * [Code](https://github.com/caulk-crypto/caulk)
   * [Caulk+](https://eprint.iacr.org/2022/957)
+* [Orion -2022](https://eprint.iacr.org/2022/1010)
+  * [Code](https://github.com/sunblaze-ucb/Orion)
+  * [IACR -talk](https://www.youtube.com/watch?v=LZb_wqCzwr8)
+* [Hyperplonk - 2022](https://eprint.iacr.org/2022/1355)
+  * [Hyperplonk - benedikt Bunz](https://www.youtube.com/watch?v=mZEXgoQL6xk)
+  * [Blog- Delendum](https://www.espressosys.com/blog/hyperplonk-a-zk-proof-system-for-zkevms)
 
 # Elliptic Curves/Polynomial Commitments/R1CS/QAP/FFT/MSM/hash functions
 
@@ -381,6 +415,7 @@
 
 * **General**
   * [Arithmetic Circuits: A survey](https://www.cs.tau.ac.il/~shpilka/publications/SY10.pdf)
+  * [How to transform code into an arithmetic circuit?](https://www.entropy1729.com/how-to-transform-code-into-arithmetic-circuits/)
 * **R1CS constraint system**
   * [Daira Hopwood - Efficient R1CS circuits: Video](https://www.youtube.com/watch?v=Uug5p05_wqs)
     * [Notes](https://docs.google.com/document/d/1aZ1GUAJOBFuqD4GOo9HqAH8w4xJo7HM4Bjte5-wkdnU/edit)
@@ -416,10 +451,11 @@
 * [A quick barycentric evaluation tutorial - Vitalik](https://hackmd.io/@vbuterin/barycentric_evaluation)
 * [Barycentric interpolation - Math Oxford](https://people.maths.ox.ac.uk/trefethen/barycentric.pdf)
 * [Thesis: BUNTTERFLY: A Flexible Hardware Generator for the Number Theoretic Transform - Jason Vranek](https://escholarship.org/content/qt37t8364f/qt37t8364f.pdf)
+* [CycloneNTT](https://eprint.iacr.org/2022/1657)
   
 ## Hardware acceleration for Zero Knowledge
 
-* [PipeMSM - Ingonyama](https://eprint.iacr.org/2022/999)
+* [PipeZK](https://www.microsoft.com/en-us/research/publication/pipezk-accelerating-zero-knowledge-proof-with-a-pipelined-architecture/)
 * [Cloud ZK](https://medium.com/@ingonyama/cloud-zk-a-toolkit-for-developing-zkp-acceleration-in-the-cloud-3d670c09c6ed)
   * [Cloud ZK - Ingonyama](https://github.com/ingonyama-zk/cloud-ZK)
 
@@ -432,6 +468,7 @@
   * [PCS multiproofs using random evaluation - Dankrad Feist](https://dankradfeist.de/ethereum/2021/06/18/pcs-multiproofs.html#evaluating-a-polynomial-in-evaluation-form-on-a-point-outside-the-domain)
   * [Schwarz - Zippel Lemma](https://brilliant.org/wiki/schwartz-zippel-lemma/)
   * [Intro to Sumcheck protocol -oxsage](https://medium.com/yearofzk/rust-guide-sum-check-protocol-18ceb8affdb2)
+    * [Inuition behind sumcheck - Wong](https://cryptologie.net/article/577/the-intuition-behind-the-sum-check-protocol-in-5-minutes/)
 * **KZG**
   * [KZG commitments](https://alinush.github.io/2020/05/06/kzg-polynomial-commitments.html)
   * [Polynomial commitments - Dankrad Feist](https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html)
@@ -467,6 +504,10 @@
 * [Efficient Multi exponentiation: Bucket method - Bootle](https://jbootle.github.io/Misc/pippenger.pdf)
 * **Hardware acceleration**
   * [MSM with FPGA -Connor Masterson thesis](https://github.com/connormas/MultiScalarMultiplication/blob/main/ConnorMastersonThesisV2.pdf)
+  * [PipeMSM](https://eprint.iacr.org/2022/999)
+  * [EdMSM](https://ia.cr/2022/1400)
+  * [CycloneMSM](https://eprint.iacr.org/2022/1396)
+
 
 ## Modular arithmetic
 
@@ -484,7 +525,9 @@
 
 ## Hash functions in ZK
 
-* [ZKP friendly hash functions: SOK](https://github.com/ingonyama-zk/papers/blob/main/sok_zk_friendly_hashes.pdf)
+* **ZK hashes- General**
+  * [ZKP friendly hash functions: SOK](https://github.com/ingonyama-zk/papers/blob/main/sok_zk_friendly_hashes.pdf)
+  * [Whats the deal with hashes: zk hack](https://zeroknowledge.fm/250-2/)
 * [Merlin: Fiat-Shamir magic generator](https://merlin.cool/index.html)
 * [Keccak: Sponge and Duplex constructions](https://keccak.team/sponge_duplex.html)
   * [Sponge functions: paper](https://keccak.team/files/SpongeFunctions.pdf)
@@ -492,6 +535,7 @@
   * [some documentation](https://www.poseidon-hash.info)
   * [Encryption With Poseidon: Dima Khovratovich](https://drive.google.com/file/d/1EVrP3DzoGbmzkRmYnyEDcIQcXVU7GlOd/view)
   * [SAFE A tool box for Poseidon API](https://hackmd.io/bHgsH6mMStCVibM_wYvb2w?view)
+    * [SAFE: Faster and simple hashing with ZKP](https://www.youtube.com/watch?v=w-4fzHpd4dk)
   * [code: filecoin](https://github.com/filecoin-project/neptune/blob/master/spec/poseidon_spec.pdf)
   * [code: Ingonyama (python)](https://github.com/ingonyama-zk/poseidon-hash)
   * [code: snarkVM Aleo Poseidon](https://github.com/AleoHQ/snarkVM/blob/testnet3/algorithms/src/crh/poseidon.rs)
@@ -524,6 +568,10 @@
   * [Sparse Merkle trees](https://docs.iden3.io/publications/pdfs/Merkle-Tree.pdf)
   * [Merkle Commitment scheme](https://courses.cs.ut.ee/MTAT.07.003/2019_fall/uploads/Main/0701-merkle-trees.pdf)
 * [S box properties](https://www.diva-portal.org/smash/get/diva2:618670/FULLTEXT01.pdf)
+* **Hash to Curve**
+  * [Hash to Curve](https://www.ietf.org/archive/id/draft-irtf-cfrg-hash-to-curve-16.html#hashtofield)
+  * [Hash to secp256k1 curve](https://geometry.xyz/notebook/Hashing-to-the-secp256k1-Elliptic-Curve)
+  * [Optimized BLS signatures on EVM](https://geometry.xyz/notebook/Optimized-BLS-multisignatures-on-EVM)
 * **Hash Bounties**
   * [Algebraic Hash bounties](https://hackmd.io/l2JT8AQITJ2xRZpGErPnzA#Decomposition-parameters)
 
@@ -554,6 +602,12 @@
 * [Zama AI - Concrete - Rust](https://github.com/zama-ai/concrete)
 * [Paillier - Julia](https://github.com/krakhit/Paillier.jl)
 * [Cupcake - Facebook Research](https://github.com/facebookresearch/Cupcake)
+
+## Accelerating FHE
+
+* **Papers**
+  * [FPT: a Fixed-Point Accelerator for Torus Fully Homomorphic Encryption](https://eprint.kobi.one/2022/1635)
+
 
 # PQC (Post Quantum Cryptography)
 
