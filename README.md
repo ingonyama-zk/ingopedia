@@ -195,6 +195,7 @@
   * [Primer on Cross chain bridges and how to break them: Niv Yehezkel](https://www.youtube.com/watch?v=tdQ995ahadQ)
   * [Block chain bridges: Introduction](https://medium.com/1kxnetwork/blockchain-bridges-5db6afac44f8)
   * [Introduction to validating bridges and L2 protocols - Patrick McCory](https://www.youtube.com/watch?v=VLWPl7PsPDQ)
+  * [zkEVMOS - Bridges and Interoperability](https://www.youtube.com/watch?v=f4kBUe2n0Qk)
   * [Bridging the blockchain multiverse with ZKP](https://medium.com/@ingonyama/bridging-the-multichain-universe-with-zero-knowledge-proofs-6157464fbc86)
   * [Cross chain Futur - Delendum](https://delendum.xyz/2022/11/28/crosschain-future.html)
   * [Navigating privacy on Blockchains - Wei Dai](https://wdai.us/posts/navigating-privacy/)
@@ -372,6 +373,7 @@
 * [Finite field arithmetic Doche Lange](http://koclab.cs.ucsb.edu/teaching/ecc/eccPapers/Doche-ch11.pdf)
 * [Aztec emulated field and group operations](https://hackmd.io/@arielg/B13JoihA8)
 
+
 ## Elliptic curves
 
 * [An introduction to the Arithmetic of Elliptic curves - Comprehensive series of lectures - Pre req: Galois Theory,](https://www.youtube.com/playlist?list=PLYpVTXjEi1oe1OeAllJpNhFoI4B7Ws8Yl)
@@ -405,6 +407,7 @@
     * [Code](https://github.com/yi-sun/circom-pairing)
 * **Specific curves**
   * [BLS12-381 For The Rest Of Us](https://hackmd.io/mikF5LkFQoqXM1EuplRj2Q)
+  * [BN254 for the rest of us](https://hackmd.io/@jpw/bn254)
   * [Benchmarking pairing-friendly elliptic curves libraries](https://hackmd.io/2JH4uBFCTbehqorEzQxv9w)
   * [ecgfp5 - Pornin: Goldilocks](https://github.com/pornin/ecgfp5/blob/main/doc/ecgfp5.pdf)
     * [ed448 blog John Cook](https://www.johndcook.com/blog/2019/05/12/ed448-goldilocks/)
@@ -439,6 +442,8 @@
 * [Number Theoretic Transform (NTT): Introduction](https://www.nayuki.io/page/number-theoretic-transform-integer-dft)
 * [NTT with code](https://cgyurgyik.github.io/posts/2021/04/brief-introduction-to-ntt/)
 * [NTL: a library for NTT](https://libntl.org)
+* [Efficient primes for NTT - Goldilocks](https://cp4space.hatsya.com/2021/09/01/an-efficient-prime-for-number-theoretic-transforms/)
+  * [Goldilocks in nuFHE](https://nufhe.readthedocs.io/en/latest/implementation_details.html)
 * [Elliptic Curve Fast Fourier Transform (ECFFT) Part I: Fast Polynomial Algorithms over all Finite Fields: Eli Ben-Sasson et.al](https://arxiv.org/abs/2107.08473)
   * [Talk -zk study club](https://www.youtube.com/watch?v=kQZvBXLZ8dM)
   * [ECFFT algorithm](https://solvable.group/posts/ecfft/)
