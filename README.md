@@ -122,6 +122,7 @@
   * [0xparc learning groups - covering cricom and halo2](https://learn.0xparc.org/materials/halo2/learning-group-1/introduction/)
   * [Constructing ZK SNARK circuits -  DSL Zk calculator](https://jtriley.substack.com/p/constructing-zk-snark-circuits?r=1qyfrf&utm_campaign=post&utm_medium=web)
   * [Social Applied ZK projects on Ethereum](https://shreyj.com/socialzk/)
+  * [Uncloak courses](https://uncloak.org/README)
 * **Ethereum**
   * [vitalik blog](https://notes.ethereum.org/@vbuterin)
   * [Ethereum-powered ZK-Rollups: World Beaters](https://hackmd.io/QkOUJ-UJQ-CJ7cs_yx6_GA)
@@ -201,15 +202,26 @@
   * [Navigating privacy on Blockchains - Wei Dai](https://wdai.us/posts/navigating-privacy/)
 * **Accelerating Zero Knowledge**:
   * [Supranational VDF's and crypto accelerators](https://medium.com/@supranational)
+  * [Measuring Snark performance frontends-backends and future - Thaler](https://a16zcrypto.com/measuring-snark-performance-frontends-backends-and-the-future/)
+  * [SNark security and peformance - Thaler](https://a16zcrypto.com/snark-security-and-performance/)
   * [Supranational codes](https://github.com/supranational)
   * [Decentralized Speed: Advances in Zero Knowledge Proofs](https://a16z.com/2022/04/15/zero-knowledge-proofs-hardware-decentralization-innovation/)
   * [Hardware Acceleration for Zero Knowledge Proofs](https://www.paradigm.xyz/2022/04/zk-hardware)
   * [ZK and TLS](https://youtu.be/zwIl8pqiZeA?t=1243)
   * [Algorithms for modern Hardware](https://en.algorithmica.org/hpc/)
+  * [learning CUDA from scratch - entropy](https://www.entropy1729.com/learning-cuda-from-scratch/)
   * [Low latency multipliers and cryptographic puzzles](https://blog.janestreet.com/really-low-latency-multipliers-and-cryptographic-puzzles/)
-* [Dmitry Khovratovich notes](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ)
+  * [Zprize submissions summary - entropy](https://www.entropy1729.com/eyes-on-the-prize-an-overview-of-zprize-solutions-on-the-msm-challenge-using-cuda/)
+    * [hackmd version](https://hackmd.io/KGbmVFoYT2-Og30qjoG3ow#bfb53425-submission)
+* [Dmitry Khovratovich notes](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ) 
 * [MIT research site](https://dci.mit.edu/all-research)
   * [Zk sharks - MIT](https://dci.mit.edu/zksharks)
+* **How to be a Rustacean**
+  * [Idiomatic Rust - For beauty over brawn](https://github.com/mre/idiomatic-rust)
+  * [Print and keep nearby - cheats.rs](https://cheats.rs)
+  * [Turtorials](https://fasterthanli.me)
+  * [Benchmarking with Rust](https://www.notamonadtutorial.com/benchmarking-and-analyzing-rust-performance-with-criterion-and-iai/)
+  * [Uncloak Study group](https://uncloak.org/courses/rust+cryptography+engineering/course-Rust+Cryptography+Engineering+Study+Group+Syllabus)
 
 ### Zero Knowledge Lectures/books/videos/Schools
 
@@ -373,6 +385,9 @@
 * [Finite field arithmetic Doche Lange](http://koclab.cs.ucsb.edu/teaching/ecc/eccPapers/Doche-ch11.pdf)
 * [Aztec emulated field and group operations](https://hackmd.io/@arielg/B13JoihA8)
 
+## Polynomials
+
+* [Curious History of Schwarz-Zippel lemma](https://rjlipton.wpcomstaging.com/2009/11/30/the-curious-history-of-the-schwartz-zippel-lemma/)
 
 ## Elliptic curves
 
@@ -419,6 +434,7 @@
 * **General**
   * [Arithmetic Circuits: A survey](https://www.cs.tau.ac.il/~shpilka/publications/SY10.pdf)
   * [How to transform code into an arithmetic circuit?](https://www.entropy1729.com/how-to-transform-code-into-arithmetic-circuits/)
+  * [Complexity Zoo](https://complexityzoo.net/Complexity_Zoo)
 * **R1CS constraint system**
   * [Daira Hopwood - Efficient R1CS circuits: Video](https://www.youtube.com/watch?v=Uug5p05_wqs)
     * [Notes](https://docs.google.com/document/d/1aZ1GUAJOBFuqD4GOo9HqAH8w4xJo7HM4Bjte5-wkdnU/edit)
