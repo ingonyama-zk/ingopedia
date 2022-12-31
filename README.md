@@ -15,6 +15,7 @@
 * [ZK research 0x](https://0xst.notion.site/ZK-Research-94ba836c3b2a4e2491a871364ee5b13b)
 * [ZK canon](https://a16zcrypto.com/zero-knowledge-canon/)
 * [Moonmath manual](https://leastauthority.com/community-matters/moonmath-manual/)
+* [ZKP knowledge base: Delendum](https://kb.delendum.xyz)
 
 ### Articles
 
@@ -299,6 +300,7 @@
   * [On optimizations of Plonk](https://www.fluidex.io/en/blog/on-plonk/)
   * [Custom gates on plonk -Do whatever](https://kobi.one/2021/05/20/plonk-custom-gates.html)
   * [Plonk Cafe](https://www.plonk.cafe/top)
+  * [Plonk: Anatomy of a proof generation: Scroll](https://scroll.io/blog/proofGeneration#heading-22)
   * [code: Heliaxdev](https://github.com/heliaxdev/plonk), [code: Kobigurkan](https://github.com/kobigurk/plonk/tree/kobigurk/port_to_zexe) ,[code: ZKgarage](https://github.com/ZK-Garage/plonk), [code: Dusknetwork](https://github.com/dusk-network/plonk),[code: Jellyfish includes plookup](https://github.com/EspressoSystems/jellyfish) ,[Resource: Awesome_Plonk](https://github.com/Fluidex/awesome-plonk)
   * [Resource: Plonk by hand -1 Metastate](https://research.metastate.dev/plonk-by-hand-part-1/)
   * [Resource: Plonk by hand -2 Metastate](https://research.metastate.dev/plonk-by-hand-part-2-the-proof/)
@@ -346,6 +348,7 @@
   * [Plonk and Plookup - Khovratovich](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/BJpNmNW0L)
   * [Mina Protocol](https://o1-labs.github.io/proof-systems/introduction.html)
   * [AES with lookup : Daira Hopwood](https://hackmd.io/m0fnJ_lPTPahWAhfaiQA7Q#With-smaller-38-sized-tables)
+  * [Lookup tables - Ariel Gabizon](https://www.youtube.com/watch?v=rOZTQ-18YJY)
 * [Zilch - 2021](https://eprint.iacr.org/2020/1155.pdf), [code](https://github.com/TrustworthyComputing/Zilch)
 * [Darlin - 2021](https://arxiv.org/pdf/2107.04315.pdf),[code](https://github.com/HorizenOfficial/ginger-lib)
 * [Plonkup -2021](https://eprint.iacr.org/2022/086.pdf)
@@ -374,6 +377,10 @@
 * [Hyperplonk - 2022](https://eprint.iacr.org/2022/1355)
   * [Hyperplonk - benedikt Bunz](https://www.youtube.com/watch?v=mZEXgoQL6xk)
   * [Blog- Delendum](https://www.espressosys.com/blog/hyperplonk-a-zk-proof-system-for-zkevms)
+  * [Hardware friendliness of MLE-Sumcheck](https://hackmd.io/@omershlo/rJhgKJPtj)
+* [flookup: Fractional decomposition-based lookups in quasi-linear time independent of table size -2022](https://eprint.iacr.org/2022/1447)
+* [Baloo: Nearly Optimal Lookup Arguments - 2022](https://eprint.iacr.org/2022/1565) 
+* [CQ: Cached coefficients for fast lookups 2022](https://eprint.iacr.org/2022/1763)
 
 # Elliptic Curves/Polynomial Commitments/R1CS/QAP/FFT/MSM/hash functions
 
@@ -384,6 +391,7 @@
 * [MIT lectures -FInite Field arithmetic](https://math.mit.edu/classes/18.783/2019/LectureNotes3.pdf)
 * [Finite field arithmetic Doche Lange](http://koclab.cs.ucsb.edu/teaching/ecc/eccPapers/Doche-ch11.pdf)
 * [Aztec emulated field and group operations](https://hackmd.io/@arielg/B13JoihA8)
+* [Extension fields: Entropy](https://www.entropy1729.com/climbing-up-the-tower-field-extensions/)
 
 ## Polynomials
 
@@ -460,6 +468,7 @@
 * [NTL: a library for NTT](https://libntl.org)
 * [Efficient primes for NTT - Goldilocks](https://cp4space.hatsya.com/2021/09/01/an-efficient-prime-for-number-theoretic-transforms/)
   * [Goldilocks in nuFHE](https://nufhe.readthedocs.io/en/latest/implementation_details.html)
+  * [Goldilocks NTT trick - Solberg](https://www.ingonyama.com/blogs/goldilocks-ntt-trick)
 * [Elliptic Curve Fast Fourier Transform (ECFFT) Part I: Fast Polynomial Algorithms over all Finite Fields: Eli Ben-Sasson et.al](https://arxiv.org/abs/2107.08473)
   * [Talk -zk study club](https://www.youtube.com/watch?v=kQZvBXLZ8dM)
   * [ECFFT algorithm](https://solvable.group/posts/ecfft/)
@@ -538,6 +547,7 @@
 * [Modular Multiplication and Hardware implementations - Review](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.116.512&rep=rep1&type=pdf)
 * [Evaluation of large integer multiplications in hardware - Review](https://pureadmin.qub.ac.uk/ws/portalfiles/portal/125812965/Evaluation_of_large_integer_multiplication_methods_R2.pdf)
 * [Hardware friendly modular mult](http://ingonyama.com/s/modular_multiplication.pdf)
+* [Montgomery REDC using positive inverse mod r](https://jeffhurchalla.com/2022/04/28/montgomery-redc-using-the-positive-inverse-mod-r/)
 
 ## Related Math
 
@@ -606,6 +616,7 @@
   * [part 3: key switching and levelled multiplications](https://www.zama.ai/post/tfhe-deep-dive-part-3?utm_source=tfhe_deep_dive_part_3&utm_medium=substack&utm_campaign=blogpost)
   * [Part 4: programmable bootstrapping](https://www.zama.ai/post/tfhe-deep-dive-part-4)
   * **General**
+    * [Survey on FHE and applications](https://eprint.iacr.org/2022/1602)
     * [Encrypted search using FHE](https://medium.com/zama-ai/encrypted-search-using-fully-homomorphic-encryption-99cd163b94)
     * [Exploring FHE: Vitalik](https://notes.ethereum.org/@vbuterin/r19UMPTiI)
     * [ML and FHE](https://medium.com/zama-ai/the-r-evolution-of-fhe-485b54a6e69c) 
