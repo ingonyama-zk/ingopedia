@@ -358,6 +358,7 @@
             - [Srinath Setty - Talk](https://drive.google.com/file/d/1aLQeB_ca9k7NrWRHY00QauZIe7hmt6_u/view)
             - [Srinath Setty - Video](https://www.youtube.com/watch?v=mY-LWXKsBLc)
             - [Nova - Entropy](https://www.entropy1729.com/incrementally-verifiable-computation-nova/)
+            - [IACR talk slides](https://iacr.org/submit/files/slides/2022/crypto/crypto2022/334/slides.pdf)
 * [Plonky2 - 2022](https://github.com/mir-protocol/plonky2/blob/main/plonky2.pdf)
   * [code](https://github.com/mir-protocol/plonky2)
   * [documentation](https://github.com/mir-protocol/plonky2/blob/main/plonky2.pdf)
@@ -381,6 +382,8 @@
 * [flookup: Fractional decomposition-based lookups in quasi-linear time independent of table size -2022](https://eprint.iacr.org/2022/1447)
 * [Baloo: Nearly Optimal Lookup Arguments - 2022](https://eprint.iacr.org/2022/1565) 
 * [CQ: Cached coefficients for fast lookups 2022](https://eprint.iacr.org/2022/1763)
+  * [code: Geometry](https://github.com/geometryresearch/cq)
+* [Supernova 2022](https://eprint.iacr.org/2022/1758)
 
 # Elliptic Curves/Polynomial Commitments/R1CS/QAP/FFT/MSM/hash functions
 
@@ -418,11 +421,20 @@
 * [Elliptic curves of characteristic 2 or 3 - John Cook](https://dzone.com/articles/all-elliptic-curves-over-fields-of-order-2-and-3)
 * [Addition/Doubling formulae](https://www.hyperelliptic.org)
 * [Visualize Elliptic curves](https://curves.xargs.org)
+* [j invariant of a curve](https://math.mit.edu/research/highschool/primes/materials/2018/conf/14-2%20Pentland.pdf)
+* [subgroup checks in BLS12](https://hackmd.io/@yelhousni/bls12_subgroup_check)
+* [Complete addition formulae : Bernstein - Lange](http://cr.yp.to/talks/2009.04.17/slides.pdf)
+* [Complete addition formulae for prime order curves](https://eprint.iacr.org/2015/1060.pdf)
+  * [FPGA implementation of complete formulae with Montgomery multiplier](https://eprint.iacr.org/2016/1133)
+* [Survey of Elliptic curves for Proof systems](https://eprint.iacr.org/2022/586.pdf)
+* [Edwards curves](https://hal.archives-ouvertes.fr/hal-01942759/document)
+* [Twisted Edwards curves](https://eprint.iacr.org/2008/013.pdf)
 * **Pairings**:
   * [Pairings for beginners - Craig Costello](https://static1.squarespace.com/static/5fdbb09f31d71c1227082339/t/5ff394720493bd28278889c6/1609798774687/PairingsForBeginners.pdf)
   * [Pairings - Vitalik Buterin](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627)
   * [Pairing friendly curves](https://members.loria.fr/AGuillevic/pairing-friendly-curves/)
   * [Estimating the Bit Security of Pairing-Friendly Curves - NCCgroup](https://research.nccgroup.com/2022/02/03/estimating-the-bit-security-of-pairing-friendly-curves/)
+  * [Pairing implementation revisited](https://eprint.iacr.org/2019/077.pdf)
   * [Groth_Sahai proofs are not scary](https://crypto.ethereum.org/blog/groth-sahai-blogpost)
   * [Bilinear pairings in cryptography - Dennis Meffert](https://www.math.ru.nl/~bosma/Students/MScThesis_DennisMeffert.pdf)
   * [Pairings and poly commitments - David Wong](https://cryptologie.net/article/525/pairing-based-polynomial-commitments-and-kate-polynomial-commitments/)
