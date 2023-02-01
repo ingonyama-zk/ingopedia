@@ -106,6 +106,7 @@
   * [Recursive SNARK - overview - Michael Straka](https://www.michaelstraka.com/posts/recursivesnarks/)
   * [Fast Recursive arguments based on Plonk and Halo](https://mirprotocol.org/blog/Fast-recursive-arguments-based-on-Plonk-and-Halo)
   * [Field selection for recursive SNARKS](https://medium.com/delendum/field-selection-for-recursive-snarks-726ad56c3a3c)
+  * [ZKsnark aggregation - Delendum](https://delendum.xyz/2022/11/22/zk-snark-aggregation.html)
 * **Zero Knowledge Hands-on**:
   * [zero knowledge with Bellman](https://hongchao.me/zksnark/)
   * [Cryptohack - hands on cryptography](https://cryptohack.org)
@@ -429,6 +430,8 @@
 * [Survey of Elliptic curves for Proof systems](https://eprint.iacr.org/2022/586.pdf)
 * [Edwards curves](https://hal.archives-ouvertes.fr/hal-01942759/document)
 * [Twisted Edwards curves](https://eprint.iacr.org/2008/013.pdf)
+* [Subgroup checks for BLS12](https://hackmd.io/@yelhousni/bls12_subgroup_check)
+* [Cofactor explained: Elliptic curves dirty little secret](https://loup-vaillant.fr/tutorials/cofactor)
 * **Pairings**:
   * [Pairings for beginners - Craig Costello](https://static1.squarespace.com/static/5fdbb09f31d71c1227082339/t/5ff394720493bd28278889c6/1609798774687/PairingsForBeginners.pdf)
   * [Pairings - Vitalik Buterin](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627)
@@ -440,6 +443,7 @@
   * [Pairings and poly commitments - David Wong](https://cryptologie.net/article/525/pairing-based-polynomial-commitments-and-kate-polynomial-commitments/)
   * [Circom pairing](https://0xparc.org/blog/zk-pairing-1)
     * [Code](https://github.com/yi-sun/circom-pairing)
+  * [Pairings or bilinear maps](https://alinush.github.io/2022/12/31/pairings-or-bilinear-maps.html)
 * **Specific curves**
   * [BLS12-381 For The Rest Of Us](https://hackmd.io/mikF5LkFQoqXM1EuplRj2Q)
   * [BN254 for the rest of us](https://hackmd.io/@jpw/bn254)
@@ -513,11 +517,17 @@
     * [Inuition behind sumcheck - Wong](https://cryptologie.net/article/577/the-intuition-behind-the-sum-check-protocol-in-5-minutes/)
 * **KZG**
   * [KZG commitments](https://alinush.github.io/2020/05/06/kzg-polynomial-commitments.html)
+  * [KZG - Suyash](https://hackmd.io/@suyash67/BydEa7DaK)
   * [Polynomial commitments - Dankrad Feist](https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html)
+    * [How to use KZG in proofs](https://notes.ethereum.org/@dankrad/kzg_commitments_in_proofs#)
   * [Fast KZG proofs](https://alinush.github.io/2021/06/17/Feist-Khovratovich-technique-for-computing-KZG-proofs-fast.html)
   * [Amortized KZG - Khovratovich](https://github.com/khovratovich/Kate/blob/master/Kate_amortized.pdf)
+    * [Multiplying a vector by a Toeplitz matrix](https://alinush.github.io/2020/03/19/multiplying-a-vector-by-a-toeplitz-matrix.html)
   * [New sharding design with tight beacon and shard block integration - Dankrad Feist](https://notes.ethereum.org/@dankrad/new_sharding#)
   * [Protodanksharding - FAQ Vitalik](https://notes.ethereum.org/@vbuterin/proto_danksharding_faq#What-is-Danksharding)
+  * [Universal verification equation for data availability sampling](https://ethresear.ch/t/a-universal-verification-equation-for-data-availability-sampling/13240)
+  * [KZG friendly curves: El Housseini](https://ethresear.ch/t/yet-another-curve-but-the-curve-for-your-kzg/12861)
+  * [KZG in practice: Scroll](https://scroll.io/blog/kzg#heading-0)
 * **Vector Commitments**
   * [Verkle Trie - Dankrad Feist](https://dankradfeist.de/ethereum/2021/06/18/verkle-trie-for-eth1.html)
   * [Aggregatable vector sub commitments](https://alinush.github.io/2020/05/06/aggregatable-subvector-commitments-for-stateless-cryptocurrencies.html#aggregating-proofs-into-subvector-profs)
@@ -610,6 +620,7 @@
   * [Merkle trees](https://www.rfc-editor.org/rfc/rfc6962#section-2.1)
   * [Sparse Merkle trees](https://docs.iden3.io/publications/pdfs/Merkle-Tree.pdf)
   * [Merkle Commitment scheme](https://courses.cs.ut.ee/MTAT.07.003/2019_fall/uploads/Main/0701-merkle-trees.pdf)
+  * [Merkle trees and proof of inclusion](https://www.derpturkey.com/merkle-tree-construction-and-proof-of-inclusion/)
 * [S box properties](https://www.diva-portal.org/smash/get/diva2:618670/FULLTEXT01.pdf)
 * **Hash to Curve**
   * [Hash to Curve](https://www.ietf.org/archive/id/draft-irtf-cfrg-hash-to-curve-16.html#hashtofield)
