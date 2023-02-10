@@ -257,6 +257,8 @@
   * [AppliedZk workshop](https://0xparc.notion.site/Applied-ZK-Workshop-Reading-List-65cefa4bb6064dacb112b82f70ecc6f2)
   * [Zk summit videos](https://www.youtube.com/playlist?list=PLj80z0cJm8QFnY6VLVa84nr-21DNvjWH7)
   * [Zk summit 2022 slides](https://drive.google.com/drive/folders/1_2PUrP5HU1ehDVkG6-sVTx498Bv_YZha)
+  * [plonkathon](https://plonkathon.com/#block-77515143ba9b46b39689c87c9db5bc62)
+  * [MIT IAP 2023] Modern Zero Knowledge Cryptography](https://zkiap.com/)
 * [Berkley workshop 2022](https://rdi.berkeley.edu/zkp-workshop-2022/)
 
 ### ZK protocols and implementations
