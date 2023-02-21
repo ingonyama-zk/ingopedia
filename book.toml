@@ -1,0 +1,18 @@
+[book]
+authors = ["Karthik Inbasekar"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Ingopedia"
+
+[preprocessor.katex]
+renderers = ["html"]
+
+[output.katex]
+
+[output.html]
+curly-quotes = true
+git-repository-url = "https://github.com/krakhit/test"
+
+[output.html.print]
+page-break = false

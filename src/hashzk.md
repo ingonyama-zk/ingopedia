@@ -1,0 +1,68 @@
+# Hash functions
+
+- **ZK hashes- General**
+  - [ZKP friendly hash functions: SOK](https://github.com/ingonyama-zk/papers/blob/main/sok_zk_friendly_hashes.pdf)
+  - [Whats the deal with hashes: zk hack](https://zeroknowledge.fm/250-2/)
+  - [Sponge functions: paper](https://keccak.team/files/SpongeFunctions.pdf)
+  - [S box properties](https://www.diva-portal.org/smash/get/diva2:618670/FULLTEXT01.pdf)
+  - **Merkling**
+    - [What is a merkle tree](https://decentralizedthoughts.github.io/2020-12-22-what-is-a-merkle-tree/)
+    - [Merkle trees](https://www.rfc-editor.org/rfc/rfc6962#section-2.1)
+    - [Sparse Merkle trees](https://docs.iden3.io/publications/pdfs/Merkle-Tree.pdf)
+    - [Merkle Commitment scheme](https://courses.cs.ut.ee/MTAT.07.003/2019_fall/uploads/Main/0701-merkle-trees.pdf)
+    - [Merkle trees and proof of inclusion](https://www.derpturkey.com/merkle-tree-construction-and-proof-of-inclusion/)
+  - **Fiat Shamir**
+    - [Merlin: Fiat-Shamir magic generator](https://merlin.cool/index.html)
+    - [How to Fiat Shamir](http://cyber.biu.ac.il/wp-content/uploads/2018/08/WS-19-7-_fiat_shamir_basic.pdf)
+    - [Serving up ZKP](https://blog.trailofbits.com/2021/02/19/serving-up-zero-knowledge-proofs/)
+    - [Frozen Heart vulnerability](https://blog.trailofbits.com/2022/04/13/part-1-coordinated-disclosure-of-vulnerabilities-affecting-girault-bulletproofs-and-plonk/)
+      - [in Girault proof of knowledge](https://blog.trailofbits.com/2022/04/14/the-frozen-heart-vulnerability-in-giraults-proof-of-knowledge/)
+      - [in Bulletproofs](https://blog.trailofbits.com/2022/04/15/the-frozen-heart-vulnerability-in-bulletproofs/)
+      - [in Plonk](https://blog.trailofbits.com/2022/04/18/the-frozen-heart-vulnerability-in-plonk/)
+- **Hashes**
+  - [Keccak: Sponge and Duplex constructions](https://keccak.team/sponge_duplex.html)
+  - **Poseidon**
+    - [POSEIDON: A New Hash Function for Zero-Knowledge Proof Systems](https://eprint.iacr.org/2019/458.pdf)
+    - [some documentation](https://www.poseidon-hash.info)
+    - [Encryption With Poseidon: Dima Khovratovich](https://drive.google.com/file/d/1EVrP3DzoGbmzkRmYnyEDcIQcXVU7GlOd/view)
+    - [SAFE A tool box for Poseidon API](https://hackmd.io/bHgsH6mMStCVibM_wYvb2w?view)
+      - [SAFE: Faster and simple hashing with ZKP](https://www.youtube.com/watch?v=w-4fzHpd4dk)
+    - [Encoding of long objects in Poseidon - Dmitry Khovratovich](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/BkfS78Y9L)
+    - [Talk Grassi](https://www.usenix.org/system/files/sec21_slides_grassi.pdf)
+    - [Plonky2: Poseidon gate](https://medium.com/@wanghs.thu/into-poseidon-hash-37d03ef0b26e)
+    - [Penumbra: Poseidon Decaf377](https://protocol.penumbra.zone/main/crypto/poseidon/overview.html) 
+    - **Poseidon Implementations**
+      - [code: filecoin](https://github.com/filecoin-project/neptune/blob/master/spec/poseidon_spec.pdf)
+        - [Poseidon in Filecoin - Dmitry Khovratovich](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/BJjaxXd9U)
+      - [code: Ingonyama (python)](https://github.com/ingonyama-zk/poseidon-hash)
+      - [code: snarkVM Aleo Poseidon](https://github.com/AleoHQ/snarkVM/blob/testnet3/algorithms/src/crh/poseidon.rs)
+      - [code: Dusk network](https://github.com/dusk-network/Poseidon252)
+      - [code: Dust netowrk - Poseidon merkle](https://github.com/dusk-network/dusk-poseidon-merkle)
+      - [code: Triplewz - GO](https://github.com/triplewz/poseidon)
+    - **Rescue**
+      - [Rescue-Prime: a Standard Specification (SoK)](https://eprint.iacr.org/2020/1143.pdf)
+      - [Observations on Rescue](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/SJMVAPfjL) 
+      - [Poseidon vs Rescye](https://ethresear.ch/t/performance-of-rescue-and-poseidon-hash-functions/7161)
+    - **MIMC**
+      - [MiMc](https://eprint.iacr.org/2016/492.pdf)
+      - [Mimc7 in Plonk - Custom gates](https://kobi.one/2021/05/20/plonk-custom-gates.html)
+      - [Mimc Roy slides](https://iacr.org/cryptodb/archive/2016/ASIACRYPT/presentation/27874.pdf)
+    - **Reinforced concrete**
+      - [Reinforced concrete](https://drive.google.com/file/d/1MCIqD8XwKrHVBQPc26XjAmM9RyrLDpjw/view)
+      - [implementation](https://www.rc-hash.info)
+      - [Plonkup reinforced concrete zkstudyclub](https://www.youtube.com/watch?v=Pnc9J7uQgqs)
+      - [Dusk network](https://dusk.network/news/development-update-34)
+      - [Code: Luke Pearson](https://github.com/LukePearson1/reinforced-concrete)
+    - **Sinsemilla**
+      - [Sinsemilla: A circuit-efficient, lookup-based collision-resistant hash function](/iOw7-HpFQY6dPF1aFY8pAw)
+      - [halo book](https://zcash.github.io/orchard/design/circuit/gadgets/sinsemilla.html)
+      - [ZCash protocol specification](https://zips.z.cash/protocol/protocol.pdf#concretesinsemillahash)
+    - **BLAKE**
+      - [Blake](https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf)
+      - [code](https://github.com/BLAKE3-team/BLAKE3)
+- **Hash to Curve**
+  - [Hash to Curve](https://www.ietf.org/archive/id/draft-irtf-cfrg-hash-to-curve-16.html#hashtofield)
+  - [Hash to secp256k1 curve](https://geometry.xyz/notebook/Hashing-to-the-secp256k1-Elliptic-Curve)
+  - [Optimized BLS signatures on EVM](https://geometry.xyz/notebook/Optimized-BLS-multisignatures-on-EVM)
+- **Hash Bounties**
+  - [Algebraic Hash bounties](https://hackmd.io/l2JT8AQITJ2xRZpGErPnzA#Decomposition-parameters)
