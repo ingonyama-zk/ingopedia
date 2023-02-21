@@ -9,3 +9,5 @@ We invite the community to help us keep this book up-to-date and relevant. If yo
 To keep this book organized, we ask that you use the designated sections for your contributions. If you have a new resource to share, please add it to the appropriate section. If you are unsure where to add your contribution, feel free to reach out to the moderators for guidance.
 
 Thank you for being a part of our ZKP community and helping us build a valuable resource for all.
+
+![Nerdy Lion](images/helmet4a.png)
