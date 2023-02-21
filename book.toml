@@ -1,5 +1,5 @@
 [book]
-authors = ["Karthik Inbasekar"]
+authors = ["Ingonyama"]
 language = "en"
 multilingual = false
 src = "src"
@@ -12,7 +12,8 @@ renderers = ["html"]
 
 [output.html]
 curly-quotes = true
-git-repository-url = "https://github.com/krakhit/test"
+git-repository-url = "https://github.com/ingonyama-zk/ingopedia"
+edit-url-template = " https://github.com/ingonyama-zk/ingopedia/edit/master/{path}"
 
 [output.html.print]
 page-break = false
