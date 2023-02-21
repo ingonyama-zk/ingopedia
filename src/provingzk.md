@@ -20,3 +20,7 @@
 - [FRI erasure code fraud proof](https://ethresear.ch/t/fri-as-erasure-code-fraud-proof/6610)
 - [Barycentric low deg check - Dankrad Feist](https://notes.ethereum.org/@dankrad/barycentric_low_degree_check)
 - [Low Degree Testing](https://medium.com/starkware/low-degree-testing-f7614f5172db)
+
+## Lookup arguments
+
+-[A brief history of lookup arguments](https://github.com/ingonyama-zk/papers/blob/main/Marlin_and_me.pdf)

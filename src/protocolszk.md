@@ -136,3 +136,4 @@ Our collection of mathematical papers, protocols, and code on ZK proofs is a com
 - [CQ: Cached coefficients for fast lookups 2022](https://eprint.iacr.org/2022/1763)
   - [code: Geometry](https://github.com/geometryresearch/cq)
 - [Supernova 2022](https://eprint.iacr.org/2022/1758)
+  - [code: Jules](https://github.com/jules/supernova)

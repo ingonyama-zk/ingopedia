@@ -42,6 +42,7 @@ A compilation of materials that showcase various applications of zk technology.
     - [Memory in MidenVM](https://hackmd.io/@bobbinth/HJr56BKKt)
     - [u32 in MidenVM](https://hackmd.io/NC-yRmmtRQSvToTHb96e8Q#u32-operations-in-Miden-VM)
   - [RISC0 ZK VM](https://www.risczero.com)
+    - [RISC0 proof system](https://www.risczero.com/proof-system-in-detail.pdf)
   - [Loop Ring](https://loopring.org/#/about)
 
 ## ZK bridges
