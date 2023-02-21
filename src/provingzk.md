@@ -23,4 +23,4 @@
 
 ## Lookup arguments
 
--[A brief history of lookup arguments](https://github.com/ingonyama-zk/papers/blob/main/Marlin_and_me.pdf)
+- [A brief history of lookup arguments](https://github.com/ingonyama-zk/papers/blob/main/Marlin_and_me.pdf)
