@@ -1,0 +1,263 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>STARKS - Ingopedia</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="communityguide.html"><strong aria-hidden="true">1.</strong> Community Guidelines</a></li><li class="chapter-item expanded "><a href="ZKP.html"><strong aria-hidden="true">2.</strong> Zero Knowledge Proofs</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="curatedzk.html"><strong aria-hidden="true">2.1.</strong> Curated Resources</a></li><li class="chapter-item expanded "><a href="zkpseries.html"><strong aria-hidden="true">2.2.</strong> Video Lecture Series</a></li><li class="chapter-item expanded "><a href="introzkp.html"><strong aria-hidden="true">2.3.</strong> Articles</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="zkbeginner.html"><strong aria-hidden="true">2.3.1.</strong> ZK Introductory</a></li><li class="chapter-item expanded "><a href="zksnarks.html"><strong aria-hidden="true">2.3.2.</strong> ZKSNARKS</a></li><li class="chapter-item expanded "><a href="starks.html" class="active"><strong aria-hidden="true">2.3.3.</strong> STARKS</a></li><li class="chapter-item expanded "><a href="applicationszk.html"><strong aria-hidden="true">2.3.4.</strong> Applications</a></li><li class="chapter-item expanded "><a href="vulnerabilities.html"><strong aria-hidden="true">2.3.5.</strong> Vulnerabilities</a></li></ol></li><li class="chapter-item expanded "><a href="handsonzk.html"><strong aria-hidden="true">2.4.</strong> Hands-On ZK</a></li><li class="chapter-item expanded "><a href="protocolszk.html"><strong aria-hidden="true">2.5.</strong> Protocols</a></li><li class="chapter-item expanded "><a href="mathzkp.html"><strong aria-hidden="true">2.6.</strong> Mathematics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ff.html"><strong aria-hidden="true">2.6.1.</strong> Finite fields</a></li><li class="chapter-item expanded "><a href="cryptoprimzk.html"><strong aria-hidden="true">2.6.2.</strong> Cryptographic primitives</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="elliptic.html"><strong aria-hidden="true">2.6.2.1.</strong> Elliptic curves</a></li><li class="chapter-item expanded "><a href="hashzk.html"><strong aria-hidden="true">2.6.2.2.</strong> Hash functions</a></li><li class="chapter-item expanded "><a href="VDFzk.html"><strong aria-hidden="true">2.6.2.3.</strong> Verifiable Delay functions</a></li><li class="chapter-item expanded "><a href="Arithmzk.html"><strong aria-hidden="true">2.6.2.4.</strong> Arithmetization</a></li><li class="chapter-item expanded "><a href="commitmentzk.html"><strong aria-hidden="true">2.6.2.5.</strong> Commitment Schemes</a></li><li class="chapter-item expanded "><a href="MPC.html"><strong aria-hidden="true">2.6.2.6.</strong> Secure Multi Party Computation</a></li><li class="chapter-item expanded "><a href="provingzk.html"><strong aria-hidden="true">2.6.2.7.</strong> Proving Methods</a></li></ol></li><li class="chapter-item expanded "><a href="compprimzk.html"><strong aria-hidden="true">2.6.3.</strong> Computational Primitives</a></li><li><ol class="section"><li class="chapter-item expanded "><a href=".hwzk.html"><strong aria-hidden="true">2.6.3.1.</strong> Hardware acceleration</a></li><li class="chapter-item expanded "><a href="fft.html"><strong aria-hidden="true">2.6.3.2.</strong> Discrete Fourier Transforms</a></li><li class="chapter-item expanded "><a href="msm.html"><strong aria-hidden="true">2.6.3.3.</strong> Multi Scalar Multiplications</a></li></ol></li></ol></li></ol></li><li class="chapter-item expanded "><a href="HE.html"><strong aria-hidden="true">3.</strong> Homomorphic Encryption</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Ingopedia</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/ingonyama-zk/ingopedia" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href=" https://github.com/ingonyama-zk/ingopedia/edit/master/src/starks.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="starks"><a class="header" href="#starks">STARKS</a></h1>
+<p>A collection of resources explaining Starks.</p>
+<hr />
+<h2 id="introductory"><a class="header" href="#introductory">Introductory</a></h2>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLcIyXLwiPilUFGw7r2uyWerOkbx4GFMXq">Stark from home series</a></li>
+<li><a href="https://medium.com/starkware/starks-starkex-and-starknet-9a426680745a">STARK glossary</a></li>
+<li><a href="https://twitter.com/EliBenSasson/status/1578380154476208131">Stark Thread - Eli Ben Sasson</a></li>
+</ul>
+<h2 id="papers"><a class="header" href="#papers">Papers</a></h2>
+<ul>
+<li><a href="https://eprint.iacr.org/2018/046.pdf">STARK paper</a></li>
+<li><a href="https://eprint.iacr.org/2019/336.pdf">DEEP - FRI</a></li>
+<li><a href="https://eccc.weizmann.ac.il/report/2020/083/">Proximity Gaps for Reed-Solomon Codes</a></li>
+</ul>
+<h2 id="stark-tutorials"><a class="header" href="#stark-tutorials">Stark tutorials</a></h2>
+<ul>
+<li><strong>Vitalik</strong>
+<ul>
+<li><a href="https://vitalik.ca/general/2017/11/09/starks_part_1.html">Starks 1 proofs with polynomials</a></li>
+<li><a href="https://vitalik.ca/general/2017/11/22/starks_part_2.html">Starks 2</a></li>
+<li><a href="https://vitalik.ca/general/2018/07/21/starks_part_3.html">Starks 3</a></li>
+</ul>
+</li>
+<li><strong>Stark math series</strong>
+<ul>
+<li><a href="https://medium.com/starkware/stark-math-the-journey-begins-51bd2b063c71">Journey Begins</a></li>
+<li><a href="https://medium.com/starkware/arithmetization-i-15c046390862">Arithmetization I</a></li>
+<li><a href="https://medium.com/starkware/arithmetization-ii-403c3b3f4355">Arithmetization II</a></li>
+<li><a href="https://medium.com/starkware/low-degree-testing-f7614f5172db">Low Degree Testing</a></li>
+<li><a href="https://medium.com/starkware/a-framework-for-efficient-starks-19608ba06fbe">A framework for efficient STARKS</a></li>
+<li><a href="https://medium.com/starkware/recursive-starks-78f8dd401025">Stark recursion</a>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=hjTCIT9BGkA">Recursive STARK -Avihu Levy</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://starkware.co/stark-101/">Stark 101 - hands on</a></li>
+<li><strong>Stark Anatomy series</strong>
+<ul>
+<li><a href="https://aszepieniec.github.io/stark-anatomy/">Anatomy of a STARK</a></li>
+<li><a href="https://aszepieniec.github.io/stark-brainfuck/index">Part2: BrainSTARK</a>
+<ul>
+<li><a href="https://github.com/andrewmilson/ministark/tree/main/examples/brainfuck">Code: Brainfuck</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Applications</strong>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=rReCK7TWCJI">EthSTARK</a>
+<ul>
+<li><a href="https://github.com/starkware-libs/ethSTARK">code</a></li>
+<li><a href="https://eprint.iacr.org/2021/582.pdf">documentation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="zksnarks.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="applicationszk.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="zksnarks.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="applicationszk.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

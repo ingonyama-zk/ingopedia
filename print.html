@@ -1,0 +1,1324 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Ingopedia</title>
+        <meta name="robots" content="noindex" />
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="communityguide.html"><strong aria-hidden="true">1.</strong> Community Guidelines</a></li><li class="chapter-item expanded "><a href="ZKP.html"><strong aria-hidden="true">2.</strong> Zero Knowledge Proofs</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="curatedzk.html"><strong aria-hidden="true">2.1.</strong> Curated Resources</a></li><li class="chapter-item expanded "><a href="zkpseries.html"><strong aria-hidden="true">2.2.</strong> Video Lecture Series</a></li><li class="chapter-item expanded "><a href="introzkp.html"><strong aria-hidden="true">2.3.</strong> Articles</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="zkbeginner.html"><strong aria-hidden="true">2.3.1.</strong> ZK Introductory</a></li><li class="chapter-item expanded "><a href="zksnarks.html"><strong aria-hidden="true">2.3.2.</strong> ZKSNARKS</a></li><li class="chapter-item expanded "><a href="starks.html"><strong aria-hidden="true">2.3.3.</strong> STARKS</a></li><li class="chapter-item expanded "><a href="applicationszk.html"><strong aria-hidden="true">2.3.4.</strong> Applications</a></li><li class="chapter-item expanded "><a href="vulnerabilities.html"><strong aria-hidden="true">2.3.5.</strong> Vulnerabilities</a></li></ol></li><li class="chapter-item expanded "><a href="handsonzk.html"><strong aria-hidden="true">2.4.</strong> Hands-On ZK</a></li><li class="chapter-item expanded "><a href="protocolszk.html"><strong aria-hidden="true">2.5.</strong> Protocols</a></li><li class="chapter-item expanded "><a href="mathzkp.html"><strong aria-hidden="true">2.6.</strong> Mathematics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ff.html"><strong aria-hidden="true">2.6.1.</strong> Finite fields</a></li><li class="chapter-item expanded "><a href="cryptoprimzk.html"><strong aria-hidden="true">2.6.2.</strong> Cryptographic primitives</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="elliptic.html"><strong aria-hidden="true">2.6.2.1.</strong> Elliptic curves</a></li><li class="chapter-item expanded "><a href="hashzk.html"><strong aria-hidden="true">2.6.2.2.</strong> Hash functions</a></li><li class="chapter-item expanded "><a href="VDFzk.html"><strong aria-hidden="true">2.6.2.3.</strong> Verifiable Delay functions</a></li><li class="chapter-item expanded "><a href="Arithmzk.html"><strong aria-hidden="true">2.6.2.4.</strong> Arithmetization</a></li><li class="chapter-item expanded "><a href="commitmentzk.html"><strong aria-hidden="true">2.6.2.5.</strong> Commitment Schemes</a></li><li class="chapter-item expanded "><a href="MPC.html"><strong aria-hidden="true">2.6.2.6.</strong> Secure Multi Party Computation</a></li><li class="chapter-item expanded "><a href="provingzk.html"><strong aria-hidden="true">2.6.2.7.</strong> Proving Methods</a></li></ol></li><li class="chapter-item expanded "><a href="compprimzk.html"><strong aria-hidden="true">2.6.3.</strong> Computational Primitives</a></li><li><ol class="section"><li class="chapter-item expanded "><a href=".hwzk.html"><strong aria-hidden="true">2.6.3.1.</strong> Hardware acceleration</a></li><li class="chapter-item expanded "><a href="fft.html"><strong aria-hidden="true">2.6.3.2.</strong> Discrete Fourier Transforms</a></li><li class="chapter-item expanded "><a href="msm.html"><strong aria-hidden="true">2.6.3.3.</strong> Multi Scalar Multiplications</a></li></ol></li></ol></li></ol></li><li class="chapter-item expanded "><a href="HE.html"><strong aria-hidden="true">3.</strong> Homomorphic Encryption</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Ingopedia</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/ingonyama-zk/ingopedia" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="community-guidelines"><a class="header" href="#community-guidelines">Community Guidelines</a></h1>
+<p>Welcome to Ingopedia!</p>
+<p>This is a community-driven effort to compile a comprehensive collection of resources and information related to Zero Knowledge Proofs. Our goal is to provide a one-stop-shop for anyone interested in learning about ZKPs, from beginners to experts.</p>
+<p>We invite the community to help us keep this book up-to-date and relevant. If you have any suggestions or contributions, please feel free to submit them through the appropriate channels. We believe that the power of the community lies in collaboration and sharing knowledge, so we encourage everyone to get involved.</p>
+<p>To keep this book organized, we ask that you use the designated sections for your contributions. If you have a new resource to share, please add it to the appropriate section. If you are unsure where to add your contribution, feel free to reach out to the moderators for guidance.</p>
+<p>Thank you for being a part of our ZKP community and helping us build a valuable resource for all.</p>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="zero-knowledge-proofs"><a class="header" href="#zero-knowledge-proofs">Zero Knowledge Proofs</a></h1>
+<hr />
+<h2 id="curated-resources"><a class="header" href="#curated-resources"><a href="./curated.html">Curated Resources</a></a></h2>
+<p>Our curated resources consist of carefully selected, links, linktrees and other almanacs like <strong>“Ingopedia”</strong>. These resources are aimed at helping users access high-quality information in a quick and efficient manner.</p>
+<hr />
+<h2 id="video-lecture-series"><a class="header" href="#video-lecture-series"><a href="./zkpseries.html">Video Lecture Series</a></a></h2>
+<p>Our Video lecture series on ZK proofs offers in-depth and engaging presentations that cover the fundamentals and advanced topics of zero-knowledge proofs. These lectures are
+designed to educate and inform a wide range of audiences, and will contain series of videos on ZKP’s various concepts.</p>
+<hr />
+<h2 id="articles"><a class="header" href="#articles"><a href="./introzkp.html">Articles</a></a></h2>
+<ul>
+<li><a href="./zkbeginner.html">ZK Introductory</a></li>
+<li><a href="./zksnarks.html">ZKSNARKS</a></li>
+<li><a href="./starks.html">STARKS</a></li>
+<li><a href="./applicationszk.html">Applications</a></li>
+</ul>
+<p>Our articles on ZK proofs are comprehensive and educational pieces that delve into the intricacies of zero-knowledge proofs. They consist of blogs, articles, PDFs, and notes. These articles aim to provide a clear understanding of this cutting-edge technology, its used-case applications, its vulnerabilities and its significance.</p>
+<hr />
+<h2 id="hands-on-zk"><a class="header" href="#hands-on-zk"><a href="handsonzk.html">Hands on ZK</a></a></h2>
+<p>Our hands-on approach to learning ZK proofs provides interactive and practical training experiences that allow participants to build their skills and knowledge in an engaging way. These hands-on workshops, tutorials, and projects are designed to help learners apply their understanding of ZK proofs in real-world situations, making them an invaluable resource for anyone looking to further their expertise in this field.</p>
+<hr />
+<h2 id="protocols"><a class="header" href="#protocols"><a href="./protocolszk.html">Protocols</a></a></h2>
+<p>Our collection of mathematical papers, protocols, and code on ZK proofs is a comprehensive resource for researchers, developers, and students in the field of cryptography. These materials provide a deep understanding of the theories, implementations, and practical applications of zero-knowledge proofs, serving as a valuable reference for anyone interested in this cutting-edge technology.</p>
+<hr />
+<h2 id="mathematics"><a class="header" href="#mathematics"><a href="./mathzkp.html">Mathematics</a></a></h2>
+<p>The resources on the mathematics behind ZK proofs delve into the complex theories and mathematical concepts that underpin this innovative technology. These resources are intended for those with a strong background in mathematics, or those looking to deepen their understanding of the mathematical foundations of zero-knowledge proofs and their applications.</p>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="curated-resources-1"><a class="header" href="#curated-resources-1">Curated Resources</a></h1>
+<p>Our curated resources consist of carefully selected, links, linktrees and other almanacs like “Ingopedia”. These resources are aimed at helping users access high-quality information in a quick and efficient manner.</p>
+<p><strong>What you will find here:</strong> <em>Links, Linktrees, Almanacs</em></p>
+<hr />
+<h2 id="references"><a class="header" href="#references">References</a></h2>
+<p>A collection of links and Almanacs breaking down ZKPs and related topics.</p>
+<ul>
+<li><a href="https://zkproof.org/blog/">zkProof Standards - Resource</a></li>
+<li><a href="https://zkmesh.substack.com">ZK Mesh - resource</a></li>
+<li><a href="https://www.youtube.com/@zeroknowledgefm/featured">Zero Knowledge Fm</a></li>
+<li><a href="https://zkp.science">Curated list of ZKP implementations</a></li>
+<li><a href="https://github.com/matter-labs/awesome-zero-knowledge-proofs">Awesome - Matter labs - ZK proofs</a></li>
+<li><a href="https://github.com/Mikerah/awesome-privacy-on-blockchains">Awesome - Mikerah - Privacy on Blockchains</a></li>
+<li><a href="https://github.com/worldcoin/awesome-zkml">Awesome - Worldcoin - ZK Machine Learning</a></li>
+<li><a href="https://github.com/Fluidex/awesome-plonk">Resource: Awesome_Plonk</a></li>
+<li><a href="https://github.com/adria0/awesome-halo2">Awesome: Halo2</a></li>
+<li><a href="https://0xst.notion.site/ZK-Research-94ba836c3b2a4e2491a871364ee5b13b">ZK research 0x</a></li>
+<li><a href="https://a16zcrypto.com/zero-knowledge-canon/">ZK canon</a>
+<ul>
+<li><a href="https://future.com/dao-canon/">DAO canon</a></li>
+<li><a href="https://future.com/nft-canon/">NFT canon</a></li>
+<li><a href="https://a16z.com/2018/02/10/crypto-readings-resources/">Crypto Canon</a></li>
+</ul>
+</li>
+<li><a href="https://leastauthority.com/community-matters/moonmath-manual/">Moonmath manual</a></li>
+<li><a href="https://kb.delendum.xyz">ZKP knowledge base: Delendum</a></li>
+<li><a href="https://community.zeroknowledge.fm/t/learning-zkps-beginner-resources/302/19">ZKP beginner resources</a></li>
+<li><a href="https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf">Proofs Arguments and Zero Knowledge - Justin Thaler</a>
+<ul>
+<li><a href="https://discord.com/channels/740913612368904192/972174269146611752">Discord group</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/LuozhuZhang/awesome-zkevm">Awesome ZKEVM</a></li>
+</ul>
+<h2 id="libraries"><a class="header" href="#libraries">Libraries</a></h2>
+<p>A collection of libraries where you can create a ZKP.</p>
+<ul>
+<li><a href="https://github.com/arkworks-rs">Arkworks</a></li>
+<li><a href="https://github.com/pornin/crrl">Crrl: Cryptography research library - Thomas Pornin</a></li>
+</ul>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="lecture-series"><a class="header" href="#lecture-series">Lecture Series</a></h1>
+<p>Our Video lecture series on ZK proofs offers in-depth and engaging presentations that cover the fundamentals and advanced topics of zero-knowledge proofs. These lectures are designed to educate and inform a wide range of audiences, and will contain series of videos on ZKP’s various concepts.</p>
+<p><strong>What you will find here:</strong> <em>Video playlists of Podcasts, Lectures, and University/Professional Classes</em></p>
+<hr />
+<h2 id="zk-courses"><a class="header" href="#zk-courses">ZK courses</a></h2>
+<p>University and proffesional level courses on ZK.</p>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLS01nW3Rtgor_yJmQsGBZAg5XM4TSGpPs">ZKMOOC - 2023</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL8Vt-7cSFnw29cLUVqAIuMlg1QJ-szV0K">ZK BIU school - 2019</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL6ogFv-ieghe8MOIcpD6UDtdK-UMHG8oH">Cryptography 2018 MIT</a></li>
+<li><a href="https://zkiap.com/#34e5b6cf6e1d4dd3901940d4be2edb0b">Modern ZK cryptography 0xparc</a></li>
+</ul>
+<h2 id="discussionsseminars"><a class="header" href="#discussionsseminars">Discussions/Seminars</a></h2>
+<p>Podcasts and lecture playlists on various ZKP related topics.</p>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLj80z0cJm8QErn3akRcqvxUsyXWC81OGq">ZK whiteboard Sessions</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLj80z0cJm8QFGB6AsiAG3EB06L7xr5S1c">ZK hack</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLj80z0cJm8QFnY6VLVa84nr-21DNvjWH7">ZK summit</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLj80z0cJm8QHm_9BdZ1BqcGbgE-BEn-3Y">Zk study club</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLj80z0cJm8QG1Eg_1ivekAVhE3529OETv">ZK privacy in cosmos</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLj80z0cJm8QEUVSlofe1Zd7wyaoZrixFM">ZK podcast</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLj80z0cJm8QEz6BotG4SkGSCupwkPonCZ">ZK Sessions</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLcPzhUaCxlCiLk_VjLUNbmfb2mB1Y_N9N">RISC0 architecture</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLcPzhUaCxlCjdhONxEYZ1dgKjZh3ZvPtl">RISC0 Study club</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLrm9Y---qlNyWBQEKBSrr_Uh16gEWhJzw">Modular arithmetic visually</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLBJMt6zV1c7Gh9Utg-Vng2V6EYVidTFCC">PLONK by David Wong</a></li>
+<li><a href="https://youtube.com/playlist?list=PLormosL00ryKvlKvMgezcSBtANAhqkm44">Ingonyama: Moon math club</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLjQ9HCQMu_8yPGgfvsscHgt1w1KJkx8BN">a16z summer seminars</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLj80z0cJm8QEmZkGgSOLpr_8B08SCWVQ7">ZK Hack: Thaler study group</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLS01nW3Rtgor2MjOJBJexhQ6ZKWs6uQw8">ZKP workshop 2022</a></li>
+</ul>
+<h2 id="advanced-coursestopics"><a class="header" href="#advanced-coursestopics">Advanced Courses/Topics</a></h2>
+<p>Advanced University and proffesional level courses on ZK.</p>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLgKuh-lKre1398d4m9iBaXf8fy5Cn5hl0">Meta complexity bootcamp - Simons Institute</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLGkwtcB-DfpzST-medFVvrKhinZisfluC">Foundations of probabilistic proofs - Chiesa</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLkFD6_40KJIyWWtxCPBHwGsrutjvwM5_U">Probabilistically checkable and interactive proofs - Chisea</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLYpVTXjEi1oe1OeAllJpNhFoI4B7Ws8Yl">Introduction to Elliptic curves</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL8Vt-7cSFnw2V2Wpf4MpwtSJvLvZo1ADB">BIU winter school Bilinear pairings in cryptography</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL8Vt-7cSFnw00U0jMSgAZJrpIKG-m_0gH">BIU winter school: Advances in MPC</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLEGCF-WLh2RLOHv_xUGLqRts_9JxrckiA">Foundations of Block chains - Tim Roughgarden</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63UUkfL0onkxF6MYgVa04Fn">BLockchain and money MIT 2018</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLS01nW3RtgopJOtsMVOK3N7n7qyNMPbJ_">DEFI MOOC</a></li>
+</ul>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="articles-1"><a class="header" href="#articles-1">Articles</a></h1>
+<p>Our articles on ZK proofs are comprehensive and educational pieces that delve into the intricacies of zero-knowledge proofs. They consist of blogs, articles, PDFs, and notes. These articles aim to provide a clear understanding of this cutting-edge technology, its used-case applications, its vulnerabilities and its significance.</p>
+<p><strong>What you will find here:</strong> <em>Blogs, Articles, PDFs, Notes</em></p>
+<hr />
+<h2 id="zk-introductory"><a class="header" href="#zk-introductory"><a href="./zkbeginner.html">ZK Introductory</a></a></h2>
+<h2 id="zksnarks"><a class="header" href="#zksnarks"><a href="./zksnarks.html">ZKSNARKS</a></a></h2>
+<h2 id="starks"><a class="header" href="#starks"><a href="./starks.html">STARKS</a></a></h2>
+<h2 id="applications"><a class="header" href="#applications"><a href="./applications.html">Applications</a></a></h2>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="zk-introductory-1"><a class="header" href="#zk-introductory-1">ZK Introductory</a></h1>
+<p>Understanding ZK from beginner to advanced on a surface level.</p>
+<hr />
+<h2 id="beginner"><a class="header" href="#beginner">Beginner</a></h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=fOGdb1CTu5c">Amit Sahai explaining ZK to people of all ages - video</a></li>
+<li><a href="https://nmohnblatt.github.io/zk-jargon-decoder/foreword.html">Nico’s ZK Jargon Decoder</a>)</li>
+<li><a href="https://www.esat.kuleuven.be/cosic/blog/co6gc-introduction-to-zero-knowledge-proofs-1/">KU Lueven: Intro to ZK part 1</a></li>
+<li><a href="https://medium.com/magicofc/interactive-proofs-and-zero-knowledge-b32f6c8d66c3">Interactive_proofs and Zk</a></li>
+<li><a href="https://medium.com/qed-it/the-incredible-machine-4d1270d7363a">The incredible Machine - Aviv Zohar</a></li>
+</ul>
+<h2 id="intermediate"><a class="header" href="#intermediate">Intermediate</a></h2>
+<ul>
+<li><a href="https://vitalik.ca/general/2021/01/26/snarks.html">An introduction to how zk snarks are possible - Vitalik</a></li>
+<li><a href="http://www.zeroknowledgeblog.com/index.php">Zk blog</a></li>
+</ul>
+<h2 id="advanced"><a class="header" href="#advanced">Advanced</a></h2>
+<ul>
+<li><a href="https://mirror.xyz/fundamentalabs.eth/24i98adRylhjdcqV1TnsT8ZbkIXCulCrDTIrsrziQmY">An incomplete guide to zk: why zk matters</a></li>
+<li><a href="https://arxiv.org/pdf/1906.07221.pdf">Why and how Zero knowledge works</a></li>
+<li><a href="https://www.youtube.com/watch?v=iRQw2RpQAVc">The math behind ZkSNARK - video</a></li>
+<li><a href="https://docs.google.com/presentation/d/1gfB6WZMvM9mmDKofFibIgsyYShdf0RV_Y8TLz3k1Ls0/edit#slide=id.p">De-mystifying Zk proofs -workshop</a></li>
+<li><a href="https://www.youtube.com/watch?v=HO97kVMI3SE">An evolution of ZKP - Sarah Meiklejohn</a></li>
+<li><a href="https://blog.cryptographyengineering.com/2014/11/27/-knowledge-proofs-illustrated-primer/">Zk_primer_1 M.Green</a></li>
+<li><a href="https://blog.cryptographyengineering.com/2017/01/21/zero-knowledge-proofs-an-illustrated-primer-part-2/">Zk_primer_2 M.Green</a></li>
+<li><a href="https://www.wisdom.weizmann.ac.il/~oded/PS/zk-tut10.ps">Zero Knowledge: A tutorial by Oded Goldreich</a></li>
+<li><a href="https://www.win.tue.nl/~berry/CryptographicProtocols/LectureNotes.pdf">Cryptographic Protocls: lectures</a></li>
+<li><a href="https://vitalik.ca/general/2022/06/15/using_snarks.html">Using zkSnarks for privacy: Vitalik</a></li>
+<li><a href="https://consensys.net/blog/blockchain-explained/zero-knowledge-proofs-starks-vs-snarks/">STARK vs SNARK</a></li>
+<li><a href="https://ethereum.stackexchange.com/questions/59145/zk-snarks-vs-zk-starks-vs-bulletproofs-updated/63778#63778">SNARK vs STARK vs Bulletproofs</a></li>
+<li><a href="https://zkproof.org/2020/08/12/information-theoretic-proof-systems/">ZKp from Information theoretic Proof systems 1 - Yuval Ishai</a></li>
+<li><a href="https://zkproof.org/2020/10/15/information-theoretic-proof-systems-part-ii/">ZKP from Information theoretic Proof systems 2 - Yuval Ishai</a></li>
+<li><a href="https://zkproof.org/author/yuvalishai/">ZKP - Modular approach -Yuval Ishai</a></li>
+</ul>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="zksnarks-1"><a class="header" href="#zksnarks-1">ZKSNARKS</a></h1>
+<p>A collection of resources explainig ZKSnarks.</p>
+<hr />
+<h2 id="trusted-setup"><a class="header" href="#trusted-setup">Trusted Setup</a></h2>
+<ul>
+<li><a href="https://vitalik.ca/general/2022/03/14/trustedsetup.html">Introduction -Vitalik</a></li>
+<li><a href="https://medium.com/aztec-protocol/aztec-how-the-ceremony-works-9f021cf190d0">Aztec Ceremony</a></li>
+<li><a href="https://zeroknowledge.fm/the-power-of-tau-or-how-i-learned-to-stop-worrying-and-love-the-setup/">Trusted setup - Tau</a></li>
+<li><a href="https://zkproof.org/2021/06/30/setup-ceremonies/">Setup ceremonies</a></li>
+<li><a href="https://medium.com/qed-it/diving-into-the-snarks-setup-phase-b7660242a0d7">Zk snark setup phase</a></li>
+</ul>
+<h2 id="vitalik-snark-tutorial"><a class="header" href="#vitalik-snark-tutorial">Vitalik Snark tutorial</a></h2>
+<ul>
+<li><a href="https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649">Snarks 1: QAP from zero to hero</a></li>
+<li><a href="https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627">Snarks 2: Elliptic curve pairings</a></li>
+<li><a href="https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6">Snarks 3: Zk snarks</a></li>
+</ul>
+<h2 id="recursive-snarks"><a class="header" href="#recursive-snarks">Recursive Snarks</a></h2>
+<ul>
+<li><a href="https://cs251.stanford.edu/lectures/lecture18.pdf">Recursive SNARKs - Stanford lecs</a></li>
+<li><a href="https://zkproof.org/2020/06/08/recursive-snarks/">Recursive SNARK -zkProof</a></li>
+<li><a href="https://www.michaelstraka.com/posts/recursivesnarks/">Recursive SNARK - overview - Michael Straka</a></li>
+<li><a href="https://mirprotocol.org/blog/Fast-recursive-arguments-based-on-Plonk-and-Halo">Fast Recursive arguments based on Plonk and Halo</a></li>
+<li><a href="https://medium.com/delendum/field-selection-for-recursive-snarks-726ad56c3a3c">Field selection for recursive SNARKS</a></li>
+<li><a href="https://delendum.xyz/2022/11/22/zk-snark-aggregation.html">ZKsnark aggregation - Delendum</a></li>
+</ul>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="starks-1"><a class="header" href="#starks-1">STARKS</a></h1>
+<p>A collection of resources explaining Starks.</p>
+<hr />
+<h2 id="introductory"><a class="header" href="#introductory">Introductory</a></h2>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLcIyXLwiPilUFGw7r2uyWerOkbx4GFMXq">Stark from home series</a></li>
+<li><a href="https://medium.com/starkware/starks-starkex-and-starknet-9a426680745a">STARK glossary</a></li>
+<li><a href="https://twitter.com/EliBenSasson/status/1578380154476208131">Stark Thread - Eli Ben Sasson</a></li>
+</ul>
+<h2 id="papers"><a class="header" href="#papers">Papers</a></h2>
+<ul>
+<li><a href="https://eprint.iacr.org/2018/046.pdf">STARK paper</a></li>
+<li><a href="https://eprint.iacr.org/2019/336.pdf">DEEP - FRI</a></li>
+<li><a href="https://eccc.weizmann.ac.il/report/2020/083/">Proximity Gaps for Reed-Solomon Codes</a></li>
+</ul>
+<h2 id="stark-tutorials"><a class="header" href="#stark-tutorials">Stark tutorials</a></h2>
+<ul>
+<li><strong>Vitalik</strong>
+<ul>
+<li><a href="https://vitalik.ca/general/2017/11/09/starks_part_1.html">Starks 1 proofs with polynomials</a></li>
+<li><a href="https://vitalik.ca/general/2017/11/22/starks_part_2.html">Starks 2</a></li>
+<li><a href="https://vitalik.ca/general/2018/07/21/starks_part_3.html">Starks 3</a></li>
+</ul>
+</li>
+<li><strong>Stark math series</strong>
+<ul>
+<li><a href="https://medium.com/starkware/stark-math-the-journey-begins-51bd2b063c71">Journey Begins</a></li>
+<li><a href="https://medium.com/starkware/arithmetization-i-15c046390862">Arithmetization I</a></li>
+<li><a href="https://medium.com/starkware/arithmetization-ii-403c3b3f4355">Arithmetization II</a></li>
+<li><a href="https://medium.com/starkware/low-degree-testing-f7614f5172db">Low Degree Testing</a></li>
+<li><a href="https://medium.com/starkware/a-framework-for-efficient-starks-19608ba06fbe">A framework for efficient STARKS</a></li>
+<li><a href="https://medium.com/starkware/recursive-starks-78f8dd401025">Stark recursion</a>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=hjTCIT9BGkA">Recursive STARK -Avihu Levy</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://starkware.co/stark-101/">Stark 101 - hands on</a></li>
+<li><strong>Stark Anatomy series</strong>
+<ul>
+<li><a href="https://aszepieniec.github.io/stark-anatomy/">Anatomy of a STARK</a></li>
+<li><a href="https://aszepieniec.github.io/stark-brainfuck/index">Part2: BrainSTARK</a>
+<ul>
+<li><a href="https://github.com/andrewmilson/ministark/tree/main/examples/brainfuck">Code: Brainfuck</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Applications</strong>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=rReCK7TWCJI">EthSTARK</a>
+<ul>
+<li><a href="https://github.com/starkware-libs/ethSTARK">code</a></li>
+<li><a href="https://eprint.iacr.org/2021/582.pdf">documentation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="applications-1"><a class="header" href="#applications-1">Applications</a></h1>
+<p>A compilation of materials that showcase various applications of zk technology.</p>
+<hr />
+<h2 id="general"><a class="header" href="#general">General</a></h2>
+<ul>
+<li><a href="https://nakamoto.com/cambrian-explosion-of-crypto-proofs/">A cambrian explosion of crypto proofs -Ben Sasson</a></li>
+<li><a href="https://delendum.xyz/2022/11/22/what-to-build-next-in-zero-knowledge.html">What’s next in ZK</a></li>
+</ul>
+<h2 id="l1s"><a class="header" href="#l1s">L1s</a></h2>
+<ul>
+<li>[Ethereum]
+<ul>
+<li><a href="https://notes.ethereum.org/@vbuterin">vitalik blog</a></li>
+<li><a href="https://hackmd.io/QkOUJ-UJQ-CJ7cs_yx6_GA">Ethereum-powered ZK-Rollups: World Beaters</a></li>
+<li><a href="https://cryptography-website.netlify.app/research">Ethereum Crypto research</a></li>
+<li><a href="https://www.taurushq.com/insights/20220131_Taurus_scalability_L2_part1/EthereumL2_Scalability_part1.pdf">Ethereum - Scalability</a></li>
+<li><a href="https://ethworks.io/assets/download/zero-knowledge-blockchain-scaling-ethworks.pdf">Ethworks: Blockchain scaling</a></li>
+<li><a href="https://zeroknowledge.fm/219-2/">Mihailo Belijc</a></li>
+<li><a href="https://ethresear.ch/t/proof-of-efficiency-a-new-consensus-mechanism-for-zk-rollups/11988">Ethereum - Proof of Efficiency: New consensus mechanism</a></li>
+</ul>
+</li>
+<li><a href="https://spec.filecoin.io">Filecoin</a></li>
+</ul>
+<h2 id="zk-rollups"><a class="header" href="#zk-rollups">ZK Rollups</a></h2>
+<ul>
+<li><strong>General</strong>
+<ul>
+<li><a href="https://www.alchemy.com/overviews/zkevm">What is a ZK EVM</a></li>
+<li><a href="https://delendum.xyz/2022/11/27/decentralization-of-zk-rollups.html">Decentralizing zk rollups</a></li>
+<li><a href="https://vitalik.ca/general/2021/01/05/rollup.html#:~:text=One%20important%20compression,SNARKs%20are%20valid.">Zk rollups an incomplete guide</a></li>
+<li><a href="https://hackmd.io/SzneKXSWRJ6yJxzgFm9MwQ?view">Decentralized zk-Rollup</a></li>
+<li><a href="https://limechain.tech/blog/optimistic-rollups-vs-zk-rollups/">Zk rollups popular</a></li>
+<li><a href="https://ethereum.org/ph/developers/docs/scaling/zk-rollups/">Ethereum: Zk rollups</a></li>
+<li><a href="https://medium.com/fcats-blockchain-incubator/how-zk-rollups-work-8ac4d7155b0e">How ZK rollups work: Simon Brown</a></li>
+</ul>
+</li>
+<li><strong>EVM/VMs</strong>
+<ul>
+<li><a href="https://aztec.network">Aztec prtotocol</a></li>
+<li><a href="https://scroll.io">Scroll EVM</a></li>
+<li><a href="https://docs.zksync.io/userdocs/">ZK sync</a></li>
+<li><a href="https://polygon.technology/solutions/polygon-zkevm/">Polygon ZkEVM</a></li>
+<li><a href="https://wiki.polygon.technology/docs/miden/intro/main">Miden VM</a>
+<ul>
+<li><a href="https://hackmd.io/D-vjBYtHQB2BuOB-HMUG5Q">Range Checks in Miden VM</a></li>
+<li><a href="https://hackmd.io/_aaDBzbWRz6EwQQRtK1pzw">Miden VM program decoder</a></li>
+<li><a href="https://hackmd.io/@bobbinth/HJr56BKKt">Memory in MidenVM</a></li>
+<li><a href="https://hackmd.io/NC-yRmmtRQSvToTHb96e8Q#u32-operations-in-Miden-VM">u32 in MidenVM</a></li>
+</ul>
+</li>
+<li><a href="https://www.risczero.com">RISC0 ZK VM</a></li>
+<li><a href="https://loopring.org/#/about">Loop Ring</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="zk-bridges"><a class="header" href="#zk-bridges">ZK bridges</a></h2>
+<ul>
+<li><a href="https://blog.chainalysis.com/reports/cross-chain-bridge-hacks-2022/">Vulnerabilities in ZK bridges</a></li>
+<li><a href="https://www.youtube.com/watch?v=tdQ995ahadQ">Primer on Cross chain bridges and how to break them: Niv Yehezkel</a></li>
+<li><a href="https://medium.com/1kxnetwork/blockchain-bridges-5db6afac44f8">Block chain bridges: Introduction</a></li>
+<li><a href="https://www.youtube.com/watch?v=VLWPl7PsPDQ">Introduction to validating bridges and L2 protocols - Patrick McCory</a></li>
+<li><a href="https://www.youtube.com/watch?v=f4kBUe2n0Qk">zkEVMOS - Bridges and Interoperability</a></li>
+<li><a href="https://medium.com/@ingonyama/bridging-the-multichain-universe-with-zero-knowledge-proofs-6157464fbc86">Bridging the blockchain multiverse with ZKP</a></li>
+<li><a href="https://delendum.xyz/2022/11/28/crosschain-future.html">Cross chain Futur - Delendum</a></li>
+<li><a href="https://wdai.us/posts/navigating-privacy/">Navigating privacy on Blockchains - Wei Dai</a></li>
+<li><a href="https://vitalik.ca/general/2022/11/19/proof_of_solvency.html">Having a safe CEX: proof of solvency and beyond</a></li>
+</ul>
+<h2 id="zkml"><a class="header" href="#zkml">ZKML</a></h2>
+<ul>
+<li><a href="https://0xparc.org/blog/zk-mnist">zk ML</a></li>
+</ul>
+<h2 id="zk-gaming"><a class="header" href="#zk-gaming">ZK Gaming</a></h2>
+<ul>
+<li><a href="https://blog.zkga.me/announcing-v6">Dark Forest - the zk SNARK game</a></li>
+<li><a href="https://solvable.group/posts/cairo-games-vol2/">Cairo Games Vol2: Solns</a></li>
+<li><a href="https://medium.com/@0xhank/9-hidden-information-mechanics-and-how-to-port-them-into-blockchain-games-2d862f0e16ff">Blockchain games and game mechanics</a></li>
+<li><a href="https://medium.com/collab-currency/crypto-gaming-a-most-practical-thesis-ec4f55f53408">Crypto gaming - A practical thesis</a></li>
+<li><a href="https://gubsheep.substack.com/p/the-strongest-crypto-gaming-thesis">The strongest Crypto gaming thesis</a></li>
+<li><a href="https://blog.o1labs.org/zero-knowledge-proofs-for-games-f8b690a2c1ef">ZKP for gaming: Mina</a></li>
+</ul>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="vulnerabilities"><a class="header" href="#vulnerabilities">Vulnerabilities</a></h1>
+<p>Potential vulnerabilities in ZK systems</p>
+<hr />
+<ul>
+<li><a href="https://blog.trailofbits.com/2022/04/13/part-1-coordinated-disclosure-of-vulnerabilities-affecting-girault-bulletproofs-and-plonk/">Vulnerabilities in zk systems</a></li>
+<li><a href="https://blog.trailofbits.com/2021/02/19/serving-up-zero-knowledge-proofs/">Vulnerability in Fiat-Shamir</a></li>
+<li><a href="https://blog.trailofbits.com/2022/04/15/the-frozen-heart-vulnerability-in-bulletproofs/">Frozen heart vulnerability: Bulletproof</a></li>
+<li><a href="https://blog.trailofbits.com/2022/04/18/the-frozen-heart-vulnerability-in-plonk/">Frozen heart vulnerability: Plonk</a></li>
+<li><a href="https://ellipticnews.wordpress.com/2022/06/14/hertzbleed-attack/">Hertzbleed attack: sidechannel</a>
+<ul>
+<li><a href="https://www.hertzbleed.com/hertzbleed.pdf">paper</a></li>
+</ul>
+</li>
+<li><a href="https://www.zkdocs.com/docs/zkdocs/">Stress testing Zk systems: Zk docs</a></li>
+<li><a href="https://blog.trailofbits.com/2022/11/29/specialized-zero-knowledge-proof-failures/">Specialized ZKP vulnerabilities</a></li>
+</ul>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="hands-on-zkcryptography"><a class="header" href="#hands-on-zkcryptography">Hands-On ZK/Cryptography</a></h1>
+<p>Our hands-on approach to learning ZK proofs provides interactive and practical training experiences that allow participants to build their skills and knowledge in an engaging way. These hands-on workshops, tutorials, and projects are designed to help learners apply their understanding of ZK proofs in real-world situations, making them an invaluable resource for anyone looking to further their expertise in this field.</p>
+<p><strong>What you will find here:</strong> <em>Code-to-Learn Applications</em></p>
+<hr />
+<h2 id="general-1"><a class="header" href="#general-1">General</a></h2>
+<ul>
+<li><a href="https://hongchao.me/zksnark/">zero knowledge with Bellman</a></li>
+<li><a href="https://cryptohack.org">Cryptohack - hands on cryptography</a></li>
+<li><a href="https://www.zkhack.dev/mini.html">Zk hack puzzles</a></li>
+<li><a href="https://0xparc.notion.site/ZK-Learning-Group-Topics-f53933eecc2f41438c6c2bdd5b42ee2d">Hands on ZK - ZK learning group</a></li>
+<li><a href="https://github.com/enricobottazzi">Intro to zk: do it yourself circuits</a></li>
+<li><a href="https://medium.com/coinmonks/walkthrough-of-an-interactive-zero-knowledge-proof-for-sudoku-puzzle-ac563588f1a8">Zk Sudoku - Python</a></li>
+<li><a href="https://arnaucube.com">Arnacube implementations</a></li>
+<li><a href="https://cryptography.rs">Rust Cryptographic libraries</a></li>
+<li><a href="https://vivianblog.hashnode.dev/how-to-create-a-zero-knowledge-dapp-from-zero-to-production">DAPP fron scratch - Vivian Plasencia</a></li>
+<li><a href="https://github.com/nalinbhardwaj/zordle">Zordle - Zk wordle</a></li>
+<li><a href="https://geometryresearch.xyz/notebook/mental-poker-in-the-age-of-snarks-part-1">Mental Poker: Part 1</a></li>
+<li><a href="https://geometryresearch.xyz/notebook/mental-poker-in-the-age-of-snarks-part-2">Mental poker: Part 2</a></li>
+<li><a href="https://learn.0xparc.org/materials/halo2/learning-group-1/introduction/">0xparc learning groups - covering cricom and halo2</a></li>
+<li><a href="https://github.com/0xPARC/plonkathon">Plonkathon 0xparc</a></li>
+<li><a href="https://jtriley.substack.com/p/constructing-zk-snark-circuits?r=1qyfrf&amp;utm_campaign=post&amp;utm_medium=web">Constructing ZK SNARK circuits - DSL Zk calculator</a></li>
+<li><a href="https://shreyj.com/socialzk/">Social Applied ZK projects on Ethereum</a></li>
+<li><a href="https://uncloak.org/README">Uncloak courses</a></li>
+<li><a href="https://github.com/thor314/pazk">Proofs args and zk study group implementations</a></li>
+<li><a href="https://cryptopals.com">Cryptopals challenges</a></li>
+<li><a href="https://github.com/starkware-industries/stark101/tree/master">Starkware101</a></li>
+<li><a href="https://www.notamonadtutorial.com/verifiable-encryption-using-zero-knowledge-proofs/">Verifiable AES</a>
+<ul>
+<li><a href="https://github.com/lambdaclass/AES_zero_knowledge_proof_circuit">code: lambdaclass</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/lambdaclass/merkle_patricia_tree">Merkle patricia tree: lambdaclass</a></li>
+<li><a href="https://simonjohnthompson.github.io/craft3e/craft3e.pdf">Haskell: Introduction</a></li>
+<li><a href="https://cryptobook.nakov.com">Practical Cryptography for Devs: Nakov</a></li>
+</ul>
+<h2 id="rust-learning-resources-for-zkcryptography"><a class="header" href="#rust-learning-resources-for-zkcryptography">Rust learning resources for ZK/cryptography</a></h2>
+<ul>
+<li><a href="https://doc.rust-lang.org/book/title-page.html">The Rust book</a>
+<ul>
+<li><a href="https://rust-book.cs.brown.edu">rust book with interactive quizzes</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8">The Rust book course</a></li>
+</ul>
+</li>
+<li><a href="https://google.github.io/comprehensive-rust/">Comprehensive rust by google</a></li>
+<li><a href="https://cheats.rs">Print and keep nearby - cheats.rs</a></li>
+<li><a href="https://fasterthanli.me">Tutorials</a></li>
+<li><a href="https://github.com/mre/idiomatic-rust">Idiomatic Rust - For beauty over brawn</a></li>
+<li><a href="https://uncloak.org/courses/rust+cryptography+engineering/course-Rust+Cryptography+Engineering+Study+Group+Syllabus">Uncloak Study group</a></li>
+<li><a href="https://cryptography.rs">Awesome rust cryptographic libraries</a></li>
+<li><a href="https://github.com/rust-unofficial/awesome-rust">Awesome rust – general</a></li>
+<li><a href="https://github.com/TheAlgorithms/Rust">Rust Algorithms</a></li>
+<li><a href="https://github.com/rust-lang/rustlings">Rustlings</a></li>
+<li><a href="https://github.com/ctjhoa/rust-learning">Rust learning</a></li>
+<li><a href="https://github.com/CleanCut/ultimate_rust_crash_course">Rust crash course</a></li>
+</ul>
+<h2 id="benchmarking-tools"><a class="header" href="#benchmarking-tools">Benchmarking tools</a></h2>
+<ul>
+<li><a href="https://delendum.xyz/2023/01/11/zk-system-benchmarking.html">Zk system benchmarking</a>
+<ul>
+<li><a href="https://github.com/delendum-xyz/zk-benchmarking">code</a></li>
+</ul>
+</li>
+<li><a href="https://www.notamonadtutorial.com/benchmarking-and-analyzing-rust-performance-with-criterion-and-iai/">Benchmarking with Rust</a></li>
+<li><a href="https://www.brendangregg.com/flamegraphs.html">Flamegraphs</a>
+<ul>
+<li><a href="https://github.com/brendangregg/FlameGraph">code</a></li>
+<li><a href="https://github.com/spiermar/d3-flame-graph">code:flamegraphs from hierarchical data</a></li>
+</ul>
+</li>
+<li><a href="https://bheisler.github.io/criterion.rs/book/criterion_rs.html">Criterion</a>
+<ul>
+<li><a href="https://www.notamonadtutorial.com/benchmarking-and-analyzing-rust-performance-with-criterion-and-iai/">Criterion introduction</a></li>
+</ul>
+</li>
+<li><a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/why-measure-toy-benchmark-programs.html">The benchmark game</a></li>
+</ul>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="protocols-1"><a class="header" href="#protocols-1">Protocols</a></h1>
+<p>Our collection of mathematical papers, protocols, and code on ZK proofs is a comprehensive resource for researchers, developers, and students in the field of cryptography. These materials provide a deep understanding of the theories, implementations, and practical applications of zero-knowledge proofs, serving as a valuable reference for anyone interested in this cutting-edge technology.</p>
+<p><strong>What you will find here:</strong> <em>Protocols, Papers, Code</em></p>
+<hr />
+<ul>
+<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=6547113">Pinocchio - 2013</a></li>
+<li><a href="https://eprint.iacr.org/2013/507.pdf">TinyRAM - 2013</a></li>
+<li><a href="https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-ben-sasson.pdf">vnTinyRAM - 2014</a>
+<ul>
+<li><a href="https://blog.plan99.net/vntinyram-7b9d5b299097">Code: Mike Hearn</a></li>
+</ul>
+</li>
+<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=7163030">Geppetto - 2015</a></li>
+<li><a href="https://www.ndss-symposium.org/ndss2015/ndss-2015-programme/efficient-ram-and-control-flow-verifiable-outsourced-computation/">Buffet - 2015</a></li>
+<li><a href="https://eprint.iacr.org/2016/260.pdf">Groth -2016</a>
+<ul>
+<li><a href="https://github.com/ConsenSys/gnark">Code: ConSensys - gnark</a>,<a href="https://github.com/arkworks-rs/groth16">Code: Arkworks</a></li>
+<li><a href="https://geometry.xyz/notebook/groth16-malleability">Groth16 Malleability - Geometry research</a></li>
+<li><a href="https://medium.com/ppio/how-to-generate-a-groth16-proof-for-forgery-9f857b0dcafd">Proof of forgery</a></li>
+<li><a href="https://docs.zkproof.org/pages/standards/accepted-workshop4/proposal-aggregation.pdf">Groth16 aggregation proposal</a></li>
+<li><a href="https://www.youtube.com/watch?v=OseAdq0CoOY">Groth - Talk</a></li>
+<li><a href="https://starli.medium.com/zkp-deep-into-bellman-library-9b1bf52cb1a6">Deep into bellman library - Star Li</a></li>
+</ul>
+</li>
+<li><a href="https://dl.acm.org/doi/pdf/10.1145/3133956.3134104">Ligero - 2017</a></li>
+<li><a href="https://www.depositonce.tu-berlin.de/bitstream/11303/13087/4/eberhardt_jacob.pdf">ZoKrates - 2018</a>, <a href="https://zokrates.github.io">Code: ZoKrates</a>
+<ul>
+<li><a href="https://blog.decentriq.com/proving-hash-pre-image-zksnarks-zokrates/">Proving hash preimage with Zokrates - Decentriq</a></li>
+<li><a href="https://blog.decentriq.com/efficient-ecc-in-zksnarks-using-zokrates/">Efficient ECC in Zokrates- Decentriq</a></li>
+</ul>
+</li>
+<li><a href="https://akosba.github.io/papers/xjsnark.pdf">xjSNARK - 2018</a></li>
+<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=8418645">vRAM - 2018</a></li>
+<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=8418611">Bulletproof - 2018</a>
+<ul>
+<li><a href="https://medium.com/coinmonks/zero-knowledge-proofs-using-bulletproofs-4a8e2579fc82">ZKP using Bullet proofs - Lovesh Harchandani</a></li>
+<li><a href="https://github.com/dalek-cryptography/bulletproofs">Code: Dalek</a></li>
+<li><a href="https://github.com/lovesh/bulletproofs-r1cs-gadgets">Code: Lovesh</a></li>
+<li><a href="https://github.com/AdamISZ/from0k2bp/blob/master/from0k2bp.pdf">Notes</a></li>
+</ul>
+</li>
+<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=8418646">Hyrax - 2018</a></li>
+<li><a href="https://eprint.iacr.org/2018/046.pdf">zk-STARK -2018</a>
+<ul>
+<li><a href="https://docs.rs/winterfell/latest/winterfell/">Code: Winterfell -multi threaded zk STARK</a>, <a href="https://docs.rs/winterfell/latest/winterfell/">Crate: Winterfell</a></li>
+<li><a href="https://github.com/starkware-libs/cairo">CAIRO</a></li>
+<li><a href="https://github.com/andrewmilson/ministark">MiniSTARK</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2019/099.pdf">Sonic - 2019</a>
+<ul>
+<li><a href="https://www.benthamsgaze.org/2019/02/07/introducing-sonic-a-practical-zk-snark-with-a-nearly-trustless-setup/">Sonic - Benthams Gaze</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2019/953.pdf">Plonk - 2019</a>
+<ul>
+<li><a href="https://www.smartcontractresearch.org/t/research-summary-plonk-permutations-over-lagrange-bases-for-oecumenical-noninteractive-arguments-of-knowledge/382">Plonk high level summary</a></li>
+<li><a href="https://www.youtube.com/watch?v=dHo56MhQlHk">Talk: Ariel Gabizon</a></li>
+<li><a href="https://www.youtube.com/watch?v=ty-LZf0YCK0">Talk: Zac Williamson</a></li>
+<li><a href="https://vitalik.ca/general/2019/09/22/plonk.html">Understanding Plonk - Vitalik</a></li>
+<li><a href="https://hackmd.io/@aztec-network/plonk-arithmetiization-air#How-does-all-this-relate-to-R1CS">From AIRs to RAPs - how PLONK-style arithmetization works</a></li>
+<li><a href="https://www.fluidex.io/en/blog/on-plonk/">On optimizations of Plonk</a></li>
+<li><a href="https://kobi.one/2021/05/20/plonk-custom-gates.html">Custom gates on plonk -Do whatever</a></li>
+<li><a href="https://www.plonk.cafe/top">Plonk Cafe</a></li>
+<li><a href="https://scroll.io/blog/proofGeneration#heading-22">Plonk: Anatomy of a proof generation: Scroll</a></li>
+<li><a href="https://github.com/heliaxdev/plonk">code: Heliaxdev</a>, <a href="https://github.com/kobigurk/plonk/tree/kobigurk/port_to_zexe">code: Kobigurkan</a> ,<a href="https://github.com/ZK-Garage/plonk">code: ZKgarage</a>, <a href="https://github.com/dusk-network/plonk">code: Dusknetwork</a>,<a href="https://github.com/EspressoSystems/jellyfish">code: Jellyfish includes plookup</a> ,<a href="https://github.com/Fluidex/awesome-plonk">Resource: Awesome_Plonk</a></li>
+<li><a href="https://research.metastate.dev/plonk-by-hand-part-1/">Resource: Plonk by hand -1 Metastate</a>
+<ul>
+<li><a href="https://research.metastate.dev/plonk-by-hand-part-2-the-proof/">Resource: Plonk by hand -2 Metastate</a></li>
+<li><a href="https://research.metastate.dev/plonk-by-hand-part-3-verification/">Resource: Plonk by hand -3 Metastate</a></li>
+<li><a href="https://research.metastate.dev/on-plonk-and-plookup/">Resource: Plonk and Plookup Metastate</a></li>
+</ul>
+</li>
+<li><a href="https://docs.zkproof.org/pages/standards/accepted-workshop3/proposal-turbo_plonk.pdf">Turboplonk</a></li>
+<li><a href="https://www.plonk.cafe/t/details-of-custom-gate/122">Custom gates in plonk</a></li>
+<li><a href="https://hackmd.io/@gnark/plonk">Plonk: Thomas Piellard</a></li>
+<li><a href="https://starli.medium.com/zkp-plonk-algorithm-introduction-834556a32a">ZKP intro to Plonk - Star Li</a></li>
+<li><a href="https://hackmd.io/@arielg/ByFgSDA7D">Multi set checks in Plonk and Plookup: Gabizon</a></li>
+<li><a href="https://eng-blog.o1labs.org/posts/plonk/">Plonk - Kimchi: Mina Protocol</a>
+<ul>
+<li><a href="https://minaprotocol.com/blog/kimchi-the-latest-update-to-minas-proof-system">Kimchi</a> -<a href="https://eprint.iacr.org/2019/1400">Redshift - 2019</a></li>
+</ul>
+</li>
+<li><a href="https://www.smartcontractresearch.org/t/research-summary-redshift-transparent-snarks-from-list-polynominal-commitment-iops/344">Redhsift Summary</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2019/550.pdf">Spartan - 2019</a>
+<ul>
+<li><a href="https://github.com/microsoft/Spartan">code: Microsoft</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2019/1021.pdf">Halo - 2019</a>
+<ul>
+<li><a href="https://hackmd.io/@gnark/halo">Halo - Thomas Piellard</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2018/828.pdf">Aurora - 2019</a>
+<ul>
+<li><a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2020/EECS-2020-182.pdf">Thesis Spooner</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2020/278.pdf">MIRAGE - 2020</a></li>
+<li><a href="https://eprint.iacr.org/2019/1047.pdf">Marlin - 2020</a>
+<ul>
+<li><a href="https://github.com/arkworks-rs/marlin">Code: Sciprlab-Arkworks</a></li>
+<li><a href="https://github.com/arkworks-rs/marlin/blob/master/diagram/diagram.pdf">Doc: Pre lunar and not updated to Aleo/testnet3</a></li>
+<li><a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2021/EECS-2021-99.pdf">Thesis</a></li>
+<li><a href="https://www.youtube.com/watch?v=3mZWa6tJaMI">Eurocrypt 2020: Talk video</a></li>
+<li><a href="https://www.youtube.com/watch?v=bJDLf8KLdL0">ZK summit - Talk: Pratyush</a></li>
+<li><a href="https://hackmd.io/@sin7y/BJV47Q_nq">Sin7y tech review: blog</a></li>
+<li><a href="https://github.com/ingonyama-zk/papers/blob/main/Marlin_and_me.pdf">Marlin and Me</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2019/1076">Fractal -2020</a>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=TcRhC5U353I">Fractal - talk</a></li>
+<li><a href="https://github.com/scipr-lab/libiop">code: Sciprlabs-Libiop</a></li>
+<li><a href="https://research.metastate.dev/demystifying-fractal-part-1/">Resource: Demystifying Fractal 1 -Metastate</a></li>
+<li><a href="https://research.metastate.dev/demystifying-fractal-part-ii/">Resource:Demystifying Fractal 2 - Metastate</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2020/1069">Lunar - 2020</a> - Optimizations for Marlin.
+<ul>
+<li><a href="https://www.youtube.com/watch?v=_7EBb-k2W6A&amp;list=PLj80z0cJm8QHm_9BdZ1BqcGbgE-BEn-3Y&amp;index=3">ZK study club video</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2019/1229.pdf">SuperSonic - 2020</a>
+<ul>
+<li><a href="https://research.metastate.dev/demystifying-supersonic-part-1/">Resource: Demystifying supersonic 1 -Metastate</a></li>
+<li><a href="https://research.metastate.dev/demystifying-supersonic-part-ii/">Resource: Demystifying supersonic 2- Metastate</a></li>
+</ul>
+</li>
+<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9152704">Virgo - 2020</a>, <a href="https://github.com/sunblaze-ucb/Virgo">code</a></li>
+<li><a href="https://eprint.iacr.org/2020/315.pdf">Plookup -2020</a>
+<ul>
+<li><a href="/vkAtXEGpSy2o4BzVDJQHMw">Marlin + Plookup (High-Level Summary)</a></li>
+<li><a href="https://github.com/EspressoSystems/jellyfish">code: Jellyfish</a></li>
+<li><a href="https://github.com/arielgabizon/Lectures/blob/master/plookupinactionDystopia2020.pdf">Plookup in action -Talk</a></li>
+<li><a href="https://research.metastate.dev/on-plonk-and-plookup/">Plonk and Plookup - Metastate</a></li>
+<li><a href="https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/BJpNmNW0L">Plonk and Plookup - Khovratovich</a></li>
+<li><a href="https://o1-labs.github.io/proof-systems/introduction.html">Mina Protocol</a></li>
+<li><a href="https://hackmd.io/m0fnJ_lPTPahWAhfaiQA7Q#With-smaller-38-sized-tables">AES with lookup : Daira Hopwood</a></li>
+<li><a href="https://www.youtube.com/watch?v=rOZTQ-18YJY">Lookup tables - Ariel Gabizon</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2020/1155.pdf">Zilch - 2021</a>
+<ul>
+<li><a href="https://github.com/TrustworthyComputing/Zilch">code</a></li>
+</ul>
+</li>
+<li><a href="https://arxiv.org/pdf/2107.04315.pdf">Darlin - 2021</a>
+<ul>
+<li><a href="https://github.com/HorizenOfficial/ginger-lib">code</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2022/086.pdf">Plonkup -2021</a></li>
+<li><a href="https://research.protocol.ai/publications/snarkpack-practical-snark-aggregation/gailly2021.pdf">SnarkPack -2021 Practical snark aggregation</a>
+<ul>
+<li><a href="https://research.protocol.ai/blog/2021/snarkpack-how-to-aggregate-snarks-efficiently/#groth16-aggregated-verification">Blog: efficient aggregation</a></li>
+<li><a href="https://delendum.xyz/2022/11/22/zk-snark-aggregation.html">SNark aggregation: general</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2021/1167.pdf">FFlonk -2021 a FFT friendly Plonk</a></li>
+<li><a href="https://eprint.iacr.org/2021/1043.pdf">Brakedown - 2021</a></li>
+<li><a href="https://eprint.iacr.org/2021/370.pdf">Nova - 2021</a>,
+<ul>
+<li><a href="https://github.com/microsoft/Nova">code</a></li>
+<li><a href="https://drive.google.com/file/d/1aLQeB_ca9k7NrWRHY00QauZIe7hmt6_u/view">Srinath Setty - Talk</a></li>
+<li><a href="https://www.youtube.com/watch?v=mY-LWXKsBLc">Srinath Setty - Video</a></li>
+<li><a href="https://www.entropy1729.com/incrementally-verifiable-computation-nova/">Nova - Entropy</a></li>
+<li><a href="https://iacr.org/submit/files/slides/2022/crypto/crypto2022/334/slides.pdf">IACR talk slides</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/mir-protocol/plonky2/blob/main/plonky2.pdf">Plonky2 - 2022</a>
+<ul>
+<li><a href="https://github.com/mir-protocol/plonky2">code</a></li>
+<li><a href="https://github.com/mir-protocol/plonky2/blob/main/plonky2.pdf">documentation</a></li>
+<li><a href="https://github.com/mir-protocol/plonky">Plonky: code</a></li>
+<li><a href="https://mirprotocol.org/blog/Fast-recursive-arguments-based-on-Plonk-and-Halo">Plonky: Fast recursive arguments based on Plonk and Halo</a></li>
+<li><a href="https://mirprotocol.org/blog/Adding-zero-knowledge-to-Plonk-Halo">Plonky: Adding zero Knowledge to Plonk and Halo</a></li>
+</ul>
+</li>
+<li><a href="https://zcash.github.io/halo2/index.html">Halo 2 - library</a>
+<ul>
+<li><a href="https://starli.medium.com/zero-knowledge-proof-a-guide-to-halo2-source-code-9be0cf792f18">Guide to Halo2 source code</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2022/420">Gemini - 2022</a>, <a href="https://github.com/arkworks-rs/gemini">Arkworks</a>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=Suv7MN131f8">talk</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2022/621.pdf">Caulk - 2022</a>
+<ul>
+<li><a href="https://github.com/caulk-crypto/caulk">Code</a></li>
+<li><a href="https://eprint.iacr.org/2022/957">Caulk+</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2022/1010">Orion -2022</a>
+<ul>
+<li><a href="https://github.com/sunblaze-ucb/Orion">Code</a></li>
+<li><a href="https://www.youtube.com/watch?v=LZb_wqCzwr8">IACR -talk</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2022/1355">Hyperplonk - 2022</a>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=mZEXgoQL6xk">Hyperplonk - benedikt Bunz</a></li>
+<li><a href="https://www.espressosys.com/blog/hyperplonk-a-zk-proof-system-for-zkevms">Blog- Delendum</a></li>
+<li><a href="https://hackmd.io/@omershlo/rJhgKJPtj">Hardware friendliness of MLE-Sumcheck</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2022/1447">flookup: Fractional decomposition-based lookups in quasi-linear time independent of table size -2022</a></li>
+<li><a href="https://eprint.iacr.org/2022/1565">Baloo: Nearly Optimal Lookup Arguments - 2022</a></li>
+<li><a href="https://eprint.iacr.org/2022/1763">CQ: Cached coefficients for fast lookups 2022</a>
+<ul>
+<li><a href="https://github.com/geometryresearch/cq">code: Geometry</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2022/1758">Supernova 2022</a></li>
+</ul>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="mathematics-1"><a class="header" href="#mathematics-1">Mathematics</a></h1>
+<p>The resources on the mathematics behind ZK proofs delve into the complex theories and mathematical concepts that underpin this innovative technology. These resources are intended for those with a strong background in mathematics, or those looking to deepen their understanding of the mathematical foundations of zero-knowledge proofs and their applications.</p>
+<p><strong>What will you find here:</strong> <em>Atoms and building blocks of a ZKP</em></p>
+<hr />
+<h2 id="finite-fields"><a class="header" href="#finite-fields"><a href="./ff.html">Finite Fields</a></a></h2>
+<h2 id="polynomials"><a class="header" href="#polynomials"><a href="./poly.html">Polynomials</a></a></h2>
+<h2 id="elliptic-curves"><a class="header" href="#elliptic-curves"><a href="./elliptic.html">Elliptic curves</a></a></h2>
+<h2 id="fft"><a class="header" href="#fft"><a href="./fft.html">FFT</a></a></h2>
+<h2 id="msm"><a class="header" href="#msm"><a href="./msm.html">MSM</a></a></h2>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="finite-fields-1"><a class="header" href="#finite-fields-1">Finite fields</a></h1>
+<ul>
+<li><a href="https://explained-from-first-principles.com/number-theory">Number theory explained from first principles</a></li>
+<li><a href="https://webusers.imj-prg.fr/~michel.waldschmidt/articles/pdf/FiniteFields.pdf">An introduction to the theory of finite fields</a></li>
+<li><a href="https://math.mit.edu/classes/18.783/2019/LectureNotes3.pdf">MIT lectures -FInite Field arithmetic</a></li>
+<li><a href="http://koclab.cs.ucsb.edu/teaching/ecc/eccPapers/Doche-ch11.pdf">Finite field arithmetic Doche Lange</a></li>
+<li><a href="https://hackmd.io/@arielg/B13JoihA8">Aztec emulated field and group operations</a></li>
+<li><a href="https://www.entropy1729.com/climbing-up-the-tower-field-extensions/">Extension fields: Entropy</a></li>
+</ul>
+<h2 id="modular-arithmetic"><a class="header" href="#modular-arithmetic">Modular arithmetic</a></h2>
+<ul>
+<li><a href="https://eprint.kobi.one/2021/1292">A Fast Large-Integer Extended GCD Algorithm and Hardware Design for Verifiable Delay Functions and Modular Inversion</a></li>
+<li><a href="https://eprint.iacr.org/2020/972.pdf">Optimized Binary GCD for Modular Inversion</a></li>
+<li><a href="https://www.jjj.de/fxt/#fxtbook">Library of Algorithms</a></li>
+<li><a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.116.512&amp;rep=rep1&amp;type=pdf">Modular Multiplication and Hardware implementations - Review</a></li>
+<li><a href="https://pureadmin.qub.ac.uk/ws/portalfiles/portal/125812965/Evaluation_of_large_integer_multiplication_methods_R2.pdf">Evaluation of large integer multiplications in hardware - Review</a></li>
+<li><a href="http://ingonyama.com/s/modular_multiplication.pdf">Hardware friendly modular mult</a></li>
+<li><a href="https://jeffhurchalla.com/2022/04/28/montgomery-redc-using-the-positive-inverse-mod-r/">Montgomery REDC using positive inverse mod r</a></li>
+<li><a href="https://blog.janestreet.com/really-low-latency-multipliers-and-cryptographic-puzzles/">Low latency multipliers and cryptographic puzzles</a></li>
+</ul>
+<h2 id="related-math"><a class="header" href="#related-math">Related Math</a></h2>
+<ul>
+<li><a href="https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf">The Matrix cookbook</a></li>
+<li><a href="https://blogs.ams.org/mathgradblog/2018/02/10/introduction-ideal-class-groups/">Ideal Class Groups</a></li>
+</ul>
+<h2 id="polynomials-1"><a class="header" href="#polynomials-1">Polynomials</a></h2>
+<ul>
+<li><a href="https://www.maths.tcd.ie/pub/Maths/Courseware/373-2000/FiniteFields.pdf">Finite fields and polynomials</a></li>
+<li><a href="https://brilliant.org/wiki/schwartz-zippel-lemma/">Schwarz - Zippel Lemma</a></li>
+<li><a href="https://rjlipton.wpcomstaging.com/2009/11/30/the-curious-history-of-the-schwartz-zippel-lemma/">Curious History of Schwarz-Zippel lemma</a></li>
+</ul>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="cryptographic-primitives"><a class="header" href="#cryptographic-primitives">Cryptographic primitives</a></h1>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="elliptic-curves-1"><a class="header" href="#elliptic-curves-1">Elliptic curves</a></h1>
+<h2 id="general-2"><a class="header" href="#general-2">General</a></h2>
+<ul>
+<li><a href="https://cryptobook.nakov.com/asymmetric-key-ciphers/elliptic-curve-cryptography-ecc">ECC cryptobook</a></li>
+<li><a href="https://www.youtube.com/watch?v=QrTLOK7evr0&amp;list=PLYpVTXjEi1of_6j2oUEAqOo8eLI5qws8i">Cures over finite fields - Lectures</a></li>
+<li><a href="http://koclab.cs.ucsb.edu/teaching/ecc/eccPapers/Washington-ch04.pdf">Elliptic curves Chapter 4 Washington</a></li>
+<li><a href="https://math.mit.edu/classes/18.783/2017/lectures.html">Elliptic Curves: MIT lectures</a></li>
+<li><a href="https://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/">Corbellini - ECC</a></li>
+<li><a href="https://blog.cloudflare.com/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/">ECC primer</a></li>
+<li><a href="https://www.math.brown.edu/johsilve/Presentations/WyomingEllipticCurve.pdf">Silverman - ECC talk</a></li>
+<li><a href="http://link.springer.com/10.1007/3-540-44647-8_11">Faster Point Multiplication on Elliptic Curves with Efficient Endomorphisms</a></li>
+<li><a href="https://www.semanticscholar.org/paper/Efficient-Arithmetic-on-Koblitz-Curves-Solinas/3dbc0ef67ad65778e24807a9e898b00cf046df8a">Solinas - Efficient Arithmetic on Koblitz Curves</a></li>
+<li><a href="https://www.sciencedirect.com/science/article/pii/S1071579704000395">Koblitz curve cryptosystems</a></li>
+<li><a href="https://evervault.com/papers/koblitz.pdf">Elliptic Curve Cryptosystems (Koblitz Curves)</a></li>
+<li><a href="https://arxiv.org/abs/1403.7887">Algorithm to Find Elliptic curves with a subgroup of a given size</a></li>
+<li><a href="https://people.cs.nctu.edu.tw/~rjchen/ECC2012S/Elliptic%20Curves%20Number%20Theory%20And%20Cryptography%202n.pdf">Elliptic curves number theory and cryptography</a></li>
+<li><a href="http://koclab.cs.ucsb.edu/teaching/ecc/eccPapers/DocheLange-ch13.pdf">Elliptic curve Arithmetic Curve addition - Doche-Lange</a></li>
+<li><a href="http://koclab.cs.ucsb.edu/teaching/ecc/eccPapers/Doche-ch09.pdf">Elliptic Curve Arithmetic Exponentiation -Doche Lange</a></li>
+<li><a href="https://dzone.com/articles/all-elliptic-curves-over-fields-of-order-2-and-3">Elliptic curves of characteristic 2 or 3 - John Cook</a></li>
+<li><a href="https://www.hyperelliptic.org">Addition/Doubling formulae</a></li>
+<li><a href="https://curves.xargs.org">Visualize Elliptic curves</a></li>
+<li><a href="https://math.mit.edu/research/highschool/primes/materials/2018/conf/14-2%20Pentland.pdf">j invariant of a curve</a></li>
+<li><a href="https://hackmd.io/@yelhousni/bls12_subgroup_check">subgroup checks in BLS12</a></li>
+<li><a href="http://cr.yp.to/talks/2009.04.17/slides.pdf">Complete addition formulae : Bernstein - Lange</a></li>
+<li><a href="https://eprint.iacr.org/2015/1060.pdf">Complete addition formulae for prime order curves</a>
+<ul>
+<li><a href="https://eprint.iacr.org/2016/1133">FPGA implementation of complete formulae with Montgomery multiplier</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2022/586.pdf">Survey of Elliptic curves for Proof systems</a></li>
+<li><a href="https://hal.archives-ouvertes.fr/hal-01942759/document">Edwards curves</a></li>
+<li><a href="https://eprint.iacr.org/2008/013.pdf">Twisted Edwards curves</a></li>
+<li><a href="https://hackmd.io/@yelhousni/bls12_subgroup_check">Subgroup checks for BLS12</a></li>
+<li><a href="https://loup-vaillant.fr/tutorials/cofactor">Cofactor explained: Elliptic curves dirty little secret</a></li>
+</ul>
+<h2 id="pairings"><a class="header" href="#pairings">Pairings</a></h2>
+<ul>
+<li><a href="https://static1.squarespace.com/static/5fdbb09f31d71c1227082339/t/5ff394720493bd28278889c6/1609798774687/PairingsForBeginners.pdf">Pairings for beginners - Craig Costello</a></li>
+<li><a href="https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627">Pairings - Vitalik Buterin</a></li>
+<li><a href="https://members.loria.fr/AGuillevic/pairing-friendly-curves/">Pairing friendly curves</a></li>
+<li><a href="https://research.nccgroup.com/2022/02/03/estimating-the-bit-security-of-pairing-friendly-curves/">Estimating the Bit Security of Pairing-Friendly Curves - NCCgroup</a></li>
+<li><a href="https://eprint.iacr.org/2019/077.pdf">Pairing implementation revisited</a></li>
+<li><a href="https://crypto.ethereum.org/blog/groth-sahai-blogpost">Groth_Sahai proofs are not scary</a></li>
+<li><a href="https://www.math.ru.nl/~bosma/Students/MScThesis_DennisMeffert.pdf">Bilinear pairings in cryptography - Dennis Meffert</a></li>
+<li><a href="https://cryptologie.net/article/525/pairing-based-polynomial-commitments-and-kate-polynomial-commitments/">Pairings and poly commitments - David Wong</a></li>
+<li><a href="https://0xparc.org/blog/zk-pairing-1">Circom pairing</a>
+<ul>
+<li><a href="https://github.com/yi-sun/circom-pairing">Code</a></li>
+</ul>
+</li>
+<li><a href="https://alinush.github.io/2022/12/31/pairings-or-bilinear-maps.html">Pairings or bilinear maps</a></li>
+</ul>
+<h2 id="specific-curves"><a class="header" href="#specific-curves">Specific curves</a></h2>
+<ul>
+<li><a href="https://hackmd.io/mikF5LkFQoqXM1EuplRj2Q">BLS12-381 For The Rest Of Us</a></li>
+<li><a href="https://hackmd.io/@jpw/bn254">BN254 for the rest of us</a></li>
+<li><a href="https://hackmd.io/2JH4uBFCTbehqorEzQxv9w">Benchmarking pairing-friendly elliptic curves libraries</a></li>
+<li><a href="https://github.com/pornin/ecgfp5/blob/main/doc/ecgfp5.pdf">ecgfp5 - Pornin: Goldilocks</a>
+<ul>
+<li><a href="https://www.johndcook.com/blog/2019/05/12/ed448-goldilocks/">ed448 blog John Cook</a></li>
+</ul>
+</li>
+<li><a href="https://cendyne.dev/posts/2022-03-06-ed25519-signatures.html">A deep dive into ed25519</a></li>
+<li><a href="https://electriccoin.co/blog/the-pasta-curves-for-halo-2-and-beyond/">Pasta curves -Electric coin</a></li>
+</ul>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="hash-functions"><a class="header" href="#hash-functions">Hash functions</a></h1>
+<ul>
+<li><strong>ZK hashes- General</strong>
+<ul>
+<li><a href="https://github.com/ingonyama-zk/papers/blob/main/sok_zk_friendly_hashes.pdf">ZKP friendly hash functions: SOK</a></li>
+<li><a href="https://zeroknowledge.fm/250-2/">Whats the deal with hashes: zk hack</a></li>
+<li><a href="https://keccak.team/files/SpongeFunctions.pdf">Sponge functions: paper</a></li>
+<li><a href="https://www.diva-portal.org/smash/get/diva2:618670/FULLTEXT01.pdf">S box properties</a></li>
+<li><strong>Merkling</strong>
+<ul>
+<li><a href="https://decentralizedthoughts.github.io/2020-12-22-what-is-a-merkle-tree/">What is a merkle tree</a></li>
+<li><a href="https://www.rfc-editor.org/rfc/rfc6962#section-2.1">Merkle trees</a></li>
+<li><a href="https://docs.iden3.io/publications/pdfs/Merkle-Tree.pdf">Sparse Merkle trees</a></li>
+<li><a href="https://courses.cs.ut.ee/MTAT.07.003/2019_fall/uploads/Main/0701-merkle-trees.pdf">Merkle Commitment scheme</a></li>
+<li><a href="https://www.derpturkey.com/merkle-tree-construction-and-proof-of-inclusion/">Merkle trees and proof of inclusion</a></li>
+</ul>
+</li>
+<li><strong>Fiat Shamir</strong>
+<ul>
+<li><a href="https://merlin.cool/index.html">Merlin: Fiat-Shamir magic generator</a></li>
+<li><a href="http://cyber.biu.ac.il/wp-content/uploads/2018/08/WS-19-7-_fiat_shamir_basic.pdf">How to Fiat Shamir</a></li>
+<li><a href="https://blog.trailofbits.com/2021/02/19/serving-up-zero-knowledge-proofs/">Serving up ZKP</a></li>
+<li><a href="https://blog.trailofbits.com/2022/04/13/part-1-coordinated-disclosure-of-vulnerabilities-affecting-girault-bulletproofs-and-plonk/">Frozen Heart vulnerability</a>
+<ul>
+<li><a href="https://blog.trailofbits.com/2022/04/14/the-frozen-heart-vulnerability-in-giraults-proof-of-knowledge/">in Girault proof of knowledge</a></li>
+<li><a href="https://blog.trailofbits.com/2022/04/15/the-frozen-heart-vulnerability-in-bulletproofs/">in Bulletproofs</a></li>
+<li><a href="https://blog.trailofbits.com/2022/04/18/the-frozen-heart-vulnerability-in-plonk/">in Plonk</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Hashes</strong>
+<ul>
+<li><a href="https://keccak.team/sponge_duplex.html">Keccak: Sponge and Duplex constructions</a></li>
+<li><strong>Poseidon</strong>
+<ul>
+<li><a href="https://eprint.iacr.org/2019/458.pdf">POSEIDON: A New Hash Function for Zero-Knowledge Proof Systems</a></li>
+<li><a href="https://www.poseidon-hash.info">some documentation</a></li>
+<li><a href="https://drive.google.com/file/d/1EVrP3DzoGbmzkRmYnyEDcIQcXVU7GlOd/view">Encryption With Poseidon: Dima Khovratovich</a></li>
+<li><a href="https://hackmd.io/bHgsH6mMStCVibM_wYvb2w?view">SAFE A tool box for Poseidon API</a>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=w-4fzHpd4dk">SAFE: Faster and simple hashing with ZKP</a></li>
+</ul>
+</li>
+<li><a href="https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/BkfS78Y9L">Encoding of long objects in Poseidon - Dmitry Khovratovich</a></li>
+<li><a href="https://www.usenix.org/system/files/sec21_slides_grassi.pdf">Talk Grassi</a></li>
+<li><a href="https://medium.com/@wanghs.thu/into-poseidon-hash-37d03ef0b26e">Plonky2: Poseidon gate</a></li>
+<li><a href="https://protocol.penumbra.zone/main/crypto/poseidon/overview.html">Penumbra: Poseidon Decaf377</a> </li>
+<li><strong>Poseidon Implementations</strong>
+<ul>
+<li><a href="https://github.com/filecoin-project/neptune/blob/master/spec/poseidon_spec.pdf">code: filecoin</a>
+<ul>
+<li><a href="https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/BJjaxXd9U">Poseidon in Filecoin - Dmitry Khovratovich</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/ingonyama-zk/poseidon-hash">code: Ingonyama (python)</a></li>
+<li><a href="https://github.com/AleoHQ/snarkVM/blob/testnet3/algorithms/src/crh/poseidon.rs">code: snarkVM Aleo Poseidon</a></li>
+<li><a href="https://github.com/dusk-network/Poseidon252">code: Dusk network</a></li>
+<li><a href="https://github.com/dusk-network/dusk-poseidon-merkle">code: Dust netowrk - Poseidon merkle</a></li>
+<li><a href="https://github.com/triplewz/poseidon">code: Triplewz - GO</a></li>
+</ul>
+</li>
+<li><strong>Rescue</strong>
+<ul>
+<li><a href="https://eprint.iacr.org/2020/1143.pdf">Rescue-Prime: a Standard Specification (SoK)</a></li>
+<li><a href="https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/SJMVAPfjL">Observations on Rescue</a> </li>
+<li><a href="https://ethresear.ch/t/performance-of-rescue-and-poseidon-hash-functions/7161">Poseidon vs Rescye</a></li>
+</ul>
+</li>
+<li><strong>MIMC</strong>
+<ul>
+<li><a href="https://eprint.iacr.org/2016/492.pdf">MiMc</a></li>
+<li><a href="https://kobi.one/2021/05/20/plonk-custom-gates.html">Mimc7 in Plonk - Custom gates</a></li>
+<li><a href="https://iacr.org/cryptodb/archive/2016/ASIACRYPT/presentation/27874.pdf">Mimc Roy slides</a></li>
+</ul>
+</li>
+<li><strong>Reinforced concrete</strong>
+<ul>
+<li><a href="https://drive.google.com/file/d/1MCIqD8XwKrHVBQPc26XjAmM9RyrLDpjw/view">Reinforced concrete</a></li>
+<li><a href="https://www.rc-hash.info">implementation</a></li>
+<li><a href="https://www.youtube.com/watch?v=Pnc9J7uQgqs">Plonkup reinforced concrete zkstudyclub</a></li>
+<li><a href="https://dusk.network/news/development-update-34">Dusk network</a></li>
+<li><a href="https://github.com/LukePearson1/reinforced-concrete">Code: Luke Pearson</a></li>
+</ul>
+</li>
+<li><strong>Sinsemilla</strong>
+<ul>
+<li><a href="/iOw7-HpFQY6dPF1aFY8pAw">Sinsemilla: A circuit-efficient, lookup-based collision-resistant hash function</a></li>
+<li><a href="https://zcash.github.io/orchard/design/circuit/gadgets/sinsemilla.html">halo book</a></li>
+<li><a href="https://zips.z.cash/protocol/protocol.pdf#concretesinsemillahash">ZCash protocol specification</a></li>
+</ul>
+</li>
+<li><strong>BLAKE</strong>
+<ul>
+<li><a href="https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf">Blake</a></li>
+<li><a href="https://github.com/BLAKE3-team/BLAKE3">code</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Hash to Curve</strong>
+<ul>
+<li><a href="https://www.ietf.org/archive/id/draft-irtf-cfrg-hash-to-curve-16.html#hashtofield">Hash to Curve</a></li>
+<li><a href="https://geometry.xyz/notebook/Hashing-to-the-secp256k1-Elliptic-Curve">Hash to secp256k1 curve</a></li>
+<li><a href="https://geometry.xyz/notebook/Optimized-BLS-multisignatures-on-EVM">Optimized BLS signatures on EVM</a></li>
+</ul>
+</li>
+<li><strong>Hash Bounties</strong>
+<ul>
+<li><a href="https://hackmd.io/l2JT8AQITJ2xRZpGErPnzA#Decomposition-parameters">Algebraic Hash bounties</a></li>
+</ul>
+</li>
+</ul>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="verifiable-delay-functions"><a class="header" href="#verifiable-delay-functions">Verifiable Delay functions</a></h1>
+<h2 id="general-3"><a class="header" href="#general-3">General</a></h2>
+<ul>
+<li><a href="https://vdfresearch.org">All about Verifiable Delay Functions (VDF’s) - VDFresearch</a></li>
+</ul>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="arithmetization"><a class="header" href="#arithmetization">Arithmetization</a></h1>
+<ul>
+<li><strong>General</strong>
+<ul>
+<li><a href="https://www.cs.tau.ac.il/~shpilka/publications/SY10.pdf">Arithmetic Circuits: A survey</a></li>
+<li><a href="https://www.entropy1729.com/how-to-transform-code-into-arithmetic-circuits/">How to transform code into an arithmetic circuit?</a></li>
+<li><a href="https://complexityzoo.net/Complexity_Zoo">Complexity Zoo</a></li>
+<li><a href="https://www.notamonadtutorial.com/arithmetization-schemes-for-zk-snarks/">Arithmetization schemes for snarks</a></li>
+</ul>
+</li>
+<li><strong>R1CS constraint system</strong>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=Uug5p05_wqs">Daira Hopwood - Efficient R1CS circuits: Video</a></li>
+<li><a href="https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649">Quadratic Arithmetic programs R1CS 0 to H - Vitalik Buterin</a></li>
+<li><a href="https://www.youtube.com/watch?v=55t-UANj7k4">Aleo - Basics of R1CS Zero Knowledge Proofs: How Cryptographers can prove anything</a></li>
+<li><a href="http://coders-errand.com/constraint-systems-for-zk-snarks/">Alex Pinto - Constraint system for snarks</a></li>
+<li><a href="http://coders-errand.com/how-to-build-a-quadratic-arithmetic-program/">Alex Pinto - How to build QAP</a></li>
+<li><a href="http://coders-errand.com/the-vanishing-polynomial-for-qaps/">Alex Pinto - Vanishing polynomial for QAP</a></li>
+<li><a href="https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649">QAP from zero to hero: Vitalik</a></li>
+<li><a href="https://github.com/mir-protocol/r1cs-workshop/blob/master/workshop.pdf">R1CS workshop - Mir</a></li>
+</ul>
+</li>
+<li><strong>Plonkish arithmetization</strong> <a href="./protocolszk.html">Refer to Plonk</a></li>
+<li><strong>AIR Arithmetization</strong> 
+<ul>
+<li><a href="https://hackmd.io/@aztec-network/plonk-arithmetiization-air">AIR to RAPs - Gabizon</a></li>
+<li><a href="https://solvable.group/posts/air-multivariate-sumcheck/">AIR-Multivariate Sumcheck - W.Borgeaud</a></li>
+<li><a href="https://docs.zkproof.org/pages/standards/accepted-workshop3/proposal-airAssembly.pdf">AIR assembly Bobbin Threadbare</a></li>
+</ul>
+</li>
+</ul>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="commitment-schemes"><a class="header" href="#commitment-schemes">Commitment Schemes</a></h1>
+<ul>
+<li><strong>General</strong>
+<ul>
+<li><a href="https://youtu.be/bz16BURH_u8">Overview of commitment schemes: Justin Drakes</a></li>
+<li><a href="https://hackernoon.com/kzg10-ipa-fri-and-darks-analysis-of-polynomial-commitment-schemes">Comparison of Commitment Schemes</a></li>
+</ul>
+</li>
+<li><strong>KZG</strong>
+<ul>
+<li><a href="https://alinush.github.io/2020/05/06/kzg-polynomial-commitments.html">KZG commitments</a></li>
+<li><a href="https://hackmd.io/@suyash67/BydEa7DaK">KZG - Suyash</a></li>
+<li><a href="https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html">Polynomial commitments - Dankrad Feist</a>
+<ul>
+<li><a href="https://notes.ethereum.org/@dankrad/kzg_commitments_in_proofs#">How to use KZG in proofs</a></li>
+<li><a href="https://alinush.github.io/2021/06/17/Feist-Khovratovich-technique-for-computing-KZG-proofs-fast.html">Fast KZG proofs</a></li>
+<li><a href="https://eprint.iacr.org/2023/033.pdf">Amortized KZG - Feist Khovratovich</a></li>
+<li><a href="https://alinush.github.io/2020/03/19/multiplying-a-vector-by-a-toeplitz-matrix.html">Multiplying a vector by a Toeplitz matrix</a></li>
+<li><a href="https://dankradfeist.de/ethereum/2021/06/18/pcs-multiproofs.html">PCS multiproofs - Feist</a></li>
+<li><a href="https://notes.ethereum.org/@dankrad/new_sharding#">New sharding design with tight beacon and shard block integration - Dankrad Feist</a></li>
+<li><a href="https://notes.ethereum.org/@vbuterin/proto_danksharding_faq#What-is-Danksharding">Protodanksharding - FAQ Vitalik</a></li>
+</ul>
+</li>
+<li><a href="https://ethresear.ch/t/a-universal-verification-equation-for-data-availability-sampling/13240">Universal verification equation for data availability sampling</a></li>
+<li><a href="https://ethresear.ch/t/yet-another-curve-but-the-curve-for-your-kzg/12861">KZG friendly curves: El Housseini</a></li>
+<li><a href="https://scroll.io/blog/kzg#heading-0">KZG in practice: Scroll</a></li>
+</ul>
+</li>
+<li><strong>Vector Commitments</strong>
+<ul>
+<li><a href="https://dankradfeist.de/ethereum/2021/06/18/verkle-trie-for-eth1.html">Verkle Trie - Dankrad Feist</a></li>
+<li><a href="https://alinush.github.io/2020/05/06/aggregatable-subvector-commitments-for-stateless-cryptocurrencies.html#aggregating-proofs-into-subvector-profs">Aggregatable vector sub commitments</a></li>
+<li><a href="https://alinush.github.io/2020/11/24/Catalano-Fiore-Vector-Commitments.html">Catalano-Fiore VC</a></li>
+</ul>
+</li>
+<li><strong>Inner product Arguments (IPA)</strong> 
+<ul>
+<li><a href="https://dankradfeist.de/ethereum/2021/07/27/inner-product-arguments.html">Inner product arguments - Dankrad Feist</a></li>
+</ul>
+</li>
+</ul>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="secure-multi-party-computation"><a class="header" href="#secure-multi-party-computation">Secure Multi Party Computation</a></h1>
+<p>(<strong>needs sorting</strong>)</p>
+<h2 id="general-4"><a class="header" href="#general-4">General</a></h2>
+<ul>
+<li><a href="https://eprint.iacr.org/2022/062.pdf">An Introduction to Secret-Sharing-Based Secure Multiparty Computation - Daniel Escudero</a></li>
+<li><a href="https://cronokirby.com/posts/2022/05/explaining-yaos-garbled-circuits/">Yau;s garbled circuits: MPC</a></li>
+<li><a href="https://web.mit.edu/sonka89/www/papers/2017ygc.pdf">A gentle introduction to YAU’s Garbled circuits</a></li>
+<li><a href="https://zkproof.org/2021/06/30/setup-ceremonies/">Setup ceremonies - Pruden &amp; Matlala</a></li>
+<li><a href="https://eprint.iacr.org/2021/1530">Collaborative zk-Snarks</a></li>
+<li><a href="https://link.springer.com/chapter/10.1007/978-3-030-88428-4_17">a Multi-Prover Zero-Knowledge Proof System</a></li>
+<li><a href="https://link.springer.com/chapter/10.1007/978-3-319-39555-5_19">Trinocchio: Privacy-Preserving Outsourcing by Distributed Verifiable Computation</a></li>
+<li><a href="https://eprint.iacr.org/2019/188.pdf">Zero-Knowledge Proofs on Secret-Shared Data via Fully Linear PCPs</a></li>
+<li><a href="https://arxiv.org/pdf/1703.06255.pdf">Prio: Private, Robust, and Scalable Computation of Aggregate Statistics</a></li>
+<li><a href="https://eprint.iacr.org/2021/833">ATLAS (Goyal, CMU) Efficient and Scalable MPC in the Honest Majority Setting</a></li>
+</ul>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="proving-methods"><a class="header" href="#proving-methods">Proving Methods</a></h1>
+<p>(<strong>To add papers: Work in progress</strong>)</p>
+<h2 id="sumcheck-protocol"><a class="header" href="#sumcheck-protocol">Sumcheck Protocol</a></h2>
+<ul>
+<li><a href="https://people.cs.georgetown.edu/jthaler/blogpost.pdf">Unreasonable power of sumcheck - Thaler</a>
+<ul>
+<li><a href="https://youtu.be/uFhppTJfjiY">Justin Thaler Lecture</a></li>
+<li><a href="https://medium.com/yearofzk/rust-guide-sum-check-protocol-18ceb8affdb2">Intro to Sumcheck protocol -oxsage</a></li>
+<li><a href="https://cryptologie.net/article/577/the-intuition-behind-the-sum-check-protocol-in-5-minutes/">Inuition behind sumcheck - Wong</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2021/333.pdf">Sumcheck argument and applications</a></li>
+</ul>
+<h2 id="low-degree-testingfri"><a class="header" href="#low-degree-testingfri">Low degree Testing/FRI</a></h2>
+<ul>
+<li><a href="https://eprint.iacr.org/2018/046.pdf">STARK paper</a></li>
+<li><a href="https://eprint.iacr.org/2019/336.pdf">DEEP - FRI</a></li>
+<li><a href="https://eccc.weizmann.ac.il/report/2020/083/">Proximity Gaps for Reed-Solomon Codes</a></li>
+<li><a href="https://hackernoon.com/zero-knowledge-proof-algorithm-zk-stark-fri-protocol">FRI hackernoon</a></li>
+<li><a href="https://hackmd.io/@sin7y/r1r0IE40K">FRI properties</a></li>
+<li><a href="https://ethresear.ch/t/fri-as-erasure-code-fraud-proof/6610">FRI erasure code fraud proof</a></li>
+<li><a href="https://notes.ethereum.org/@dankrad/barycentric_low_degree_check">Barycentric low deg check - Dankrad Feist</a></li>
+<li><a href="https://medium.com/starkware/low-degree-testing-f7614f5172db">Low Degree Testing</a></li>
+</ul>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="computational-primitives"><a class="header" href="#computational-primitives">Computational Primitives</a></h1>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="hardware-acceleration"><a class="header" href="#hardware-acceleration">Hardware acceleration</a></h1>
+<h2 id="need-for-hardware-acceleration-or-not"><a class="header" href="#need-for-hardware-acceleration-or-not">Need for hardware acceleration or not?</a></h2>
+<ul>
+<li><a href="https://a16zcrypto.com/measuring-snark-performance-frontends-backends-and-the-future/">Measuring Snark performance frontends-backends and future - Thaler</a></li>
+<li><a href="https://a16zcrypto.com/snark-security-and-performance/">SNark security and peformance - Thaler</a></li>
+<li><a href="https://a16z.com/2022/04/15/zero-knowledge-proofs-hardware-decentralization-innovation/">Decentralized Speed: Advances in Zero Knowledge Proofs</a></li>
+<li><a href="https://www.paradigm.xyz/2022/04/zk-hardware">Hardware Acceleration for Zero Knowledge Proofs</a></li>
+<li><a href="https://www.sigarch.org/cryptography-for-secure-computing-a-new-hardware-acceleration-opportunity/">Secure computing and hardware acceleration</a></li>
+</ul>
+<h2 id="competitions"><a class="header" href="#competitions">Competitions</a></h2>
+<ul>
+<li><a href="https://www.entropy1729.com/eyes-on-the-prize-an-overview-of-zprize-solutions-on-the-msm-challenge-using-cuda/">Zprize submissions summary - entropy</a>
+<ul>
+<li><a href="https://hackmd.io/KGbmVFoYT2-Og30qjoG3ow#bfb53425-submission">hackmd version</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="general-hw-resources-and-guides"><a class="header" href="#general-hw-resources-and-guides">General HW resources and guides</a></h2>
+<ul>
+<li><a href="www.ingonyama.com">Ingonyama</a>
+<ul>
+<li><a href="https://www.microsoft.com/en-us/research/publication/pipezk-accelerating-zero-knowledge-proof-with-a-pipelined-architecture/">PipeZK</a></li>
+<li><a href="https://github.com/ingonyama-zk/papers">Papers</a></li>
+<li><a href="https://medium.com/@ingonyama/cloud-zk-a-toolkit-for-developing-zkp-acceleration-in-the-cloud-3d670c09c6ed">Cloud ZK</a></li>
+<li><a href="https://github.com/ingonyama-zk/modular_multiplication">Multi precision arithmetic</a></li>
+</ul>
+</li>
+<li><a href="https://en.algorithmica.org/hpc/">Algorithms for modern Hardware</a></li>
+<li><a href="https://www.entropy1729.com/learning-cuda-from-scratch/">learning CUDA from scratch - entropy</a></li>
+</ul>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="discrete-fourier-transforms"><a class="header" href="#discrete-fourier-transforms">Discrete Fourier Transforms</a></h1>
+<h2 id="algorithms-and-methods"><a class="header" href="#algorithms-and-methods">Algorithms and methods</a></h2>
+<ul>
+<li><a href="https://vitalik.ca/general/2019/05/12/fft.html">FFT - Vitalik</a></li>
+<li><a href="https://ethresear.ch/t/reed-solomon-erasure-code-recovery-in-n-log-2-n-time-with-ffts/3039">Reed-Solomon code: Vitalik</a></li>
+<li><a href="https://www.csee.umbc.edu/~phatak/691a/fft-lnotes/fftnotes.pdf">FFT Notes</a></li>
+<li><a href="https://www.ams.org/journals/mcom/1971-25-114/S0025-5718-1971-0301966-0/S0025-5718-1971-0301966-0.pdf">The Fast Fourier Transform in a Finite Field - Pollard</a></li>
+<li><a href="https://www.nayuki.io/page/number-theoretic-transform-integer-dft">Number Theoretic Transform (NTT): Introduction</a></li>
+<li><a href="https://cgyurgyik.github.io/posts/2021/04/brief-introduction-to-ntt/">NTT with code</a></li>
+<li><a href="https://cp4space.hatsya.com/2021/09/01/an-efficient-prime-for-number-theoretic-transforms/">Efficient primes for NTT - Goldilocks</a>
+<ul>
+<li><a href="https://nufhe.readthedocs.io/en/latest/implementation_details.html">Goldilocks in nuFHE</a></li>
+<li><a href="https://www.ingonyama.com/blogs/goldilocks-ntt-trick">Goldilocks NTT trick - Solberg</a></li>
+</ul>
+</li>
+<li><a href="https://arxiv.org/abs/2107.08473">Elliptic Curve Fast Fourier Transform (ECFFT) Part I: Fast Polynomial Algorithms over all Finite Fields: Eli Ben-Sasson et.al</a>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=kQZvBXLZ8dM">Talk -zk study club</a></li>
+<li><a href="https://solvable.group/posts/ecfft/">ECFFT algorithm</a></li>
+<li><a href="https://github.com/wborgeaud/ecfft-bn254">Rust Implementation -Wboregaud</a></li>
+<li><a href="https://solvable.group/posts/ecfft-bn254/">Rust ECFFT BN254- Wboregeaud</a></li>
+</ul>
+</li>
+<li><a href="https://eccc.weizmann.ac.il/report/2022/110/">ECFFT-2 Ben-Sasson et.al</a></li>
+<li><a href="https://www.uprm.edu/cise/wp-content/uploads/sites/171/2018/12/ferrermoreno.pdf">FFT - Ferror Moreno thesis</a></li>
+<li><a href="https://zcash.github.io/halo2/background/polynomials.html">Zcash FFT</a></li>
+<li><a href="https://cse.hkust.edu.hk/mjg_lib/Classes/COMP3711H_Fall16/lectures/FFT_Slides.pdf">FFT for polynomial multiplication</a></li>
+<li><a href="https://hackmd.io/@vbuterin/barycentric_evaluation">A quick barycentric evaluation tutorial - Vitalik</a></li>
+<li><a href="https://people.maths.ox.ac.uk/trefethen/barycentric.pdf">Barycentric interpolation - Math Oxford</a></li>
+</ul>
+<h2 id="implementations"><a class="header" href="#implementations">Implementations</a></h2>
+<ul>
+<li><a href="https://escholarship.org/content/qt37t8364f/qt37t8364f.pdf">Thesis: BUNTTERFLY: A Flexible Hardware Generator for the Number Theoretic Transform - Jason Vranek</a></li>
+<li><a href="https://eprint.iacr.org/2022/1657">CycloneNTT</a></li>
+<li><a href="https://libntl.org">NTL: a library for NTT</a></li>
+<li><a href="https://github.com/z-prize/2022-entries/tree/main/open-division/prize2-ntt">Zprize 2022</a></li>
+</ul>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="multi-scalar-multiplications"><a class="header" href="#multi-scalar-multiplications">Multi scalar multiplications</a></h1>
+<h2 id="algorithms-and-methods-1"><a class="header" href="#algorithms-and-methods-1">Algorithms and methods</a></h2>
+<ul>
+<li><a href="https://link.springer.com/chapter/10.1007/3-540-36400-5_41">Fast Multi-scalar Multiplication Methods on Elliptic Curves with Precomputation Strategy Using Montgomery Trick</a></li>
+<li><a href="https://eprint.iacr.org/2012/549">Faster batch forgery identification</a> See section 4 for MSM, bucket method</li>
+<li><a href="https://cr.yp.to/papers/pippenger.pdf">Pippenger’s exponentiation algorithm - Bernstein</a></li>
+<li><a href="https://github.com/wborgeaud/python-pippenger/blob/master/pippenger.pdf">Efficient multi-exponentiation</a>
+<ul>
+<li><a href="https://github.com/wborgeaud/python-pippenger">implementation in Python</a></li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/watch?v=Bl5mQA7UL2I">Multi-scalar multiplication: state of the art &amp; new ideas with Gus Gutoski</a></li>
+<li><a href="https://www.bmoeller.de/pdf/fastexp-icisc2002.pdf">Improved Fast exponentiations - Bodo Moller</a></li>
+<li><a href="https://www.dmgordon.org/papers/fast.pdf">Fast exponentiation with precomputation - Brickell Gordon et al</a></li>
+<li><a href="https://github.com/matter-labs/eip1962/blob/master/documentation/Algorithms_for_EIP1962.pdf">Matter labs -ALgorithms</a></li>
+<li><a href="https://cacr.uwaterloo.ca/techreports/2010/cacr2010-26.pdf">Ryah Henry - Thesis</a></li>
+<li><a href="https://jbootle.github.io/Misc/pippenger.pdf">Efficient Multi exponentiation: Bucket method - Bootle</a></li>
+</ul>
+<h2 id="implementations-1"><a class="header" href="#implementations-1">Implementations</a></h2>
+<ul>
+<li><a href="https://www.microsoft.com/en-us/research/publication/pipezk-accelerating-zero-knowledge-proof-with-a-pipelined-architecture/">pipezk</a></li>
+<li><a href="https://github.com/connormas/MultiScalarMultiplication/blob/main/ConnorMastersonThesisV2.pdf">MSM with FPGA -Connor Masterson thesis</a></li>
+<li><a href="https://eprint.iacr.org/2022/999">PipeMSM</a></li>
+<li><a href="https://ia.cr/2022/1400">EdMSM</a></li>
+<li><a href="https://eprint.iacr.org/2022/1396">CycloneMSM</a></li>
+<li><a href="https://eprint.iacr.org/2022/1321">Cuzk</a></li>
+<li><a href="https://github.com/z-prize/2022-entries/tree/main/open-division/prize1-msm">Zprize MSM implementations</a></li>
+</ul>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="homomorphic-encryption"><a class="header" href="#homomorphic-encryption">Homomorphic Encryption</a></h1>
+<h2 id="general-5"><a class="header" href="#general-5">General</a></h2>
+<ul>
+<li><a href="https://eprint.iacr.org/2022/1602">Survey on FHE and applications</a></li>
+<li><a href="https://medium.com/zama-ai/encrypted-search-using-fully-homomorphic-encryption-99cd163b94">Encrypted search using FHE</a></li>
+<li><a href="https://notes.ethereum.org/@vbuterin/r19UMPTiI">Exploring FHE: Vitalik</a></li>
+<li><a href="https://medium.com/zama-ai/the-r-evolution-of-fhe-485b54a6e69c">ML and FHE</a> </li>
+</ul>
+<h2 id="tfhe-deep-dive-zama-ai---ilaria-chilloti"><a class="header" href="#tfhe-deep-dive-zama-ai---ilaria-chilloti">TFHE deep dive: ZAMA AI - Ilaria Chilloti</a></h2>
+<ul>
+<li><a href="https://www.zama.ai/post/tfhe-deep-dive-part-1?utm_source=tfhe_deep_dive_part_I&amp;utm_medium=substack&amp;utm_campaign=blogpost">Part 1: Ciphertext types</a></li>
+<li><a href="https://www.zama.ai/post/tfhe-deep-dive-part-2?utm_source=tfhe_deep_dive_part_I&amp;utm_medium=substack&amp;utm_campaign=blogpost">Part 2: Encoding and linear ops</a></li>
+<li><a href="https://www.zama.ai/post/tfhe-deep-dive-part-3?utm_source=tfhe_deep_dive_part_3&amp;utm_medium=substack&amp;utm_campaign=blogpost">part 3: key switching and levelled multiplications</a></li>
+<li><a href="https://www.zama.ai/post/tfhe-deep-dive-part-4">Part 4: programmable bootstrapping</a></li>
+</ul>
+<h2 id="he-librariesimplementations"><a class="header" href="#he-librariesimplementations">HE Libraries/implementations</a></h2>
+<ul>
+<li><a href="https://github.com/jonaschn/awesome-he">Awesome FHE library list</a></li>
+<li><a href="https://github.com/microsoft/SEAL#introduction">Microsoft SEAL</a></li>
+<li><a href="https://github.com/OpenMined/TenSEAL">TenSEAL - Openmined</a></li>
+<li><a href="https://github.com/OpenMined/PySyft">PySyft - Openmined</a></li>
+<li><a href="https://github.com/krakhit/tfhe">Tfhe - torus</a></li>
+<li><a href="https://github.com/google/fully-homomorphic-encryption">Google - FHE</a></li>
+<li><a href="https://github.com/IBM/fhe-toolkit-macos">IBM - FHE</a></li>
+<li><a href="https://palisade-crypto.org/software-library/">PALISADE</a></li>
+<li><a href="https://github.com/zama-ai/concrete">Zama AI - Concrete - Rust</a></li>
+<li><a href="https://github.com/krakhit/Paillier.jl">Paillier - Julia</a></li>
+<li><a href="https://github.com/facebookresearch/Cupcake">Cupcake - Facebook Research</a></li>
+</ul>
+<h2 id="accelerating-fhe"><a class="header" href="#accelerating-fhe">Accelerating FHE</a></h2>
+<ul>
+<li><a href="https://eprint.kobi.one/2022/1635">FPT: a Fixed-Point Accelerator for Torus Fully Homomorphic Encryption</a></li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+        <script>
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+
+    </div>
+    </body>
+</html>

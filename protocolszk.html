@@ -1,0 +1,423 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Protocols - Ingopedia</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="communityguide.html"><strong aria-hidden="true">1.</strong> Community Guidelines</a></li><li class="chapter-item expanded "><a href="ZKP.html"><strong aria-hidden="true">2.</strong> Zero Knowledge Proofs</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="curatedzk.html"><strong aria-hidden="true">2.1.</strong> Curated Resources</a></li><li class="chapter-item expanded "><a href="zkpseries.html"><strong aria-hidden="true">2.2.</strong> Video Lecture Series</a></li><li class="chapter-item expanded "><a href="introzkp.html"><strong aria-hidden="true">2.3.</strong> Articles</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="zkbeginner.html"><strong aria-hidden="true">2.3.1.</strong> ZK Introductory</a></li><li class="chapter-item expanded "><a href="zksnarks.html"><strong aria-hidden="true">2.3.2.</strong> ZKSNARKS</a></li><li class="chapter-item expanded "><a href="starks.html"><strong aria-hidden="true">2.3.3.</strong> STARKS</a></li><li class="chapter-item expanded "><a href="applicationszk.html"><strong aria-hidden="true">2.3.4.</strong> Applications</a></li><li class="chapter-item expanded "><a href="vulnerabilities.html"><strong aria-hidden="true">2.3.5.</strong> Vulnerabilities</a></li></ol></li><li class="chapter-item expanded "><a href="handsonzk.html"><strong aria-hidden="true">2.4.</strong> Hands-On ZK</a></li><li class="chapter-item expanded "><a href="protocolszk.html" class="active"><strong aria-hidden="true">2.5.</strong> Protocols</a></li><li class="chapter-item expanded "><a href="mathzkp.html"><strong aria-hidden="true">2.6.</strong> Mathematics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ff.html"><strong aria-hidden="true">2.6.1.</strong> Finite fields</a></li><li class="chapter-item expanded "><a href="cryptoprimzk.html"><strong aria-hidden="true">2.6.2.</strong> Cryptographic primitives</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="elliptic.html"><strong aria-hidden="true">2.6.2.1.</strong> Elliptic curves</a></li><li class="chapter-item expanded "><a href="hashzk.html"><strong aria-hidden="true">2.6.2.2.</strong> Hash functions</a></li><li class="chapter-item expanded "><a href="VDFzk.html"><strong aria-hidden="true">2.6.2.3.</strong> Verifiable Delay functions</a></li><li class="chapter-item expanded "><a href="Arithmzk.html"><strong aria-hidden="true">2.6.2.4.</strong> Arithmetization</a></li><li class="chapter-item expanded "><a href="commitmentzk.html"><strong aria-hidden="true">2.6.2.5.</strong> Commitment Schemes</a></li><li class="chapter-item expanded "><a href="MPC.html"><strong aria-hidden="true">2.6.2.6.</strong> Secure Multi Party Computation</a></li><li class="chapter-item expanded "><a href="provingzk.html"><strong aria-hidden="true">2.6.2.7.</strong> Proving Methods</a></li></ol></li><li class="chapter-item expanded "><a href="compprimzk.html"><strong aria-hidden="true">2.6.3.</strong> Computational Primitives</a></li><li><ol class="section"><li class="chapter-item expanded "><a href=".hwzk.html"><strong aria-hidden="true">2.6.3.1.</strong> Hardware acceleration</a></li><li class="chapter-item expanded "><a href="fft.html"><strong aria-hidden="true">2.6.3.2.</strong> Discrete Fourier Transforms</a></li><li class="chapter-item expanded "><a href="msm.html"><strong aria-hidden="true">2.6.3.3.</strong> Multi Scalar Multiplications</a></li></ol></li></ol></li></ol></li><li class="chapter-item expanded "><a href="HE.html"><strong aria-hidden="true">3.</strong> Homomorphic Encryption</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Ingopedia</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/ingonyama-zk/ingopedia" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href=" https://github.com/ingonyama-zk/ingopedia/edit/master/src/protocolszk.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="protocols"><a class="header" href="#protocols">Protocols</a></h1>
+<p>Our collection of mathematical papers, protocols, and code on ZK proofs is a comprehensive resource for researchers, developers, and students in the field of cryptography. These materials provide a deep understanding of the theories, implementations, and practical applications of zero-knowledge proofs, serving as a valuable reference for anyone interested in this cutting-edge technology.</p>
+<p><strong>What you will find here:</strong> <em>Protocols, Papers, Code</em></p>
+<hr />
+<ul>
+<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=6547113">Pinocchio - 2013</a></li>
+<li><a href="https://eprint.iacr.org/2013/507.pdf">TinyRAM - 2013</a></li>
+<li><a href="https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-ben-sasson.pdf">vnTinyRAM - 2014</a>
+<ul>
+<li><a href="https://blog.plan99.net/vntinyram-7b9d5b299097">Code: Mike Hearn</a></li>
+</ul>
+</li>
+<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=7163030">Geppetto - 2015</a></li>
+<li><a href="https://www.ndss-symposium.org/ndss2015/ndss-2015-programme/efficient-ram-and-control-flow-verifiable-outsourced-computation/">Buffet - 2015</a></li>
+<li><a href="https://eprint.iacr.org/2016/260.pdf">Groth -2016</a>
+<ul>
+<li><a href="https://github.com/ConsenSys/gnark">Code: ConSensys - gnark</a>,<a href="https://github.com/arkworks-rs/groth16">Code: Arkworks</a></li>
+<li><a href="https://geometry.xyz/notebook/groth16-malleability">Groth16 Malleability - Geometry research</a></li>
+<li><a href="https://medium.com/ppio/how-to-generate-a-groth16-proof-for-forgery-9f857b0dcafd">Proof of forgery</a></li>
+<li><a href="https://docs.zkproof.org/pages/standards/accepted-workshop4/proposal-aggregation.pdf">Groth16 aggregation proposal</a></li>
+<li><a href="https://www.youtube.com/watch?v=OseAdq0CoOY">Groth - Talk</a></li>
+<li><a href="https://starli.medium.com/zkp-deep-into-bellman-library-9b1bf52cb1a6">Deep into bellman library - Star Li</a></li>
+</ul>
+</li>
+<li><a href="https://dl.acm.org/doi/pdf/10.1145/3133956.3134104">Ligero - 2017</a></li>
+<li><a href="https://www.depositonce.tu-berlin.de/bitstream/11303/13087/4/eberhardt_jacob.pdf">ZoKrates - 2018</a>, <a href="https://zokrates.github.io">Code: ZoKrates</a>
+<ul>
+<li><a href="https://blog.decentriq.com/proving-hash-pre-image-zksnarks-zokrates/">Proving hash preimage with Zokrates - Decentriq</a></li>
+<li><a href="https://blog.decentriq.com/efficient-ecc-in-zksnarks-using-zokrates/">Efficient ECC in Zokrates- Decentriq</a></li>
+</ul>
+</li>
+<li><a href="https://akosba.github.io/papers/xjsnark.pdf">xjSNARK - 2018</a></li>
+<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=8418645">vRAM - 2018</a></li>
+<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=8418611">Bulletproof - 2018</a>
+<ul>
+<li><a href="https://medium.com/coinmonks/zero-knowledge-proofs-using-bulletproofs-4a8e2579fc82">ZKP using Bullet proofs - Lovesh Harchandani</a></li>
+<li><a href="https://github.com/dalek-cryptography/bulletproofs">Code: Dalek</a></li>
+<li><a href="https://github.com/lovesh/bulletproofs-r1cs-gadgets">Code: Lovesh</a></li>
+<li><a href="https://github.com/AdamISZ/from0k2bp/blob/master/from0k2bp.pdf">Notes</a></li>
+</ul>
+</li>
+<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=8418646">Hyrax - 2018</a></li>
+<li><a href="https://eprint.iacr.org/2018/046.pdf">zk-STARK -2018</a>
+<ul>
+<li><a href="https://docs.rs/winterfell/latest/winterfell/">Code: Winterfell -multi threaded zk STARK</a>, <a href="https://docs.rs/winterfell/latest/winterfell/">Crate: Winterfell</a></li>
+<li><a href="https://github.com/starkware-libs/cairo">CAIRO</a></li>
+<li><a href="https://github.com/andrewmilson/ministark">MiniSTARK</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2019/099.pdf">Sonic - 2019</a>
+<ul>
+<li><a href="https://www.benthamsgaze.org/2019/02/07/introducing-sonic-a-practical-zk-snark-with-a-nearly-trustless-setup/">Sonic - Benthams Gaze</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2019/953.pdf">Plonk - 2019</a>
+<ul>
+<li><a href="https://www.smartcontractresearch.org/t/research-summary-plonk-permutations-over-lagrange-bases-for-oecumenical-noninteractive-arguments-of-knowledge/382">Plonk high level summary</a></li>
+<li><a href="https://www.youtube.com/watch?v=dHo56MhQlHk">Talk: Ariel Gabizon</a></li>
+<li><a href="https://www.youtube.com/watch?v=ty-LZf0YCK0">Talk: Zac Williamson</a></li>
+<li><a href="https://vitalik.ca/general/2019/09/22/plonk.html">Understanding Plonk - Vitalik</a></li>
+<li><a href="https://hackmd.io/@aztec-network/plonk-arithmetiization-air#How-does-all-this-relate-to-R1CS">From AIRs to RAPs - how PLONK-style arithmetization works</a></li>
+<li><a href="https://www.fluidex.io/en/blog/on-plonk/">On optimizations of Plonk</a></li>
+<li><a href="https://kobi.one/2021/05/20/plonk-custom-gates.html">Custom gates on plonk -Do whatever</a></li>
+<li><a href="https://www.plonk.cafe/top">Plonk Cafe</a></li>
+<li><a href="https://scroll.io/blog/proofGeneration#heading-22">Plonk: Anatomy of a proof generation: Scroll</a></li>
+<li><a href="https://github.com/heliaxdev/plonk">code: Heliaxdev</a>, <a href="https://github.com/kobigurk/plonk/tree/kobigurk/port_to_zexe">code: Kobigurkan</a> ,<a href="https://github.com/ZK-Garage/plonk">code: ZKgarage</a>, <a href="https://github.com/dusk-network/plonk">code: Dusknetwork</a>,<a href="https://github.com/EspressoSystems/jellyfish">code: Jellyfish includes plookup</a> ,<a href="https://github.com/Fluidex/awesome-plonk">Resource: Awesome_Plonk</a></li>
+<li><a href="https://research.metastate.dev/plonk-by-hand-part-1/">Resource: Plonk by hand -1 Metastate</a>
+<ul>
+<li><a href="https://research.metastate.dev/plonk-by-hand-part-2-the-proof/">Resource: Plonk by hand -2 Metastate</a></li>
+<li><a href="https://research.metastate.dev/plonk-by-hand-part-3-verification/">Resource: Plonk by hand -3 Metastate</a></li>
+<li><a href="https://research.metastate.dev/on-plonk-and-plookup/">Resource: Plonk and Plookup Metastate</a></li>
+</ul>
+</li>
+<li><a href="https://docs.zkproof.org/pages/standards/accepted-workshop3/proposal-turbo_plonk.pdf">Turboplonk</a></li>
+<li><a href="https://www.plonk.cafe/t/details-of-custom-gate/122">Custom gates in plonk</a></li>
+<li><a href="https://hackmd.io/@gnark/plonk">Plonk: Thomas Piellard</a></li>
+<li><a href="https://starli.medium.com/zkp-plonk-algorithm-introduction-834556a32a">ZKP intro to Plonk - Star Li</a></li>
+<li><a href="https://hackmd.io/@arielg/ByFgSDA7D">Multi set checks in Plonk and Plookup: Gabizon</a></li>
+<li><a href="https://eng-blog.o1labs.org/posts/plonk/">Plonk - Kimchi: Mina Protocol</a>
+<ul>
+<li><a href="https://minaprotocol.com/blog/kimchi-the-latest-update-to-minas-proof-system">Kimchi</a> -<a href="https://eprint.iacr.org/2019/1400">Redshift - 2019</a></li>
+</ul>
+</li>
+<li><a href="https://www.smartcontractresearch.org/t/research-summary-redshift-transparent-snarks-from-list-polynominal-commitment-iops/344">Redhsift Summary</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2019/550.pdf">Spartan - 2019</a>
+<ul>
+<li><a href="https://github.com/microsoft/Spartan">code: Microsoft</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2019/1021.pdf">Halo - 2019</a>
+<ul>
+<li><a href="https://hackmd.io/@gnark/halo">Halo - Thomas Piellard</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2018/828.pdf">Aurora - 2019</a>
+<ul>
+<li><a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2020/EECS-2020-182.pdf">Thesis Spooner</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2020/278.pdf">MIRAGE - 2020</a></li>
+<li><a href="https://eprint.iacr.org/2019/1047.pdf">Marlin - 2020</a>
+<ul>
+<li><a href="https://github.com/arkworks-rs/marlin">Code: Sciprlab-Arkworks</a></li>
+<li><a href="https://github.com/arkworks-rs/marlin/blob/master/diagram/diagram.pdf">Doc: Pre lunar and not updated to Aleo/testnet3</a></li>
+<li><a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2021/EECS-2021-99.pdf">Thesis</a></li>
+<li><a href="https://www.youtube.com/watch?v=3mZWa6tJaMI">Eurocrypt 2020: Talk video</a></li>
+<li><a href="https://www.youtube.com/watch?v=bJDLf8KLdL0">ZK summit - Talk: Pratyush</a></li>
+<li><a href="https://hackmd.io/@sin7y/BJV47Q_nq">Sin7y tech review: blog</a></li>
+<li><a href="https://github.com/ingonyama-zk/papers/blob/main/Marlin_and_me.pdf">Marlin and Me</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2019/1076">Fractal -2020</a>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=TcRhC5U353I">Fractal - talk</a></li>
+<li><a href="https://github.com/scipr-lab/libiop">code: Sciprlabs-Libiop</a></li>
+<li><a href="https://research.metastate.dev/demystifying-fractal-part-1/">Resource: Demystifying Fractal 1 -Metastate</a></li>
+<li><a href="https://research.metastate.dev/demystifying-fractal-part-ii/">Resource:Demystifying Fractal 2 - Metastate</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2020/1069">Lunar - 2020</a> - Optimizations for Marlin.
+<ul>
+<li><a href="https://www.youtube.com/watch?v=_7EBb-k2W6A&amp;list=PLj80z0cJm8QHm_9BdZ1BqcGbgE-BEn-3Y&amp;index=3">ZK study club video</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2019/1229.pdf">SuperSonic - 2020</a>
+<ul>
+<li><a href="https://research.metastate.dev/demystifying-supersonic-part-1/">Resource: Demystifying supersonic 1 -Metastate</a></li>
+<li><a href="https://research.metastate.dev/demystifying-supersonic-part-ii/">Resource: Demystifying supersonic 2- Metastate</a></li>
+</ul>
+</li>
+<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9152704">Virgo - 2020</a>, <a href="https://github.com/sunblaze-ucb/Virgo">code</a></li>
+<li><a href="https://eprint.iacr.org/2020/315.pdf">Plookup -2020</a>
+<ul>
+<li><a href="/vkAtXEGpSy2o4BzVDJQHMw">Marlin + Plookup (High-Level Summary)</a></li>
+<li><a href="https://github.com/EspressoSystems/jellyfish">code: Jellyfish</a></li>
+<li><a href="https://github.com/arielgabizon/Lectures/blob/master/plookupinactionDystopia2020.pdf">Plookup in action -Talk</a></li>
+<li><a href="https://research.metastate.dev/on-plonk-and-plookup/">Plonk and Plookup - Metastate</a></li>
+<li><a href="https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/BJpNmNW0L">Plonk and Plookup - Khovratovich</a></li>
+<li><a href="https://o1-labs.github.io/proof-systems/introduction.html">Mina Protocol</a></li>
+<li><a href="https://hackmd.io/m0fnJ_lPTPahWAhfaiQA7Q#With-smaller-38-sized-tables">AES with lookup : Daira Hopwood</a></li>
+<li><a href="https://www.youtube.com/watch?v=rOZTQ-18YJY">Lookup tables - Ariel Gabizon</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2020/1155.pdf">Zilch - 2021</a>
+<ul>
+<li><a href="https://github.com/TrustworthyComputing/Zilch">code</a></li>
+</ul>
+</li>
+<li><a href="https://arxiv.org/pdf/2107.04315.pdf">Darlin - 2021</a>
+<ul>
+<li><a href="https://github.com/HorizenOfficial/ginger-lib">code</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2022/086.pdf">Plonkup -2021</a></li>
+<li><a href="https://research.protocol.ai/publications/snarkpack-practical-snark-aggregation/gailly2021.pdf">SnarkPack -2021 Practical snark aggregation</a>
+<ul>
+<li><a href="https://research.protocol.ai/blog/2021/snarkpack-how-to-aggregate-snarks-efficiently/#groth16-aggregated-verification">Blog: efficient aggregation</a></li>
+<li><a href="https://delendum.xyz/2022/11/22/zk-snark-aggregation.html">SNark aggregation: general</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2021/1167.pdf">FFlonk -2021 a FFT friendly Plonk</a></li>
+<li><a href="https://eprint.iacr.org/2021/1043.pdf">Brakedown - 2021</a></li>
+<li><a href="https://eprint.iacr.org/2021/370.pdf">Nova - 2021</a>,
+<ul>
+<li><a href="https://github.com/microsoft/Nova">code</a></li>
+<li><a href="https://drive.google.com/file/d/1aLQeB_ca9k7NrWRHY00QauZIe7hmt6_u/view">Srinath Setty - Talk</a></li>
+<li><a href="https://www.youtube.com/watch?v=mY-LWXKsBLc">Srinath Setty - Video</a></li>
+<li><a href="https://www.entropy1729.com/incrementally-verifiable-computation-nova/">Nova - Entropy</a></li>
+<li><a href="https://iacr.org/submit/files/slides/2022/crypto/crypto2022/334/slides.pdf">IACR talk slides</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/mir-protocol/plonky2/blob/main/plonky2.pdf">Plonky2 - 2022</a>
+<ul>
+<li><a href="https://github.com/mir-protocol/plonky2">code</a></li>
+<li><a href="https://github.com/mir-protocol/plonky2/blob/main/plonky2.pdf">documentation</a></li>
+<li><a href="https://github.com/mir-protocol/plonky">Plonky: code</a></li>
+<li><a href="https://mirprotocol.org/blog/Fast-recursive-arguments-based-on-Plonk-and-Halo">Plonky: Fast recursive arguments based on Plonk and Halo</a></li>
+<li><a href="https://mirprotocol.org/blog/Adding-zero-knowledge-to-Plonk-Halo">Plonky: Adding zero Knowledge to Plonk and Halo</a></li>
+</ul>
+</li>
+<li><a href="https://zcash.github.io/halo2/index.html">Halo 2 - library</a>
+<ul>
+<li><a href="https://starli.medium.com/zero-knowledge-proof-a-guide-to-halo2-source-code-9be0cf792f18">Guide to Halo2 source code</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2022/420">Gemini - 2022</a>, <a href="https://github.com/arkworks-rs/gemini">Arkworks</a>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=Suv7MN131f8">talk</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2022/621.pdf">Caulk - 2022</a>
+<ul>
+<li><a href="https://github.com/caulk-crypto/caulk">Code</a></li>
+<li><a href="https://eprint.iacr.org/2022/957">Caulk+</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2022/1010">Orion -2022</a>
+<ul>
+<li><a href="https://github.com/sunblaze-ucb/Orion">Code</a></li>
+<li><a href="https://www.youtube.com/watch?v=LZb_wqCzwr8">IACR -talk</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2022/1355">Hyperplonk - 2022</a>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=mZEXgoQL6xk">Hyperplonk - benedikt Bunz</a></li>
+<li><a href="https://www.espressosys.com/blog/hyperplonk-a-zk-proof-system-for-zkevms">Blog- Delendum</a></li>
+<li><a href="https://hackmd.io/@omershlo/rJhgKJPtj">Hardware friendliness of MLE-Sumcheck</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2022/1447">flookup: Fractional decomposition-based lookups in quasi-linear time independent of table size -2022</a></li>
+<li><a href="https://eprint.iacr.org/2022/1565">Baloo: Nearly Optimal Lookup Arguments - 2022</a></li>
+<li><a href="https://eprint.iacr.org/2022/1763">CQ: Cached coefficients for fast lookups 2022</a>
+<ul>
+<li><a href="https://github.com/geometryresearch/cq">code: Geometry</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2022/1758">Supernova 2022</a></li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="handsonzk.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="mathzkp.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="handsonzk.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="mathzkp.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
