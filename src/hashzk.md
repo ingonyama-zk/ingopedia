@@ -21,6 +21,9 @@
       - [in Plonk](https://blog.trailofbits.com/2022/04/18/the-frozen-heart-vulnerability-in-plonk/)
 - **Hashes**
   - [Keccak: Sponge and Duplex constructions](https://keccak.team/sponge_duplex.html)
+  - **SHA256**
+    - [NIST doc](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf)
+    - [Halo2 16 bit lookup implementation](https://zcash.github.io/halo2/design/gadgets/sha256/table16.html)
   - **Poseidon**
     - [POSEIDON: A New Hash Function for Zero-Knowledge Proof Systems](https://eprint.iacr.org/2019/458.pdf)
     - [some documentation](https://www.poseidon-hash.info)
@@ -39,27 +42,30 @@
       - [code: Dusk network](https://github.com/dusk-network/Poseidon252)
       - [code: Dust netowrk - Poseidon merkle](https://github.com/dusk-network/dusk-poseidon-merkle)
       - [code: Triplewz - GO](https://github.com/triplewz/poseidon)
-    - **Rescue**
-      - [Rescue-Prime: a Standard Specification (SoK)](https://eprint.iacr.org/2020/1143.pdf)
-      - [Observations on Rescue](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/SJMVAPfjL) 
-      - [Poseidon vs Rescye](https://ethresear.ch/t/performance-of-rescue-and-poseidon-hash-functions/7161)
-    - **MIMC**
-      - [MiMc](https://eprint.iacr.org/2016/492.pdf)
-      - [Mimc7 in Plonk - Custom gates](https://kobi.one/2021/05/20/plonk-custom-gates.html)
-      - [Mimc Roy slides](https://iacr.org/cryptodb/archive/2016/ASIACRYPT/presentation/27874.pdf)
-    - **Reinforced concrete**
-      - [Reinforced concrete](https://drive.google.com/file/d/1MCIqD8XwKrHVBQPc26XjAmM9RyrLDpjw/view)
-      - [implementation](https://www.rc-hash.info)
-      - [Plonkup reinforced concrete zkstudyclub](https://www.youtube.com/watch?v=Pnc9J7uQgqs)
-      - [Dusk network](https://dusk.network/news/development-update-34)
-      - [Code: Luke Pearson](https://github.com/LukePearson1/reinforced-concrete)
-    - **Sinsemilla**
-      - [Sinsemilla: A circuit-efficient, lookup-based collision-resistant hash function](/iOw7-HpFQY6dPF1aFY8pAw)
-      - [halo book](https://zcash.github.io/orchard/design/circuit/gadgets/sinsemilla.html)
-      - [ZCash protocol specification](https://zips.z.cash/protocol/protocol.pdf#concretesinsemillahash)
-    - **BLAKE**
-      - [Blake](https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf)
-      - [code](https://github.com/BLAKE3-team/BLAKE3)
+  - **Rescue**
+    - [Rescue-Prime: a Standard Specification (SoK)](https://eprint.iacr.org/2020/1143.pdf)
+    - [Observations on Rescue](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/SJMVAPfjL) 
+    - [Poseidon vs Rescye](https://ethresear.ch/t/performance-of-rescue-and-poseidon-hash-functions/7161)
+  - **MIMC**
+    - [MiMc](https://eprint.iacr.org/2016/492.pdf)
+    - [Mimc7 in Plonk - Custom gates](https://kobi.one/2021/05/20/plonk-custom-gates.html)
+    - [Mimc Roy slides](https://iacr.org/cryptodb/archive/2016/ASIACRYPT/presentation/27874.pdf)
+  - **Reinforced concrete**
+    - [Reinforced concrete](https://drive.google.com/file/d/1MCIqD8XwKrHVBQPc26XjAmM9RyrLDpjw/view)
+    - [implementation](https://www.rc-hash.info)
+    - [Plonkup reinforced concrete zkstudyclub](https://www.youtube.com/watch?v=Pnc9J7uQgqs)
+    - [Dusk network](https://dusk.network/news/development-update-34)
+    - [Code: Luke Pearson](https://github.com/LukePearson1/reinforced-concrete)
+  - **Sinsemilla**
+    - [Sinsemilla: A circuit-efficient, lookup-based collision-resistant hash function](/iOw7-HpFQY6dPF1aFY8pAw)
+    - [halo book](https://zcash.github.io/orchard/design/circuit/gadgets/sinsemilla.html)
+    - [ZCash protocol specification](https://zips.z.cash/protocol/protocol.pdf#concretesinsemillahash)
+  - **BLAKE**
+    - [Blake](https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf)
+    - [code](https://github.com/BLAKE3-team/BLAKE3)
+  - **Tip5**
+    - [Tip5](https://eprint.iacr.org/2023/107)
+    - [code](https://github.com/Neptune-Crypto/twenty-first)   
 - **Hash to Curve**
   - [Hash to Curve](https://www.ietf.org/archive/id/draft-irtf-cfrg-hash-to-curve-16.html#hashtofield)
   - [Hash to secp256k1 curve](https://geometry.xyz/notebook/Hashing-to-the-secp256k1-Elliptic-Curve)
