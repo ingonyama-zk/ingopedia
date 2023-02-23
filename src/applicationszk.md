@@ -34,8 +34,9 @@ A compilation of materials that showcase various applications of zk technology.
 - **EVM/VMs**
   - [Aztec prtotocol](https://aztec.network)
   - [Scroll EVM](https://scroll.io)
-  - [ZK sync](https://docs.zksync.io/userdocs/)
-  - [Polygon ZkEVM](https://polygon.technology/solutions/polygon-zkevm/)
+  - [Taiko EVM](https://taiko.xyz/)
+  - [zkSync](https://docs.zksync.io/userdocs/)
+  - [Polygon zkEVM](https://polygon.technology/solutions/polygon-zkevm/)
   - [Miden VM](https://wiki.polygon.technology/docs/miden/intro/main)
     - [Range Checks in Miden VM](https://hackmd.io/D-vjBYtHQB2BuOB-HMUG5Q)
     - [Miden VM program decoder](https://hackmd.io/_aaDBzbWRz6EwQQRtK1pzw)
@@ -43,7 +44,9 @@ A compilation of materials that showcase various applications of zk technology.
     - [u32 in MidenVM](https://hackmd.io/NC-yRmmtRQSvToTHb96e8Q#u32-operations-in-Miden-VM)
   - [RISC0 ZK VM](https://www.risczero.com)
     - [RISC0 proof system](https://www.risczero.com/proof-system-in-detail.pdf)
-  - [Loop Ring](https://loopring.org/#/about)
+  - [OlaVM](https://sin7y.org/)
+  - [zkWasm](http://www.delphinuslab.com/)
+  - [Loopring](https://loopring.org/#/about)
 
 ## ZK bridges
 
@@ -61,6 +64,7 @@ A compilation of materials that showcase various applications of zk technology.
 
 - [zkMNIST](https://0xparc.org/blog/zk-mnist)
 - [awesome-zkml](https://github.com/zkml-community/awesome-zkml)
+
 
 ## ZK Gaming
 
