@@ -131,6 +131,7 @@ Our collection of mathematical papers, protocols, and code on ZK proofs is a com
   - [Hyperplonk - benedikt Bunz](https://www.youtube.com/watch?v=mZEXgoQL6xk)
   - [Blog- Delendum](https://www.espressosys.com/blog/hyperplonk-a-zk-proof-system-for-zkevms)
   - [Hardware friendliness of MLE-Sumcheck](https://hackmd.io/@omershlo/rJhgKJPtj)
+  - [Hardware-optimizations for SumCheck-Binyi Chen](https://hackmd.io/PBauexuMQse__I_F27J_kA?view=)
 - [flookup: Fractional decomposition-based lookups in quasi-linear time independent of table size -2022](https://eprint.iacr.org/2022/1447)
 - [Baloo: Nearly Optimal Lookup Arguments - 2022](https://eprint.iacr.org/2022/1565)
 - [CQ: Cached coefficients for fast lookups 2022](https://eprint.iacr.org/2022/1763)
