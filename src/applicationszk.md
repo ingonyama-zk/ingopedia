@@ -59,7 +59,8 @@ A compilation of materials that showcase various applications of zk technology.
 
 ## ZKML
 
-- [zk ML](https://0xparc.org/blog/zk-mnist)
+- [zkMNIST](https://0xparc.org/blog/zk-mnist)
+- [awesome-zkml](https://github.com/zkml-community/awesome-zkml)
 
 ## ZK Gaming
 
