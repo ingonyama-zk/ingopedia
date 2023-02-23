@@ -10,7 +10,7 @@ Our Video lecture series on ZK proofs offers in-depth and engaging presentations
 
 University and proffesional level courses on ZK.
 
-- [ZKMOOC - 2023](https://www.youtube.com/playlist?list=PLS01nW3Rtgor_yJmQsGBZAg5XM4TSGpPs)
+- [ZKMOOC - 2023](https://zk-learning.org/)
 - [ZK BIU school - 2019](https://www.youtube.com/playlist?list=PL8Vt-7cSFnw29cLUVqAIuMlg1QJ-szV0K)
 - [Cryptography 2018 MIT](https://www.youtube.com/playlist?list=PL6ogFv-ieghe8MOIcpD6UDtdK-UMHG8oH)
 - [Modern ZK cryptography 0xparc](https://zkiap.com/#34e5b6cf6e1d4dd3901940d4be2edb0b)
@@ -19,7 +19,7 @@ University and proffesional level courses on ZK.
 
 Podcasts and lecture playlists on various ZKP related topics.
 
-- [ZK whiteboard Sessions](https://www.youtube.com/playlist?list=PLj80z0cJm8QErn3akRcqvxUsyXWC81OGq)
+- [ZK whiteboard Sessions](https://zkhack.dev/whiteboard/)
 - [ZK hack](https://www.youtube.com/playlist?list=PLj80z0cJm8QFGB6AsiAG3EB06L7xr5S1c)
 - [ZK summit](https://www.youtube.com/playlist?list=PLj80z0cJm8QFnY6VLVa84nr-21DNvjWH7)
 - [Zk study club](https://www.youtube.com/playlist?list=PLj80z0cJm8QHm_9BdZ1BqcGbgE-BEn-3Y)
