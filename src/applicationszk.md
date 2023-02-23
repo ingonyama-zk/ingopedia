@@ -61,8 +61,10 @@ A compilation of materials that showcase various applications of zk technology.
 - [Having a safe CEX: proof of solvency and beyond](https://vitalik.ca/general/2022/11/19/proof_of_solvency.html)
 
 ## ZKML
-  [Awesome - ZK Machine Learning](https://github.com/worldcoin/awesome-zkml)
-- [zk mnist](https://0xparc.org/blog/zk-mnist)
+
+- [zkMNIST](https://0xparc.org/blog/zk-mnist)
+- [awesome-zkml](https://github.com/zkml-community/awesome-zkml)
+
 
 ## ZK Gaming
 
