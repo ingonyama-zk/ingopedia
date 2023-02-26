@@ -4,6 +4,8 @@ A compilation of materials that showcase various applications of zk technology.
 
 ---
 
+![Untitled - ZK Use-cases](https://user-images.githubusercontent.com/122266060/221405688-f5c5d976-c494-4117-b1e8-e8661aa50abf.jpg)
+
 ## General
 
 - [A cambrian explosion of crypto proofs -Ben Sasson](https://nakamoto.com/cambrian-explosion-of-crypto-proofs/)
