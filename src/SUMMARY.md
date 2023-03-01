@@ -7,6 +7,7 @@
   - [Video Lecture Series](./zkpseries.md)
   - [Articles](./introzkp.md)
     - [ZK Introductory](./zkbeginner.md)
+    - [Ingonyama Blogs](./Ingoblogs.md)
     - [ZKSNARKS](./zksnarks.md)
     - [STARKS](./starks.md)
     - [Applications](./applicationszk.md)
