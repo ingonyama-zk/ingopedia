@@ -31,7 +31,7 @@ Check out blogs, papers, pieces, and videos published by the Ingonyama Team
 - Medium Link: https://medium.com/@ingonyama/sparkworks-native-hardware-acceleration-in-arkworks-a3343b059f76
 ### **NTT Mini: Exploring Winograd’s Heuristic for Faster NTT**
 - Medium Link: https://medium.com/@ingonyama/pushing-the-limits-on-ntt-computation-5764eb6b03d
-- Paper: https://github.com/ingonyama-zk/papers/blob/main/Winograd_fft.pdf
+- [Paper](https://github.com/ingonyama-zk/papers/blob/main/Winograd_fft.pdf)
 ### **Marlin & Me: A Deep Dive into the Heart of the Marlin ZK Protocol**
 - Medium Link: https://medium.com/@ingonyama/marlin-me-a-deep-dive-into-the-heart-of-the-marlin-zk-protocol-dc847eb13f33
 - Paper: https://github.com/ingonyama-zk/papers/blob/main/Marlin_and_me.pdf
