@@ -11,6 +11,7 @@
     - [Sparse Merkle trees](https://docs.iden3.io/publications/pdfs/Merkle-Tree.pdf)
     - [Merkle Commitment scheme](https://courses.cs.ut.ee/MTAT.07.003/2019_fall/uploads/Main/0701-merkle-trees.pdf)
     - [Merkle trees and proof of inclusion](https://www.derpturkey.com/merkle-tree-construction-and-proof-of-inclusion/)
+    - [why you should not sort your Merkle Leaves](https://alinush.github.io/2023/02/05/Why-you-should-probably-never-sort-your-Merkle-trees-leaves.html)
   - **Fiat Shamir**
     - [Merlin: Fiat-Shamir magic generator](https://merlin.cool/index.html)
     - [How to Fiat Shamir](http://cyber.biu.ac.il/wp-content/uploads/2018/08/WS-19-7-_fiat_shamir_basic.pdf)

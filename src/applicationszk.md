@@ -55,6 +55,7 @@ A compilation of materials that showcase various applications of zk technology.
 
 ## ZKML
 
+- [An Introduction to ZKML](https://worldcoin.org/blog/engineering/intro-to-zkml)
 - [zkMNIST](https://0xparc.org/blog/zk-mnist)
 - [awesome-zkml](https://github.com/zkml-community/awesome-zkml)
 
