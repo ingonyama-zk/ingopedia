@@ -36,4 +36,11 @@ A collection of links and Almanacs breaking down ZKPs and related topics.
 A collection of libraries where you can create a ZKP.
 
 - [Arkworks](https://github.com/arkworks-rs)
+- [Lambdaworks by Lambdaclass](https://github.com/lambdaclass/lambdaworks)
+- [Gnark: in Golang](https://github.com/consensys/gnark)
+- [Circom: creating zk circuits](https://github.com/iden3/circom)
+- [Zokrates](https://github.com/Zokrates/ZoKrates)
 - [Crrl: Cryptography research library - Thomas Pornin](https://github.com/pornin/crrl)
+- [Bellman (not updated)](https://github.com/zkcrypto/bellman)
+- [libsnark in C++](https://github.com/scipr-lab/libsnark)
+- [Snarky frontend](https://github.com/o1-labs/snarky)

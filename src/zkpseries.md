@@ -42,6 +42,7 @@ Advanced University and proffesional level courses on ZK.
 - [Meta complexity bootcamp - Simons Institute](https://www.youtube.com/playlist?list=PLgKuh-lKre1398d4m9iBaXf8fy5Cn5hl0)
 - [Foundations of probabilistic proofs - Chiesa](https://www.youtube.com/playlist?list=PLGkwtcB-DfpzST-medFVvrKhinZisfluC)
 - [Probabilistically checkable and interactive proofs - Chisea](https://www.youtube.com/playlist?list=PLkFD6_40KJIyWWtxCPBHwGsrutjvwM5_U)
+- [Algebraic error correcting codes - Stanford](https://web.stanford.edu/~marykw/classes/CS250_W18/index.html)
 - [ZKP composition and recursion - Wong](https://youtube.com/playlist?list=PLBJMt6zV1c7GeKkR2SUhzx9KSJ9TsEx6n)
 - [Introduction to Elliptic curves](https://www.youtube.com/playlist?list=PLYpVTXjEi1oe1OeAllJpNhFoI4B7Ws8Yl)
 - [BIU winter school Bilinear pairings in cryptography](https://www.youtube.com/playlist?list=PL8Vt-7cSFnw2V2Wpf4MpwtSJvLvZo1ADB)
