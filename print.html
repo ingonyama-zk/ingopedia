@@ -71,10 +71,12 @@
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
             var html = document.querySelector('html');
-            var sidebar = 'hidden';
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
             html.classList.remove('sidebar-visible');
             html.classList.add("sidebar-" + sidebar);
@@ -222,7 +224,14 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <p>A collection of libraries where you can create a ZKP.</p>
 <ul>
 <li><a href="https://github.com/arkworks-rs">Arkworks</a></li>
+<li><a href="https://github.com/lambdaclass/lambdaworks">Lambdaworks by Lambdaclass</a></li>
+<li><a href="https://github.com/consensys/gnark">Gnark: in Golang</a></li>
+<li><a href="https://github.com/iden3/circom">Circom: creating zk circuits</a></li>
+<li><a href="https://github.com/Zokrates/ZoKrates">Zokrates</a></li>
 <li><a href="https://github.com/pornin/crrl">Crrl: Cryptography research library - Thomas Pornin</a></li>
+<li><a href="https://github.com/zkcrypto/bellman">Bellman (not updated)</a></li>
+<li><a href="https://github.com/scipr-lab/libsnark">libsnark in C++</a></li>
+<li><a href="https://github.com/o1-labs/snarky">Snarky frontend</a></li>
 </ul>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <h1 id="lecture-series"><a class="header" href="#lecture-series">Lecture Series</a></h1>
@@ -262,6 +271,7 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <li><a href="https://www.youtube.com/playlist?list=PLgKuh-lKre1398d4m9iBaXf8fy5Cn5hl0">Meta complexity bootcamp - Simons Institute</a></li>
 <li><a href="https://www.youtube.com/playlist?list=PLGkwtcB-DfpzST-medFVvrKhinZisfluC">Foundations of probabilistic proofs - Chiesa</a></li>
 <li><a href="https://www.youtube.com/playlist?list=PLkFD6_40KJIyWWtxCPBHwGsrutjvwM5_U">Probabilistically checkable and interactive proofs - Chisea</a></li>
+<li><a href="https://web.stanford.edu/~marykw/classes/CS250_W18/index.html">Algebraic error correcting codes - Stanford</a></li>
 <li><a href="https://youtube.com/playlist?list=PLBJMt6zV1c7GeKkR2SUhzx9KSJ9TsEx6n">ZKP composition and recursion - Wong</a></li>
 <li><a href="https://www.youtube.com/playlist?list=PLYpVTXjEi1oe1OeAllJpNhFoI4B7Ws8Yl">Introduction to Elliptic curves</a></li>
 <li><a href="https://www.youtube.com/playlist?list=PL8Vt-7cSFnw2V2Wpf4MpwtSJvLvZo1ADB">BIU winter school Bilinear pairings in cryptography</a></li>

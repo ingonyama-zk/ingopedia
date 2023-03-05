@@ -70,10 +70,12 @@
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
             var html = document.querySelector('html');
-            var sidebar = 'hidden';
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
             html.classList.remove('sidebar-visible');
             html.classList.add("sidebar-" + sidebar);
@@ -187,7 +189,14 @@
 <p>A collection of libraries where you can create a ZKP.</p>
 <ul>
 <li><a href="https://github.com/arkworks-rs">Arkworks</a></li>
+<li><a href="https://github.com/lambdaclass/lambdaworks">Lambdaworks by Lambdaclass</a></li>
+<li><a href="https://github.com/consensys/gnark">Gnark: in Golang</a></li>
+<li><a href="https://github.com/iden3/circom">Circom: creating zk circuits</a></li>
+<li><a href="https://github.com/Zokrates/ZoKrates">Zokrates</a></li>
 <li><a href="https://github.com/pornin/crrl">Crrl: Cryptography research library - Thomas Pornin</a></li>
+<li><a href="https://github.com/zkcrypto/bellman">Bellman (not updated)</a></li>
+<li><a href="https://github.com/scipr-lab/libsnark">libsnark in C++</a></li>
+<li><a href="https://github.com/o1-labs/snarky">Snarky frontend</a></li>
 </ul>
 
                     </main>

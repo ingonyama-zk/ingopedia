@@ -70,10 +70,12 @@
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
             var html = document.querySelector('html');
-            var sidebar = 'hidden';
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
             html.classList.remove('sidebar-visible');
             html.classList.add("sidebar-" + sidebar);
@@ -186,6 +188,7 @@
 <li><a href="https://www.youtube.com/playlist?list=PLgKuh-lKre1398d4m9iBaXf8fy5Cn5hl0">Meta complexity bootcamp - Simons Institute</a></li>
 <li><a href="https://www.youtube.com/playlist?list=PLGkwtcB-DfpzST-medFVvrKhinZisfluC">Foundations of probabilistic proofs - Chiesa</a></li>
 <li><a href="https://www.youtube.com/playlist?list=PLkFD6_40KJIyWWtxCPBHwGsrutjvwM5_U">Probabilistically checkable and interactive proofs - Chisea</a></li>
+<li><a href="https://web.stanford.edu/~marykw/classes/CS250_W18/index.html">Algebraic error correcting codes - Stanford</a></li>
 <li><a href="https://youtube.com/playlist?list=PLBJMt6zV1c7GeKkR2SUhzx9KSJ9TsEx6n">ZKP composition and recursion - Wong</a></li>
 <li><a href="https://www.youtube.com/playlist?list=PLYpVTXjEi1oe1OeAllJpNhFoI4B7Ws8Yl">Introduction to Elliptic curves</a></li>
 <li><a href="https://www.youtube.com/playlist?list=PL8Vt-7cSFnw2V2Wpf4MpwtSJvLvZo1ADB">BIU winter school Bilinear pairings in cryptography</a></li>
