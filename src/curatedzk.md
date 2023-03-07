@@ -35,6 +35,7 @@ A collection of links and Almanacs breaking down ZKPs and related topics.
 
 A collection of libraries where you can create a ZKP.
 
+- [Rust Cryptographic libraries](https://cryptography.rs)
 - [Arkworks](https://github.com/arkworks-rs)
 - [Lambdaworks by Lambdaclass](https://github.com/lambdaclass/lambdaworks)
 - [Gnark: in Golang](https://github.com/consensys/gnark)

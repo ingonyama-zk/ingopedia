@@ -25,7 +25,7 @@
       - [Secure Multi Party Computation](./MPC.md)
       - [Proving Methods](./provingzk.md)
     - [Computational Primitives](./compprimzk.md)
-      - [Hardware acceleration](.hwzk.md)
+      - [Hardware acceleration](./hwzk.md)
       - [Discrete Fourier Transforms](./fft.md)
       - [Multi Scalar Multiplications](./msm.md)
 - [Homomorphic Encryption](./HE.md)
