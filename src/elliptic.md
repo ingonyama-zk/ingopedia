@@ -54,3 +54,4 @@
   - [ed448 blog John Cook](https://www.johndcook.com/blog/2019/05/12/ed448-goldilocks/)
 - [A deep dive into ed25519](https://cendyne.dev/posts/2022-03-06-ed25519-signatures.html)
 - [Pasta curves -Electric coin](https://electriccoin.co/blog/the-pasta-curves-for-halo-2-and-beyond/)
+- [Developers guide to constructing application specific curves](https://solutions.chainsafe.io/blog/application-specific-curves/)

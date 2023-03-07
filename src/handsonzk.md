@@ -8,14 +8,13 @@ Our hands-on approach to learning ZK proofs provides interactive and practical t
 
 ## General
 
+- [A beginners intro to coding Zero knowledge Proofs](https://dev.to/spalladino/a-beginners-intro-to-coding-zero-knowledge-proofs-c56)
 - [zero knowledge with Bellman](https://hongchao.me/zksnark/)
 - [Cryptohack - hands on cryptography](https://cryptohack.org)
-- [Zk hack puzzles](https://www.zkhack.dev/mini.html)
 - [Hands on ZK - ZK learning group](https://0xparc.notion.site/ZK-Learning-Group-Topics-f53933eecc2f41438c6c2bdd5b42ee2d)
 - [Intro to zk: do it yourself circuits](https://github.com/enricobottazzi)
 - [Zk Sudoku - Python](https://medium.com/coinmonks/walkthrough-of-an-interactive-zero-knowledge-proof-for-sudoku-puzzle-ac563588f1a8)
 - [Arnacube implementations](https://arnaucube.com)
-- [Rust Cryptographic libraries](https://cryptography.rs)
 - [DAPP fron scratch - Vivian Plasencia](https://vivianblog.hashnode.dev/how-to-create-a-zero-knowledge-dapp-from-zero-to-production)
 - [Zordle - Zk wordle](https://github.com/nalinbhardwaj/zordle)
 - [Mental Poker: Part 1](https://geometryresearch.xyz/notebook/mental-poker-in-the-age-of-snarks-part-1)
@@ -33,6 +32,11 @@ Our hands-on approach to learning ZK proofs provides interactive and practical t
 - [Merkle patricia tree: lambdaclass](https://github.com/lambdaclass/merkle_patricia_tree)
 - [Haskell: Introduction](https://simonjohnthompson.github.io/craft3e/craft3e.pdf)
 - [Practical Cryptography for Devs: Nakov](https://cryptobook.nakov.com)
+
+## Challenges and hackathons
+
+- [Berkeley RDI ZKP-Web3 hackathon](https://zk-hacking.org/#)
+- [Zk hack puzzles](https://www.zkhack.dev/mini.html)
 
 ## Rust learning resources for ZK/cryptography
 

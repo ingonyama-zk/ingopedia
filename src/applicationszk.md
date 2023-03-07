@@ -59,7 +59,6 @@ A compilation of materials that showcase various applications of zk technology.
 - [zkMNIST](https://0xparc.org/blog/zk-mnist)
 - [awesome-zkml](https://github.com/zkml-community/awesome-zkml)
 
-
 ## ZK Gaming
 
 - [Dark Forest - the zk SNARK game](https://blog.zkga.me/announcing-v6)

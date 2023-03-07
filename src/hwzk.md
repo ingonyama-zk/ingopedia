@@ -15,10 +15,13 @@
 
 ## General HW resources and guides
 
-- [Ingonyama](https://www.ingonyama.com/)
-  - [PipeZK](https://www.microsoft.com/en-us/research/publication/pipezk-accelerating-zero-knowledge-proof-with-a-pipelined-architecture/)
-  - [Papers](https://github.com/ingonyama-zk/papers)
-  - [Cloud ZK](https://medium.com/@ingonyama/cloud-zk-a-toolkit-for-developing-zkp-acceleration-in-the-cloud-3d670c09c6ed)
-  - [Multi precision arithmetic](https://github.com/ingonyama-zk/modular_multiplication)
+- [PipeZK](https://www.microsoft.com/en-us/research/publication/pipezk-accelerating-zero-knowledge-proof-with-a-pipelined-architecture/)
 - [Algorithms for modern Hardware](https://en.algorithmica.org/hpc/)
 - [learning CUDA from scratch - entropy](https://www.entropy1729.com/learning-cuda-from-scratch/)
+
+## Benchmarks of ZKP primitives
+
+- [Pantheon of ZKP frameworks - Celer Network](https://blog.celer.network/2023/03/01/the-pantheon-of-zero-knowledge-proof-development-frameworks/)
+- [ZK Harness](https://www.zk-bench.org)
+- [ZK Benchmarking -Delendum](https://github.com/delendum-xyz/zk-benchmarking)
+- [ZKalc](https://zka.lc/about)
