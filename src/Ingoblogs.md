@@ -4,6 +4,18 @@ Check out blogs, papers, pieces, and videos published by the Ingonyama Team
 
 ---
 
+### **Fast Danksharding using ICICLE**
+
+- [Medium Link](https://medium.com/@ingonyama/fast-danksharding-using-icicle-6411565bb245)
+- [Fast-Danksharding Implementation](https://github.com/ingonyama-zk/fast-danksharding) 
+
+
+### **Introducing ICICLE: An Open-Source GPU Library for Zero Knowledge Acceleration**
+
+- [Medium Link](https://medium.com/@ingonyama/introducing-icicle-an-open-source-gpu-library-for-zero-knowledge-acceleration-aad8c35b7f0a)
+- [ICICLE - GPU Library](https://github.com/ingonyama-zk/icicle) 
+
+
 ### **A Brief History of Lookup Arguments**
 
 - [Medium Link](https://medium.com/@ingonyama/a-brief-history-of-lookup-arguments-a4eeeeca2749)
