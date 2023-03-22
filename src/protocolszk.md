@@ -118,8 +118,6 @@ Our collection of mathematical papers, protocols, and code on ZK proofs is a com
   - [Plonky: code](https://github.com/mir-protocol/plonky)
   - [Plonky: Fast recursive arguments based on Plonk and Halo](https://mirprotocol.org/blog/Fast-recursive-arguments-based-on-Plonk-and-Halo)
   - [Plonky: Adding zero Knowledge to Plonk and Halo](https://mirprotocol.org/blog/Adding-zero-knowledge-to-Plonk-Halo)
-- [Halo 2 - library](https://zcash.github.io/halo2/index.html)
-  - [Guide to Halo2 source code](https://starli.medium.com/zero-knowledge-proof-a-guide-to-halo2-source-code-9be0cf792f18)
 - [Gemini - 2022](https://eprint.iacr.org/2022/420), [Arkworks](https://github.com/arkworks-rs/gemini)
   - [talk](https://www.youtube.com/watch?v=Suv7MN131f8)
 - [Caulk - 2022](https://eprint.iacr.org/2022/621.pdf)
