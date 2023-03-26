@@ -4,6 +4,10 @@ Check out blogs, papers, pieces, and videos published by the Ingonyama Team
 
 ---
 
+### **Unleashing Secure AI**
+- [Medium Link](https://medium.com/@ingonyama/unleashing-secure-ai-4c6fd9c8f910) 
+
+
 ### **Fast Danksharding using ICICLE**
 
 - [Medium Link](https://medium.com/@ingonyama/fast-danksharding-using-icicle-6411565bb245)
