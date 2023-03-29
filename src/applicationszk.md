@@ -10,6 +10,7 @@ A compilation of materials that showcase various applications of zk technology.
 
 - [A cambrian explosion of crypto proofs -Ben Sasson](https://nakamoto.com/cambrian-explosion-of-crypto-proofs/)
 - [What's next in ZK](https://delendum.xyz/2022/11/22/what-to-build-next-in-zero-knowledge.html)
+- [Using ZKP to fight disinformation - Boneh, Datta](https://medium.com/@boneh/using-zk-proofs-to-fight-disinformation-17e7d57fe52f)
   
 ## ZK Rollups EVMs/VMs
 

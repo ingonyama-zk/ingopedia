@@ -21,6 +21,7 @@ Understanding ZK from beginner to advanced on a surface level.
 
 - [An incomplete guide to zk: why zk matters](https://mirror.xyz/fundamentalabs.eth/24i98adRylhjdcqV1TnsT8ZbkIXCulCrDTIrsrziQmY)
 - [Why and how Zero knowledge works](https://arxiv.org/pdf/1906.07221.pdf)
+- [zk Snarks a gentle introduction](https://www.di.ens.fr/~nitulesc/files/Survey-SNARKs.pdf)
 - [The math behind ZkSNARK - video](https://www.youtube.com/watch?v=iRQw2RpQAVc)
 - [De-mystifying Zk proofs -workshop](https://docs.google.com/presentation/d/1gfB6WZMvM9mmDKofFibIgsyYShdf0RV_Y8TLz3k1Ls0/edit#slide=id.p)
 - [An evolution of ZKP - Sarah Meiklejohn](https://www.youtube.com/watch?v=HO97kVMI3SE)

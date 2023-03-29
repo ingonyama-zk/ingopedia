@@ -30,3 +30,4 @@
 - [Snarkpack: practical snark aggregation](https://research.protocol.ai/publications/snarkpack-practical-snark-aggregation/gailly2021.pdf)
   - [blog](https://research.protocol.ai/blog/2021/snarkpack-how-to-aggregate-snarks-efficiently/)
   - [talk](https://www.esat.kuleuven.be/cosic/blog/rwc-2022-snarkpack-practical-snark-aggregation/)
+  - [talk](https://docs.zkproof.org/pages/standards/slides-w4/SNARKpack.pdf)
