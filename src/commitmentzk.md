@@ -23,3 +23,4 @@
   - [Catalano-Fiore VC](https://alinush.github.io/2020/11/24/Catalano-Fiore-Vector-Commitments.html)
 - **Inner product Arguments (IPA)** 
   - [Inner product arguments - Dankrad Feist](https://dankradfeist.de/ethereum/2021/07/27/inner-product-arguments.html)
+  - [IPA by hand - arnacube](https://arnaucube.com/blog/ipa.html)

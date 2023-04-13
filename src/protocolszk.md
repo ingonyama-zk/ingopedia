@@ -141,3 +141,6 @@ Our collection of mathematical papers, protocols, and code on ZK proofs is a com
   - [Champagne supernova: lambdaclass](https://www.notamonadtutorial.com/periodic-constraints-and-recursion-in-zk-starks/)
 - [Sangria: a folding scheme for plonk](https://github.com/geometryresearch/technical_notes/blob/main/sangria_folding_plonk.pdf)
   - [blog](https://geometryresearch.xyz/notebook/sangria-a-folding-scheme-for-plonk)
+- [CqLin](https://eprint.iacr.org/2023/393)
+- [Testudo: Groth+Spartan](https://cryptonet.org/blog/testudo-efficient-snarks-with-smaller-setups)
+  - [code:Cryptonetlab](https://github.com/cryptonetlab/Testudo)

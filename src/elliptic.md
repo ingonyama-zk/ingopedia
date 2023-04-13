@@ -44,6 +44,7 @@
 - [Circom pairing](https://0xparc.org/blog/zk-pairing-1)
   - [Code](https://github.com/yi-sun/circom-pairing)
 - [Pairings or bilinear maps](https://alinush.github.io/2022/12/31/pairings-or-bilinear-maps.html)
+- [optimizing emulated pairings](https://hackmd.io/@ivokub/SyJRV7ye2)
 
 ## Specific curves
 

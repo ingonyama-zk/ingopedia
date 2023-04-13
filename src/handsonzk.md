@@ -54,6 +54,7 @@ Our hands-on approach to learning ZK proofs provides interactive and practical t
 - [Rustlings](https://github.com/rust-lang/rustlings)
 - [Rust learning](https://github.com/ctjhoa/rust-learning)
 - [Rust crash course](https://github.com/CleanCut/ultimate_rust_crash_course)
+- [Data engg with rust](https://datawithrust.com)
 
 ## Benchmarking tools
 
