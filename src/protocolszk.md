@@ -112,6 +112,7 @@ Our collection of mathematical papers, protocols, and code on ZK proofs is a com
   - [Nova - Entropy](https://www.entropy1729.com/incrementally-verifiable-computation-nova/)
   - [IACR talk slides](https://iacr.org/submit/files/slides/2022/crypto/crypto2022/334/slides.pdf)
   - [IVC:Nova lambdaclass](https://www.notamonadtutorial.com/incrementally-verifiable-computation-nova/)
+  - [Nova - zkstudy club talk](https://drive.google.com/file/d/1pIPoRUcMvhsoSWLami5T1KHc5oqkUAZH/view)
 - [Plonky2 - 2022](https://github.com/mir-protocol/plonky2/blob/main/plonky2.pdf)
   - [code](https://github.com/mir-protocol/plonky2)
   - [documentation](https://github.com/mir-protocol/plonky2/blob/main/plonky2.pdf)

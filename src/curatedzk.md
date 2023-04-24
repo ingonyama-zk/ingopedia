@@ -59,3 +59,5 @@ A collection of libraries where you can create a ZKP.
 - [Bellman (not updated)](https://github.com/zkcrypto/bellman)
 - [libsnark in C++](https://github.com/scipr-lab/libsnark)
 - [Snarky frontend](https://github.com/o1-labs/snarky)
+- [Cairo](https://github.com/starkware-libs/cairo)
+  - [Cairo resource](https://cairo-book.github.io)
