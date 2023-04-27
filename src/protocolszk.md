@@ -145,3 +145,4 @@ Our collection of mathematical papers, protocols, and code on ZK proofs is a com
 - [CqLin](https://eprint.iacr.org/2023/393)
 - [Testudo: Groth+Spartan](https://cryptonet.org/blog/testudo-efficient-snarks-with-smaller-setups)
   - [code:Cryptonetlab](https://github.com/cryptonetlab/Testudo)
+- [Hypernova](https://eprint.iacr.org/2023/573)
