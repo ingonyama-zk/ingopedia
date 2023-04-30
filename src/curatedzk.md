@@ -54,6 +54,8 @@ A collection of libraries where you can create a ZKP.
   - [Icemelon circuit development tutorial](https://github.com/icemelon/halo2-tutorial/)
   - [Halo2 tutorial: ZK natives](https://erroldrummond.gitbook.io/halo2-tutorial/)
   - [Getting started with halo2 Axiom](https://docs.axiom.xyz/zero-knowledge-proofs/getting-started-with-halo2#halo2-lib)
+  - [Halo2 app and wasm 1](https://medium.com/@yujiangtham/building-a-zero-knowledge-web-app-with-halo-2-and-wasm-part-1-80858c8d16ee)
+  - [Halo2 app and wasm 2](https://medium.com/@yujiangtham/building-a-zero-knowledge-web-app-with-halo-2-and-wasm-part-2-379477444dc3)
 - [Zokrates](https://github.com/Zokrates/ZoKrates)
 - [Crrl: Cryptography research library - Thomas Pornin](https://github.com/pornin/crrl)
 - [Bellman (not updated)](https://github.com/zkcrypto/bellman)
