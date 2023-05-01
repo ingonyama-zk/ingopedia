@@ -11,6 +11,7 @@ A compilation of materials that showcase various applications of zk technology.
 - [A cambrian explosion of crypto proofs -Ben Sasson](https://nakamoto.com/cambrian-explosion-of-crypto-proofs/)
 - [What's next in ZK](https://delendum.xyz/2022/11/22/what-to-build-next-in-zero-knowledge.html)
 - [Using ZKP to fight disinformation - Boneh, Datta](https://medium.com/@boneh/using-zk-proofs-to-fight-disinformation-17e7d57fe52f)
+- [ZKP for voting - Phil Kelly](https://blog.o1labs.org/zero-knowledge-proofs-for-voting-3c6a6d5d89db)
   
 ## ZK Rollups EVMs/VMs
 
@@ -59,6 +60,10 @@ A compilation of materials that showcase various applications of zk technology.
 - [An Introduction to ZKML](https://worldcoin.org/blog/engineering/intro-to-zkml)
 - [zkMNIST](https://0xparc.org/blog/zk-mnist)
 - [awesome-zkml](https://github.com/zkml-community/awesome-zkml)
+- [Checks and balances ZK and ML - Elena Burger](https://a16zcrypto.com/content/article/checks-and-balances-machine-learning-and-zero-knowledge-proofs/?utm_source=substack&utm_medium=email)
+- [DO Language models possess Knowledge soundness - Tarun Chitra](https://hackmd.io/@pinged/zk-and-llms?utm_source=substack&utm_medium=email)
+- [verifying twitter algorithmic integrity with zkml - Daniel Kang](https://medium.com/@danieldkang/empowering-users-to-verify-twitters-algorithmic-integrity-with-zkml-65e56d0e9dd9)
+- [How ZK snarks bring transparency to private ML models with zkml - Daniel Kang](https://medium.com/@danieldkang/bridging-the-gap-how-zk-snarks-bring-transparency-to-private-ml-models-with-zkml-e0e59708c2fc)
 
 ## ZK Gaming
 

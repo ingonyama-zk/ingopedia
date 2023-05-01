@@ -7,6 +7,7 @@
 - [Decentralized Speed: Advances in Zero Knowledge Proofs](https://a16z.com/2022/04/15/zero-knowledge-proofs-hardware-decentralization-innovation/)
 - [Hardware Acceleration for Zero Knowledge Proofs](https://www.paradigm.xyz/2022/04/zk-hardware)
 - [Secure computing and hardware acceleration](https://www.sigarch.org/cryptography-for-secure-computing-a-new-hardware-acceleration-opportunity/)
+- [HW acc review - 0xmonia](https://hackmd.io/@0xMonia/SkQ6-oRz3?utm_source=substack&utm_medium=email)
 
 ## Competitions
 
