@@ -2,7 +2,6 @@
 
 - **General**
   - [Arithmetic Circuits: A survey](https://www.cs.tau.ac.il/~shpilka/publications/SY10.pdf)
-<!-- - [How to transform code into an arithmetic circuit?](broken-link:https://www.entropy1729.com/how-to-transform-code-into-arithmetic-circuits/) -->
   - [Complexity Zoo](https://complexityzoo.net/Complexity_Zoo)
   - [Arithmetization schemes for snarks](https://www.notamonadtutorial.com/arithmetization-schemes-for-zk-snarks/)
   - [Grobner basis used in circuits](https://hackmd.io/25ZAEomYRjKEsHi61CbWiw?view)

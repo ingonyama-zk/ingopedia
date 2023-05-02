@@ -32,6 +32,8 @@ Our hands-on approach to learning ZK proofs provides interactive and practical t
 - [Merkle patricia tree: lambdaclass](https://github.com/lambdaclass/merkle_patricia_tree)
 - [Haskell: Introduction](https://simonjohnthompson.github.io/craft3e/craft3e.pdf)
 - [Practical Cryptography for Devs: Nakov](https://cryptobook.nakov.com)
+- [Transforming code into arithmetic circuits](https://www.notamonadtutorial.com/how-to-transform-code-into-arithmetic-circuits/)
+- [Differential fuzzing](https://www.notamonadtutorial.com/do-you-want-quality-code-learn-how-to-use-differential-fuzzers/)
 
 ## Challenges and hackathons
 
@@ -58,8 +60,7 @@ Our hands-on approach to learning ZK proofs provides interactive and practical t
 
 ## Benchmarking tools
 
-<!-- - [Zk system benchmarking](broken-link:https://delendum.xyz/2023/01/11/zk-system-benchmarking.html) -->
-  - [code](https://github.com/delendum-xyz/zk-benchmarking)
+- [code](https://github.com/delendum-xyz/zk-benchmarking)
 - [Benchmarking with Rust](https://www.notamonadtutorial.com/benchmarking-and-analyzing-rust-performance-with-criterion-and-iai/)
 - [Flamegraphs](https://www.brendangregg.com/flamegraphs.html)
   - [code](https://github.com/brendangregg/FlameGraph)

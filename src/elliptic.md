@@ -36,7 +36,6 @@
 - [Pairings for beginners - Craig Costello](https://static1.squarespace.com/static/5fdbb09f31d71c1227082339/t/5ff394720493bd28278889c6/1609798774687/PairingsForBeginners.pdf)
 - [Pairings - Vitalik Buterin](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627)
 - [Pairing friendly curves](https://members.loria.fr/AGuillevic/pairing-friendly-curves/)
-<!-- - [Estimating the Bit Security of Pairing-Friendly Curves - NCCgroup](broken-link:https://research.nccgroup.com/2022/02/03/estimating-the-bit-security-of-pairing-friendly-curves/) -->
 - [Pairing implementation revisited](https://eprint.iacr.org/2019/077.pdf)
 - [Groth_Sahai proofs are not scary](https://crypto.ethereum.org/blog/groth-sahai-blogpost)
 - [Bilinear pairings in cryptography - Dennis Meffert](https://www.math.ru.nl/~bosma/Students/MScThesis_DennisMeffert.pdf)
