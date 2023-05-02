@@ -25,7 +25,7 @@ Understanding ZK from beginner to advanced on a surface level.
 - [The math behind ZkSNARK - video](https://www.youtube.com/watch?v=iRQw2RpQAVc)
 - [De-mystifying Zk proofs -workshop](https://docs.google.com/presentation/d/1gfB6WZMvM9mmDKofFibIgsyYShdf0RV_Y8TLz3k1Ls0/edit#slide=id.p)
 - [An evolution of ZKP - Sarah Meiklejohn](https://www.youtube.com/watch?v=HO97kVMI3SE)
-- [Zk_primer_1 M.Green](https://blog.cryptographyengineering.com/2014/11/27/-knowledge-proofs-illustrated-primer/)
+<!-- - [Zk_primer_1 M.Green](broken-link:https://blog.cryptographyengineering.com/2014/11/27/-knowledge-proofs-illustrated-primer/) -->
 - [Zk_primer_2 M.Green](https://blog.cryptographyengineering.com/2017/01/21/zero-knowledge-proofs-an-illustrated-primer-part-2/)
 - [Zero Knowledge: A tutorial by Oded Goldreich](https://www.wisdom.weizmann.ac.il/~oded/PS/zk-tut10.ps)
 - [Cryptographic Protocls: lectures](https://www.win.tue.nl/~berry/CryptographicProtocols/LectureNotes.pdf)

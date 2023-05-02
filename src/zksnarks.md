@@ -25,4 +25,4 @@ A collection of resources explainig ZKSnarks.
 - [Recursive SNARK - overview - Michael Straka](https://www.michaelstraka.com/posts/recursivesnarks/)
 - [Fast Recursive arguments based on Plonk and Halo](https://mirprotocol.org/blog/Fast-recursive-arguments-based-on-Plonk-and-Halo)
 - [Field selection for recursive SNARKS](https://medium.com/delendum/field-selection-for-recursive-snarks-726ad56c3a3c)
-- [ZKsnark aggregation - Delendum](https://delendum.xyz/2022/11/22/zk-snark-aggregation.html)
+<!-- - [ZKsnark aggregation - Delendum](broken-link:https://delendum.xyz/2022/11/22/zk-snark-aggregation.html) -->

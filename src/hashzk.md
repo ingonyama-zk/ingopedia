@@ -23,7 +23,7 @@
 - **Hashes**
   - [Keccak: Sponge and Duplex constructions](https://keccak.team/sponge_duplex.html)
   - **SHA256**
-    - [NIST doc](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf)
+<!-- - [NIST doc](broken-link:https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf) -->
     - [Halo2 16 bit lookup implementation](https://zcash.github.io/halo2/design/gadgets/sha256/table16.html)
   - **Poseidon**
     - [POSEIDON: A New Hash Function for Zero-Knowledge Proof Systems](https://eprint.iacr.org/2019/458.pdf)
@@ -39,7 +39,7 @@
       - [code: filecoin](https://github.com/filecoin-project/neptune/blob/master/spec/poseidon_spec.pdf)
         - [Poseidon in Filecoin - Dmitry Khovratovich](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/BJjaxXd9U)
       - [code: Ingonyama (python)](https://github.com/ingonyama-zk/poseidon-hash)
-      - [code: snarkVM Aleo Poseidon](https://github.com/AleoHQ/snarkVM/blob/testnet3/algorithms/src/crh/poseidon.rs)
+<!-- - [code: snarkVM Aleo Poseidon](broken-link:https://github.com/AleoHQ/snarkVM/blob/testnet3/algorithms/src/crh/poseidon.rs) -->
       - [code: Dusk network](https://github.com/dusk-network/Poseidon252)
       - [code: Dust netowrk - Poseidon merkle](https://github.com/dusk-network/dusk-poseidon-merkle)
       - [code: Triplewz - GO](https://github.com/triplewz/poseidon)
@@ -59,7 +59,7 @@
     - [Code: Luke Pearson](https://github.com/LukePearson1/reinforced-concrete)
   - **Sinsemilla**
     - [Sinsemilla: A circuit-efficient, lookup-based collision-resistant hash function](/iOw7-HpFQY6dPF1aFY8pAw)
-    - [halo book](https://zcash.github.io/orchard/design/circuit/gadgets/sinsemilla.html)
+<!-- - [halo book](broken-link:https://zcash.github.io/orchard/design/circuit/gadgets/sinsemilla.html) -->
     - [ZCash protocol specification](https://zips.z.cash/protocol/protocol.pdf#concretesinsemillahash)
   - **BLAKE**
     - [Blake](https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf)
