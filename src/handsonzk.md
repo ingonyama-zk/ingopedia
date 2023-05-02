@@ -58,7 +58,7 @@ Our hands-on approach to learning ZK proofs provides interactive and practical t
 
 ## Benchmarking tools
 
-- [Zk system benchmarking](https://delendum.xyz/2023/01/11/zk-system-benchmarking.html)
+<!-- - [Zk system benchmarking](broken-link:https://delendum.xyz/2023/01/11/zk-system-benchmarking.html) -->
   - [code](https://github.com/delendum-xyz/zk-benchmarking)
 - [Benchmarking with Rust](https://www.notamonadtutorial.com/benchmarking-and-analyzing-rust-performance-with-criterion-and-iai/)
 - [Flamegraphs](https://www.brendangregg.com/flamegraphs.html)

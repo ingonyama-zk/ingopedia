@@ -5,7 +5,7 @@
 - [MIT lectures -FInite Field arithmetic](https://math.mit.edu/classes/18.783/2019/LectureNotes3.pdf)
 - [Finite field arithmetic Doche Lange](http://koclab.cs.ucsb.edu/teaching/ecc/eccPapers/Doche-ch11.pdf)
 - [Aztec emulated field and group operations](https://hackmd.io/@arielg/B13JoihA8)
-- [Extension fields: Entropy](https://www.entropy1729.com/climbing-up-the-tower-field-extensions/)
+<!-- - [Extension fields: Entropy](broken-link:https://www.entropy1729.com/climbing-up-the-tower-field-extensions/) -->
 
 ## Modular arithmetic
 

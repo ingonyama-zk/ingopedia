@@ -11,14 +11,14 @@
 
 ## Competitions
 
-- [Zprize submissions summary - entropy](https://www.entropy1729.com/eyes-on-the-prize-an-overview-of-zprize-solutions-on-the-msm-challenge-using-cuda/)
+<!-- - [Zprize submissions summary - entropy](broken-link:https://www.entropy1729.com/eyes-on-the-prize-an-overview-of-zprize-solutions-on-the-msm-challenge-using-cuda/) -->
   - [hackmd version](https://hackmd.io/KGbmVFoYT2-Og30qjoG3ow#bfb53425-submission)
 
 ## General HW resources and guides
 
 - [PipeZK](https://www.microsoft.com/en-us/research/publication/pipezk-accelerating-zero-knowledge-proof-with-a-pipelined-architecture/)
 - [Algorithms for modern Hardware](https://en.algorithmica.org/hpc/)
-- [learning CUDA from scratch - entropy](https://www.entropy1729.com/learning-cuda-from-scratch/)
+<!-- - [learning CUDA from scratch - entropy](broken-link:https://www.entropy1729.com/learning-cuda-from-scratch/) -->
 
 ## Benchmarks of ZKP primitives
 
