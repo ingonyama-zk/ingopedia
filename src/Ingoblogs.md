@@ -4,6 +4,17 @@ Check out blogs, papers, pieces, and videos published by the Ingonyama Team
 
 ---
 
+### **Hardware Review: GPUs , FPGAs and Zero Knowledge Proofs**
+- [Medium Link](https://medium.com/@ingonyama/hardware-review-gpus-fpgas-and-zero-knowledge-proofs-efad528455d8) 
+
+### **RISC Zero Prover Protocol & Analysis**
+- [Medium Link](https://medium.com/@ingonyama/risc-zero-prover-protocol-analysis-61e54f22c30d)
+
+
+### **ZK Hardware Table Stakes part 1 -MSM**
+- [Medium Link](https://medium.com/@ingonyama/zk-hardware-table-stakes-part-1-msm-59591a55e92b)
+
+
 ### **Unleashing Secure AI**
 - [Medium Link](https://medium.com/@ingonyama/unleashing-secure-ai-4c6fd9c8f910) 
 
