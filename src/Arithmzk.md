@@ -19,3 +19,5 @@
   - [AIR to RAPs - Gabizon](https://hackmd.io/@aztec-network/plonk-arithmetiization-air)
   - [AIR-Multivariate Sumcheck - W.Borgeaud](https://solvable.group/posts/air-multivariate-sumcheck/)
   - [AIR assembly Bobbin Threadbare](https://docs.zkproof.org/pages/standards/accepted-workshop3/proposal-airAssembly.pdf)
+- **Customizable Constraint system CCS**
+  - [CCS: Customizable constraint systems for succinct arguments](https://eprint.iacr.org/2023/552)

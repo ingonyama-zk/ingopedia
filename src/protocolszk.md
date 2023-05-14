@@ -104,24 +104,21 @@ Our collection of mathematical papers, protocols, and code on ZK proofs is a com
 - [Plonkup -2021](https://eprint.iacr.org/2022/086.pdf)
 - [SnarkPack -2021 Practical snark aggregation](https://research.protocol.ai/publications/snarkpack-practical-snark-aggregation/gailly2021.pdf)
   - [Blog: efficient aggregation](https://research.protocol.ai/blog/2021/snarkpack-how-to-aggregate-snarks-efficiently/#groth16-aggregated-verification)
-<!-- - [SNark aggregation: general](broken-link:https://delendum.xyz/2022/11/22/zk-snark-aggregation.html) -->
 - [FFlonk -2021 a FFT friendly Plonk](https://eprint.iacr.org/2021/1167.pdf)
 - [Brakedown - 2021](https://eprint.iacr.org/2021/1043.pdf)
 - [Nova - 2021](https://eprint.iacr.org/2021/370.pdf),
   - [code](https://github.com/microsoft/Nova)
   - [Srinath Setty - Talk](https://drive.google.com/file/d/1aLQeB_ca9k7NrWRHY00QauZIe7hmt6_u/view)
   - [Srinath Setty - Video](https://www.youtube.com/watch?v=mY-LWXKsBLc)
-<!-- - [Nova - Entropy](broken-link:https://www.entropy1729.com/incrementally-verifiable-computation-nova/) -->
-  - [IACR talk slides](https://iacr.org/submit/files/slides/2022/crypto/crypto2022/334/slides.pdf)
-  - [IVC:Nova lambdaclass](https://www.notamonadtutorial.com/incrementally-verifiable-computation-nova/)
-  - [Nova - zkstudy club talk](https://drive.google.com/file/d/1pIPoRUcMvhsoSWLami5T1KHc5oqkUAZH/view)
-    - [video](https://www.youtube.com/watch?v=ilrvqajkrYY)
-<!-- - [Plonky2 - 2022](broken-link:https://github.com/mir-protocol/plonky2/blob/main/plonky2.pdf) -->
-  - [code](https://github.com/mir-protocol/plonky2)
-<!-- - [documentation](broken-link:https://github.com/mir-protocol/plonky2/blob/main/plonky2.pdf) -->
-  - [Plonky: code](https://github.com/mir-protocol/plonky)
+- [IACR talk slides](https://iacr.org/submit/files/slides/2022/crypto/crypto2022/334/slides.pdf)
+- [IVC:Nova lambdaclass](https://www.notamonadtutorial.com/incrementally-verifiable-computation-nova/)
+- [Nova - zkstudy club talk](https://drive.google.com/file/d/1pIPoRUcMvhsoSWLami5T1KHc5oqkUAZH/view)
+  - [video](https://www.youtube.com/watch?v=ilrvqajkrYY)
+- [Plonky: code](https://github.com/mir-protocol/plonky)
   - [Plonky: Fast recursive arguments based on Plonk and Halo](https://mirprotocol.org/blog/Fast-recursive-arguments-based-on-Plonk-and-Halo)
   - [Plonky: Adding zero Knowledge to Plonk and Halo](https://mirprotocol.org/blog/Adding-zero-knowledge-to-Plonk-Halo)
+- [Plonky2 code](https://github.com/mir-protocol/plonky2)
+  - [Plonky2 doc](https://github.com/mir-protocol/plonky2/blob/main/plonky2/plonky2.pdf)
 - [Gemini - 2022](https://eprint.iacr.org/2022/420), [Arkworks](https://github.com/arkworks-rs/gemini)
   - [talk](https://www.youtube.com/watch?v=Suv7MN131f8)
 - [Caulk - 2022](https://eprint.iacr.org/2022/621.pdf)
@@ -149,3 +146,5 @@ Our collection of mathematical papers, protocols, and code on ZK proofs is a com
 - [Testudo: Groth+Spartan](https://cryptonet.org/blog/testudo-efficient-snarks-with-smaller-setups)
   - [code:Cryptonetlab](https://github.com/cryptonetlab/Testudo)
 - [Hypernova](https://eprint.iacr.org/2023/573)
+  - [CCS: Customizable constraint systems for succinct arguments](https://eprint.iacr.org/2023/552)
+- [Protostar](https://eprint.iacr.org/2023/620)
