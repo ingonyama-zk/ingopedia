@@ -4,6 +4,9 @@ Check out blogs, papers, pieces, and videos published by the Ingonyama Team
 
 ---
 
+### **Introducing Blaze: ZK Acceleration for FPGA**
+- [Medium Link](https://medium.com/@ingonyama/introducing-blaze-zk-acceleration-for-fpga-6f5f7cc50e1f)
+
 ### **Hardware Review: GPUs , FPGAs and Zero Knowledge Proofs**
 - [Medium Link](https://medium.com/@ingonyama/hardware-review-gpus-fpgas-and-zero-knowledge-proofs-efad528455d8) 
 
