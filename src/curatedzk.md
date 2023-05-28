@@ -29,6 +29,7 @@ A collection of links and Almanacs breaking down ZKPs and related topics.
 - [Proofs Arguments and Zero Knowledge - Justin Thaler](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
   - [Discord group](https://discord.com/channels/740913612368904192/972174269146611752)
 - [Awesome ZKEVM](https://github.com/LuozhuZhang/awesome-zkevm)
+- [Awesome lattice FPGA's](https://github.com/kelu124/awesome-latticeFPGAs)
 
 ## Libraries
 
@@ -63,3 +64,16 @@ A collection of libraries where you can create a ZKP.
 - [Snarky frontend](https://github.com/o1-labs/snarky)
 - [Cairo](https://github.com/starkware-libs/cairo)
   - [Cairo resource](https://cairo-book.github.io)
+
+## HW libraries
+
+### GPU
+
+- [ICICLE](https://github.com/ingonyama-zk/icicle)
+  - [Danksharding application](https://www.ingonyama.com/blog/fast-danksharding-using-icicle)
+- [SPPARK](https://github.com/supranational/sppark)
+
+### FPGA
+
+- [BLAZE](https://github.com/ingonyama-zk/blaze)
+  - [Blaze developer walkthrough](https://medium.com/@ingonyama/introducing-blaze-zk-acceleration-for-fpga-6f5f7cc50e1f)
