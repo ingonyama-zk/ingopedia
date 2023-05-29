@@ -18,7 +18,7 @@
 - [PipeZK](https://www.microsoft.com/en-us/research/publication/pipezk-accelerating-zero-knowledge-proof-with-a-pipelined-architecture/)
 - [Algorithms for modern Hardware](https://en.algorithmica.org/hpc/)
 
-## Benchmarks/performance of ZKP primitives
+## Benchmarks of ZKP primitives
 
 - [Pantheon of ZKP frameworks - Celer Network](https://blog.celer.network/2023/03/01/the-pantheon-of-zero-knowledge-proof-development-frameworks/)
 - [ZK Harness](https://www.zk-bench.org)
