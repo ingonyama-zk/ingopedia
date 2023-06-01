@@ -10,11 +10,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
   
-      - name: Install mdbook and mdbook-katex
+      - name: Install mdbook
         uses: actions-rs/cargo@v1
         with:
           command: install
-          args: mdbook mdbook-katex
+          args: mdbook
           
       - name: Build html
         run: mdbook build
