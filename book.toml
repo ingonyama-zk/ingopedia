@@ -5,11 +5,6 @@ multilingual = false
 src = "src"
 title = "Ingopedia"
 
-[preprocessor.katex]
-renderers = ["html"]
-
-[output.katex]
-
 [output.html]
 curly-quotes = true
 git-repository-url = "https://github.com/ingonyama-zk/ingopedia"
@@ -17,3 +12,6 @@ edit-url-template = " https://github.com/ingonyama-zk/ingopedia/edit/master/{pat
 
 [output.html.print]
 page-break = false
+
+[preprocessor.katex]
+after = ["links"]
