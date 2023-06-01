@@ -1,0 +1,316 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Applications - Ingopedia</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="communityguide.html"><strong aria-hidden="true">1.</strong> Community Guidelines</a></li><li class="chapter-item expanded "><a href="ZKP.html"><strong aria-hidden="true">2.</strong> Zero Knowledge Proofs</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="curatedzk.html"><strong aria-hidden="true">2.1.</strong> Curated Resources</a></li><li class="chapter-item expanded "><a href="zkpseries.html"><strong aria-hidden="true">2.2.</strong> Video Lecture Series</a></li><li class="chapter-item expanded "><a href="introzkp.html"><strong aria-hidden="true">2.3.</strong> Articles</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="zkbeginner.html"><strong aria-hidden="true">2.3.1.</strong> ZK Introductory</a></li><li class="chapter-item expanded "><a href="Ingoblogs.html"><strong aria-hidden="true">2.3.2.</strong> Ingonyama Blogs</a></li><li class="chapter-item expanded "><a href="zksnarks.html"><strong aria-hidden="true">2.3.3.</strong> ZKSNARKS</a></li><li class="chapter-item expanded "><a href="starks.html"><strong aria-hidden="true">2.3.4.</strong> STARKS</a></li><li class="chapter-item expanded "><a href="applicationszk.html" class="active"><strong aria-hidden="true">2.3.5.</strong> Applications</a></li><li class="chapter-item expanded "><a href="vulnerabilities.html"><strong aria-hidden="true">2.3.6.</strong> Vulnerabilities</a></li></ol></li><li class="chapter-item expanded "><a href="handsonzk.html"><strong aria-hidden="true">2.4.</strong> Hands-On ZK</a></li><li class="chapter-item expanded "><a href="protocolszk.html"><strong aria-hidden="true">2.5.</strong> Protocols</a></li><li class="chapter-item expanded "><a href="mathzkp.html"><strong aria-hidden="true">2.6.</strong> Mathematics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ff.html"><strong aria-hidden="true">2.6.1.</strong> Finite fields</a></li><li class="chapter-item expanded "><a href="cryptoprimzk.html"><strong aria-hidden="true">2.6.2.</strong> Cryptographic primitives</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="elliptic.html"><strong aria-hidden="true">2.6.2.1.</strong> Elliptic curves</a></li><li class="chapter-item expanded "><a href="hashzk.html"><strong aria-hidden="true">2.6.2.2.</strong> Hash functions</a></li><li class="chapter-item expanded "><a href="VDFzk.html"><strong aria-hidden="true">2.6.2.3.</strong> Verifiable Delay functions</a></li><li class="chapter-item expanded "><a href="Arithmzk.html"><strong aria-hidden="true">2.6.2.4.</strong> Arithmetization</a></li><li class="chapter-item expanded "><a href="commitmentzk.html"><strong aria-hidden="true">2.6.2.5.</strong> Commitment Schemes</a></li><li class="chapter-item expanded "><a href="MPC.html"><strong aria-hidden="true">2.6.2.6.</strong> Secure Multi Party Computation</a></li><li class="chapter-item expanded "><a href="provingzk.html"><strong aria-hidden="true">2.6.2.7.</strong> Proving Methods</a></li></ol></li><li class="chapter-item expanded "><a href="compprimzk.html"><strong aria-hidden="true">2.6.3.</strong> Computational Primitives</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="hwzk.html"><strong aria-hidden="true">2.6.3.1.</strong> Hardware acceleration</a></li><li class="chapter-item expanded "><a href="fft.html"><strong aria-hidden="true">2.6.3.2.</strong> Discrete Fourier Transforms</a></li><li class="chapter-item expanded "><a href="msm.html"><strong aria-hidden="true">2.6.3.3.</strong> Multi Scalar Multiplications</a></li></ol></li></ol></li></ol></li><li class="chapter-item expanded "><a href="HE.html"><strong aria-hidden="true">3.</strong> Homomorphic Encryption</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Ingopedia</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/ingonyama-zk/ingopedia" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href=" https://github.com/ingonyama-zk/ingopedia/edit/master/src/applicationszk.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="applications"><a class="header" href="#applications">Applications</a></h1>
+<p>A compilation of materials that showcase various applications of zk technology.</p>
+<hr />
+<p><img src="https://user-images.githubusercontent.com/122266060/221405688-f5c5d976-c494-4117-b1e8-e8661aa50abf.jpg" alt="Untitled - ZK Use-cases" /></p>
+<h2 id="general"><a class="header" href="#general">General</a></h2>
+<ul>
+<li><a href="https://nakamoto.com/cambrian-explosion-of-crypto-proofs/">A cambrian explosion of crypto proofs -Ben Sasson</a></li>
+<li><a href="https://medium.com/@boneh/using-zk-proofs-to-fight-disinformation-17e7d57fe52f">Using ZKP to fight disinformation - Boneh, Datta</a></li>
+<li><a href="https://blog.o1labs.org/zero-knowledge-proofs-for-voting-3c6a6d5d89db">ZKP for voting - Phil Kelly</a></li>
+</ul>
+<h2 id="zk-rollups-evmsvms"><a class="header" href="#zk-rollups-evmsvms">ZK Rollups EVMs/VMs</a></h2>
+<ul>
+<li><strong>General</strong>
+<ul>
+<li><a href="https://www.alchemy.com/overviews/zkevm">What is a ZK EVM</a></li>
+<li><a href="https://ethworks.io/assets/download/zero-knowledge-blockchain-scaling-ethworks.pdf">Ethworks: Blockchain scaling</a> </li>
+<li><a href="https://hackmd.io/QkOUJ-UJQ-CJ7cs_yx6_GA">Ethereum-powered ZK-Rollups: World Beaters</a></li>
+<li><a href="https://www.taurushq.com/insights/20220131_Taurus_scalability_L2_part1/EthereumL2_Scalability_part1.pdf">Ethereum - Scalability</a></li>
+<li><a href="https://vitalik.ca/general/2021/01/05/rollup.html#:~:text=One%20important%20compression,SNARKs%20are%20valid.">Zk rollups an incomplete guide</a></li>
+<li><a href="https://hackmd.io/SzneKXSWRJ6yJxzgFm9MwQ?view">Decentralized zk-Rollup</a></li>
+<li><a href="https://limechain.tech/blog/optimistic-rollups-vs-zk-rollups/">Zk rollups popular</a></li>
+<li><a href="https://ethereum.org/ph/developers/docs/scaling/zk-rollups/">Ethereum: Zk rollups</a></li>
+<li><a href="https://medium.com/fcats-blockchain-incubator/how-zk-rollups-work-8ac4d7155b0e">How ZK rollups work: Simon Brown</a></li>
+<li><a href="https://a16zcrypto.com/content/article/an-overview-of-danksharding-and-a-proposal-for-improvement-of-das/">An overview of Danksharding</a></li>
+</ul>
+</li>
+<li><strong>EVM/VMs</strong>
+<ul>
+<li><a href="https://aztec.network">Aztec protocol</a></li>
+<li><a href="https://scroll.io">Scroll EVM</a></li>
+<li><a href="https://taiko.xyz/">Taiko EVM</a></li>
+<li><a href="https://docs.zksync.io/userdocs/">zkSync</a></li>
+<li><a href="https://polygon.technology/solutions/polygon-zkevm/">Polygon zkEVM</a></li>
+<li><a href="https://wiki.polygon.technology/docs/miden/intro/main">Miden VM</a>
+<ul>
+<li><a href="https://hackmd.io/D-vjBYtHQB2BuOB-HMUG5Q">Range Checks in Miden VM</a></li>
+<li><a href="https://hackmd.io/_aaDBzbWRz6EwQQRtK1pzw">Miden VM program decoder</a></li>
+<li><a href="https://hackmd.io/@bobbinth/HJr56BKKt">Memory in MidenVM</a></li>
+<li><a href="https://hackmd.io/NC-yRmmtRQSvToTHb96e8Q#u32-operations-in-Miden-VM">u32 in MidenVM</a></li>
+</ul>
+</li>
+<li><a href="https://www.risczero.com">RISC0 ZK VM</a>
+<ul>
+<li><a href="https://www.risczero.com/proof-system-in-detail.pdf">RISC0 proof system</a></li>
+</ul>
+</li>
+<li><a href="https://sin7y.org/">OlaVM</a></li>
+<li><a href="http://www.delphinuslab.com/">zkWasm</a></li>
+<li><a href="https://loopring.org/#/about">Loopring</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="zk-bridges"><a class="header" href="#zk-bridges">ZK bridges</a></h2>
+<ul>
+<li><a href="https://blog.chainalysis.com/reports/cross-chain-bridge-hacks-2022/">Vulnerabilities in ZK bridges</a></li>
+<li><a href="https://www.youtube.com/watch?v=tdQ995ahadQ">Primer on Cross chain bridges and how to break them: Niv Yehezkel</a></li>
+<li><a href="https://medium.com/1kxnetwork/blockchain-bridges-5db6afac44f8">Block chain bridges: Introduction</a></li>
+<li><a href="https://www.youtube.com/watch?v=VLWPl7PsPDQ">Introduction to validating bridges and L2 protocols - Patrick McCory</a></li>
+<li><a href="https://www.youtube.com/watch?v=f4kBUe2n0Qk">zkEVMOS - Bridges and Interoperability</a></li>
+<li><a href="https://medium.com/@ingonyama/bridging-the-multichain-universe-with-zero-knowledge-proofs-6157464fbc86">Bridging the blockchain multiverse with ZKP</a></li>
+<li><a href="https://wdai.us/posts/navigating-privacy/">Navigating privacy on Blockchains - Wei Dai</a></li>
+<li><a href="https://vitalik.ca/general/2022/11/19/proof_of_solvency.html">Having a safe CEX: proof of solvency and beyond</a></li>
+</ul>
+<h2 id="zkml"><a class="header" href="#zkml">ZKML</a></h2>
+<ul>
+<li><a href="https://worldcoin.org/blog/engineering/intro-to-zkml">An Introduction to ZKML</a></li>
+<li><a href="https://0xparc.org/blog/zk-mnist">zkMNIST</a></li>
+<li><a href="https://github.com/zkml-community/awesome-zkml">awesome-zkml</a></li>
+<li><a href="https://a16zcrypto.com/content/article/checks-and-balances-machine-learning-and-zero-knowledge-proofs/?utm_source=substack&amp;utm_medium=email">Checks and balances ZK and ML - Elena Burger</a></li>
+<li><a href="https://hackmd.io/@pinged/zk-and-llms?utm_source=substack&amp;utm_medium=email">DO Language models possess Knowledge soundness - Tarun Chitra</a></li>
+<li><a href="https://medium.com/@danieldkang/empowering-users-to-verify-twitters-algorithmic-integrity-with-zkml-65e56d0e9dd9">verifying twitter algorithmic integrity with zkml - Daniel Kang</a></li>
+<li><a href="https://medium.com/@danieldkang/bridging-the-gap-how-zk-snarks-bring-transparency-to-private-ml-models-with-zkml-e0e59708c2fc">How ZK snarks bring transparency to private ML models with zkml - Daniel Kang</a></li>
+<li><a href="https://mirror.xyz/privacy-scaling-explorations.eth/K88lOS4XegJGzMoav9K5bLuT9Zhn3Hz2KkhB3ITq-m8">Bridging AI/ML and web3 with ZKPs</a></li>
+</ul>
+<h2 id="zk-gaming"><a class="header" href="#zk-gaming">ZK Gaming</a></h2>
+<ul>
+<li><a href="https://blog.zkga.me/announcing-v6">Dark Forest - the zk SNARK game</a></li>
+<li><a href="https://solvable.group/posts/cairo-games-vol2/">Cairo Games Vol2: Solns</a></li>
+<li><a href="https://medium.com/@0xhank/9-hidden-information-mechanics-and-how-to-port-them-into-blockchain-games-2d862f0e16ff">Blockchain games and game mechanics</a></li>
+<li><a href="https://medium.com/collab-currency/crypto-gaming-a-most-practical-thesis-ec4f55f53408">Crypto gaming - A practical thesis</a></li>
+<li><a href="https://gubsheep.substack.com/p/the-strongest-crypto-gaming-thesis">The strongest Crypto gaming thesis</a></li>
+<li><a href="https://blog.o1labs.org/zero-knowledge-proofs-for-games-f8b690a2c1ef">ZKP for gaming: Mina</a></li>
+</ul>
+<h2 id="ecosystem-with-zk-applications"><a class="header" href="#ecosystem-with-zk-applications">Ecosystem with ZK applications</a></h2>
+<ul>
+<li><strong>Filecoin</strong>
+<ul>
+<li><a href="https://ipfs.io/ipfs/QmWimYyZHzChb35EYojGduWHBdhf9SD5NHqf8MjZ4n3Qrr/Filecoin-Primer.7-25.pdf">Filecoin primer</a></li>
+<li><a href="https://docs.filecoin.io/about/basics/how-filecoin-works/">Economics</a></li>
+<li><a href="https://spec.filecoin.io">specs</a></li>
+<li><a href="https://filecoin.io/blog/posts/what-sets-us-apart-filecoin-s-proof-system/">Proof system</a>
+<ul>
+<li><a href="https://github.com/filecoin-project/rust-fil-proofs/blob/master/audits/protocolai-audit-20200728.pdf">Filecoin snark audit</a></li>
+<li><a href="https://research.protocol.ai/publications/poreps-proofs-of-space-on-useful-data/fisch2018a.pdf">Proof of space</a></li>
+<li><a href="https://eprint.iacr.org/2018/702.pdf">Proof of Replication: Depth Robust Graphs</a>
+<ul>
+<li><a href="https://trapdoortech.medium.com/filecoin-deep-into-sdr-algorithm-9c7dcc132875">SDR blog</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://lotus.filecoin.io/storage-providers/get-started/tasks/">mining task overview</a>
+<ul>
+<li><a href="https://medium.com/@z1286679231/definition-and-characteristics-of-p1-p2-c1-c2-in-ipfs-filecoin-49daa3b735e3">task definitions</a></li>
+<li><a href="https://trapdoortech.medium.com/filecoin-porep-circuit-introduction-43415d97730c">PoRep circuit blog</a></li>
+<li><a href="https://trapdoortech.medium.com/filecoin-deep-into-precommit2-logic-710392c6b00c">Precommit 2</a> </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="starks.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="vulnerabilities.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="starks.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="vulnerabilities.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
