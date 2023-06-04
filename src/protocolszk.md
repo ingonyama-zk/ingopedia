@@ -62,6 +62,7 @@ Our collection of mathematical papers, protocols, and code on ZK proofs is a com
   - [Plonk - Kimchi: Mina Protocol](https://eng-blog.o1labs.org/posts/plonk/)
     - [Kimchi](https://minaprotocol.com/blog/kimchi-the-latest-update-to-minas-proof-system) -[Redshift - 2019](https://eprint.iacr.org/2019/1400)
   - [Redhsift Summary](https://www.smartcontractresearch.org/t/research-summary-redshift-transparent-snarks-from-list-polynominal-commitment-iops/344)
+  - [Plonk not a monad tutorial](https://blog.lambdaclass.com/all-you-wanted-to-know-about-plonk/?utm_source=substack&utm_medium=email)
 - [Spartan - 2019](https://eprint.iacr.org/2019/550.pdf)
   - [code: Microsoft](https://github.com/microsoft/Spartan)
 - [Halo - 2019](https://eprint.iacr.org/2019/1021.pdf)

@@ -1,6 +1,6 @@
-# Vulnerabilities
+# Security and Vulnerabilities
 
-Potential vulnerabilities in ZK systems
+Potential vulnerabilities and security in ZK systems
 
 ---
 
@@ -15,3 +15,5 @@ Potential vulnerabilities in ZK systems
 - [Stress testing Zk systems: Zk docs](https://www.zkdocs.com/docs/zkdocs/)
 - [Specialized ZKP vulnerabilities](https://blog.trailofbits.com/2022/11/29/specialized-zero-knowledge-proof-failures/)
 - [security of zkp projects: same but different](https://www.aumasson.jp/data/talks/zksec_zk7.pdf)
+- [ZK programmability and security](https://www.zksecurity.xyz/blog/posts/zksecurity/)
+- [Vulnerabilities in private delegated computations](https://www.zksecurity.xyz/blog/posts/helloworld/)

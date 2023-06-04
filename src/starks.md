@@ -28,9 +28,11 @@ A collection of resources explaining Starks.
   - [Arithmetization II](https://medium.com/starkware/arithmetization-ii-403c3b3f4355)
   - [Low Degree Testing](https://medium.com/starkware/low-degree-testing-f7614f5172db)
   - [A framework for efficient STARKS](https://medium.com/starkware/a-framework-for-efficient-starks-19608ba06fbe)
+- [Stark 101 - hands on](https://starkware.co/stark-101/)
+- **STARK Recursion**
+  - [BReaking down recursive starks](https://blog.oxor.io/zk-starks-part-one-4f482111b0a)
   - [Stark recursion](https://medium.com/starkware/recursive-starks-78f8dd401025)
     - [Recursive STARK -Avihu Levy](https://www.youtube.com/watch?v=hjTCIT9BGkA)
-- [Stark 101 - hands on](https://starkware.co/stark-101/)
 - **Stark Anatomy series**
   - [Anatomy of a STARK](https://aszepieniec.github.io/stark-anatomy/)
   - [Part2: BrainSTARK](https://aszepieniec.github.io/stark-brainfuck/index)

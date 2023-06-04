@@ -31,3 +31,7 @@
   - [blog](https://research.protocol.ai/blog/2021/snarkpack-how-to-aggregate-snarks-efficiently/)
   - [talk](https://www.esat.kuleuven.be/cosic/blog/rwc-2022-snarkpack-practical-snark-aggregation/)
   - [talk](https://docs.zkproof.org/pages/standards/slides-w4/SNARKpack.pdf)
+
+## Folding and accumulation schemes
+
+- [Resource: Awesome Folding](https://github.com/lurk-lab/awesome-folding)

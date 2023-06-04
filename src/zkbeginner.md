@@ -11,6 +11,7 @@ Understanding ZK from beginner to advanced on a surface level.
 - [KU Lueven: Intro to ZK part 1](https://www.esat.kuleuven.be/cosic/blog/co6gc-introduction-to-zero-knowledge-proofs-1/)
 - [Interactive_proofs and Zk](https://medium.com/magicofc/interactive-proofs-and-zero-knowledge-b32f6c8d66c3)
 - [The incredible Machine - Aviv Zohar](https://medium.com/qed-it/the-incredible-machine-4d1270d7363a)
+- [What is a ZKP system - Alin Tomescu](https://docs.google.com/presentation/d/1b2FoHN983iA_ZkiISMCKa0JqlE40CeqaqNxWjWiJQjE/edit#slide=id.g22c21d1bffc_0_509)
 
 ## Intermediate
 
@@ -18,6 +19,7 @@ Understanding ZK from beginner to advanced on a surface level.
 - [Zk blog](http://www.zeroknowledgeblog.com/index.php)
 - [Math survival kit for zk developers - lambdaclass](https://www.notamonadtutorial.com/math-survival-kit-for-developers/)
 - [Understanding polynomials](https://www.zkcamp.xyz/blog/you-cant-understand-zkps-without-understanding-polynomials)
+- [Intro to ZK in block chain and economics](https://files.stlouisfed.org/files/htdocs/publications/review/2023/05/12/an-introduction-to-zero-knowledge-proofs-in-blockchains-and-economics.pdf)
 
 ## Advanced
 

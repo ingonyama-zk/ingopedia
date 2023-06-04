@@ -16,6 +16,7 @@ A compilation of materials that showcase various applications of zk technology.
 
 - **General**
   - [What is a ZK EVM](https://www.alchemy.com/overviews/zkevm)
+  - [zkEVM community edition](https://mirror.xyz/privacy-scaling-explorations.eth/I5BzurX-T6slFaPbA4i3hVrO7U2VkBR45eO-N3CSnSg)
   - [Ethworks: Blockchain scaling](https://ethworks.io/assets/download/zero-knowledge-blockchain-scaling-ethworks.pdf) 
   - [Ethereum-powered ZK-Rollups: World Beaters](https://hackmd.io/QkOUJ-UJQ-CJ7cs_yx6_GA)
   - [Ethereum - Scalability](https://www.taurushq.com/insights/20220131_Taurus_scalability_L2_part1/EthereumL2_Scalability_part1.pdf)  
@@ -63,6 +64,8 @@ A compilation of materials that showcase various applications of zk technology.
 - [verifying twitter algorithmic integrity with zkml - Daniel Kang](https://medium.com/@danieldkang/empowering-users-to-verify-twitters-algorithmic-integrity-with-zkml-65e56d0e9dd9)
 - [How ZK snarks bring transparency to private ML models with zkml - Daniel Kang](https://medium.com/@danieldkang/bridging-the-gap-how-zk-snarks-bring-transparency-to-private-ml-models-with-zkml-e0e59708c2fc)
 - [Bridging AI/ML and web3 with ZKPs](https://mirror.xyz/privacy-scaling-explorations.eth/K88lOS4XegJGzMoav9K5bLuT9Zhn3Hz2KkhB3ITq-m8)
+- [Exploring ZKML](https://bwetzel.medium.com/zero-knowledge-machine-learning-zkml-projects-exploring-the-space-fc9d5f04fb65)
+- [Verified execution of GPT,BERT,CLIP](https://medium.com/@danieldkang/verified-execution-of-gpt-bert-clip-and-more-6acb693fd55f)
 
 ## ZK Gaming
 

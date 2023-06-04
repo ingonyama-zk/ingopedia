@@ -18,6 +18,7 @@ A collection of links and Almanacs breaking down ZKPs and related topics.
 - [Awesome - Mikerah - Privacy on Blockchains](https://github.com/Mikerah/awesome-privacy-on-blockchains)
 - [Awesome - Worldcoin - ZK Machine Learning](https://github.com/worldcoin/awesome-zkml)
 - [Resource: Awesome_Plonk](https://github.com/Fluidex/awesome-plonk)
+- [Resource: Awesome Folding](https://github.com/lurk-lab/awesome-folding)
 - [ZK research 0x](https://0xst.notion.site/ZK-Research-94ba836c3b2a4e2491a871364ee5b13b)
 - [ZK canon](https://a16zcrypto.com/zero-knowledge-canon/)
   - [DAO canon](https://future.com/dao-canon/)

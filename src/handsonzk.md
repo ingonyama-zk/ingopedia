@@ -9,6 +9,7 @@ Our hands-on approach to learning ZK proofs provides interactive and practical t
 ## General
 
 - [A beginners intro to coding Zero knowledge Proofs](https://dev.to/spalladino/a-beginners-intro-to-coding-zero-knowledge-proofs-c56)
+- [typescript zk](https://alysiatech.medium.com/how-to-code-a-zk-app-each-step-explained-so-you-can-create-privacy-preserving-apps-be7e92d7189d)
 - [zero knowledge with Bellman](https://hongchao.me/zksnark/)
 - [Cryptohack - hands on cryptography](https://cryptohack.org)
 - [Hands on ZK - ZK learning group](https://0xparc.notion.site/ZK-Learning-Group-Topics-f53933eecc2f41438c6c2bdd5b42ee2d)
