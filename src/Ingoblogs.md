@@ -4,6 +4,14 @@ Check out blogs, papers, pieces, and videos published by the Ingonyama Team
 
 ---
 
+### **Fast Danksharding Video & Slides**
+- [Medium Link](https://medium.com/@ingonyama/fast-danksharding-video-slides-80be7a0a5f21)
+
+
+### **Recap: ZK Capture the Flag**
+- [Medium Link](https://github.com/ingonyama-zk/zkctf-2023-writeups)
+
+
 ### **Introducing Blaze: ZK Acceleration for FPGA**
 - [Medium Link](https://medium.com/@ingonyama/introducing-blaze-zk-acceleration-for-fpga-6f5f7cc50e1f)
 
