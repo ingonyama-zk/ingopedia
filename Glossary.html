@@ -1,0 +1,285 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Glossary - Ingopedia</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="communityguide.html"><strong aria-hidden="true">1.</strong> Community Guidelines</a></li><li class="chapter-item expanded "><a href="Glossary.html" class="active"><strong aria-hidden="true">2.</strong> Glossary</a></li><li class="chapter-item expanded "><a href="ZKP.html"><strong aria-hidden="true">3.</strong> Zero Knowledge Proofs</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="curatedzk.html"><strong aria-hidden="true">3.1.</strong> Curated Resources</a></li><li class="chapter-item expanded "><a href="zkpseries.html"><strong aria-hidden="true">3.2.</strong> Video Lecture Series</a></li><li class="chapter-item expanded "><a href="introzkp.html"><strong aria-hidden="true">3.3.</strong> Articles</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="zkbeginner.html"><strong aria-hidden="true">3.3.1.</strong> ZK Introductory</a></li><li class="chapter-item expanded "><a href="Ingoblogs.html"><strong aria-hidden="true">3.3.2.</strong> Ingonyama Blogs</a></li><li class="chapter-item expanded "><a href="zksnarks.html"><strong aria-hidden="true">3.3.3.</strong> ZKSNARKS</a></li><li class="chapter-item expanded "><a href="starks.html"><strong aria-hidden="true">3.3.4.</strong> STARKS</a></li><li class="chapter-item expanded "><a href="applicationszk.html"><strong aria-hidden="true">3.3.5.</strong> Applications</a></li><li class="chapter-item expanded "><a href="vulnerabilities.html"><strong aria-hidden="true">3.3.6.</strong> Vulnerabilities</a></li></ol></li><li class="chapter-item expanded "><a href="handsonzk.html"><strong aria-hidden="true">3.4.</strong> Hands-On ZK</a></li><li class="chapter-item expanded "><a href="protocolszk.html"><strong aria-hidden="true">3.5.</strong> Protocols</a></li><li class="chapter-item expanded "><a href="mathzkp.html"><strong aria-hidden="true">3.6.</strong> Mathematics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ff.html"><strong aria-hidden="true">3.6.1.</strong> Finite fields</a></li><li class="chapter-item expanded "><a href="cryptoprimzk.html"><strong aria-hidden="true">3.6.2.</strong> Cryptographic primitives</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="elliptic.html"><strong aria-hidden="true">3.6.2.1.</strong> Elliptic curves</a></li><li class="chapter-item expanded "><a href="hashzk.html"><strong aria-hidden="true">3.6.2.2.</strong> Hash functions</a></li><li class="chapter-item expanded "><a href="VDFzk.html"><strong aria-hidden="true">3.6.2.3.</strong> Verifiable Delay functions</a></li><li class="chapter-item expanded "><a href="Arithmzk.html"><strong aria-hidden="true">3.6.2.4.</strong> Arithmetization</a></li><li class="chapter-item expanded "><a href="commitmentzk.html"><strong aria-hidden="true">3.6.2.5.</strong> Commitment Schemes</a></li><li class="chapter-item expanded "><a href="MPC.html"><strong aria-hidden="true">3.6.2.6.</strong> Secure Multi Party Computation</a></li><li class="chapter-item expanded "><a href="provingzk.html"><strong aria-hidden="true">3.6.2.7.</strong> Proving Methods</a></li></ol></li><li class="chapter-item expanded "><a href="compprimzk.html"><strong aria-hidden="true">3.6.3.</strong> Computational Primitives</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="hwzk.html"><strong aria-hidden="true">3.6.3.1.</strong> Hardware acceleration</a></li><li class="chapter-item expanded "><a href="fft.html"><strong aria-hidden="true">3.6.3.2.</strong> Discrete Fourier Transforms</a></li><li class="chapter-item expanded "><a href="msm.html"><strong aria-hidden="true">3.6.3.3.</strong> Multi Scalar Multiplications</a></li></ol></li></ol></li></ol></li><li class="chapter-item expanded "><a href="HE.html"><strong aria-hidden="true">4.</strong> Homomorphic Encryption</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Ingopedia</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/ingonyama-zk/ingopedia" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href=" https://github.com/ingonyama-zk/ingopedia/edit/master/src/Glossary.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="glossary"><a class="header" href="#glossary">Glossary</a></h1>
+<p><a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#a">A</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#b">B</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#c">C</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#d">D</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#e">E</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#f">F</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#g">G</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#h">H</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#i">I</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#j">J</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#k">K</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#l">L</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#m">M</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#n">N</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#o">O</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#p">P</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#q">Q</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#r">R</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#s">S</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#t">T</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#u">U</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#v">V</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#w">W</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#x">X</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#y">Y</a> <a href="https://github.com/ingonyama-zk/ingopedia/blob/Otsar-Raikou-patch-5/src/Glossary.md#z">Z</a> </p>
+<h2 id="a"><a class="header" href="#a">A</a></h2>
+<p><strong>ASIC (Application-Specific Integrated Circuit)</strong> - A specialized integrated circuit designed for a specific application or function, offering optimized performance and efficiency by implementing dedicated hardware tailored to that specific task.</p>
+<p><strong>Authentication</strong> - The process of verifying the identity of a user, device, or system to ensure that it is genuine and authorized to access certain resources or information.</p>
+<p><strong>Aurora</strong> - Aurora is a Zero Knowledge Proof system that combines zk-SNARKs and Bulletproofs to achieve compact proofs for general-purpose computations.</p>
+<p><strong>AuroraLight</strong> - AuroraLight is an improvement over Aurora that achieves faster prover times and smaller proof sizes while maintaining its generality and security properties.</p>
+<h2 id="b"><a class="header" href="#b">B</a></h2>
+<p><strong>Bulletproofs</strong> - Bulletproofs are a non-interactive Zero Knowledge Proof construction that enables efficient verification of range proofs and arithmetic circuits.</p>
+<h2 id="c"><a class="header" href="#c">C</a></h2>
+<p><strong>Cryptography</strong> - The practice and study of secure communication techniques, including encryption, decryption, and various cryptographic protocols.</p>
+<p><strong>Completeness</strong> - The property of a Zero Knowledge Proof protocol that guarantees an honest prover can convince a verifier of a correct statement.</p>
+<p><strong>Commitment Scheme</strong> - A cryptographic protocol that enables a party to commit to a value without revealing it and later prove the committed value’s consistency.</p>
+<p><strong>Computational Zero Knowledge</strong> - The lowest level of security among the three types of Zero Knowledge proofs, ensuring that an efficient computational algorithm cannot distinguish between valid and invalid proofs within a reasonable amount of time.</p>
+<h2 id="d"><a class="header" href="#d">D</a></h2>
+<h2 id="e"><a class="header" href="#e">E</a></h2>
+<h2 id="f"><a class="header" href="#f">F</a></h2>
+<p><strong>Fiat-Shamir Heuristic</strong> - A technique used to transform an interactive Zero Knowledge Proof into a non-interactive form by simulating the verifier’s challenges.</p>
+<p><strong>FPGA (Field-Programmable Gate Array)</strong> - A reconfigurable integrated circuit that can be programmed and reprogrammed to perform a wide range of tasks, offering flexibility and customization for various applications without requiring a fixed design.</p>
+<p><strong>Fractal</strong> - Fractal is a non-interactive Zero Knowledge Proof system that allows for scalable and efficient verification of statements in a distributed setting.</p>
+<h2 id="g"><a class="header" href="#g">G</a></h2>
+<p><strong>Groth16</strong> - Groth16 is a non-interactive Zero Knowledge Proof system that utilizes elliptic curve pairings to achieve succinctness and efficient verification.</p>
+<h2 id="h"><a class="header" href="#h">H</a></h2>
+<p><strong>Homomorphic Encryption</strong> - A form of encryption that allows mathematical operations to be performed on encrypted data without decrypting it.</p>
+<p><strong>Hardware Acceleration</strong> - The use of specialized hardware components or instructions to perform computations more efficiently than software-based approaches.</p>
+<p><strong>Halo</strong> - Halo is a recursive proof composition technique that enables the construction of compact Zero Knowledge Proofs for general arithmetic circuits.</p>
+<p><strong>Hyrax</strong> - Hyrax is a Zero Knowledge Proof system that provides efficiency and succinctness for verifying arithmetic and boolean circuit satisfiability.</p>
+<h2 id="i"><a class="header" href="#i">I</a></h2>
+<p><strong>Interactive Proof</strong> - A Zero Knowledge Proof where the prover and verifier engage in multiple rounds of communication to establish the validity of the proof.</p>
+<h2 id="j"><a class="header" href="#j">J</a></h2>
+<h2 id="k"><a class="header" href="#k">K</a></h2>
+<h2 id="l"><a class="header" href="#l">L</a></h2>
+<p><strong>Ligero</strong> - Ligero is a Zero Knowledge Proof system designed specifically for blockchain applications, offering low computational and storage requirements for verification.</p>
+<h2 id="m"><a class="header" href="#m">M</a></h2>
+<p><strong>Marlin</strong> - Marlin is a Zero Knowledge Proof system that leverages recursive composition to construct large-scale Zero Knowledge Proofs with low proof sizes and verification times.</p>
+<p><strong>Merkle Tree</strong> - A tree data structure in cryptography that enables efficient verification of the integrity and membership of data elements.</p>
+<p><strong>Multi-party Computation (MPC)</strong> - A cryptographic protocol that enables multiple parties to jointly compute a function over their private inputs while preserving the privacy of those inputs, allowing them to collectively obtain the desired result without revealing individual data to each other.</p>
+<h2 id="n"><a class="header" href="#n">N</a></h2>
+<p><strong>Non-interactive Proof</strong> - A Zero Knowledge Proof where the prover generates a single proof without any interaction with the verifier.</p>
+<p><strong>NTT (Number Theoretic Transform)</strong> - A mathematical technique used for efficient polynomial multiplication and fast Fourier transforms in various applications such as signal processing, error correction codes, and cryptography.</p>
+<h2 id="o"><a class="header" href="#o">O</a></h2>
+<h2 id="p"><a class="header" href="#p">P</a></h2>
+<p><strong>Pairing-Based Cryptography</strong> - A cryptographic approach that leverages mathematical pairings to perform various operations and enable advanced cryptographic protocols.</p>
+<p><strong>Perfect Zero Knowledge</strong> - A level of security provided by a Zero Knowledge proof where the verifier gains no additional knowledge about the secret information being proved, except for the validity of the statement.</p>
+<p><strong>Plonk</strong> - Plonk (Permutation-based SNARK) is a Zero Knowledge Proof system that utilizes permutation arguments to achieve succinctness and efficiency.</p>
+<p><strong>Privacy</strong> - The state of being free from unauthorized intrusion, surveillance, or disclosure of personal or sensitive information.</p>
+<p><strong>Proof Of Knowledge</strong> - A cryptographic concept where a prover demonstrates possession of certain information or knowledge to a verifier without revealing the actual information.</p>
+<p><strong>Prover</strong> - The entity in a Zero Knowledge Proof protocol that possesses knowledge of a secret and aims to prove its knowledge to the verifier.</p>
+<p><strong>Pseudorandom Function</strong> - A pseudorandom function (PRF) is a deterministic function that takes an input and produces an output that appears random, even though it is generated by a deterministic algorithm, making it indistinguishable from a truly random function for practical purposes.</p>
+<h2 id="q"><a class="header" href="#q">Q</a></h2>
+<p><strong>QAP (Quadratic Arithmetic Programs)</strong> - QAP is a method to represent arithmetic circuits as quadratic polynomials, commonly used in Zero Knowledge Proof systems for efficient proof generation and verification.</p>
+<h2 id="r"><a class="header" href="#r">R</a></h2>
+<p><strong>R1CS (Rank-1 Constraint Systems)</strong> - R1CS is a mathematical framework used in Zero Knowledge Proof systems to represent computational problems as sets of constraints.</p>
+<p><strong>Redshift</strong> - Redshift is a Zero Knowledge Proof system designed for blockchain applications, offering scalability, efficiency, and post-quantum security.</p>
+<p><strong>Ring Signature</strong> - A cryptographic digital signature scheme that allows a user to sign a message on behalf of a group (or ring) of potential signers, while maintaining the privacy of the actual signer’s identity within the group.</p>
+<h2 id="s"><a class="header" href="#s">S</a></h2>
+<p><strong>Security</strong> - The protection of hardware, software, and data from unauthorized access, theft, damage, or disruption, aiming to maintain confidentiality and integrity.</p>
+<p><strong>Side-channel Attacks</strong> - Attacks that exploit unintended information leakage, such as timing, power consumption, or electromagnetic radiation, to infer secret information.</p>
+<p><strong>Statistical Zero Knowledge</strong> - A level of security offered by a Zero Knowledge proof where the verifier cannot distinguish between a valid proof and a false proof, except with an extremely low probability.</p>
+<p><strong>Sonic</strong> - Sonic (Scalable, Non-Interactive, and Compact) is a Zero Knowledge Proof system that offers scalability and efficiency for verifying large computations.</p>
+<p><strong>Soundness</strong> - The property of a Zero Knowledge Proof protocol that ensures an honest prover cannot convince a verifier of an incorrect statement.</p>
+<p><strong>Spartan</strong> - Spartan is a Zero Knowledge Proof system that achieves transparency, scalability, and post-quantum security without requiring a trusted setup.</p>
+<p><strong>Supersonic</strong> - Supersonic is a Zero Knowledge Proof system that provides high-performance and efficient verification of arithmetic circuits and boolean satisfiability.</p>
+<h2 id="t"><a class="header" href="#t">T</a></h2>
+<p><strong>Trusted Execution</strong> - The execution of a program or process in a secure and isolated environment, protecting it from tampering and unauthorized access.</p>
+<p><strong>Trusted Setup</strong> - The process of generating initial parameters for a Zero Knowledge Proof protocol, ensuring that they do not reveal any secret information.</p>
+<h2 id="u"><a class="header" href="#u">U</a></h2>
+<h2 id="v"><a class="header" href="#v">V</a></h2>
+<p><strong>Verifier</strong> - The entity in a Zero Knowledge Proof protocol that challenges the prover’s claim and verifies the validity of the proof without gaining knowledge of the secret.</p>
+<h2 id="w"><a class="header" href="#w">W</a></h2>
+<p><strong>Witness Indistinguishable Proof</strong> - A cryptographic proof that guarantees that given two valid proofs for the same statement, it is computationally infeasible for an adversary to distinguish which proof corresponds to the true witness.</p>
+<h2 id="x"><a class="header" href="#x">X</a></h2>
+<h2 id="y"><a class="header" href="#y">Y</a></h2>
+<h2 id="z"><a class="header" href="#z">Z</a></h2>
+<p><strong>Zero Knowledge Proof</strong> - A cryptographic protocol where a prover can demonstrate knowledge of a secret without revealing the secret itself, convincing the verifier of its validity.</p>
+<p><strong>Zero Knowledge Property</strong> - The property of a Zero Knowledge Proof protocol that assures the verifier learns no additional information about the secret beyond its validity.</p>
+<p><strong>Zk-rollups</strong> - zk-rollups, short for Zero-Knowledge Rollups, are Layer 2 scaling solutions for blockchain networks that utilize zero-knowledge proofs to aggregate and validate multiple transactions off-chain, improving scalability and reducing transaction fees while maintaining the security and trustlessness of the underlying blockchain.</p>
+<p><strong>zk-STARKs</strong> - Zero-Knowledge Scalable Transparent Arguments of Knowledge (zk-STARKs) are Zero Knowledge Proofs that achieve transparency and scalability without a trusted setup.</p>
+<p><strong>zk-SNARKs</strong> - Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge (zk-SNARKs) are Zero Knowledge Proofs that provide succinctness and non-interactivity.</p>
+<p><strong>ZPU</strong> - A Zero Knowledge Processing Unit (ZPU) is an application-specific integrated circuit (ASIC) designed to accelerate zero-knowledge proof computations and enhance the efficiency of cryptographic protocols.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="communityguide.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="ZKP.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="communityguide.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="ZKP.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
