@@ -2,7 +2,7 @@
 
 - [Community Guidelines](./communityguide.md)
 
-- [Glossary](./glossary.md) 
+- [Glossary]([./glossary.md](https://github.com/ingonyama-zk/ingopedia/blob/master/src/Glossary.md)
 - [Zero Knowledge Proofs](./ZKP.md)
   - [Curated Resources](./curatedzk.md)
   - [Video Lecture Series](./zkpseries.md)
