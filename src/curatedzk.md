@@ -31,6 +31,7 @@ A collection of links and Almanacs breaking down ZKPs and related topics.
   - [Discord group](https://discord.com/channels/740913612368904192/972174269146611752)
 - [Awesome ZKEVM](https://github.com/LuozhuZhang/awesome-zkevm)
 - [Awesome lattice FPGA's](https://github.com/kelu124/awesome-latticeFPGAs)
+- [Contribution from our community](http://contibute_to_ingopedia.com/)
 
 ## Libraries
 
