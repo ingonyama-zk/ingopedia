@@ -10,6 +10,6 @@ To keep this book organized, we ask that you use the designated sections for you
 
 Thank you for being a part of our ZKP community and helping us build a valuable resource for all.
 
-Note: The branch master contains the src files for the ingopedia mdbook. Each page from the deployment page has a editable button that allows one to edit the markdown file of the specific page. 
+Note: The branch master contains the src files for [the ingopedia mdbook]([url](https://ingonyama-zk.github.io/ingopedia/)). Each page from the deployment page has a editable button that allows one to edit the markdown file of the specific page. 
 
 The old Ingopedia is still available in the branch main,  we are planning to continue in the mdbook format. Suggestions are welcome. 
