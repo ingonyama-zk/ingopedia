@@ -15,6 +15,7 @@
     - [Vulnerabilities](./vulnerabilities.md)
   - [Hands-On ZK](handsonzk.md)
   - [Protocols](./protocolszk.md)
+    - [SNARK Protocols](./protocolsSNARK.md)
   - [Mathematics](./mathzkp.md)
     - [Finite fields](./ff.md)
     - [Cryptographic primitives](./cryptoprimzk.md)
