@@ -1,0 +1,7 @@
+message: "If you use this Ingopedia for your research, please cite it as below."
+authors:
+- family-names: "Ingonyama"
+title: "Ingopedia"
+version: 2
+date-released: 2022-04-08
+url: "https://ingonyama-zk.github.io/ingopedia/"
