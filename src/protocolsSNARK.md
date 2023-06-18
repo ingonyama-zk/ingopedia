@@ -1,4 +1,4 @@
-# Protocols using SNARK cryptography 
+# Protocols using SNARK cryptography -- UNDER CONSTRUCTION 
 
 |Protocols|Paper|Implenetation |Resources |
 |:---:|---|:---:|:---:|
