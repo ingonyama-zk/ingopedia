@@ -4,22 +4,22 @@ A compilation of materials that showcase various applications of zk technology.
 
 ---
 
-![Untitled - ZK Use-cases](https://user-images.githubusercontent.com/122266060/221405688-f5c5d976-c494-4117-b1e8-e8661aa50abf.jpg)
+![Zero Knowledges Applications](images/zk-applications.jpg)
 
 ## General
 
 - [A cambrian explosion of crypto proofs -Ben Sasson](https://nakamoto.com/cambrian-explosion-of-crypto-proofs/)
 - [Using ZKP to fight disinformation - Boneh, Datta](https://medium.com/@boneh/using-zk-proofs-to-fight-disinformation-17e7d57fe52f)
 - [ZKP for voting - Phil Kelly](https://blog.o1labs.org/zero-knowledge-proofs-for-voting-3c6a6d5d89db)
-  
+
 ## ZK Rollups EVMs/VMs
 
 - **General**
   - [What is a ZK EVM](https://www.alchemy.com/overviews/zkevm)
   - [zkEVM community edition](https://mirror.xyz/privacy-scaling-explorations.eth/I5BzurX-T6slFaPbA4i3hVrO7U2VkBR45eO-N3CSnSg)
-  - [Ethworks: Blockchain scaling](https://ethworks.io/assets/download/zero-knowledge-blockchain-scaling-ethworks.pdf) 
+  - [Ethworks: Blockchain scaling](https://ethworks.io/assets/download/zero-knowledge-blockchain-scaling-ethworks.pdf)
   - [Ethereum-powered ZK-Rollups: World Beaters](https://hackmd.io/QkOUJ-UJQ-CJ7cs_yx6_GA)
-  - [Ethereum - Scalability](https://www.taurushq.com/insights/20220131_Taurus_scalability_L2_part1/EthereumL2_Scalability_part1.pdf)  
+  - [Ethereum - Scalability](https://www.taurushq.com/insights/20220131_Taurus_scalability_L2_part1/EthereumL2_Scalability_part1.pdf)
   - [Zk rollups an incomplete guide](https://vitalik.ca/general/2021/01/05/rollup.html#:~:text=One%20important%20compression,SNARKs%20are%20valid.)
   - [Decentralized zk-Rollup](https://hackmd.io/SzneKXSWRJ6yJxzgFm9MwQ?view)
   - [Zk rollups popular](https://limechain.tech/blog/optimistic-rollups-vs-zk-rollups/)
@@ -90,4 +90,4 @@ A compilation of materials that showcase various applications of zk technology.
   - [mining task overview](https://lotus.filecoin.io/storage-providers/get-started/tasks/)
     - [task definitions](https://medium.com/@z1286679231/definition-and-characteristics-of-p1-p2-c1-c2-in-ipfs-filecoin-49daa3b735e3)
     - [PoRep circuit blog](https://trapdoortech.medium.com/filecoin-porep-circuit-introduction-43415d97730c)
-    - [Precommit 2](https://trapdoortech.medium.com/filecoin-deep-into-precommit2-logic-710392c6b00c) 
+    - [Precommit 2](https://trapdoortech.medium.com/filecoin-deep-into-precommit2-logic-710392c6b00c)
