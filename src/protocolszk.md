@@ -7,3 +7,12 @@ Our collection of mathematical papers, protocols, and code on ZK proofs is a com
 ---
 
 
+ - ### [SNARK Protocols](./protocolsSNARK.md)
+
+ - ### [STARK Protocols](./protocolsSTARK.md)
+
+ - ### [Lookup Protocols](./protocolsLookup.md)
+
+ - ### [Folding Scheme Protocols](./protocolsFoldingSchemes.md)
+
+ - ### [Other Protocols](./protocolsOther.md)
