@@ -1,4 +1,4 @@
-# STARK Protocols --- UNDER CONSTRUCTION 
+# STARK Protocols 
 
 |Protocols|Paper|Implementation |Resources |Universal|Transparent|
 |:---:|---|:---:|:---:|:---:|:---:|
