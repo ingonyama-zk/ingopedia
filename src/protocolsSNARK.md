@@ -1,4 +1,4 @@
-# SNARK Protocols --- UNDER CONSTRUCTION 
+# SNARK Protocols 
 
 |Protocols|Paper|Implementation |Resources |Universal|Transparent|
 |:---:|---|:---:|:---:|:---:|:---:|
