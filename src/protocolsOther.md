@@ -1,4 +1,4 @@
-# Other Protocols --- UNDER CONSTRUCTION 
+# Other Protocols 
 
 |Protocols|Paper|Implementation |Resources |Universal|Transparent|
 |:---:|---|:---:|:---:|:---:|:---:|
