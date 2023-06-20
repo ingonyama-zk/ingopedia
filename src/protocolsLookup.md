@@ -1,4 +1,4 @@
-# Lookup Protocols --- UNDER CONSTRUCTION 
+# Lookup Protocols 
 
 |Protocols|Paper|Implementation |Resources |Universal|Transparent|
 |:---:|---|:---:|:---:|:---:|:---:|
