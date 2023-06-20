@@ -17,6 +17,8 @@
   - [Protocols](./protocolszk.md)
     - [SNARK Protocols](./protocolsSNARK.md)
     - [STARK Protocols](./protocolsSTARK.md)
+    - [Lookup Protocols](./protocolLookup.md)
+    - [Folding Scheme Protocols](./protocolFoldingSchemes.md)
   - [Mathematics](./mathzkp.md)
     - [Finite fields](./ff.md)
     - [Cryptographic primitives](./cryptoprimzk.md)
