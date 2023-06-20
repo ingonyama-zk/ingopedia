@@ -1,4 +1,4 @@
-# Folding Scheme Protocols --- UNDER CONSTRUCTION 
+# Folding Scheme Protocols 
 
 |Protocols|Paper|Implementation |Resources |Universal|Transparent|
 |:---:|---|:---:|:---:|:---:|:---:|
