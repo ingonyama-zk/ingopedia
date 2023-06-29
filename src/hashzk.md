@@ -23,7 +23,6 @@
 - **Hashes**
   - [Keccak: Sponge and Duplex constructions](https://keccak.team/sponge_duplex.html)
   - **SHA256**
-<!-- - [NIST doc](broken-link:https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf) -->
     - [Halo2 16 bit lookup implementation](https://zcash.github.io/halo2/design/gadgets/sha256/table16.html)
   - **Poseidon**
     - [POSEIDON: A New Hash Function for Zero-Knowledge Proof Systems](https://eprint.iacr.org/2019/458.pdf)
@@ -39,7 +38,6 @@
       - [code: filecoin](https://github.com/filecoin-project/neptune/blob/master/spec/poseidon_spec.pdf)
         - [Poseidon in Filecoin - Dmitry Khovratovich](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/BJjaxXd9U)
       - [code: Ingonyama (python)](https://github.com/ingonyama-zk/poseidon-hash)
-<!-- - [code: snarkVM Aleo Poseidon](broken-link:https://github.com/AleoHQ/snarkVM/blob/testnet3/algorithms/src/crh/poseidon.rs) -->
       - [code: Dusk network](https://github.com/dusk-network/Poseidon252)
       - [code: Dust netowrk - Poseidon merkle](https://github.com/dusk-network/dusk-poseidon-merkle)
       - [code: Triplewz - GO](https://github.com/triplewz/poseidon)
@@ -55,18 +53,16 @@
     - [Reinforced concrete](https://drive.google.com/file/d/1MCIqD8XwKrHVBQPc26XjAmM9RyrLDpjw/view)
     - [implementation](https://www.rc-hash.info)
     - [Plonkup reinforced concrete zkstudyclub](https://www.youtube.com/watch?v=Pnc9J7uQgqs)
-    - [Dusk network](https://dusk.network/news/development-update-34)
     - [Code: Luke Pearson](https://github.com/LukePearson1/reinforced-concrete)
   - **Sinsemilla**
     - [Sinsemilla: A circuit-efficient, lookup-based collision-resistant hash function](/iOw7-HpFQY6dPF1aFY8pAw)
-<!-- - [halo book](broken-link:https://zcash.github.io/orchard/design/circuit/gadgets/sinsemilla.html) -->
     - [ZCash protocol specification](https://zips.z.cash/protocol/protocol.pdf#concretesinsemillahash)
   - **BLAKE**
     - [Blake](https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf)
     - [code](https://github.com/BLAKE3-team/BLAKE3)
   - **Tip5**
     - [Tip5](https://eprint.iacr.org/2023/107)
-    - [code](https://github.com/Neptune-Crypto/twenty-first)   
+    - [code](https://github.com/Neptune-Crypto/twenty-first)
 - **Hash to Curve**
   - [Hash to Curve](https://www.ietf.org/archive/id/draft-irtf-cfrg-hash-to-curve-16.html#hashtofield)
   - [Hash to secp256k1 curve](https://geometry.xyz/notebook/Hashing-to-the-secp256k1-Elliptic-Curve)

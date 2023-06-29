@@ -8,7 +8,7 @@ The resources on the mathematics behind ZK proofs delve into the complex theorie
 
 ## [Finite Fields](./ff.md)
 
-## [Polynomials](./poly.md)
+<!-- ## [Polynomials](./poly.md)-->
 
 ## [Elliptic curves](./elliptic.md)
 

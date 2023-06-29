@@ -5,42 +5,42 @@ Check out blogs, papers, pieces, and videos published by the Ingonyama Team
 ---
 
 ### **Fast Danksharding Video & Slides**
+
 - [Medium Link](https://medium.com/@ingonyama/fast-danksharding-video-slides-80be7a0a5f21)
 
-
 ### **Recap: ZK Capture the Flag**
+
 - [Medium Link](https://github.com/ingonyama-zk/zkctf-2023-writeups)
 
-
 ### **Introducing Blaze: ZK Acceleration for FPGA**
+
 - [Medium Link](https://medium.com/@ingonyama/introducing-blaze-zk-acceleration-for-fpga-6f5f7cc50e1f)
 
 ### **Hardware Review: GPUs , FPGAs and Zero Knowledge Proofs**
-- [Medium Link](https://medium.com/@ingonyama/hardware-review-gpus-fpgas-and-zero-knowledge-proofs-efad528455d8) 
+
+- [Medium Link](https://medium.com/@ingonyama/hardware-review-gpus-fpgas-and-zero-knowledge-proofs-efad528455d8)
 
 ### **RISC Zero Prover Protocol & Analysis**
+
 - [Medium Link](https://medium.com/@ingonyama/risc-zero-prover-protocol-analysis-61e54f22c30d)
 
-
 ### **ZK Hardware Table Stakes part 1 -MSM**
+
 - [Medium Link](https://medium.com/@ingonyama/zk-hardware-table-stakes-part-1-msm-59591a55e92b)
 
-
 ### **Unleashing Secure AI**
-- [Medium Link](https://medium.com/@ingonyama/unleashing-secure-ai-4c6fd9c8f910) 
 
+- [Medium Link](https://medium.com/@ingonyama/unleashing-secure-ai-4c6fd9c8f910)
 
 ### **Fast Danksharding using ICICLE**
 
 - [Medium Link](https://medium.com/@ingonyama/fast-danksharding-using-icicle-6411565bb245)
-- [Fast-Danksharding Implementation](https://github.com/ingonyama-zk/fast-danksharding) 
-
+- [Fast-Danksharding Implementation](https://github.com/ingonyama-zk/fast-danksharding)
 
 ### **Introducing ICICLE: An Open-Source GPU Library for Zero Knowledge Acceleration**
 
 - [Medium Link](https://medium.com/@ingonyama/introducing-icicle-an-open-source-gpu-library-for-zero-knowledge-acceleration-aad8c35b7f0a)
-- [ICICLE - GPU Library](https://github.com/ingonyama-zk/icicle) 
-
+- [ICICLE - GPU Library](https://github.com/ingonyama-zk/icicle)
 
 ### **A Brief History of Lookup Arguments**
 

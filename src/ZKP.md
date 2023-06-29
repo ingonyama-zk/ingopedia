@@ -2,7 +2,7 @@
 
 ---
 
-## [Curated Resources](./curated.md)
+## [Curated Resources](./curatedzk.md)
 
 Our curated resources consist of carefully selected, links, linktrees and other almanacs like **"Ingopedia"**. These resources are aimed at helping users access high-quality information in a quick and efficient manner.
 
