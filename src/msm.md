@@ -15,7 +15,7 @@
 - [Efficient Multi exponentiation: Bucket method - Bootle](https://jbootle.github.io/Misc/pippenger.pdf)
 
 ## Implementations
-
+<!-- markdown-link-check-disable -->
 - [pipezk](https://www.microsoft.com/en-us/research/publication/pipezk-accelerating-zero-knowledge-proof-with-a-pipelined-architecture/)
 - [MSM with FPGA -Connor Masterson thesis](https://github.com/connormas/MultiScalarMultiplication/blob/main/ConnorMastersonThesisV2.pdf)
 - [PipeMSM](https://eprint.iacr.org/2022/999)

@@ -55,7 +55,7 @@
     - [Plonkup reinforced concrete zkstudyclub](https://www.youtube.com/watch?v=Pnc9J7uQgqs)
     - [Code: Luke Pearson](https://github.com/LukePearson1/reinforced-concrete)
   - **Sinsemilla**
-    - [Sinsemilla: A circuit-efficient, lookup-based collision-resistant hash function](/iOw7-HpFQY6dPF1aFY8pAw)
+    - [Sinsemilla: A circuit-efficient, lookup-based collision-resistant hash function](https://zcash.github.io/halo2/design/gadgets/sinsemilla.html)
     - [ZCash protocol specification](https://zips.z.cash/protocol/protocol.pdf#concretesinsemillahash)
   - **BLAKE**
     - [Blake](https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf)
