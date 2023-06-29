@@ -24,7 +24,8 @@
 - [Google - FHE](https://github.com/google/fully-homomorphic-encryption)
 - [IBM - FHE](https://github.com/IBM/fhe-toolkit-macos)
 - [PALISADE](https://palisade-crypto.org/software-library/)
-- [Zama AI - Concrete - Rust](https://github.com/zama-ai/concrete)
+- [Zama AI - TFHE-rs - Rust library](https://github.com/zama-ai/tfhe-rs)
+- [Zama AI - Concrete - Python compiler](https://github.com/zama-ai/concrete)
 - [Paillier - Julia](https://github.com/krakhit/Paillier.jl)
 - [Cupcake - Facebook Research](https://github.com/facebookresearch/Cupcake)
 
