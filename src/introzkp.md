@@ -12,4 +12,4 @@ Our articles on ZK proofs are comprehensive and educational pieces that delve in
 
 ## [STARKS](./starks.md)
 
-## [Applications](./applications.md)
+## [Applications](./applicationszk.md)

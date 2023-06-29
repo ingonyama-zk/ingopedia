@@ -8,6 +8,7 @@ A collection of resources explaining Starks.
 
 - [Stark from home series](https://www.youtube.com/playlist?list=PLcIyXLwiPilUFGw7r2uyWerOkbx4GFMXq)
 - [STARK glossary](https://medium.com/starkware/starks-starkex-and-starknet-9a426680745a)
+<!-- markdown-link-check-disable -->
 - [Stark Thread - Eli Ben Sasson](https://twitter.com/EliBenSasson/status/1578380154476208131)
 
 ## Papers

@@ -10,7 +10,7 @@
 - [NTT with code](https://cgyurgyik.github.io/posts/2021/04/brief-introduction-to-ntt/)
 - [Efficient primes for NTT - Goldilocks](https://cp4space.hatsya.com/2021/09/01/an-efficient-prime-for-number-theoretic-transforms/)
   - [Goldilocks in nuFHE](https://nufhe.readthedocs.io/en/latest/implementation_details.html)
-  - [Goldilocks NTT trick - Solberg](https://www.ingonyama.com/blogs/goldilocks-ntt-trick)
+  - [Goldilocks NTT trick - Solberg](https://www.ingonyama.com/blog/goldilocks-ntt-trick)
 - [Elliptic Curve Fast Fourier Transform (ECFFT) Part I: Fast Polynomial Algorithms over all Finite Fields: Eli Ben-Sasson et.al](https://arxiv.org/abs/2107.08473)
   - [Talk -zk study club](https://www.youtube.com/watch?v=kQZvBXLZ8dM)
   - [ECFFT algorithm](https://solvable.group/posts/ecfft/)
