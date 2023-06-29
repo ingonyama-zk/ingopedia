@@ -13,7 +13,7 @@
 - [Library of Algorithms](https://www.jjj.de/fxt/#fxtbook)
 - [Modular Multiplication and Hardware implementations - Review](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.116.512&rep=rep1&type=pdf)
 - [Evaluation of large integer multiplications in hardware - Review](https://pureadmin.qub.ac.uk/ws/portalfiles/portal/125812965/Evaluation_of_large_integer_multiplication_methods_R2.pdf)
-- [Hardware friendly modular mult](http://ingonyama.com/s/modular_multiplication.pdf)
+- [Hardware friendly modular mult](https://github.com/ingonyama-zk/papers/blob/main/modular_multiplication.pdf)
 - [Montgomery REDC using positive inverse mod r](https://jeffhurchalla.com/2022/04/28/montgomery-redc-using-the-positive-inverse-mod-r/)
 - [Low latency multipliers and cryptographic puzzles](https://blog.janestreet.com/really-low-latency-multipliers-and-cryptographic-puzzles/)
 
