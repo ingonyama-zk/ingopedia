@@ -88,11 +88,33 @@
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
                                 <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
@@ -176,7 +198,7 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <p>Our collection of mathematical papers, protocols, and code on ZK proofs is a comprehensive resource for researchers, developers, and students in the field of cryptography. These materials provide a deep understanding of the theories, implementations, and practical applications of zero-knowledge proofs, serving as a valuable reference for anyone interested in this cutting-edge technology.</p>
 <hr />
 <h2 id="mathematics"><a class="header" href="#mathematics"><a href="./mathzkp.html">Mathematics</a></a></h2>
-<p>The resources on the mathematics behind ZK proofs delve into the complex theories and mathematical concepts that underpin this innovative technology. These resources are intended for those with a strong background in mathematics, or those looking to deepen their understanding of the mathematical foundations of zero-knowledge proofs and their applications.</p>
+<p>The resources on the mathematics behind ZK proofs delve into the complex theories and mathematical concepts that underpin this intive technology. These resources are intended for those with a strong background in mathematics, or those looking to deepen their understanding of the mathematical foundations of zero-knowledge proofs and their applications.</p>
 
                     </main>
 

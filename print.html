@@ -89,11 +89,33 @@
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
                                 <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
@@ -265,7 +287,7 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <p>Our collection of mathematical papers, protocols, and code on ZK proofs is a comprehensive resource for researchers, developers, and students in the field of cryptography. These materials provide a deep understanding of the theories, implementations, and practical applications of zero-knowledge proofs, serving as a valuable reference for anyone interested in this cutting-edge technology.</p>
 <hr />
 <h2 id="mathematics"><a class="header" href="#mathematics"><a href="./mathzkp.html">Mathematics</a></a></h2>
-<p>The resources on the mathematics behind ZK proofs delve into the complex theories and mathematical concepts that underpin this innovative technology. These resources are intended for those with a strong background in mathematics, or those looking to deepen their understanding of the mathematical foundations of zero-knowledge proofs and their applications.</p>
+<p>The resources on the mathematics behind ZK proofs delve into the complex theories and mathematical concepts that underpin this intive technology. These resources are intended for those with a strong background in mathematics, or those looking to deepen their understanding of the mathematical foundations of zero-knowledge proofs and their applications.</p>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <h1 id="curated-resources-1"><a class="header" href="#curated-resources-1">Curated Resources</a></h1>
 <p>Our curated resources consist of carefully selected, links, linktrees and other almanacs like “Ingopedia”. These resources are aimed at helping users access high-quality information in a quick and efficient manner.</p>
@@ -461,6 +483,7 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <li><a href="https://zkproof.org/2020/08/12/information-theoretic-proof-systems/">ZKp from Information theoretic Proof systems 1 - Yuval Ishai</a></li>
 <li><a href="https://zkproof.org/2020/10/15/information-theoretic-proof-systems-part-ii/">ZKP from Information theoretic Proof systems 2 - Yuval Ishai</a></li>
 <li><a href="https://zkproof.org/author/yuvalishai/">ZKP - Modular approach -Yuval Ishai</a></li>
+<li><a href="https://a16zcrypto.com/posts/article/17-misconceptions-about-snarks/">Misconceptions in ZK-Snarks - Thaler</a></li>
 </ul>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <h1 id="ingonyama-blogs"><a class="header" href="#ingonyama-blogs">Ingonyama Blogs</a></h1>
@@ -848,6 +871,7 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <li><a href="https://www.aumasson.jp/data/talks/zksec_zk7.pdf">security of zkp projects: same but different</a></li>
 <li><a href="https://www.zksecurity.xyz/blog/posts/zksecurity/">ZK programmability and security</a></li>
 <li><a href="https://www.zksecurity.xyz/blog/posts/helloworld/">Vulnerabilities in private delegated computations</a></li>
+<li><a href="https://www.zksecurity.xyz/blog/posts/nova-attack/">Vulnerability in Nova - David Wong</a></li>
 </ul>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <h1 id="hands-on-zkcryptography"><a class="header" href="#hands-on-zkcryptography">Hands-On ZK/Cryptography</a></h1>
@@ -886,6 +910,7 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <li><a href="https://cryptobook.nakov.com">Practical Cryptography for Devs: Nakov</a></li>
 <li><a href="https://www.notamonadtutorial.com/how-to-transform-code-into-arithmetic-circuits/">Transforming code into arithmetic circuits</a></li>
 <li><a href="https://www.notamonadtutorial.com/do-you-want-quality-code-learn-how-to-use-differential-fuzzers/">Differential fuzzing</a></li>
+<li><a href="https://eprint.iacr.org/2023/1032">Zkvm step by step</a></li>
 </ul>
 <h2 id="challenges-and-hackathons"><a class="header" href="#challenges-and-hackathons">Challenges and hackathons</a></h2>
 <ul>
@@ -1098,6 +1123,7 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <li><a href="https://eprint.iacr.org/2008/013.pdf">Twisted Edwards curves</a></li>
 <li><a href="https://hackmd.io/@yelhousni/bls12_subgroup_check">Subgroup checks for BLS12</a></li>
 <li><a href="https://loup-vaillant.fr/tutorials/cofactor">Cofactor explained: Elliptic curves dirty little secret</a></li>
+<li><a href="https://solvable.group/posts/riemann-roch-crypto/">Applications of Riemann Roch theorem in cryptography - Borgeaud</a></li>
 </ul>
 <h2 id="pairings"><a class="header" href="#pairings">Pairings</a></h2>
 <ul>
@@ -1297,6 +1323,7 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <li><strong>Customizable Constraint system CCS</strong>
 <ul>
 <li><a href="https://eprint.iacr.org/2023/552">CCS: Customizable constraint systems for succinct arguments</a></li>
+<li><a href="https://solvable.group/posts/super-air/">A multivariate AIR using Superspartan- Borgeaud</a></li>
 </ul>
 </li>
 </ul>
@@ -1373,6 +1400,7 @@ designed to educate and inform a wide range of audiences, and will contain serie
 </ul>
 </li>
 <li><a href="https://eprint.iacr.org/2021/333.pdf">Sumcheck argument and applications</a></li>
+<li><a href="https://solvable.group/posts/air-multivariate-sumcheck/">Proving AIR with MultiLinear Sumcheck - Borgeaud</a></li>
 </ul>
 <h2 id="low-degree-testingfri"><a class="header" href="#low-degree-testingfri">Low degree Testing/FRI</a></h2>
 <ul>
@@ -1464,6 +1492,7 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <li><a href="https://cse.hkust.edu.hk/mjg_lib/Classes/COMP3711H_Fall16/lectures/FFT_Slides.pdf">FFT for polynomial multiplication</a></li>
 <li><a href="https://hackmd.io/@vbuterin/barycentric_evaluation">A quick barycentric evaluation tutorial - Vitalik</a></li>
 <li><a href="https://people.maths.ox.ac.uk/trefethen/barycentric.pdf">Barycentric interpolation - Math Oxford</a></li>
+<li><a href="https://solvable.group/posts/walshhadamard-transform/">Walsh Hadamard Transform - Borgeaud</a></li>
 </ul>
 <h2 id="implementations"><a class="header" href="#implementations">Implementations</a></h2>
 <ul>
@@ -1536,6 +1565,15 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <h2 id="accelerating-fhe"><a class="header" href="#accelerating-fhe">Accelerating FHE</a></h2>
 <ul>
 <li><a href="https://eprint.kobi.one/2022/1635">FPT: a Fixed-Point Accelerator for Torus Fully Homomorphic Encryption</a></li>
+</ul>
+<h2 id="vulnerabilities-and-attacks"><a class="header" href="#vulnerabilities-and-attacks">Vulnerabilities and attacks</a></h2>
+<ul>
+<li><a href="https://www.zama.ai/post/estimating-the-security-of-homomorphic-schemes">Security of FHE Schemes</a>
+<ul>
+<li><a href="https://blog.simons.berkeley.edu/2020/04/lattice-blog-reduction-part-i-bkz/">Lattice based attacks</a></li>
+</ul>
+</li>
+<li><a href="https://eprint.iacr.org/2015/046.pdf">On concrete hardness of LWE</a></li>
 </ul>
 
                     </main>
