@@ -39,3 +39,4 @@ Understanding ZK from beginner to advanced on a surface level.
 - [ZKp from Information theoretic Proof systems 1 - Yuval Ishai](https://zkproof.org/2020/08/12/information-theoretic-proof-systems/)
 - [ZKP from Information theoretic Proof systems 2 - Yuval Ishai](https://zkproof.org/2020/10/15/information-theoretic-proof-systems-part-ii/)
 - [ZKP - Modular approach -Yuval Ishai](https://zkproof.org/author/yuvalishai/)
+- [Misconceptions in ZK-Snarks - Thaler](https://a16zcrypto.com/posts/article/17-misconceptions-about-snarks/)

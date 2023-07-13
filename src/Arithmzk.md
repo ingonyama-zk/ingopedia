@@ -21,3 +21,4 @@
   - [AIR assembly Bobbin Threadbare](https://docs.zkproof.org/pages/standards/accepted-workshop3/proposal-airAssembly.pdf)
 - **Customizable Constraint system CCS**
   - [CCS: Customizable constraint systems for succinct arguments](https://eprint.iacr.org/2023/552)
+  - [A multivariate AIR using Superspartan- Borgeaud](https://solvable.group/posts/super-air/)

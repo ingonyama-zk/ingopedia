@@ -21,6 +21,7 @@
 - [FFT for polynomial multiplication](https://cse.hkust.edu.hk/mjg_lib/Classes/COMP3711H_Fall16/lectures/FFT_Slides.pdf)
 - [A quick barycentric evaluation tutorial - Vitalik](https://hackmd.io/@vbuterin/barycentric_evaluation)
 - [Barycentric interpolation - Math Oxford](https://people.maths.ox.ac.uk/trefethen/barycentric.pdf)
+- [Walsh Hadamard Transform - Borgeaud](https://solvable.group/posts/walshhadamard-transform/)
 
 ## Implementations
 

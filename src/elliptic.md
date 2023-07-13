@@ -30,6 +30,7 @@
 - [Twisted Edwards curves](https://eprint.iacr.org/2008/013.pdf)
 - [Subgroup checks for BLS12](https://hackmd.io/@yelhousni/bls12_subgroup_check)
 - [Cofactor explained: Elliptic curves dirty little secret](https://loup-vaillant.fr/tutorials/cofactor)
+- [Applications of Riemann Roch theorem in cryptography - Borgeaud](https://solvable.group/posts/riemann-roch-crypto/)
 
 ## Pairings
 

@@ -9,6 +9,7 @@
   - [Intro to Sumcheck protocol -oxsage](https://medium.com/yearofzk/rust-guide-sum-check-protocol-18ceb8affdb2)
   - [Inuition behind sumcheck - Wong](https://cryptologie.net/article/577/the-intuition-behind-the-sum-check-protocol-in-5-minutes/)
 - [Sumcheck argument and applications](https://eprint.iacr.org/2021/333.pdf)
+- [Proving AIR with MultiLinear Sumcheck - Borgeaud](https://solvable.group/posts/air-multivariate-sumcheck/)
 
 ## Low degree Testing/FRI
 

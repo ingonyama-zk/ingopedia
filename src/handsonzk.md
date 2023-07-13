@@ -35,6 +35,7 @@ Our hands-on approach to learning ZK proofs provides interactive and practical t
 - [Practical Cryptography for Devs: Nakov](https://cryptobook.nakov.com)
 - [Transforming code into arithmetic circuits](https://www.notamonadtutorial.com/how-to-transform-code-into-arithmetic-circuits/)
 - [Differential fuzzing](https://www.notamonadtutorial.com/do-you-want-quality-code-learn-how-to-use-differential-fuzzers/)
+- [Zkvm step by step](https://eprint.iacr.org/2023/1032)
 
 ## Challenges and hackathons
 

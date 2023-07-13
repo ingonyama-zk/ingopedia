@@ -40,4 +40,4 @@ Our collection of mathematical papers, protocols, and code on ZK proofs is a com
 
 ## [Mathematics](./mathzkp.md)
 
-The resources on the mathematics behind ZK proofs delve into the complex theories and mathematical concepts that underpin this innovative technology. These resources are intended for those with a strong background in mathematics, or those looking to deepen their understanding of the mathematical foundations of zero-knowledge proofs and their applications.
+The resources on the mathematics behind ZK proofs delve into the complex theories and mathematical concepts that underpin this intive technology. These resources are intended for those with a strong background in mathematics, or those looking to deepen their understanding of the mathematical foundations of zero-knowledge proofs and their applications.

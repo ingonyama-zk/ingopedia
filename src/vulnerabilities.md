@@ -17,3 +17,4 @@ Potential vulnerabilities and security in ZK systems
 - [security of zkp projects: same but different](https://www.aumasson.jp/data/talks/zksec_zk7.pdf)
 - [ZK programmability and security](https://www.zksecurity.xyz/blog/posts/zksecurity/)
 - [Vulnerabilities in private delegated computations](https://www.zksecurity.xyz/blog/posts/helloworld/)
+- [Vulnerability in Nova - David Wong](https://www.zksecurity.xyz/blog/posts/nova-attack/)
