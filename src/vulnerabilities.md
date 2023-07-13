@@ -18,3 +18,7 @@ Potential vulnerabilities and security in ZK systems
 - [ZK programmability and security](https://www.zksecurity.xyz/blog/posts/zksecurity/)
 - [Vulnerabilities in private delegated computations](https://www.zksecurity.xyz/blog/posts/helloworld/)
 - [Vulnerability in Nova - David Wong](https://www.zksecurity.xyz/blog/posts/nova-attack/)
+- [Algebraic attacks on ZK hash functions](https://www.zellic.io/blog/algebraic-attacks-on-zk-hash-functions)
+- [Feldman Secret sharing attacks](https://www.zkdocs.com/docs/zkdocs/protocol-primitives/verifiable-secret-sharing/)
+- [Threshold signature pitfalls](https://www.jcraige.com/dangers-of-determinism-in-threshold-signatures)
+- [VSS forgery](https://www.jcraige.com/vss-forgery)
