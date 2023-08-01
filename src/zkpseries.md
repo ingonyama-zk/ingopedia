@@ -34,6 +34,7 @@ Podcasts and lecture playlists on various ZKP related topics.
 - [a16z summer seminars](https://www.youtube.com/playlist?list=PLjQ9HCQMu_8yPGgfvsscHgt1w1KJkx8BN)
 - [ZK Hack: Thaler study group](https://www.youtube.com/playlist?list=PLj80z0cJm8QEmZkGgSOLpr_8B08SCWVQ7)
 - [ZKP workshop 2022](https://www.youtube.com/playlist?list=PLS01nW3Rtgor2MjOJBJexhQ6ZKWs6uQw8)
+- [ZK Shanghai 2023](https://zkshanghai.xyz/)
 
 ## Advanced Courses/Topics
 
