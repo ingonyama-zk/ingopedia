@@ -5,7 +5,10 @@
 - [Survey on FHE and applications](https://eprint.iacr.org/2022/1602)
 - [Encrypted search using FHE](https://medium.com/zama-ai/encrypted-search-using-fully-homomorphic-encryption-99cd163b94)
 - [Exploring FHE: Vitalik](https://notes.ethereum.org/@vbuterin/r19UMPTiI)
-- [ML and FHE](https://medium.com/zama-ai/the-r-evolution-of-fhe-485b54a6e69c) 
+- [ML and FHE](https://medium.com/zama-ai/the-r-evolution-of-fhe-485b54a6e69c)
+- [Computing on encrypted data: Nigel Smart](https://www.youtube.com/watch?v=ih1vhywiKyE)
+- [Sunscreen - intro to fhe for engineers](https://blog.sunscreen.tech/an-intro-to-fully-homomorphic-encryption-for-engineers/)
+- [Survey on FHE and applications](https://eprint.iacr.org/2022/1602)
 
 ## TFHE deep dive: ZAMA AI - Ilaria Chilloti
 
@@ -28,6 +31,10 @@
 - [Zama AI - Concrete - Python compiler](https://github.com/zama-ai/concrete)
 - [Paillier - Julia](https://github.com/krakhit/Paillier.jl)
 - [Cupcake - Facebook Research](https://github.com/facebookresearch/Cupcake)
+- [Sunscreen - levelled bootstrap](https://github.com/Sunscreen-tech/Sunscreen/tree/main)
+  - [Introduction](https://docs.sunscreen.tech/intro/intro.html)
+- [OpenFHE](https://www.openfhe.org)
+  - [code](https://github.com/openfheorg/openfhe-development)
 
 ## Accelerating FHE
 

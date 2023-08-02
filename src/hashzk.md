@@ -5,6 +5,8 @@
   - [Whats the deal with hashes: zk hack](https://zeroknowledge.fm/250-2/)
   - [Sponge functions: paper](https://keccak.team/files/SpongeFunctions.pdf)
   - [S box properties](https://www.diva-portal.org/smash/get/diva2:618670/FULLTEXT01.pdf)
+  - [Hash Functions Monolith for ZK Applicationss](https://eprint.iacr.org/2023/1025)
+  - [STARK friendly hash functions](https://eprint.iacr.org/2023/1045)
   - **Merkling**
     - [What is a merkle tree](https://decentralizedthoughts.github.io/2020-12-22-what-is-a-merkle-tree/)
     - [Merkle trees](https://www.rfc-editor.org/rfc/rfc6962#section-2.1)
