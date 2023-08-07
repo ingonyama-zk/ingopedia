@@ -7,6 +7,8 @@
 - [FFT Notes](https://www.csee.umbc.edu/~phatak/691a/fft-lnotes/fftnotes.pdf)
 - [The Fast Fourier Transform in a Finite Field - Pollard](https://www.ams.org/journals/mcom/1971-25-114/S0025-5718-1971-0301966-0/S0025-5718-1971-0301966-0.pdf)
 - [Number Theoretic Transform (NTT): Introduction](https://www.nayuki.io/page/number-theoretic-transform-integer-dft)
+- [Gentle intro to NTT 1 (includes rings)](https://cryptographycaffe.sandboxaq.com/posts/ntt-01/)
+- [Gentle intro to NTT2 (includes rings)](https://cryptographycaffe.sandboxaq.com/posts/ntt-02/)
 - [Efficient primes for NTT - Goldilocks](https://cp4space.hatsya.com/2021/09/01/an-efficient-prime-for-number-theoretic-transforms/)
   - [Goldilocks in nuFHE](https://nufhe.readthedocs.io/en/latest/implementation_details.html)
   - [Goldilocks NTT trick - Solberg](https://www.ingonyama.com/blog/goldilocks-ntt-trick)
