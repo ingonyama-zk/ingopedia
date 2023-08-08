@@ -42,6 +42,8 @@ Our hands-on approach to learning ZK proofs provides interactive and practical t
 
 - [Berkeley RDI ZKP-Web3 hackathon](https://zk-hacking.org/#)
 - [Zk hack puzzles](https://www.zkhack.dev/mini.html)
+- [Ingonyama ZK CTF-May 2023](https://github.com/ingonyama-zk/zkctf-2023-writeups)
+
 
 ## Rust learning resources for ZK/cryptography
 
