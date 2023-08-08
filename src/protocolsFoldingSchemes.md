@@ -7,3 +7,4 @@ Supernova - 2022|[→📝](https://eprint.iacr.org/2022/1758)|[jules](https://gi
 Hypernova - 2023|[→📝](https://eprint.iacr.org/2023/573)| |[CCS: Customizable constraint systems for succinct arguments](https://eprint.iacr.org/2023/552)
 Sangria - 2023|[→📝](https://github.com/geometryresearch/technical_notes/blob/main/sangria_folding_plonk.pdf)| |[Blog](https://geometryresearch.xyz/notebook/sangria-a-folding-scheme-for-plonk)
 Protostar - 2023|[→📝](https://eprint.iacr.org/2023/620)|
+Protogalaxy - 2023|[→📝](https://eprint.iacr.org/2023/1106)||||
