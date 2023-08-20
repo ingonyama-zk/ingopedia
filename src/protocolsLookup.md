@@ -8,3 +8,4 @@
 |Baloo - 2022|[ →📝 ](https://eprint.iacr.org/2022/1565)|
 |CQ - 2022|[ →📝 ](https://eprint.iacr.org/2022/1763)|[Geometry](https://github.com/geometryresearch/cq)
 |CqLin - 2023|[ →📝 ](https://eprint.iacr.org/2023/393)|
+|Lasso - 2023|[ →📝 ](https://eprint.kobi.one/2023/1216)||[Unlocking the lookup singularity with Lasso](https://a16zcrypto.com/posts/article/introducing-lasso-and-jolt/)|||
