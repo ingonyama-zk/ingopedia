@@ -8,3 +8,4 @@ Hypernova - 2023|[→📝](https://eprint.iacr.org/2023/573)| |[CCS: Customizabl
 Sangria - 2023|[→📝](https://github.com/geometryresearch/technical_notes/blob/main/sangria_folding_plonk.pdf)| |[Blog](https://geometryresearch.xyz/notebook/sangria-a-folding-scheme-for-plonk)
 Protostar - 2023|[→📝](https://eprint.iacr.org/2023/620)|
 Protogalaxy - 2023|[→📝](https://eprint.iacr.org/2023/1106)||||
+CycleFold - 2023|[→📝](h[ttps://eprint.iacr.org/2023/1106](https://eprint.iacr.org/2023/1192)https://eprint.iacr.org/2023/1192)||||
