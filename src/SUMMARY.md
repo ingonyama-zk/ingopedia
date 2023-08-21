@@ -36,9 +36,9 @@
       - [Multi Scalar Multiplications](./msm.md)
 - [Homomorphic Encryption](./HE.md)
   - [Curated Resources](./curatedfhe.md)
-  - [Video Lecture Series]
-  - [Articles]
-  - [Hands-On FHE]
-  - [Protocols]
+  - [Video Lecture Series](./fheseries.md)
+  - [Articles](./introfhe.md)
+  - [Hands-On FHE](./handsonfhe.md)
+  - [Schemes]
   - [Mathematics]
   - [Computational Primitives]
