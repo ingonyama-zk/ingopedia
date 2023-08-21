@@ -39,6 +39,6 @@
   - [Video Lecture Series](./fheseries.md)
   - [Articles](./introfhe.md)
   - [Hands-On FHE](./handsonfhe.md)
-  - [Schemes]
-  - [Mathematics]
-  - [Computational Primitives]
+  - [Schemes](./schemesfhe.md)
+  - [Mathematics](mathfhe.md)
+  - [Computational Primitives](compprimfhe.md)
