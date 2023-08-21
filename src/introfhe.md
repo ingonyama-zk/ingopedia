@@ -10,7 +10,7 @@
 - [Sunscreen - intro to fhe for engineers](https://blog.sunscreen.tech/an-intro-to-fully-homomorphic-encryption-for-engineers/)
 - [Survey on FHE and applications](https://eprint.iacr.org/2022/1602)
 
-- ## TFHE deep dive: ZAMA AI - Ilaria Chilloti
+## TFHE deep dive: ZAMA AI - Ilaria Chilloti
 
 - [Part 1: Ciphertext types](https://www.zama.ai/post/tfhe-deep-dive-part-1?utm_source=tfhe_deep_dive_part_I&utm_medium=substack&utm_campaign=blogpost)
 - [Part 2: Encoding and linear ops](https://www.zama.ai/post/tfhe-deep-dive-part-2?utm_source=tfhe_deep_dive_part_I&utm_medium=substack&utm_campaign=blogpost)
