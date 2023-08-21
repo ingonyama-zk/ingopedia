@@ -35,3 +35,10 @@
       - [Discrete Fourier Transforms](./fft.md)
       - [Multi Scalar Multiplications](./msm.md)
 - [Homomorphic Encryption](./HE.md)
+  - [Curated Resources]
+  - [Video Lecture Series]
+  - [Articles]
+  - [Hands-On FHE]
+  - [Protocols]
+  - [Mathematics]
+  - [Computational Primitives]
