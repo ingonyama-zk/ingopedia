@@ -1,1 +1,9 @@
 # Mathematics
+
+**NEEDS MORE EXPLANATION FROM TOMER/YUVAL**
+
+## LWE
+
+## FFT
+
+## NTT
