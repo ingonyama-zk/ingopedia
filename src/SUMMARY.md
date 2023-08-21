@@ -35,10 +35,11 @@
       - [Discrete Fourier Transforms](./fft.md)
       - [Multi Scalar Multiplications](./msm.md)
 - [Homomorphic Encryption](./HE.md)
-  - [Curated Resources](./curatedfhe.md)
-  - [Video Lecture Series](./fheseries.md)
   - [Articles](./introfhe.md)
-  - [Hands-On FHE](./handsonfhe.md)
+      - [General]
+      - [Applications]
+      - [Implementations] 
   - [Schemes](./schemesfhe.md)
+  - [Video Lecture Series](./fheseries.md)
   - [Mathematics](mathfhe.md)
-  - [Computational Primitives](compprimfhe.md)
+
