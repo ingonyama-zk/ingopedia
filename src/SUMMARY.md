@@ -36,9 +36,6 @@
       - [Multi Scalar Multiplications](./msm.md)
 - [Homomorphic Encryption](./HE.md)
   - [Articles](./introfhe.md)
-      - [General]
-      - [Applications]
-      - [Implementations] 
   - [Schemes](./schemesfhe.md)
   - [Video Lecture Series](./fheseries.md)
   - [Mathematics](mathfhe.md)
