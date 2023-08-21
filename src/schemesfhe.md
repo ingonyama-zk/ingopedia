@@ -10,8 +10,7 @@ NEED TO CREATE A SEPARATION BETWEEN APPLICATION LIBRARIES AND SCHEME LIBRARIES
 - [PySyft - Openmined](https://github.com/OpenMined/PySyft)
 - [Paillier - Julia](https://github.com/krakhit/Paillier.jl)
 - [Cupcake - Facebook Research](https://github.com/facebookresearch/Cupcake)
-- [OpenFHE](https://www.openfhe.org)
-  - [code](https://github.com/openfheorg/openfhe-development)
+
 
 
 ## TFHE deep dive: ZAMA AI - Ilaria Chilloti
