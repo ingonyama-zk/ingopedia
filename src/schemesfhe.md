@@ -5,10 +5,7 @@ CREATE A CHART OF SCHEMES-LIBRARIES-PAPERS
 ## HE Libraries/implementations
 
 - [Awesome FHE library list](https://github.com/jonaschn/awesome-he)
-- [Microsoft SEAL](https://github.com/microsoft/SEAL#introduction)
-- [TenSEAL - Openmined](https://github.com/OpenMined/TenSEAL)
 - [PySyft - Openmined](https://github.com/OpenMined/PySyft)
-- [Google - FHE](https://github.com/google/fully-homomorphic-encryption)
 - [IBM - FHE](https://github.com/IBM/fhe-toolkit-macos)
 - [PALISADE](https://palisade-crypto.org/software-library/)
 - [Paillier - Julia](https://github.com/krakhit/Paillier.jl)
@@ -26,10 +23,26 @@ CREATE A CHART OF SCHEMES-LIBRARIES-PAPERS
 - [part 3: key switching and levelled multiplications](https://www.zama.ai/post/tfhe-deep-dive-part-3?utm_source=tfhe_deep_dive_part_3&utm_medium=substack&utm_campaign=blogpost)
 - [Part 4: programmable bootstrapping](https://www.zama.ai/post/tfhe-deep-dive-part-4)
 
+## BGV
 
+### Libraries
+- [Microsoft SEAL](https://github.com/microsoft/SEAL#introduction)
+
+## BFV
+### Libraries
+- [Microsoft SEAL](https://github.com/microsoft/SEAL#introduction)
+- [TenSEAL - Openmined](https://github.com/OpenMined/TenSEAL)
+
+## CKKS
+### Libraries
+- [Microsoft SEAL](https://github.com/microsoft/SEAL#introduction)
+- [TenSEAL - Openmined](https://github.com/OpenMined/TenSEAL)
+
+  
 ## TFHE
 
 ### Libraries
 - [Zama AI - TFHE-rs - Rust library](https://github.com/zama-ai/tfhe-rs)
 - [Zama AI - Concrete - Python compiler](https://github.com/zama-ai/concrete)
 - [Tfhe - torus](https://github.com/krakhit/tfhe)
+- [Google - FHE](https://github.com/google/fully-homomorphic-encryption)
