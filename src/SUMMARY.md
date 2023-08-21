@@ -37,7 +37,7 @@
 - [Homomorphic Encryption](./HE.md)
   - [Articles](./introfhe.md)
   - [Schemes](./schemesfhe.md)
-  - [Libraries](./librariesfhe.md)
+  - [Libraries](./fhelibraries.md)
   - [Video Lecture Series](./fheseries.md)
   - [Mathematics](mathfhe.md)
 
