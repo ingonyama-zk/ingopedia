@@ -1,6 +1,6 @@
 # Libraries
 
-NEED TO CREATE A SEPARATION BETWEEN APPLICATION LIBRARIES AND SCHEME LIBRARIES
+**NEED TO CREATE A SEPARATION BETWEEN APPLICATION LIBRARIES AND SCHEME LIBRARIES**
 
 ### Use this for finding more libraries
 
@@ -10,17 +10,6 @@ NEED TO CREATE A SEPARATION BETWEEN APPLICATION LIBRARIES AND SCHEME LIBRARIES
 - [PySyft - Openmined](https://github.com/OpenMined/PySyft)
 - [Paillier - Julia](https://github.com/krakhit/Paillier.jl)
 - [Cupcake - Facebook Research](https://github.com/facebookresearch/Cupcake)
-
-
-
-## TFHE deep dive: ZAMA AI - Ilaria Chilloti
-
-- [Part 1: Ciphertext types](https://www.zama.ai/post/tfhe-deep-dive-part-1?utm_source=tfhe_deep_dive_part_I&utm_medium=substack&utm_campaign=blogpost)
-- [Part 2: Encoding and linear ops](https://www.zama.ai/post/tfhe-deep-dive-part-2?utm_source=tfhe_deep_dive_part_I&utm_medium=substack&utm_campaign=blogpost)
-- [part 3: key switching and levelled multiplications](https://www.zama.ai/post/tfhe-deep-dive-part-3?utm_source=tfhe_deep_dive_part_3&utm_medium=substack&utm_campaign=blogpost)
-- [Part 4: programmable bootstrapping](https://www.zama.ai/post/tfhe-deep-dive-part-4)
-
-
 
 
 # Scheme Libraries 
@@ -36,4 +25,3 @@ NEED TO CREATE A SEPARATION BETWEEN APPLICATION LIBRARIES AND SCHEME LIBRARIES
 |[Zama AI - Concrete - Python compiler](https://github.com/zama-ai/concrete)|${\color{purple}TFHE}$ 
 |[Zama AI - TFHE-rs - Rust library](https://github.com/zama-ai/tfhe-rs)|${\color{purple}TFHE}$ 
 |[Google - FHE](https://github.com/google/fully-homomorphic-encryption)|${\color{purple}TFHE}$ 
-|[Tfhe - torus](https://github.com/krakhit/tfhe)|${\color{purple}TFHE}$ 
