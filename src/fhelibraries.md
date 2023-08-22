@@ -1,5 +1,5 @@
 # Libraries
-A curated list of amazing Homomorphic Encryption libraries, and what schemes they use. 
+A curated list of Homomorphic Encryption libraries, and what schemes they use. 
 
 ## **UNDER CONSTRUCTION** 👷
 
