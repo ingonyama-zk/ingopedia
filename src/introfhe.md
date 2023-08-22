@@ -7,6 +7,7 @@
 - [Exploring FHE: Vitalik](https://notes.ethereum.org/@vbuterin/r19UMPTiI)
 - [Sunscreen - intro to fhe for engineers](https://blog.sunscreen.tech/an-intro-to-fully-homomorphic-encryption-for-engineers/)
 - [Survey on FHE and applications](https://eprint.iacr.org/2022/1602)
+- [Computing on encrypted data: Nigel Smart](https://www.youtube.com/watch?v=ih1vhywiKyE)
 
 ## Applications
 
@@ -15,7 +16,6 @@
 
 
 ## Implementations
-
 
 - [FPT: a Fixed-Point Accelerator for Torus Fully Homomorphic Encryption](https://eprint.kobi.one/2022/1635)
 
