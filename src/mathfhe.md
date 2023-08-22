@@ -1,9 +1,11 @@
 # Mathematics
 
-**NEEDS MORE EXPLANATION FROM TOMER/YUVAL**
+## **UNDER CONSTRUCTION** 👷
 
-## LWE
 
-## FFT
 
-## NTT
+### LWE
+
+### FFT
+
+### NTT
