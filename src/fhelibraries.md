@@ -1,18 +1,10 @@
 # Libraries
+A curated list of amazing Homomorphic Encryption libraries, and what schemes they use. 
 
-**NEED TO CREATE A SEPARATION BETWEEN APPLICATION LIBRARIES AND SCHEME LIBRARIES**
-
-### Use this for finding more libraries
-
-- [Awesome FHE library list](https://github.com/jonaschn/awesome-he)
-
-### CHECK BEFORE DELETE
-- [PySyft - Openmined](https://github.com/OpenMined/PySyft)
-- [Paillier - Julia](https://github.com/krakhit/Paillier.jl)
-- [Cupcake - Facebook Research](https://github.com/facebookresearch/Cupcake)
+## **UNDER CONSTRUCTION** 👷
 
 
-# Scheme Libraries 
+# Libraries 
 |Libraries|Scheme|Resources|
 |:---:|---|:---:|
 |[Microsoft SEAL ](https://github.com/microsoft/SEAL#introduction)|${\color{red}BFV}$ ${\color{orange}BGV}$|
