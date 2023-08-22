@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Libraries - Ingopedia</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="communityguide.html"><strong aria-hidden="true">1.</strong> Community Guidelines</a></li><li class="chapter-item expanded "><a href="Glossary.html"><strong aria-hidden="true">2.</strong> Glossary</a></li><li class="chapter-item expanded "><a href="ZKP.html"><strong aria-hidden="true">3.</strong> Zero Knowledge Proofs</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="curatedzk.html"><strong aria-hidden="true">3.1.</strong> Curated Resources</a></li><li class="chapter-item expanded "><a href="zkpseries.html"><strong aria-hidden="true">3.2.</strong> Video Lecture Series</a></li><li class="chapter-item expanded "><a href="introzkp.html"><strong aria-hidden="true">3.3.</strong> Articles</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="zkbeginner.html"><strong aria-hidden="true">3.3.1.</strong> ZK Introductory</a></li><li class="chapter-item expanded "><a href="Ingoblogs.html"><strong aria-hidden="true">3.3.2.</strong> Ingonyama Blogs</a></li><li class="chapter-item expanded "><a href="zksnarks.html"><strong aria-hidden="true">3.3.3.</strong> ZKSNARKS</a></li><li class="chapter-item expanded "><a href="starks.html"><strong aria-hidden="true">3.3.4.</strong> STARKS</a></li><li class="chapter-item expanded "><a href="applicationszk.html"><strong aria-hidden="true">3.3.5.</strong> Applications</a></li><li class="chapter-item expanded "><a href="vulnerabilities.html"><strong aria-hidden="true">3.3.6.</strong> Vulnerabilities</a></li></ol></li><li class="chapter-item expanded "><a href="handsonzk.html"><strong aria-hidden="true">3.4.</strong> Hands-On ZK</a></li><li class="chapter-item expanded "><a href="protocolszk.html"><strong aria-hidden="true">3.5.</strong> Protocols</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="protocolsSNARK.html"><strong aria-hidden="true">3.5.1.</strong> SNARK Protocols</a></li><li class="chapter-item expanded "><a href="protocolsSTARK.html"><strong aria-hidden="true">3.5.2.</strong> STARK Protocols</a></li><li class="chapter-item expanded "><a href="protocolsLookup.html"><strong aria-hidden="true">3.5.3.</strong> Lookup Protocols</a></li><li class="chapter-item expanded "><a href="protocolsFoldingSchemes.html"><strong aria-hidden="true">3.5.4.</strong> Folding Scheme Protocols</a></li><li class="chapter-item expanded "><a href="protocolsOther.html"><strong aria-hidden="true">3.5.5.</strong> Other Protocols</a></li></ol></li><li class="chapter-item expanded "><a href="mathzkp.html"><strong aria-hidden="true">3.6.</strong> Mathematics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ff.html"><strong aria-hidden="true">3.6.1.</strong> Finite fields</a></li><li class="chapter-item expanded "><a href="cryptoprimzk.html"><strong aria-hidden="true">3.6.2.</strong> Cryptographic primitives</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="elliptic.html"><strong aria-hidden="true">3.6.2.1.</strong> Elliptic curves</a></li><li class="chapter-item expanded "><a href="hashzk.html"><strong aria-hidden="true">3.6.2.2.</strong> Hash functions</a></li><li class="chapter-item expanded "><a href="VDFzk.html"><strong aria-hidden="true">3.6.2.3.</strong> Verifiable Delay functions</a></li><li class="chapter-item expanded "><a href="Arithmzk.html"><strong aria-hidden="true">3.6.2.4.</strong> Arithmetization</a></li><li class="chapter-item expanded "><a href="commitmentzk.html"><strong aria-hidden="true">3.6.2.5.</strong> Commitment Schemes</a></li><li class="chapter-item expanded "><a href="MPC.html"><strong aria-hidden="true">3.6.2.6.</strong> Secure Multi Party Computation</a></li><li class="chapter-item expanded "><a href="provingzk.html"><strong aria-hidden="true">3.6.2.7.</strong> Proving Methods</a></li></ol></li><li class="chapter-item expanded "><a href="compprimzk.html"><strong aria-hidden="true">3.6.3.</strong> Computational Primitives</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="hwzk.html"><strong aria-hidden="true">3.6.3.1.</strong> Hardware acceleration</a></li><li class="chapter-item expanded "><a href="fft.html"><strong aria-hidden="true">3.6.3.2.</strong> Discrete Fourier Transforms</a></li><li class="chapter-item expanded "><a href="msm.html"><strong aria-hidden="true">3.6.3.3.</strong> Multi Scalar Multiplications</a></li></ol></li></ol></li></ol></li><li class="chapter-item expanded "><a href="HE.html"><strong aria-hidden="true">4.</strong> Fully Homomorphic Encryption</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="introfhe.html"><strong aria-hidden="true">4.1.</strong> Articles</a></li><li class="chapter-item expanded "><a href="schemesfhe.html"><strong aria-hidden="true">4.2.</strong> Schemes</a></li><li class="chapter-item expanded "><a href="fhelibraries.html" class="active"><strong aria-hidden="true">4.3.</strong> Libraries</a></li><li class="chapter-item expanded "><a href="mathfhe.html"><strong aria-hidden="true">4.4.</strong> Mathematics</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Ingopedia</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/ingonyama-zk/ingopedia" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href=" https://github.com/ingonyama-zk/ingopedia/edit/master/src/fhelibraries.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="libraries"><a class="header" href="#libraries">Libraries</a></h1>
+<p>A curated list of Homomorphic Encryption libraries, and what schemes they use. </p>
+<h2 id="under-construction-"><a class="header" href="#under-construction-"><strong>UNDER CONSTRUCTION</strong> 👷</a></h2>
+<h1 id="libraries-1"><a class="header" href="#libraries-1">Libraries</a></h1>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Libraries</th><th>Scheme</th><th style="text-align: center">Resources</th></tr></thead><tbody>
+<tr><td style="text-align: center"><a href="https://github.com/microsoft/SEAL#introduction">Microsoft SEAL </a></td><td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;color:red;">BF</span><span class="mord mathnormal" style="margin-right:0.22222em;color:red;">V</span></span></span></span></span> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="color:orange;">BG</span><span class="mord mathnormal" style="margin-right:0.22222em;color:orange;">V</span></span></span></span></span></td><td style="text-align: center"></td></tr>
+<tr><td style="text-align: center"><a href="https://palisade-crypto.org/software-library/">PALISADE</a></td><td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;color:red;">BF</span><span class="mord mathnormal" style="margin-right:0.22222em;color:red;">V</span></span></span></span></span> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;color:blue;">F</span><span class="mord mathnormal" style="margin-right:0.08125em;color:blue;">H</span><span class="mord mathnormal" style="margin-right:0.05764em;color:blue;">E</span><span class="mord mathnormal" style="margin-right:0.13889em;color:blue;">W</span></span></span></span></span>  <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;color:purple;">TF</span><span class="mord mathnormal" style="margin-right:0.08125em;color:purple;">H</span><span class="mord mathnormal" style="margin-right:0.05764em;color:purple;">E</span></span></span></span></span></td><td style="text-align: center"></td></tr>
+<tr><td style="text-align: center"><a href="https://github.com/IBM/fhe-toolkit-macos">IBM FHE</a></td><td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="color:orange;">BG</span><span class="mord mathnormal" style="margin-right:0.22222em;color:orange;">V</span></span></span></span></span></td><td style="text-align: center"></td></tr>
+<tr><td style="text-align: center"><a href="https://github.com/IBM-HElib/HElib">IBM HElib</a></td><td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="color:orange;">BG</span><span class="mord mathnormal" style="margin-right:0.22222em;color:orange;">V</span></span></span></span></span> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07153em;color:green;">C</span><span class="mord mathnormal" style="margin-right:0.07153em;color:green;">KK</span><span class="mord mathnormal" style="margin-right:0.05764em;color:green;">S</span></span></span></span></span></td><td style="text-align: center"></td></tr>
+<tr><td style="text-align: center"><a href="https://github.com/Sunscreen-tech/Sunscreen/tree/main">Sunscreen - levelled bootstrap</a></td><td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;color:red;">BF</span><span class="mord mathnormal" style="margin-right:0.22222em;color:red;">V</span></span></span></span></span></td><td style="text-align: center"><a href="https://docs.sunscreen.tech/intro/intro.html">Introduction</a></td></tr>
+<tr><td style="text-align: center"><a href="https://github.com/openfheorg/openfhe-development">OpenFHE</a></td><td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;color:red;">BF</span><span class="mord mathnormal" style="margin-right:0.22222em;color:red;">V</span></span></span></span></span> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="color:orange;">BG</span><span class="mord mathnormal" style="margin-right:0.22222em;color:orange;">V</span></span></span></span></span> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07153em;color:green;">C</span><span class="mord mathnormal" style="margin-right:0.07153em;color:green;">KK</span><span class="mord mathnormal" style="margin-right:0.05764em;color:green;">S</span></span></span></span></span> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;color:blue;">F</span><span class="mord mathnormal" style="margin-right:0.08125em;color:blue;">H</span><span class="mord mathnormal" style="margin-right:0.05764em;color:blue;">E</span><span class="mord mathnormal" style="margin-right:0.13889em;color:blue;">W</span></span></span></span></span> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;color:purple;">TF</span><span class="mord mathnormal" style="margin-right:0.08125em;color:purple;">H</span><span class="mord mathnormal" style="margin-right:0.05764em;color:purple;">E</span></span></span></span></span></td><td style="text-align: center"><a href="https://www.openfhe.org">OpenFHE.com</a></td></tr>
+<tr><td style="text-align: center"><a href="https://github.com/OpenMined/TenSEAL">TenSEAL - Openmined</a></td><td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;color:red;">BF</span><span class="mord mathnormal" style="margin-right:0.22222em;color:red;">V</span></span></span></span></span> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07153em;color:green;">C</span><span class="mord mathnormal" style="margin-right:0.07153em;color:green;">KK</span><span class="mord mathnormal" style="margin-right:0.05764em;color:green;">S</span></span></span></span></span></td><td style="text-align: center"></td></tr>
+<tr><td style="text-align: center"><a href="https://github.com/zama-ai/concrete">Zama AI - Concrete - Python compiler</a></td><td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;color:purple;">TF</span><span class="mord mathnormal" style="margin-right:0.08125em;color:purple;">H</span><span class="mord mathnormal" style="margin-right:0.05764em;color:purple;">E</span></span></span></span></span></td><td style="text-align: center"></td></tr>
+<tr><td style="text-align: center"><a href="https://github.com/zama-ai/tfhe-rs">Zama AI - TFHE-rs - Rust library</a></td><td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;color:purple;">TF</span><span class="mord mathnormal" style="margin-right:0.08125em;color:purple;">H</span><span class="mord mathnormal" style="margin-right:0.05764em;color:purple;">E</span></span></span></span></span></td><td style="text-align: center"></td></tr>
+<tr><td style="text-align: center"><a href="https://github.com/google/fully-homomorphic-encryption">Google - FHE</a></td><td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;color:purple;">TF</span><span class="mord mathnormal" style="margin-right:0.08125em;color:purple;">H</span><span class="mord mathnormal" style="margin-right:0.05764em;color:purple;">E</span></span></span></span></span></td><td style="text-align: center"></td></tr>
+</tbody></table>
+</div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="schemesfhe.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="mathfhe.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="schemesfhe.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="mathfhe.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
