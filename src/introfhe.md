@@ -1,5 +1,7 @@
 # Articles
 
+**What you will find here:** _Blogs, Articles, PDFs, Videos, Notes_
+
 ## **UNDER CONSTRUCTION** 👷
 
 ## Inroductory
