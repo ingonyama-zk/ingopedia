@@ -38,6 +38,5 @@
   - [Articles](./introfhe.md)
   - [Schemes](./schemesfhe.md)
   - [Libraries](./fhelibraries.md)
-  - [Video Lecture Series](./fheseries.md)
   - [Mathematics](mathfhe.md)
 
