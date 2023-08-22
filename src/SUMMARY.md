@@ -34,7 +34,7 @@
       - [Hardware acceleration](./hwzk.md)
       - [Discrete Fourier Transforms](./fft.md)
       - [Multi Scalar Multiplications](./msm.md)
-- [Homomorphic Encryption](./HE.md)
+- [Fully Homomorphic Encryption](./HE.md)
   - [Articles](./introfhe.md)
   - [Schemes](./schemesfhe.md)
   - [Libraries](./fhelibraries.md)
