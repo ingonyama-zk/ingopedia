@@ -1,4 +1,4 @@
-# Homomorphic Encryption
+# Fully Homomorphic Encryption
 
 ## [Articles](https://github.com/ingonyama-zk/ingopedia/blob/Otsars-patch/src/introfhe.md)
 
