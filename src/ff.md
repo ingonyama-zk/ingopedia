@@ -16,6 +16,7 @@
 - [Hardware friendly modular mult](https://github.com/ingonyama-zk/papers/blob/main/modular_multiplication.pdf)
 - [Montgomery REDC using positive inverse mod r](https://jeffhurchalla.com/2022/04/28/montgomery-redc-using-the-positive-inverse-mod-r/)
 - [Low latency multipliers and cryptographic puzzles](https://blog.janestreet.com/really-low-latency-multipliers-and-cryptographic-puzzles/)
+- [optimizing pairing based cryptography, montgomery arithmetic in rust](https://research.nccgroup.com/2021/06/09/optimizing-pairing-based-cryptography-montgomery-arithmetic-in-rust/)
 
 ## Related Math
 

@@ -52,3 +52,4 @@ Advanced University and proffesional level courses on ZK.
 - [BLockchain and money MIT 2018](https://www.youtube.com/playlist?list=PLUl4u3cNGP63UUkfL0onkxF6MYgVa04Fn)
 - [DEFI MOOC](https://www.youtube.com/playlist?list=PLS01nW3RtgopJOtsMVOK3N7n7qyNMPbJ_)
 - [Fuzzing workshop](https://www.youtube.com/playlist?list=PLciHOL_J7Iwqdja9UH4ZzE8dP1IxtsBXI)
+- [optimizations for fast algorithms bootcamp](https://simons.berkeley.edu/workshops/data-structures-optimization-fast-algorithms-boot-camp/videos#simons-tabs)

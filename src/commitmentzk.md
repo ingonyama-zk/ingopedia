@@ -25,3 +25,4 @@
 - **Inner product Arguments (IPA)** 
   - [Inner product arguments - Dankrad Feist](https://dankradfeist.de/ethereum/2021/07/27/inner-product-arguments.html)
   - [IPA by hand - arnacube](https://arnaucube.com/blog/ipa.html)
+  - [IPA commitment scheme Lambdaclass](https://blog.lambdaclass.com/ipa-and-a-polynomial-commitment-scheme/)

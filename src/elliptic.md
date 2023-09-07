@@ -31,6 +31,7 @@
 - [Subgroup checks for BLS12](https://hackmd.io/@yelhousni/bls12_subgroup_check)
 - [Cofactor explained: Elliptic curves dirty little secret](https://loup-vaillant.fr/tutorials/cofactor)
 - [Applications of Riemann Roch theorem in cryptography - Borgeaud](https://solvable.group/posts/riemann-roch-crypto/)
+- [Quaternion algebras and Isogeny based cryptography](https://www.lix.polytechnique.fr/Labo/Antonin.LEROUX/manuscrit_these.pdf)
 
 ## Pairings
 
@@ -45,6 +46,8 @@
   - [Code](https://github.com/yi-sun/circom-pairing)
 - [Pairings or bilinear maps](https://alinush.github.io/2022/12/31/pairings-or-bilinear-maps.html)
 - [optimizing emulated pairings](https://hackmd.io/@ivokub/SyJRV7ye2)
+- [Estimating the bit security of pairing friendly curves](https://research.nccgroup.com/2022/03/02/estimating-the-bit-security-of-pairing-friendly-curves/)
+- [optimizing pairing based cryptography, montgomery arithmetic in rust](https://research.nccgroup.com/2021/06/09/optimizing-pairing-based-cryptography-montgomery-arithmetic-in-rust/)
 
 ## Specific curves
 

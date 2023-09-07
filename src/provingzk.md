@@ -36,3 +36,4 @@
 ## Folding and accumulation schemes
 
 - [Resource: Awesome Folding](https://github.com/lurk-lab/awesome-folding)
+- [How to build a snark that is out of this world - Nat Bunner](https://hackmd.io/@ndbunner/B1hmeoGEn)

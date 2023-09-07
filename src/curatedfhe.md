@@ -1,4 +1,4 @@
-# Currated Resources 
+# Curated Resources 
 
 ## TFHE deep dive: ZAMA AI - Ilaria Chilloti
 

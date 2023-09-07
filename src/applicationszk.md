@@ -26,12 +26,15 @@ A compilation of materials that showcase various applications of zk technology.
   - [Ethereum: Zk rollups](https://ethereum.org/ph/developers/docs/scaling/zk-rollups/)
   - [How ZK rollups work: Simon Brown](https://medium.com/fcats-blockchain-incubator/how-zk-rollups-work-8ac4d7155b0e)
   - [An overview of Danksharding](https://a16zcrypto.com/content/article/an-overview-of-danksharding-and-a-proposal-for-improvement-of-das/)
+  - [Zk evm comparison guide](https://blog.jarrodwatts.com/the-ultimate-zk-evm-comparison-guide)
+
 - **EVM/VMs**
   - [Aztec protocol](https://aztec.network)
   - [Scroll EVM](https://scroll.io)
   - [Taiko EVM](https://taiko.xyz/)
   - [zkSync](https://docs.zksync.io/userdocs/)
   - [Polygon zkEVM](https://polygon.technology/solutions/polygon-zkevm/)
+    - [How to prove a batch of transactions](https://blog.jarrodwatts.com/how-polygon-zkevm-proves-batches-of-transactions)
   - [Miden VM](https://wiki.polygon.technology/docs/miden/intro/main)
     - [Range Checks in Miden VM](https://hackmd.io/D-vjBYtHQB2BuOB-HMUG5Q)
     - [Miden VM program decoder](https://hackmd.io/_aaDBzbWRz6EwQQRtK1pzw)
@@ -53,6 +56,10 @@ A compilation of materials that showcase various applications of zk technology.
 - [Bridging the blockchain multiverse with ZKP](https://medium.com/@ingonyama/bridging-the-multichain-universe-with-zero-knowledge-proofs-6157464fbc86)
 - [Navigating privacy on Blockchains - Wei Dai](https://wdai.us/posts/navigating-privacy/)
 - [Having a safe CEX: proof of solvency and beyond](https://vitalik.ca/general/2022/11/19/proof_of_solvency.html)
+
+## Client side
+
+- [Accelerating client side ZK with webGPU](https://geometry.xyz/notebook/accelerating-client-side-zk-with-webgpu)
 
 ## ZKML
 
