@@ -13,6 +13,7 @@ Understanding ZK from beginner to advanced on a surface level.
 - [The incredible Machine - Aviv Zohar](https://medium.com/qed-it/the-incredible-machine-4d1270d7363a)
 - [What is a ZKP system - Alin Tomescu](https://docs.google.com/presentation/d/1b2FoHN983iA_ZkiISMCKa0JqlE40CeqaqNxWjWiJQjE/edit#slide=id.g22c21d1bffc_0_509)
 - [A friendly intro to ZKP](https://zkintro.com/articles/friendly-introduction-to-zero-knowledge)
+- [Life cycle of a ZKP](https://www.zkcamp.xyz/blog/lifecycle-of-zkp)
 
 ## Intermediate
 
@@ -41,3 +42,4 @@ Understanding ZK from beginner to advanced on a surface level.
 - [ZKP from Information theoretic Proof systems 2 - Yuval Ishai](https://zkproof.org/2020/10/15/information-theoretic-proof-systems-part-ii/)
 - [ZKP - Modular approach -Yuval Ishai](https://zkproof.org/author/yuvalishai/)
 - [Misconceptions in ZK-Snarks - Thaler](https://a16zcrypto.com/posts/article/17-misconceptions-about-snarks/)
+- [Introduction to range proofs](https://tech.mystenlabs.com/zero-knowledge-range-proofs/)
