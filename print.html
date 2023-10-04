@@ -1,17 +1,17 @@
 <!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js light">
+<html lang="en" class="light" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>Ingopedia</title>
-        <meta name="robots" content="noindex" />
+        <meta name="robots" content="noindex">
 
 
         <!-- Custom HTML head -->
         
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+        <meta name="theme-color" content="#ffffff">
 
         <link rel="icon" href="favicon.svg">
         <link rel="shortcut icon" href="favicon.png">
@@ -32,7 +32,7 @@
         <!-- Custom theme stylesheets -->
 
     </head>
-    <body>
+    <body class="sidebar-visible no-js">
     <div id="body-container">
         <!-- Provide site root to javascript -->
         <script>
@@ -62,24 +62,29 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            html.classList.add('js');
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
         </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var html = document.querySelector('html');
+            var body = document.querySelector('body');
             var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             } else {
                 sidebar = 'hidden';
             }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -117,9 +122,9 @@
                                 <div id="menu-bar-hover-placeholder"></div>
                 <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
-                        </button>
+                        </label>
                         <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
                             <i class="fa fa-paint-brush"></i>
                         </button>
@@ -339,6 +344,7 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <li><a href="https://zcash.github.io/halo2/index.html">Halo 2 - library</a>
 <ul>
 <li><a href="https://github.com/adria0/awesome-halo2">Awesome: Halo2</a></li>
+<li><a href="https://halo2.club">Halo2 club</a></li>
 <li><a href="https://www.youtube.com/watch?v=V1RgGn1GtqM">Latest development in Halo2</a></li>
 <li><a href="https://starli.medium.com/zero-knowledge-proof-a-guide-to-halo2-source-code-9be0cf792f18">Guide to Halo2 source code</a></li>
 <li><a href="https://github.com/scroll-tech/zk-mooc-halo2">ZK MOOC halo2 circuit building</a>
@@ -358,6 +364,7 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <li><a href="https://medium.com/@yujiangtham/building-a-zero-knowledge-web-app-with-halo-2-and-wasm-part-2-379477444dc3">Halo2 app and wasm 2</a></li>
 <li><a href="https://drive.google.com/file/d/12-e1g8Ad7q0avIOge-NELNBaDlpmk0TV/view?usp=sharing">Halo2 review</a></li>
 <li><a href="https://eprint.iacr.org/2023/1051">Automated analysis of halo2 circuits</a></li>
+<li><a href="https://jtriley.substack.com/p/constructing-zk-snark-circuits?r=1qyfrf">halo2 circuitry tutorial</a></li>
 </ul>
 </li>
 <li><a href="https://github.com/Zokrates/ZoKrates">Zokrates</a></li>
@@ -470,6 +477,7 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <li><a href="https://www.notamonadtutorial.com/math-survival-kit-for-developers/">Math survival kit for zk developers - lambdaclass</a></li>
 <li><a href="https://www.zkcamp.xyz/blog/you-cant-understand-zkps-without-understanding-polynomials">Understanding polynomials</a></li>
 <li><a href="https://files.stlouisfed.org/files/htdocs/publications/review/2023/05/12/an-introduction-to-zero-knowledge-proofs-in-blockchains-and-economics.pdf">Intro to ZK in block chain and economics</a></li>
+<li><a href="https://www.cryptologie.net/article/600/a-journey-into-zero-knowledge-proofs/">A journey into ZKP - David Wong</a></li>
 </ul>
 <h2 id="advanced"><a class="header" href="#advanced">Advanced</a></h2>
 <ul>
@@ -738,6 +746,11 @@ designed to educate and inform a wide range of audiences, and will contain serie
 </li>
 </ul>
 </li>
+<li><a href="https://github.com/starkware-libs/stone-prover">Stone Prover</a>
+<ul>
+<li><a href="https://blog.lambdaclass.com/overview-of-the-stone-prover/">An overview</a></li>
+</ul>
+</li>
 </ul>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <h1 id="applications-1"><a class="header" href="#applications-1">Applications</a></h1>
@@ -865,6 +878,10 @@ designed to educate and inform a wide range of audiences, and will contain serie
 </ul>
 </li>
 </ul>
+<h2 id="other-applications"><a class="header" href="#other-applications">other applications</a></h2>
+<ul>
+<li><a href="https://educatedguesswork.org/posts/tiptoe/">Private search engine</a></li>
+</ul>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <h1 id="security-and-vulnerabilities"><a class="header" href="#security-and-vulnerabilities">Security and Vulnerabilities</a></h1>
 <p>Potential vulnerabilities and security in ZK systems</p>
@@ -895,6 +912,7 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <li><a href="https://www.jcraige.com/dangers-of-determinism-in-threshold-signatures">Threshold signature pitfalls</a></li>
 <li><a href="https://www.jcraige.com/vss-forgery">VSS forgery</a></li>
 <li><a href="https://www.zksecurity.xyz/blog/posts/boomerang/">Boomerang values in ZK</a></li>
+<li><a href="https://www.hertzbleed.com/gpu.zip/">GPUz.zip Sidechannel attacks on GPUs</a></li>
 </ul>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <h1 id="hands-on-zkcryptography"><a class="header" href="#hands-on-zkcryptography">Hands-On ZK/Cryptography</a></h1>
@@ -948,6 +966,7 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <li><a href="https://research.nccgroup.com/2020/08/13/pairing-over-bls12-381-part-3-pairing/">Part 3 : Pairing</a></li>
 </ul>
 </li>
+<li><a href="https://blog.aayushg.com/posts/zk">An overview of ZKtooling and proof systems right now: Sep 2023</a></li>
 </ul>
 <h2 id="challenges-and-hackathons"><a class="header" href="#challenges-and-hackathons">Challenges and hackathons</a></h2>
 <ul>
@@ -961,6 +980,7 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <ul>
 <li><a href="https://rust-book.cs.brown.edu">rust book with interactive quizzes</a></li>
 <li><a href="https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8">The Rust book course</a></li>
+<li><a href="https://securrtech.medium.com/complete-guide-to-rust-zero-to-one-to-hacking-e1f4380ae95c">Rust guide books</a></li>
 </ul>
 </li>
 <li><a href="https://google.github.io/comprehensive-rust/">Comprehensive rust by google</a></li>
@@ -994,6 +1014,11 @@ designed to educate and inform a wide range of audiences, and will contain serie
 </li>
 <li><a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/why-measure-toy-benchmark-programs.html">The benchmark game</a></li>
 <li><a href="https://zka.lc/charts">Zkalc</a></li>
+<li><a href="https://eprint.iacr.org/2023/1503">zkBench</a>
+<ul>
+<li><a href="https://zkbench.dev">Benchmarks</a></li>
+</ul>
+</li>
 </ul>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <h1 id="protocols--under-construction"><a class="header" href="#protocols--under-construction">Protocols — UNDER CONSTRUCTION</a></h1>
@@ -1423,6 +1448,16 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <li><a href="https://blog.lambdaclass.com/ipa-and-a-polynomial-commitment-scheme/">IPA commitment scheme Lambdaclass</a></li>
 </ul>
 </li>
+<li><strong>Lattice based commitment Schemes</strong>
+<ul>
+<li><a href="https://eprint.iacr.org/2022/1633">Vortex</a></li>
+<li><a href="https://eprint.iacr.org/2023/1469">SLAP</a>
+<ul>
+<li><a href="https://gfenzi.io/lattices/slap/">Blog</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <h1 id="secure-multi-party-computation"><a class="header" href="#secure-multi-party-computation">Secure Multi Party Computation</a></h1>
@@ -1486,6 +1521,10 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <li><a href="https://hackmd.io/@ndbunner/B1hmeoGEn">How to build a snark that is out of this world - Nat Bunner</a></li>
 <li><a href="https://taiko.mirror.xyz/tk8LoE-rC2w0MJ4wCWwaJwbq8-Ih8DXnLUf7aJX1FbU">An incomplete guide to FOlding schemes - Lisa</a></li>
 </ul>
+<h2 id="general-5"><a class="header" href="#general-5">General</a></h2>
+<ul>
+<li><a href="https://angeris.github.io/papers/zk-linalg.pdf">Succinct Proofs and Linear Algebra</a></li>
+</ul>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <h1 id="computational-primitives"><a class="header" href="#computational-primitives">Computational Primitives</a></h1>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
@@ -1521,6 +1560,7 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <h2 id="tee-and-confidential-computing"><a class="header" href="#tee-and-confidential-computing">TEE and confidential computing</a></h2>
 <ul>
 <li><a href="https://github.com/NVIDIA/nvtrust">TEE for CPU and GPU Nvidia</a></li>
+<li><a href="https://www.youtube.com/watch?v=Xq7oWtiwWII">TEE for blockchain applications</a></li>
 </ul>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <h1 id="discrete-fourier-transforms"><a class="header" href="#discrete-fourier-transforms">Discrete Fourier Transforms</a></h1>
@@ -1616,6 +1656,11 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <li><a href="https://medium.com/zama-ai/the-r-evolution-of-fhe-485b54a6e69c">ML and FHE</a></li>
 <li><a href="https://medium.com/@ingonyama/solving-llm-privacy-with-fhe-3486de6ee228">Solving LLM Privacy with FHE</a></li>
 <li><a href="https://blog.sunscreen.tech/snarks-shortcomings/">How Snarks fall short for FHE</a></li>
+<li><a href="https://github.com/zama-ai/fhevm">fhevm</a>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=vreZoESyBCs">fhEVM - Morten Dahl</a></li>
+</ul>
+</li>
 </ul>
 <h2 id="implementations-2"><a class="header" href="#implementations-2">Implementations</a></h2>
 <ul>
