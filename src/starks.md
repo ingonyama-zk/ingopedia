@@ -42,3 +42,5 @@ A collection of resources explaining Starks.
   - [EthSTARK](https://www.youtube.com/watch?v=rReCK7TWCJI)
     - [code](https://github.com/starkware-libs/ethSTARK)
     - [documentation](https://eprint.iacr.org/2021/582.pdf)
+- [Stone Prover](https://github.com/starkware-libs/stone-prover)
+  - [An overview](https://blog.lambdaclass.com/overview-of-the-stone-prover/)

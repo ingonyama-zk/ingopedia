@@ -44,6 +44,7 @@ Our hands-on approach to learning ZK proofs provides interactive and practical t
   - [Part 1 : Fields](https://research.nccgroup.com/2020/07/06/pairing-over-bls12-381-part-1-fields/)
   - [Part 2 : Curves](https://research.nccgroup.com/2020/07/13/pairing-over-bls12-381-part-2-curves/)
   - [Part 3 : Pairing](https://research.nccgroup.com/2020/08/13/pairing-over-bls12-381-part-3-pairing/)
+- [An overview of ZKtooling and proof systems right now: Sep 2023](https://blog.aayushg.com/posts/zk)
 
 ## Challenges and hackathons
 
@@ -57,6 +58,7 @@ Our hands-on approach to learning ZK proofs provides interactive and practical t
 - [The Rust book](https://doc.rust-lang.org/book/title-page.html)
   - [rust book with interactive quizzes](https://rust-book.cs.brown.edu)
   - [The Rust book course](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8)
+  - [Rust guide books](https://securrtech.medium.com/complete-guide-to-rust-zero-to-one-to-hacking-e1f4380ae95c)
 - [Comprehensive rust by google](https://google.github.io/comprehensive-rust/)
 - [Print and keep nearby - cheats.rs](https://cheats.rs)
 - [Tutorials](https://fasterthanli.me)
@@ -82,3 +84,5 @@ Our hands-on approach to learning ZK proofs provides interactive and practical t
   - [Criterion introduction](https://www.notamonadtutorial.com/benchmarking-and-analyzing-rust-performance-with-criterion-and-iai/)
 - [The benchmark game](https://benchmarksgame-team.pages.debian.net/benchmarksgame/why-measure-toy-benchmark-programs.html)
 - [Zkalc](https://zka.lc/charts)
+- [zkBench](https://eprint.iacr.org/2023/1503)
+  - [Benchmarks](https://zkbench.dev)

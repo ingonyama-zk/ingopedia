@@ -38,3 +38,7 @@
 - [Resource: Awesome Folding](https://github.com/lurk-lab/awesome-folding)
 - [How to build a snark that is out of this world - Nat Bunner](https://hackmd.io/@ndbunner/B1hmeoGEn)
 - [An incomplete guide to FOlding schemes - Lisa](https://taiko.mirror.xyz/tk8LoE-rC2w0MJ4wCWwaJwbq8-Ih8DXnLUf7aJX1FbU)
+
+## General
+
+- [Succinct Proofs and Linear Algebra](https://angeris.github.io/papers/zk-linalg.pdf)

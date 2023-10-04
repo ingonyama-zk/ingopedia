@@ -98,3 +98,7 @@ A compilation of materials that showcase various applications of zk technology.
     - [task definitions](https://medium.com/@z1286679231/definition-and-characteristics-of-p1-p2-c1-c2-in-ipfs-filecoin-49daa3b735e3)
     - [PoRep circuit blog](https://trapdoortech.medium.com/filecoin-porep-circuit-introduction-43415d97730c)
     - [Precommit 2](https://trapdoortech.medium.com/filecoin-deep-into-precommit2-logic-710392c6b00c)
+
+## other applications
+
+- [Private search engine](https://educatedguesswork.org/posts/tiptoe/)

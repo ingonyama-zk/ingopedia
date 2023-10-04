@@ -29,3 +29,4 @@
 ## TEE and confidential computing
 
 - [TEE for CPU and GPU Nvidia](https://github.com/NVIDIA/nvtrust)
+- [TEE for blockchain applications](https://www.youtube.com/watch?v=Xq7oWtiwWII)

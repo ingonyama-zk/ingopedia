@@ -17,6 +17,8 @@
 - [ML and FHE](https://medium.com/zama-ai/the-r-evolution-of-fhe-485b54a6e69c)
 - [Solving LLM Privacy with FHE](https://medium.com/@ingonyama/solving-llm-privacy-with-fhe-3486de6ee228)
 - [How Snarks fall short for FHE](https://blog.sunscreen.tech/snarks-shortcomings/)
+- [fhevm](https://github.com/zama-ai/fhevm)
+  - [fhEVM - Morten Dahl](https://www.youtube.com/watch?v=vreZoESyBCs)
 
 
 ## Implementations
