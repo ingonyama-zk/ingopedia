@@ -10,7 +10,7 @@ Ingopedia是由社区共同推动发起的，旨在全面收集与零知识证�
 
 感谢您成为我们ZKP社区的一员，并协助我们建立一个对所有人都有价值的资源集合。
 
-注：分支“master”包含Ingopedia mdbook的源文件。([url](https://ingonyama-zk.github.io/ingopedia/))
+注：分支“master”包含Ingopedia mdbook的[源文件](https://ingonyama-zk.github.io/ingopedia/)
 在每个部署页面都有一个可编辑按钮，允许您编辑特定页面的Markdown文件。
 
 旧版的Ingopedia仍然在主分支（branch main）中可用，我们计划继续使用mdbook格式。欢迎提出建议
