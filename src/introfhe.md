@@ -24,6 +24,7 @@
 ## Implementations
 
 - [FPT: a Fixed-Point Accelerator for Torus Fully Homomorphic Encryption](https://eprint.kobi.one/2022/1635)
+- [Open Source implementations](https://people.csail.mit.edu/vinodv/FHE/FHE-refs.html )
 
 ## Security
 
