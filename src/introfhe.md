@@ -11,6 +11,7 @@
 - [Sunscreen - intro to fhe for engineers](https://blog.sunscreen.tech/an-intro-to-fully-homomorphic-encryption-for-engineers/)
 - [Survey on FHE and applications](https://eprint.iacr.org/2022/1602)
 - [Computing on encrypted data: Nigel Smart](https://www.youtube.com/watch?v=ih1vhywiKyE)
+- [Hands on FHE](https://tfhe.github.io/tfhe/coding.html)
 
 ## Applications
 
@@ -24,6 +25,7 @@
 ## Implementations
 
 - [FPT: a Fixed-Point Accelerator for Torus Fully Homomorphic Encryption](https://eprint.kobi.one/2022/1635)
+- [cuHE for GPU FHE](https://eprint.iacr.org/2015/818.pdf)
 
 ## Security
 
@@ -31,3 +33,5 @@
 - [Security of FHE Schemes](https://www.zama.ai/post/estimating-the-security-of-homomorphic-schemes)
   - [Lattice based attacks](https://blog.simons.berkeley.edu/2020/04/lattice-blog-reduction-part-i-bkz/)
 - [On concrete hardness of LWE](https://eprint.iacr.org/2015/046.pdf)
+- [Security of HE on AN](https://eprint.iacr.org/2020/1533.pdf)
+- [On security of multivariate RLWE](https://msp.org/obs/2020/4/p05.xhtml)
