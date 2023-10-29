@@ -11,6 +11,7 @@
 - [Sunscreen - intro to fhe for engineers](https://blog.sunscreen.tech/an-intro-to-fully-homomorphic-encryption-for-engineers/)
 - [Survey on FHE and applications](https://eprint.iacr.org/2022/1602)
 - [Computing on encrypted data: Nigel Smart](https://www.youtube.com/watch?v=ih1vhywiKyE)
+- [Hands on FHE](https://tfhe.github.io/tfhe/coding.html)
 
 ## Applications
 
