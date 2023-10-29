@@ -31,3 +31,9 @@
 - [Security of FHE Schemes](https://www.zama.ai/post/estimating-the-security-of-homomorphic-schemes)
   - [Lattice based attacks](https://blog.simons.berkeley.edu/2020/04/lattice-blog-reduction-part-i-bkz/)
 - [On concrete hardness of LWE](https://eprint.iacr.org/2015/046.pdf)
+
+## Survey papers
+
+- [Survey on Fully Homomorphic Encryption, Theory, and Applications](https://eprint.iacr.org/2022/1602)
+- [Relations between RLWE schemes](https://eprint.kobi.one/2018/758)
+  
