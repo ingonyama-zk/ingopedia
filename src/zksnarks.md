@@ -1,6 +1,6 @@
 # ZKSNARKS
 
-A collection of resources explainig ZKSnarks.
+A collection of resources explaining ZKSnarks.
 
 ---
 

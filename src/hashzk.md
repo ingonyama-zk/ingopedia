@@ -41,7 +41,7 @@
         - [Poseidon in Filecoin - Dmitry Khovratovich](https://hackmd.io/@7dpNYqjKQGeYC7wMlPxHtQ/BJjaxXd9U)
       - [code: Ingonyama (python)](https://github.com/ingonyama-zk/poseidon-hash)
       - [code: Dusk network](https://github.com/dusk-network/Poseidon252)
-      - [code: Dust netowrk - Poseidon merkle](https://github.com/dusk-network/dusk-poseidon-merkle)
+      - [code: Dust network - Poseidon merkle](https://github.com/dusk-network/dusk-poseidon-merkle)
       - [code: Triplewz - GO](https://github.com/triplewz/poseidon)
   - **Rescue**
     - [Rescue-Prime: a Standard Specification (SoK)](https://eprint.iacr.org/2020/1143.pdf)

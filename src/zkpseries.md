@@ -8,7 +8,7 @@ Our Video lecture series on ZK proofs offers in-depth and engaging presentations
 
 ## ZK courses
 
-University and proffesional level courses on ZK.
+University and professional level courses on ZK.
 
 - [ZKMOOC - 2023](https://zk-learning.org/)
 - [ZK BIU school - 2019](https://www.youtube.com/playlist?list=PL8Vt-7cSFnw29cLUVqAIuMlg1QJ-szV0K)
@@ -38,7 +38,7 @@ Podcasts and lecture playlists on various ZKP related topics.
 
 ## Advanced Courses/Topics
 
-Advanced University and proffesional level courses on ZK.
+Advanced University and professional level courses on ZK.
 
 - [Meta complexity bootcamp - Simons Institute](https://www.youtube.com/playlist?list=PLgKuh-lKre1398d4m9iBaXf8fy5Cn5hl0)
 - [Foundations of probabilistic proofs - Chiesa](https://www.youtube.com/playlist?list=PLGkwtcB-DfpzST-medFVvrKhinZisfluC)
