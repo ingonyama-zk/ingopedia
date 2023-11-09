@@ -17,6 +17,7 @@
 
 - [PipeZK](https://www.microsoft.com/en-us/research/publication/pipezk-accelerating-zero-knowledge-proof-with-a-pipelined-architecture/)
 - [Algorithms for modern Hardware](https://en.algorithmica.org/hpc/)
+- [Zk Score](https://zkproof.org/2023/10/23/zk-score-blog/)
 
 ## Benchmarks of ZKP primitives
 
@@ -24,7 +25,8 @@
 - [ZK Harness](https://www.zk-bench.org)
 - [ZK Benchmarking -Delendum](https://github.com/delendum-xyz/zk-benchmarking)
 - [ZKalc](https://zka.lc/about)
-
+- [zkBench](https://eprint.iacr.org/2023/1503)
+  - [Benchmarks](https://zkbench.dev)
 
 ## TEE and confidential computing
 

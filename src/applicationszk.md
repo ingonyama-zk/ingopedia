@@ -10,6 +10,7 @@ A compilation of materials that showcase various applications of zk technology.
 
 - [A cambrian explosion of crypto proofs -Ben Sasson](https://nakamoto.com/cambrian-explosion-of-crypto-proofs/)
 - [Using ZKP to fight disinformation - Boneh, Datta](https://medium.com/@boneh/using-zk-proofs-to-fight-disinformation-17e7d57fe52f)
+  - [talk](https://iacr.org/submit/files/slides/2023/rwc/rwc2023/13/slides.pdf)
 - [ZKP for voting - Phil Kelly](https://blog.o1labs.org/zero-knowledge-proofs-for-voting-3c6a6d5d89db)
 
 ## ZK Rollups EVMs/VMs
@@ -66,7 +67,7 @@ A compilation of materials that showcase various applications of zk technology.
 - [An Introduction to ZKML](https://worldcoin.org/blog/engineering/intro-to-zkml)
 - [zkMNIST](https://0xparc.org/blog/zk-mnist)
 - [awesome-zkml](https://github.com/zkml-community/awesome-zkml)
-- [Checks and balances ZK and ML - Elena Burger](https://a16zcrypto.com/content/article/checks-and-balances-machine-learning-and-zero-knowledge-proofs/?utm_source=substack&utm_medium=email)
+- [Checks and balances ZK and ML - Elena Burger](https://a16zcrypto.com/content/article/checks-and-balances-machine-learning-and-zero-knowledge-proofs/)
 - [DO Language models possess Knowledge soundness - Tarun Chitra](https://hackmd.io/@pinged/zk-and-llms?utm_source=substack&utm_medium=email)
 - [verifying twitter algorithmic integrity with zkml - Daniel Kang](https://medium.com/@danieldkang/empowering-users-to-verify-twitters-algorithmic-integrity-with-zkml-65e56d0e9dd9)
 - [How ZK snarks bring transparency to private ML models with zkml - Daniel Kang](https://medium.com/@danieldkang/bridging-the-gap-how-zk-snarks-bring-transparency-to-private-ml-models-with-zkml-e0e59708c2fc)
@@ -82,6 +83,7 @@ A compilation of materials that showcase various applications of zk technology.
 - [Crypto gaming - A practical thesis](https://medium.com/collab-currency/crypto-gaming-a-most-practical-thesis-ec4f55f53408)
 - [The strongest Crypto gaming thesis](https://gubsheep.substack.com/p/the-strongest-crypto-gaming-thesis)
 - [ZKP for gaming: Mina](https://blog.o1labs.org/zero-knowledge-proofs-for-games-f8b690a2c1ef)
+- [Zk hunt -0xparc](https://0xparc.org/blog/zk-hunt)
 
 ## Ecosystem with ZK applications
 
@@ -102,3 +104,5 @@ A compilation of materials that showcase various applications of zk technology.
 ## other applications
 
 - [Private search engine](https://educatedguesswork.org/posts/tiptoe/)
+- [proof of email](https://github.com/zkemail)
+  - [blog](https://blog.aayushg.com/zkemail/)
