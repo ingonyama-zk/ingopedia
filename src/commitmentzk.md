@@ -3,7 +3,7 @@
 - **General**
   - [Overview of commitment schemes: Justin Drakes](https://youtu.be/bz16BURH_u8)
   - [Comparison of Commitment Schemes](https://hackernoon.com/kzg10-ipa-fri-and-darks-analysis-of-polynomial-commitment-schemes)
-  - [review of polynomial commmitments](https://research.polytope.technology/polynomial-commitments?utm_source=substack&utm_medium=email)
+  - [review of polynomial commmitments](https://research.polytope.technology/polynomial-commitments)
 - **KZG**
   - [KZG commitments](https://alinush.github.io/2020/05/06/kzg-polynomial-commitments.html)
   - [KZG - Suyash](https://hackmd.io/@suyash67/BydEa7DaK)
