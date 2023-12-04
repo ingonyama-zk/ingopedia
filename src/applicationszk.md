@@ -28,6 +28,7 @@ A compilation of materials that showcase various applications of zk technology.
   - [How ZK rollups work: Simon Brown](https://medium.com/fcats-blockchain-incubator/how-zk-rollups-work-8ac4d7155b0e)
   - [An overview of Danksharding](https://a16zcrypto.com/content/article/an-overview-of-danksharding-and-a-proposal-for-improvement-of-das/)
   - [Zk evm comparison guide](https://blog.jarrodwatts.com/the-ultimate-zk-evm-comparison-guide)
+  - [BrainSTARK](https://aszepieniec.github.io/stark-brainfuck/)
 
 - **EVM/VMs**
   - [Aztec protocol](https://aztec.network)
