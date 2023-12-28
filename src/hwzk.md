@@ -18,6 +18,7 @@
 - [PipeZK](https://www.microsoft.com/en-us/research/publication/pipezk-accelerating-zero-knowledge-proof-with-a-pipelined-architecture/)
 - [Algorithms for modern Hardware](https://en.algorithmica.org/hpc/)
 - [Zk Score](https://zkproof.org/2023/10/23/zk-score-blog/)
+- [Accelerating Zero-Knowledge Proofs](https://figmentcapital.medium.com/accelerating-zero-knowledge-proofs-cfc806de611b)
 
 ## Benchmarks of ZKP primitives
 

@@ -8,7 +8,7 @@ A compilation of materials that showcase various applications of zk technology.
 
 ## General
 
-- [A cambrian explosion of crypto proofs -Ben Sasson](https://nakamoto.com/cambrian-explosion-of-crypto-proofs/)
+- [A cambrian explosion of crypto proofs - Ben Sasson](https://nakamoto.com/cambrian-explosion-of-crypto-proofs/)
 - [Using ZKP to fight disinformation - Boneh, Datta](https://medium.com/@boneh/using-zk-proofs-to-fight-disinformation-17e7d57fe52f)
   - [talk](https://iacr.org/submit/files/slides/2023/rwc/rwc2023/13/slides.pdf)
 - [ZKP for voting - Phil Kelly](https://blog.o1labs.org/zero-knowledge-proofs-for-voting-3c6a6d5d89db)
@@ -28,21 +28,29 @@ A compilation of materials that showcase various applications of zk technology.
   - [How ZK rollups work: Simon Brown](https://medium.com/fcats-blockchain-incubator/how-zk-rollups-work-8ac4d7155b0e)
   - [An overview of Danksharding](https://a16zcrypto.com/content/article/an-overview-of-danksharding-and-a-proposal-for-improvement-of-das/)
   - [Zk evm comparison guide](https://blog.jarrodwatts.com/the-ultimate-zk-evm-comparison-guide)
+  - [BrainSTARK](https://aszepieniec.github.io/stark-brainfuck/)
 
 - **EVM/VMs**
   - [Aztec protocol](https://aztec.network)
   - [Scroll EVM](https://scroll.io)
   - [Taiko EVM](https://taiko.xyz/)
   - [zkSync](https://docs.zksync.io/userdocs/)
+    - [Zk-Stack](https://blog.matter-labs.io/introducing-the-zk-stack-c24240c2532a) 
+    - [Awesome ZK-Sync](https://github.com/0xJuancito/awesome-zksync)
+  - [Starknet](https://www.starknet.io/en)
+    - [Awesome Starknet](https://github.com/keep-starknet-strange/awesome-starknet)
+    - [Cairo Whitepaper](https://eprint.iacr.org/2021/1063.pdf)
   - [Polygon zkEVM](https://polygon.technology/solutions/polygon-zkevm/)
     - [How to prove a batch of transactions](https://blog.jarrodwatts.com/how-polygon-zkevm-proves-batches-of-transactions)
   - [Miden VM](https://wiki.polygon.technology/docs/miden/intro/main)
+    - [A Sketch for a STARK-Based VM](https://ethresear.ch/t/a-sketch-for-a-stark-based-vm/7048)
     - [Range Checks in Miden VM](https://hackmd.io/D-vjBYtHQB2BuOB-HMUG5Q)
     - [Miden VM program decoder](https://hackmd.io/_aaDBzbWRz6EwQQRtK1pzw)
     - [Memory in MidenVM](https://hackmd.io/@bobbinth/HJr56BKKt)
     - [u32 in MidenVM](https://hackmd.io/NC-yRmmtRQSvToTHb96e8Q#u32-operations-in-Miden-VM)
   - [RISC0 ZK VM](https://www.risczero.com)
     - [RISC0 proof system](https://www.risczero.com/proof-system-in-detail.pdf)
+    - [RISC0 Code](https://github.com/risc0/risc0)
   - [OlaVM](https://sin7y.org/)
   - [zkWasm](http://www.delphinuslab.com/)
   - [Loopring](https://loopring.org/#/about)
@@ -61,6 +69,7 @@ A compilation of materials that showcase various applications of zk technology.
 ## Client side
 
 - [Accelerating client side ZK with webGPU](https://geometry.xyz/notebook/accelerating-client-side-zk-with-webgpu)
+- [Whale Song Explained](https://medium.com/alliancedao/whale-songs-explained-28e14ddf7c27)
 
 ## ZKML
 
@@ -84,6 +93,7 @@ A compilation of materials that showcase various applications of zk technology.
 - [The strongest Crypto gaming thesis](https://gubsheep.substack.com/p/the-strongest-crypto-gaming-thesis)
 - [ZKP for gaming: Mina](https://blog.o1labs.org/zero-knowledge-proofs-for-games-f8b690a2c1ef)
 - [Zk hunt -0xparc](https://0xparc.org/blog/zk-hunt)
+- [ZK Wordle](https://github.com/nalinbhardwaj/zordle)
 
 ## Ecosystem with ZK applications
 
@@ -101,8 +111,16 @@ A compilation of materials that showcase various applications of zk technology.
     - [PoRep circuit blog](https://trapdoortech.medium.com/filecoin-porep-circuit-introduction-43415d97730c)
     - [Precommit 2](https://trapdoortech.medium.com/filecoin-deep-into-precommit2-logic-710392c6b00c)
 
+- **Aleo**
+  - [Aleo Documentation](https://developer.aleo.org/getting_started/)
+  - [Awesome Aleo](https://github.com/howardwu/awesome-aleo#research-papers--resources)
+  - [Aleo with Howard Wu](https://zeroknowledge.fm/144-2/)
+  - [LEO Programming Language](https://eprint.iacr.org/2021/651.pdf)
+  - [Aleo Op-Codes](https://github.com/AleoHQ/ARCs/tree/master/arc-0002)
+
 ## other applications
 
 - [Private search engine](https://educatedguesswork.org/posts/tiptoe/)
+- [ZK-P2P](https://github.com/zkp2p/zk-p2p)
 - [proof of email](https://github.com/zkemail)
   - [blog](https://blog.aayushg.com/zkemail/)

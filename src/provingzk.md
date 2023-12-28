@@ -4,12 +4,20 @@
 
 ## Sumcheck Protocol
 
-- [Unreasonable power of sumcheck - Thaler](https://people.cs.georgetown.edu/jthaler/blogpost.pdf)
+- [Unreasonable power of Sumcheck - Thaler](https://people.cs.georgetown.edu/jthaler/blogpost.pdf)
   - [Justin Thaler Lecture](https://youtu.be/uFhppTJfjiY)
+  - [Sumcheck Overview](https://people.cs.georgetown.edu/jthaler/sumcheck.pdf)
   - [Intro to Sumcheck protocol -oxsage](https://medium.com/yearofzk/rust-guide-sum-check-protocol-18ceb8affdb2)
   - [Inuition behind sumcheck - Wong](https://cryptologie.net/article/577/the-intuition-behind-the-sum-check-protocol-in-5-minutes/)
 - [Sumcheck argument and applications](https://eprint.iacr.org/2021/333.pdf)
 - [Proving AIR with MultiLinear Sumcheck - Borgeaud](https://solvable.group/posts/air-multivariate-sumcheck/)
+- [The Power of Interactive Proofs](https://www.comp.nus.edu.sg/~prashant/teaching/CS6230/files/notes/lecture02.pdf)
+- [Sumcheck Tutorial](https://semiotic.ai/articles/sumcheck-tutorial/)
+- [Sumcheck Slide-Deck](https://drive.google.com/file/d/1tU50f-IpwPdCEJkZcA7K0vCr7nwwzCLh/view?pli=1)
+- [Introduction to the Sumcheck Protocol](https://people.eecs.berkeley.edu/~alexch/docs/CS294-S2017/lecture-01.pdf)
+- [A Zero Knowledge Sumcheck and its Applications](https://eprint.iacr.org/2017/305.pdf)
+- [Arkworks Sumcheck](https://github.com/arkworks-rs/sumcheck)
+- [Formal Verification of the Sumcheck Protocol](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/611002/GarviaBosshard_Azucena.pdf?sequence=1&isAllowed=y)
 
 ## Low degree Testing/FRI
 

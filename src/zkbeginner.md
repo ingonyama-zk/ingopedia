@@ -14,6 +14,7 @@ Understanding ZK from beginner to advanced on a surface level.
 - [What is a ZKP system - Alin Tomescu](https://docs.google.com/presentation/d/1b2FoHN983iA_ZkiISMCKa0JqlE40CeqaqNxWjWiJQjE/edit#slide=id.g22c21d1bffc_0_509)
 - [A friendly intro to ZKP](https://zkintro.com/articles/friendly-introduction-to-zero-knowledge)
 - [Life cycle of a ZKP](https://www.zkcamp.xyz/blog/lifecycle-of-zkp)
+- [A Succinct Story of Zero Knowledge](https://nibnalin.me/assets/zk.pdf)
 
 ## Intermediate
 
