@@ -83,6 +83,8 @@ A compilation of materials that showcase various applications of zk technology.
 - [Bridging AI/ML and web3 with ZKPs](https://mirror.xyz/privacy-scaling-explorations.eth/K88lOS4XegJGzMoav9K5bLuT9Zhn3Hz2KkhB3ITq-m8)
 - [Exploring ZKML](https://bwetzel.medium.com/zero-knowledge-machine-learning-zkml-projects-exploring-the-space-fc9d5f04fb65)
 - [Verified execution of GPT,BERT,CLIP](https://medium.com/@danieldkang/verified-execution-of-gpt-bert-clip-and-more-6acb693fd55f)
+- [Overview of ZKML](https://medium.com/@vid.kersic/demystifying-zkml-0f3dff7194b9)
+- [autonomous worlds](https://world.mirror.xyz/r09swfSb2r11uagYk34srjMH09VBGFl29Pa8k4qw3VA)
 
 ## ZK Gaming
 
@@ -94,6 +96,15 @@ A compilation of materials that showcase various applications of zk technology.
 - [ZKP for gaming: Mina](https://blog.o1labs.org/zero-knowledge-proofs-for-games-f8b690a2c1ef)
 - [Zk hunt -0xparc](https://0xparc.org/blog/zk-hunt)
 - [ZK Wordle](https://github.com/nalinbhardwaj/zordle)
+
+## ZK ID
+
+- [Introduction](https://medium.com/@scalingx/zkid-a-step-towards-privacy-preserving-digital-identity-ff0c194a8940)
+- [PolygonID](https://polygonid.com)
+- [Sismo](https://www.sismo.io)
+- [Zpass](https://zpass.aleo.org)
+- [worldcoin id](https://worldcoin.org)
+- [Anon-Aadhar](https://github.com/privacy-scaling-explorations/anon-aadhaar)
 
 ## Ecosystem with ZK applications
 

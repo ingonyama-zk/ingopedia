@@ -8,8 +8,9 @@
   - [Justin Thaler Lecture](https://youtu.be/uFhppTJfjiY)
   - [Sumcheck Overview](https://people.cs.georgetown.edu/jthaler/sumcheck.pdf)
   - [Intro to Sumcheck protocol -oxsage](https://medium.com/yearofzk/rust-guide-sum-check-protocol-18ceb8affdb2)
-  - [Inuition behind sumcheck - Wong](https://cryptologie.net/article/577/the-intuition-behind-the-sum-check-protocol-in-5-minutes/)
+- [Inuition behind sumcheck - Wong](https://cryptologie.net/article/577/the-intuition-behind-the-sum-check-protocol-in-5-minutes/)
 - [Sumcheck argument and applications](https://eprint.iacr.org/2021/333.pdf)
+  - [The amazing sumcheck protocol - Bootle](https://www.youtube.com/embed/TmSOC8FN2GE)
 - [Proving AIR with MultiLinear Sumcheck - Borgeaud](https://solvable.group/posts/air-multivariate-sumcheck/)
 - [The Power of Interactive Proofs](https://www.comp.nus.edu.sg/~prashant/teaching/CS6230/files/notes/lecture02.pdf)
 - [Sumcheck Tutorial](https://semiotic.ai/articles/sumcheck-tutorial/)
@@ -18,6 +19,8 @@
 - [A Zero Knowledge Sumcheck and its Applications](https://eprint.iacr.org/2017/305.pdf)
 - [Arkworks Sumcheck](https://github.com/arkworks-rs/sumcheck)
 - [Formal Verification of the Sumcheck Protocol](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/611002/GarviaBosshard_Azucena.pdf?sequence=1&isAllowed=y)
+- [Sumcheck over fields of small charecteristic](https://people.cs.georgetown.edu/jthaler/small-sumcheck.pdf)
+
 
 ## Low degree Testing/FRI
 
@@ -32,7 +35,8 @@
 
 ## Lookup arguments
 
-- [A brief history of lookup arguments](https://github.com/ingonyama-zk/papers/blob/main/Marlin_and_me.pdf)
+- [A brief history of lookup arguments](https://github.com/ingonyama-zk/papers/blob/main/lookups.pdf)
+- [Plonkup blog - lambdaclass](https://blog.lambdaclass.com/lookups)
 
 ## Aggregations and recursions
 

@@ -45,3 +45,4 @@ Understanding ZK from beginner to advanced on a surface level.
 - [ZKP - Modular approach -Yuval Ishai](https://zkproof.org/author/yuvalishai/)
 - [Misconceptions in ZK-Snarks - Thaler](https://a16zcrypto.com/posts/article/17-misconceptions-about-snarks/)
 - [Introduction to range proofs](https://tech.mystenlabs.com/zero-knowledge-range-proofs/)
+- [Whats next in programmable cryptography](https://mirror.xyz/privacy-scaling-explorations.eth)

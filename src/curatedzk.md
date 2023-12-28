@@ -43,6 +43,8 @@ A collection of libraries where you can create a ZKP.
 - [Circom: creating zk circuits](https://github.com/iden3/circom)
   - [Circom tutorials by 0xparc](http://learn.0xparc.org/materials/circom/prereq-materials/intro/)
 - [Halo 2 - library](https://zcash.github.io/halo2/index.html)
+  - [Halo2 source code guide](https://trapdoortech.medium.com/zero-knowledge-proof-a-guide-to-halo2-source-code-9be0cf792f18)
+  - [Guide to halo2 API](https://docs.google.com/presentation/d/1HUJPHXaqbmVsnmI331mJn9nRuZkeHQZkIMpWBOJ1itk/edit#slide=id.p13)
   - [Awesome: Halo2](https://github.com/adria0/awesome-halo2)
   - [Halo2 club](https://halo2.club)
   - [Latest development in Halo2](https://www.youtube.com/watch?v=V1RgGn1GtqM)

@@ -1,5 +1,6 @@
 # Hash functions
 
+- [How to choose our zk friendly hash](https://www.taceo.io/2023/10/10/how-to-choose-your-zk-friendly-hash-function)
 - **ZK hashes- General**
   - [ZKP friendly hash functions: SOK](https://github.com/ingonyama-zk/papers/blob/main/sok_zk_friendly_hashes.pdf)
   - [Whats the deal with hashes: zk hack](https://zeroknowledge.fm/250-2/)
