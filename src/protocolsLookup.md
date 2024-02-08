@@ -8,4 +8,4 @@
 |Baloo - 2022|[ →📝 ](https://eprint.iacr.org/2022/1565)|
 |CQ - 2022|[ →📝 ](https://eprint.iacr.org/2022/1763)|[Geometry](https://github.com/geometryresearch/cq)
 |CqLin - 2023|[ →📝 ](https://eprint.iacr.org/2023/393)|
-|Lasso - 2023|[ →📝 ](https://eprint.kobi.one/2023/1216)||Introducing Lasso and Jolt[[1]](https://a16zcrypto.com/posts/article/introducing-lasso-and-jolt/)</li><li>Boosting LassoJolt [[2]](https://a16zcrypto.com/posts/article/boosting-lassojolt) </li><li>A Technical FAQ on LassoJolt [[3]](https://a16zcrypto.com/posts/article/a-technical-faq-on-lasso-jolt-and-recent-advancements-in-snark-design)|||
+|Lasso - 2023|[ →📝 ](https://eprint.kobi.one/2023/1216)||Introducing Lasso and Jolt[[1]](https://a16zcrypto.com/posts/article/introducing-lasso-and-jolt/)</li><li>Boosting LassoJolt [[2]](https://a16zcrypto.com/posts/article/boosting-lassojolt) </li><li>A Technical FAQ on LassoJolt [[3]](https://a16zcrypto.com/posts/article/a-technical-faq-on-lasso-jolt-and-recent-advancements-in-snark-design) </li><li>Efficient multilinear PCS in Lasso and Jolt [[4]](https://www.hungrycats.studio/posts/lookups-ml-pcs/)|||

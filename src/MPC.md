@@ -14,3 +14,6 @@
 - [Zero-Knowledge Proofs on Secret-Shared Data via Fully Linear PCPs](https://eprint.iacr.org/2019/188.pdf)
 - [Prio: Private, Robust, and Scalable Computation of Aggregate Statistics](https://arxiv.org/pdf/1703.06255.pdf)
 - [ATLAS (Goyal, CMU) Efficient and Scalable MPC in the Honest Majority Setting](https://eprint.iacr.org/2021/833)
+- [MPC from Scratch](https://x.com/gf_256/status/1755077442060886113?t=BTQ7ZsU-IQKgt4RrXvEJLA&s=31)
+  - [blog](https://www.zellic.io/blog/mpc-from-scratch/)
+  - [code](https://github.com/stong/mpc-from-scratch?tab=readme-ov-file)

@@ -9,6 +9,7 @@
   - [Sumcheck Overview](https://people.cs.georgetown.edu/jthaler/sumcheck.pdf)
   - [Intro to Sumcheck protocol -oxsage](https://medium.com/yearofzk/rust-guide-sum-check-protocol-18ceb8affdb2)
 - [Inuition behind sumcheck - Wong](https://cryptologie.net/article/577/the-intuition-behind-the-sum-check-protocol-in-5-minutes/)
+- [A zeroknowledge sumcheck and applications](https://eprint.iacr.org/2017/305.pdf)
 - [Sumcheck argument and applications](https://eprint.iacr.org/2021/333.pdf)
   - [The amazing sumcheck protocol - Bootle](https://www.youtube.com/embed/TmSOC8FN2GE)
 - [Proving AIR with MultiLinear Sumcheck - Borgeaud](https://solvable.group/posts/air-multivariate-sumcheck/)
@@ -19,8 +20,13 @@
 - [A Zero Knowledge Sumcheck and its Applications](https://eprint.iacr.org/2017/305.pdf)
 - [Arkworks Sumcheck](https://github.com/arkworks-rs/sumcheck)
 - [Formal Verification of the Sumcheck Protocol](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/611002/GarviaBosshard_Azucena.pdf?sequence=1&isAllowed=y)
+- [Succinct Arguments over Towers of Binary Fields](https://eprint.iacr.org/2023/1784)
 - [Sumcheck over fields of small charecteristic](https://people.cs.georgetown.edu/jthaler/small-sumcheck.pdf)
-
+  - [Code](https://gitlab.com/UlvetannaOSS/binius?ref=blog.lambdaclass.com)
+  - [Video](https://www.youtube.com/watch?v=BeEuphrUipk&list=PLj80z0cJm8QHm_9BdZ1BqcGbgE-BEn-3Y)
+  - [Part 1 - Lambdaclass](https://blog.lambdaclass.com/snarks-on-binary-fields-binius/)
+  - [Part 2 - Lambdaclass](https://blog.lambdaclass.com/binius-part-2/)
+- [Explaining the GKR method - Gabizon](https://www.youtube.com/watch?v=REVXWyQjmPQ)
 
 ## Low degree Testing/FRI
 

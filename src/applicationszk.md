@@ -85,6 +85,7 @@ A compilation of materials that showcase various applications of zk technology.
 - [Verified execution of GPT,BERT,CLIP](https://medium.com/@danieldkang/verified-execution-of-gpt-bert-clip-and-more-6acb693fd55f)
 - [Overview of ZKML](https://medium.com/@vid.kersic/demystifying-zkml-0f3dff7194b9)
 - [autonomous worlds](https://world.mirror.xyz/r09swfSb2r11uagYk34srjMH09VBGFl29Pa8k4qw3VA)
+- [Benchmarking ZKML frameworks](https://blog.ezkl.xyz/post/benchmarks/)
 
 ## ZK Gaming
 

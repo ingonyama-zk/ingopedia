@@ -44,3 +44,7 @@ A collection of resources explaining Starks.
     - [documentation](https://eprint.iacr.org/2021/582.pdf)
 - [Stone Prover](https://github.com/starkware-libs/stone-prover)
   - [An overview](https://blog.lambdaclass.com/overview-of-the-stone-prover/)
+
+## Stark security
+
+- [STARK round by round soundness and security - Ben Sasson](https://ethresear.ch/t/stark-round-by-round-soundness-and-security-in-random-oracle-model/18096)

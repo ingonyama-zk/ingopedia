@@ -74,6 +74,11 @@ Our hands-on approach to learning ZK proofs provides interactive and practical t
 - [Data engg with rust](https://datawithrust.com)
 - [Circomscribe - learn circom](https://www.zksecurity.xyz/blog/posts/circomscribe/)
 
+## GPU- CUDA learning resources
+
+- [GPU-Puzzles](https://github.com/srush/GPU-Puzzles)
+
+
 ## Benchmarking tools
 
 - [code](https://github.com/delendum-xyz/zk-benchmarking)

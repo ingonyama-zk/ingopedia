@@ -3,6 +3,13 @@
 Check out blogs, papers, pieces, and videos published by the Ingonyama Team
 
 ---
+### **Sumcheck 201**
+
+- [Medium Link](https://medium.com/@ingonyama/sumcheck-201-12e4f42eb669)
+  
+### **Application of Graph Methods for Efficient Quotient Polynomial Evaluation in Halo2**
+
+- [Medium Link](https://medium.com/@ingonyama/application-of-graph-methods-for-efficient-quotient-polynomial-evaluation-in-halo2-b5da62633efc)
 
 ### **Fast Danksharding Video & Slides**
 

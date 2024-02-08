@@ -4,6 +4,7 @@
   - [Overview of commitment schemes: Justin Drakes](https://youtu.be/bz16BURH_u8)
   - [Comparison of Commitment Schemes](https://hackernoon.com/kzg10-ipa-fri-and-darks-analysis-of-polynomial-commitment-schemes)
   - [review of polynomial commmitments](https://research.polytope.technology/polynomial-commitments)
+  - [Benchmarking multilinear PCS](https://www.hungrycats.studio/posts/benching-pcs/)
 - **KZG**
   - [KZG commitments](https://alinush.github.io/2020/05/06/kzg-polynomial-commitments.html)
   - [KZG - Suyash](https://hackmd.io/@suyash67/BydEa7DaK)
@@ -18,6 +19,11 @@
   - [Universal verification equation for data availability sampling](https://ethresear.ch/t/a-universal-verification-equation-for-data-availability-sampling/13240)
   - [KZG friendly curves: El Housseini](https://ethresear.ch/t/yet-another-curve-but-the-curve-for-your-kzg/12861)
   - [KZG in practice: Scroll](https://scroll.io/blog/kzg#heading-0)
+- **Merkle commitment** 
+  - [Sparse Merkle trees](https://docs.iden3.io/publications/pdfs/Merkle-Tree.pdf)
+  - [Merkle Commitment scheme](https://courses.cs.ut.ee/MTAT.07.003/2019_fall/uploads/Main/0701-merkle-trees.pdf)
+  - [Field Merkle Tree](https://hackmd.io/@0xKanekiKen/H1ww-qWKa)
+  - [Merkle trees and proof of inclusion](https://www.derpturkey.com/merkle-tree-construction-and-proof-of-inclusion/)
 - **Vector Commitments**
   - [Verkle Trie - Dankrad Feist](https://dankradfeist.de/ethereum/2021/06/18/verkle-trie-for-eth1.html)
   - [Aggregatable vector sub commitments](https://alinush.github.io/2020/05/06/aggregatable-subvector-commitments-for-stateless-cryptocurrencies.html#aggregating-proofs-into-subvector-profs)
