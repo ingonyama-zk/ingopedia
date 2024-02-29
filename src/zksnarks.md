@@ -6,7 +6,7 @@ A collection of resources explaining ZKSnarks.
 
 ## Trusted Setup
 
-- [Introduction -Vitalik](https://vitalik.ca/general/2022/03/14/trustedsetup.html)
+- [Introduction -Vitalik](https://vitalik.eth.limo/2022/03/14/trustedsetup.html)
 - [Aztec Ceremony](https://medium.com/aztec-protocol/aztec-how-the-ceremony-works-9f021cf190d0)
 - [Trusted setup - Tau](https://zeroknowledge.fm/the-power-of-tau-or-how-i-learned-to-stop-worrying-and-love-the-setup/)
 - [Setup ceremonies](https://zkproof.org/2021/06/30/setup-ceremonies/)
