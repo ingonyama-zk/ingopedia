@@ -18,7 +18,7 @@ Understanding ZK from beginner to advanced on a surface level.
 
 ## Intermediate
 
-- [An introduction to how zk snarks are possible - Vitalik](https://vitalik.ca/general/2021/01/26/snarks.html)
+- [An introduction to how zk snarks are possible - Vitalik](https://vitalik.eth.limo/general/2021/01/26/snarks.html)
 - [Zk blog](http://www.zeroknowledgeblog.com/index.php)
 - [Math survival kit for zk developers - lambdaclass](https://www.notamonadtutorial.com/math-survival-kit-for-developers/)
 - [Understanding polynomials](https://www.zkcamp.xyz/blog/you-cant-understand-zkps-without-understanding-polynomials)
@@ -37,7 +37,7 @@ Understanding ZK from beginner to advanced on a surface level.
 - [Zk_primer_2 M.Green](https://blog.cryptographyengineering.com/2017/01/21/zero-knowledge-proofs-an-illustrated-primer-part-2/)
 - [Zero Knowledge: A tutorial by Oded Goldreich](https://www.wisdom.weizmann.ac.il/~oded/PS/zk-tut10.ps)
 - [Cryptographic Protocls: lectures](https://www.win.tue.nl/~berry/CryptographicProtocols/LectureNotes.pdf)
-- [Using zkSnarks for privacy: Vitalik](https://vitalik.ca/general/2022/06/15/using_snarks.html)
+- [Using zkSnarks for privacy: Vitalik](https://vitalik.eth.limo/general/2022/06/15/using_snarks.html)
 - [STARK vs SNARK](https://consensys.net/blog/blockchain-explained/zero-knowledge-proofs-starks-vs-snarks/)
 - [SNARK vs STARK vs Bulletproofs](https://ethereum.stackexchange.com/questions/59145/zk-snarks-vs-zk-starks-vs-bulletproofs-updated/63778#63778)
 - [ZKp from Information theoretic Proof systems 1 - Yuval Ishai](https://zkproof.org/2020/08/12/information-theoretic-proof-systems/)
