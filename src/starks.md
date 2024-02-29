@@ -20,9 +20,9 @@ A collection of resources explaining Starks.
 ## Stark tutorials
 
 - **Vitalik**
-  - [Starks 1 proofs with polynomials](https://vitalik.ca/general/2017/11/09/starks_part_1.html)
-  - [Starks 2](https://vitalik.ca/general/2017/11/22/starks_part_2.html)
-  - [Starks 3](https://vitalik.ca/general/2018/07/21/starks_part_3.html)
+  - [Starks 1 proofs with polynomials](https://vitalik.eth.limo/general/2017/11/09/starks_part_1.html)
+  - [Starks 2](https://vitalik.eth.limo/general/2017/11/22/starks_part_2.html)
+  - [Starks 3](https://vitalik.eth.limo/general/2018/07/21/starks_part_3.html)
 - **Stark math series**
   - [Journey Begins](https://medium.com/starkware/stark-math-the-journey-begins-51bd2b063c71)
   - [Arithmetization I](https://medium.com/starkware/arithmetization-i-15c046390862)
