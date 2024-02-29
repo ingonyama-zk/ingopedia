@@ -2,7 +2,7 @@
 
 ## Algorithms and methods
 
-- [FFT - Vitalik](https://vitalik.ca/general/2019/05/12/fft.html)
+- [FFT - Vitalik](https://vitalik.eth.limo/general/2019/05/12/fft.html)
 - [Reed-Solomon code: Vitalik](https://ethresear.ch/t/reed-solomon-erasure-code-recovery-in-n-log-2-n-time-with-ffts/3039)
 - [FFT Notes](https://www.csee.umbc.edu/~phatak/691a/fft-lnotes/fftnotes.pdf)
 - [The Fast Fourier Transform in a Finite Field - Pollard](https://www.ams.org/journals/mcom/1971-25-114/S0025-5718-1971-0301966-0/S0025-5718-1971-0301966-0.pdf)
