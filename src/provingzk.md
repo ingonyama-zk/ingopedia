@@ -38,6 +38,7 @@
 - [FRI erasure code fraud proof](https://ethresear.ch/t/fri-as-erasure-code-fraud-proof/6610)
 - [Barycentric low deg check - Dankrad Feist](https://notes.ethereum.org/@dankrad/barycentric_low_degree_check)
 - [Low Degree Testing](https://medium.com/starkware/low-degree-testing-f7614f5172db)
+- [Data Availability sampling from FRI](https://eprint.iacr.org/2024/248)
 
 ## Lookup arguments
 
@@ -53,6 +54,7 @@
 
 ## Folding and accumulation schemes
 
+- [Algebraic reductions of knowledge](https://eprint.iacr.org/2022/009.pdf)
 - [Resource: Awesome Folding](https://github.com/lurk-lab/awesome-folding)
 - [How to build a snark that is out of this world - Nat Bunner](https://hackmd.io/@ndbunner/B1hmeoGEn)
 - [An incomplete guide to FOlding schemes - Lisa](https://taiko.mirror.xyz/tk8LoE-rC2w0MJ4wCWwaJwbq8-Ih8DXnLUf7aJX1FbU)

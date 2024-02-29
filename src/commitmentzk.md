@@ -19,6 +19,8 @@
   - [Universal verification equation for data availability sampling](https://ethresear.ch/t/a-universal-verification-equation-for-data-availability-sampling/13240)
   - [KZG friendly curves: El Housseini](https://ethresear.ch/t/yet-another-curve-but-the-curve-for-your-kzg/12861)
   - [KZG in practice: Scroll](https://scroll.io/blog/kzg#heading-0)
+  - [Constant-Size zk-SNARKs in ROM from Falsifiable Assumptions](https://eprint.iacr.org/2024/173)
+    - [Knowledge soundness of KZG](https://twitter.com/rel_zeta_tech/status/1754844721212522793?s=61&t=fp9M5oimOITfDrZMsTnKNw)
 - **Merkle commitment** 
   - [Sparse Merkle trees](https://docs.iden3.io/publications/pdfs/Merkle-Tree.pdf)
   - [Merkle Commitment scheme](https://courses.cs.ut.ee/MTAT.07.003/2019_fall/uploads/Main/0701-merkle-trees.pdf)

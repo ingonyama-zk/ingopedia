@@ -32,6 +32,7 @@
 - [Cofactor explained: Elliptic curves dirty little secret](https://loup-vaillant.fr/tutorials/cofactor)
 - [Applications of Riemann Roch theorem in cryptography - Borgeaud](https://solvable.group/posts/riemann-roch-crypto/)
 - [Quaternion algebras and Isogeny based cryptography](https://www.lix.polytechnique.fr/Labo/Antonin.LEROUX/manuscrit_these.pdf)
+- [Notes on Discrete log](https://math.mit.edu/classes/18.783/2022/LectureNotes9.pdf)
 
 ## Pairings
 

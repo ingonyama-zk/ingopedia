@@ -86,6 +86,9 @@ A compilation of materials that showcase various applications of zk technology.
 - [Overview of ZKML](https://medium.com/@vid.kersic/demystifying-zkml-0f3dff7194b9)
 - [autonomous worlds](https://world.mirror.xyz/r09swfSb2r11uagYk34srjMH09VBGFl29Pa8k4qw3VA)
 - [Benchmarking ZKML frameworks](https://blog.ezkl.xyz/post/benchmarks/)
+- [Cost of intelligence - proving ML inference with ZK](https://github.com/Modulus-Labs/Papers/blob/master/Cost_Of_Intelligence.pdf)
+  - [Scaling Intelligence - Verifiable decision forest inference with remainder](https://github.com/Modulus-Labs/Papers/blob/master/remainder-paper.pdf)
+- [Verifiable evaluations of ML models using ZKSnarks](https://arxiv.org/abs/2402.02675)
 
 ## ZK Gaming
 
@@ -97,6 +100,7 @@ A compilation of materials that showcase various applications of zk technology.
 - [ZKP for gaming: Mina](https://blog.o1labs.org/zero-knowledge-proofs-for-games-f8b690a2c1ef)
 - [Zk hunt -0xparc](https://0xparc.org/blog/zk-hunt)
 - [ZK Wordle](https://github.com/nalinbhardwaj/zordle)
+- [ZkDoom](https://github.com/risc0/demos/tree/main/zkdoom)
 
 ## ZK ID
 
