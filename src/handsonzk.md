@@ -49,7 +49,7 @@ Our hands-on approach to learning ZK proofs provides interactive and practical t
 ## Challenges and hackathons
 
 - [Berkeley RDI ZKP-Web3 hackathon](https://zk-hacking.org/#)
-- [Zk hack puzzles](https://www.zkhack.dev/mini.html)
+- [Zk hack puzzles](https://zkhack.dev/puzzles/)
 - [Ingonyama ZK CTF-May 2023](https://github.com/ingonyama-zk/zkctf-2023-writeups)
 - [List of open problems in Crypto II](https://crypto.mirror.xyz/hl284jc3A2MI_QeTE39nRsTPihOigNuLKIWjiU2pFzw)
 

@@ -27,8 +27,9 @@
   - [Part 1 - Lambdaclass](https://blog.lambdaclass.com/snarks-on-binary-fields-binius/)
   - [Part 2 - Lambdaclass](https://blog.lambdaclass.com/binius-part-2/)
 - [Explaining the GKR method - Gabizon](https://www.youtube.com/watch?v=REVXWyQjmPQ)
+- [GKR based ZKP - Kalai](https://www.youtube.com/watch?v=x8pUxFptfb0)
 
-## Low degree Testing/FRI
+## Low degree Testing/Reed-Solomon Proximity testing
 
 - [STARK paper](https://eprint.iacr.org/2018/046.pdf)
 - [DEEP - FRI](https://eprint.iacr.org/2019/336.pdf)
@@ -39,6 +40,8 @@
 - [Barycentric low deg check - Dankrad Feist](https://notes.ethereum.org/@dankrad/barycentric_low_degree_check)
 - [Low Degree Testing](https://medium.com/starkware/low-degree-testing-f7614f5172db)
 - [Data Availability sampling from FRI](https://eprint.iacr.org/2024/248)
+- [Circle STARKS](https://eprint.iacr.org/2024/278)
+- [STIR: Reed–Solomon Proximity Testing with Fewer Queries](https://eprint.kobi.one/2024/390)
 
 ## Lookup arguments
 

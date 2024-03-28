@@ -4,6 +4,7 @@ Potential vulnerabilities and security in ZK systems
 
 ---
 
+- [SoK: What don't we know? Understanding Security Vulnerabilities in SNARKs](https://arxiv.org/abs/2402.15293)
 - [ZK bug tracker by0xparc](https://github.com/0xPARC/zk-bug-tracker)
   - [bug tracker intro](https://www.youtube.com/watch?v=1RQSwj8h8rM)
 - [Vulnerabilities in zk systems](https://blog.trailofbits.com/2022/04/13/part-1-coordinated-disclosure-of-vulnerabilities-affecting-girault-bulletproofs-and-plonk/)

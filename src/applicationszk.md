@@ -89,6 +89,7 @@ A compilation of materials that showcase various applications of zk technology.
 - [Cost of intelligence - proving ML inference with ZK](https://github.com/Modulus-Labs/Papers/blob/master/Cost_Of_Intelligence.pdf)
   - [Scaling Intelligence - Verifiable decision forest inference with remainder](https://github.com/Modulus-Labs/Papers/blob/master/remainder-paper.pdf)
 - [Verifiable evaluations of ML models using ZKSnarks](https://arxiv.org/abs/2402.02675)
+- [An overview of Decentralized inference](https://medium.com/dragonfly-research/dont-trust-verify-an-overview-of-decentralized-inference-c471a9f7a586)
 
 ## ZK Gaming
 
