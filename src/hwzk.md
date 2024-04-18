@@ -33,3 +33,9 @@
 
 - [TEE for CPU and GPU Nvidia](https://github.com/NVIDIA/nvtrust)
 - [TEE for blockchain applications](https://www.youtube.com/watch?v=Xq7oWtiwWII)
+
+## Niche tricks
+
+- [Cache oblivious algorithms](https://catonmat.net/wp-content/uploads/2009/07/cacheobliviousalgorithmsanddatastructures.pdf)
+- [Cache skipping](https://developer.nvidia.com/blog/improving-gpu-performance-by-reducing-instruction-cache-misses/)
+- [Techniques for caches in GPUs](http://www.ziti.uni-heidelberg.de/ziti/uploads/ce_group/seminar/2015-Guenther_Schindler.pdf)

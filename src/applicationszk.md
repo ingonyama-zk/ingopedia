@@ -17,6 +17,7 @@ A compilation of materials that showcase various applications of zk technology.
 
 - **General**
   - [What is a ZK EVM](https://www.alchemy.com/overviews/zkevm)
+  - [Parallel ZKVM](https://eprint.iacr.org/2024/387.pdf)
   - [zkEVM community edition](https://mirror.xyz/privacy-scaling-explorations.eth/I5BzurX-T6slFaPbA4i3hVrO7U2VkBR45eO-N3CSnSg)
   - [Ethworks: Blockchain scaling](https://ethworks.io/assets/download/zero-knowledge-blockchain-scaling-ethworks.pdf)
   - [Ethereum-powered ZK-Rollups: World Beaters](https://hackmd.io/QkOUJ-UJQ-CJ7cs_yx6_GA)
@@ -29,6 +30,7 @@ A compilation of materials that showcase various applications of zk technology.
   - [An overview of Danksharding](https://a16zcrypto.com/content/article/an-overview-of-danksharding-and-a-proposal-for-improvement-of-das/)
   - [Zk evm comparison guide](https://blog.jarrodwatts.com/the-ultimate-zk-evm-comparison-guide)
   - [BrainSTARK](https://aszepieniec.github.io/stark-brainfuck/)
+  - [Enhancing VM efficiency in parallel envs](https://blog.lambdaclass.com/beyond-single-core-enhancing-vm-efficiency-in-parallel-environments/)
 
 - **EVM/VMs**
   - [Aztec protocol](https://aztec.network)
@@ -54,6 +56,9 @@ A compilation of materials that showcase various applications of zk technology.
   - [OlaVM](https://sin7y.org/)
   - [zkWasm](http://www.delphinuslab.com/)
   - [Loopring](https://loopring.org/#/about)
+  - [NexusVM](https://github.com/nexus-xyz/nexus-zkvm)
+  - [SP1](https://github.com/succinctlabs/sp1)
+    - [book](https://succinctlabs.github.io/sp1/)
 
 ## ZK bridges
 

@@ -9,4 +9,7 @@ Sangria - 2023|[→📝](https://github.com/geometryresearch/technical_notes/blo
 Protostar - 2023|[→📝](https://eprint.iacr.org/2023/620)||[Deep dive into Protostar paper & protocol - Binyi Chen](https://www.youtube.com/watch?v=tt00TLFJPpc&list=PLV91V4b0yVqS1d_Vpoh40hodcQd8kMQD4&index=3)
 Protogalaxy - 2023|[→📝](https://eprint.iacr.org/2023/1106)||[Notes on ProtoGalaxy](https://arnaucube.com/blog/protogalaxy.html)||
 CycleFold - 2023|[→📝](https://eprint.iacr.org/2023/1106)|||||
+BaseFold|[→📝](https://eprint.iacr.org/2023/1705)
 Proofs for deep thought - 2024| [→📝](https://eprint.iacr.org/2024/325)|||||
+Latticefold| [→📝](https://eprint.iacr.org/2024/257.pdf)|||||
+Accumulation without homomorphism | [→📝](https://eprint.iacr.org/2024/474)|||||
