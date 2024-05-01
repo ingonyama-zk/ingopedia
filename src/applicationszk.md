@@ -95,6 +95,7 @@ A compilation of materials that showcase various applications of zk technology.
   - [Scaling Intelligence - Verifiable decision forest inference with remainder](https://github.com/Modulus-Labs/Papers/blob/master/remainder-paper.pdf)
 - [Verifiable evaluations of ML models using ZKSnarks](https://arxiv.org/abs/2402.02675)
 - [An overview of Decentralized inference](https://medium.com/dragonfly-research/dont-trust-verify-an-overview-of-decentralized-inference-c471a9f7a586)
+- [Analysis of leading ZKML frameworks on neural networks](https://hackmd.io/@Guy1m0/B1G8YyE3a)
 
 ## ZK Gaming
 

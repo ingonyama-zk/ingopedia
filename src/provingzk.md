@@ -43,6 +43,10 @@
 - [Circle STARKS](https://eprint.iacr.org/2024/278)
 - [STIR: Reed–Solomon Proximity Testing with Fewer Queries](https://eprint.kobi.one/2024/390)
 
+## Permutation arguments
+
+- [PLonk's permutation - a definitive explanation](https://www.cryptologie.net/article/610/plonks-permutation/)
+
 ## Lookup arguments
 
 - [A brief history of lookup arguments](https://github.com/ingonyama-zk/papers/blob/main/lookups.pdf)
@@ -54,6 +58,7 @@
   - [blog](https://research.protocol.ai/blog/2021/snarkpack-how-to-aggregate-snarks-efficiently/)
   - [talk](https://www.esat.kuleuven.be/cosic/blog/rwc-2022-snarkpack-practical-snark-aggregation/)
   - [talk](https://docs.zkproof.org/pages/standards/slides-w4/SNARKpack.pdf)
+-[Proof aggregation techniques - lambdaclass](https://blog.lambdaclass.com/proof-aggregation-techniques/)
 
 ## Folding and accumulation schemes
 
@@ -66,3 +71,5 @@
 ## General
 
 - [Succinct Proofs and Linear Algebra](https://angeris.github.io/papers/zk-linalg.pdf)
+- [SOK: Range proofs](https://eprint.iacr.org/2024/430)
+

@@ -49,6 +49,7 @@
 - [optimizing emulated pairings](https://hackmd.io/@ivokub/SyJRV7ye2)
 - [Estimating the bit security of pairing friendly curves](https://research.nccgroup.com/2022/03/02/estimating-the-bit-security-of-pairing-friendly-curves/)
 - [optimizing pairing based cryptography, montgomery arithmetic in rust](https://research.nccgroup.com/2021/06/09/optimizing-pairing-based-cryptography-montgomery-arithmetic-in-rust/)
+- [On proving pairings - Eagen and Novakovic](https://eprint.iacr.org/2024/640)
 
 ## Specific curves
 

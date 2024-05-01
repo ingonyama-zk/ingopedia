@@ -28,3 +28,4 @@ Potential vulnerabilities and security in ZK systems
 - [VSS forgery](https://www.jcraige.com/vss-forgery)
 - [Boomerang values in ZK](https://www.zksecurity.xyz/blog/posts/boomerang/)
 - [GPUz.zip Sidechannel attacks on GPUs](https://www.hertzbleed.com/gpu.zip/)
+- [Last challenge attack](https://eprint.iacr.org/2024/398)
