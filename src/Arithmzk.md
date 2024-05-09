@@ -3,7 +3,7 @@
 - **General**
   - [Arithmetic Circuits: A survey](https://www.cs.tau.ac.il/~shpilka/publications/SY10.pdf)
   - [Complexity Zoo](https://complexityzoo.net/Complexity_Zoo)
-  - [Arithmetization schemes for snarks](https://www.notamonadtutorial.com/arithmetization-schemes-for-zk-snarks/)
+  - [Arithmetization schemes for snarks](https://blog.lambdaclass.com/arithmetization-schemes-for-zk-snarks/)
   - [Grobner basis used in circuits](https://hackmd.io/25ZAEomYRjKEsHi61CbWiw?view)
   - [Circomscribe - learn circom](https://www.zksecurity.xyz/blog/posts/circomscribe/)
 - **R1CS constraint system**
