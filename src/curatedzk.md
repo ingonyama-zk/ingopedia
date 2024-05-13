@@ -78,7 +78,7 @@ A collection of libraries where you can create a ZKP.
 - [Snarky frontend](https://github.com/o1-labs/snarky)
 - [Constantine](https://github.com/mratsim/constantine)
 - [Cairo](https://github.com/starkware-libs/cairo)
-  - [Cairo resource](https://cairo-book.github.io)
+  - [Cairo resource](https://www.cairo-lang.org/resources/)
 
 ## HW libraries
 

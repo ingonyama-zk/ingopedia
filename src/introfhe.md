@@ -4,7 +4,7 @@
 
 ## **UNDER CONSTRUCTION** 👷
 
-## Inroductory
+## Introductory
 
 - [Encrypted search using FHE](https://medium.com/zama-ai/encrypted-search-using-fully-homomorphic-encryption-99cd163b94)
 - [Exploring FHE: Vitalik](https://notes.ethereum.org/@vbuterin/r19UMPTiI)
