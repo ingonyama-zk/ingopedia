@@ -26,10 +26,12 @@ A collection of links and Almanacs breaking down ZKPs and related topics.
   - [NFT canon](https://future.com/nft-canon/)
   - [Crypto Canon](https://a16z.com/2018/02/10/crypto-readings-resources/)
 - [Moonmath manual](https://leastauthority.com/community-matters/moonmath-manual/)
+- [Rareskills ZKP book](https://www.rareskills.io/zk-book)
 - [ZKP knowledge base: Delendum](https://kb.delendum.xyz)
 - [ZKP beginner resources](https://community.zeroknowledge.fm/t/learning-zkps-beginner-resources/302/19)
 - [Proofs Arguments and Zero Knowledge - Justin Thaler](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
   - [Discord group](https://discord.com/channels/740913612368904192/972174269146611752)
+- [Hash based SNARGs book - Chiesa and Yogev](https://github.com/hash-based-snargs-book/hash-based-snargs-book)
 - [Awesome ZKEVM](https://github.com/LuozhuZhang/awesome-zkevm)
 - [Awesome lattice FPGA's](https://github.com/kelu124/awesome-latticeFPGAs)
 
@@ -80,15 +82,28 @@ A collection of libraries where you can create a ZKP.
 - [Cairo](https://github.com/starkware-libs/cairo)
   - [Cairo resource](https://www.cairo-lang.org/resources/)
 
+## Math/Crypto libraries
+
+- [FLINT - number theory](https://flintlib.org/doc/index.html)
+- [CryptoPP](https://github.com/weidai11/cryptopp)
+- [nalgebra - linear algebra for rust](https://github.com/dimforge/nalgebra)
+- [NTL lattice lib](https://github.com/libntl/ntl)
+
 ## HW libraries
 
-### GPU
+### GPU for ZK
 
 - [ICICLE](https://github.com/ingonyama-zk/icicle)
-  - [Danksharding application](https://www.ingonyama.com/blog/fast-danksharding-using-icicle)
 - [SPPARK](https://github.com/supranational/sppark)
 
-### FPGA
+### learn GPUs/FPGAs
+
+- [ICICLE cuda mini course](https://github.com/ingonyama-zk/icicle/tree/mini-course/icicle/src/mini-course-examples)
+- [tinyGPU - tutorials](https://github.com/adam-maj/tiny-gpu)
+- [GPU puzzles](https://github.com/srush/GPU-Puzzles)
+- [fpga4fun.com](https://www.fpga4fun.com/HDLtutorials.html)
+
+### FPGA for ZK
 
 - [BLAZE](https://github.com/ingonyama-zk/blaze)
   - [Blaze developer walkthrough](https://medium.com/@ingonyama/introducing-blaze-zk-acceleration-for-fpga-6f5f7cc50e1f)

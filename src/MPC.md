@@ -17,3 +17,5 @@
 - [MPC from Scratch](https://x.com/gf_256/status/1755077442060886113?t=BTQ7ZsU-IQKgt4RrXvEJLA&s=31)
   - [blog](https://www.zellic.io/blog/mpc-from-scratch/)
   - [code](https://github.com/stong/mpc-from-scratch?tab=readme-ov-file)
+- [Notes on collaborative ZK-SNARKS](https://www.leku.blog/co-snarks/)
+  - [paper](https://eprint.iacr.org/2021/1530)

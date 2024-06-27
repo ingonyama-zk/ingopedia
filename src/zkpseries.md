@@ -13,7 +13,7 @@ University and professional level courses on ZK.
 - [ZKMOOC - 2023](https://zk-learning.org/)
 - [ZK BIU school - 2019](https://www.youtube.com/playlist?list=PL8Vt-7cSFnw29cLUVqAIuMlg1QJ-szV0K)
 - [Cryptography 2018 MIT](https://www.youtube.com/playlist?list=PL6ogFv-ieghe8MOIcpD6UDtdK-UMHG8oH)
-- [Modern ZK cryptography 0xparc](https://zkiap.com/#34e5b6cf6e1d4dd3901940d4be2edb0b)
+- [Modern ZK cryptography 0xparc](https://zkiap.com)
 
 ## Discussions/Seminars
 

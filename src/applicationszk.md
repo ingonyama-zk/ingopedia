@@ -17,6 +17,8 @@ A compilation of materials that showcase various applications of zk technology.
 
 - **General**
   - [What is a ZK EVM](https://www.alchemy.com/overviews/zkevm)
+  - [New paradigm in ZK proving](https://www.mikkoikola.com/blog/2023/12/11/new-paradigm-in-ethereum-l2-scaling-multi-proving-and-zk-vms)
+  - [A zero Knowledge Paradigm - ZKVM by lita](https://www.lita.foundation/blog/zero-knowledge-paradigm-zkvm)
   - [Parallel ZKVM](https://eprint.iacr.org/2024/387.pdf)
   - [zkEVM community edition](https://mirror.xyz/privacy-scaling-explorations.eth/I5BzurX-T6slFaPbA4i3hVrO7U2VkBR45eO-N3CSnSg)
   - [Ethworks: Blockchain scaling](https://ethworks.io/assets/download/zero-knowledge-blockchain-scaling-ethworks.pdf)

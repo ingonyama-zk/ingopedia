@@ -13,7 +13,7 @@
 <!-- markdown-link-check-disable -->
 - [Zprize](https://hackmd.io/KGbmVFoYT2-Og30qjoG3ow#bfb53425-submission)
 
-## General HW resources and guides
+## General ZK-HW resources and guides
 
 - [PipeZK](https://www.microsoft.com/en-us/research/publication/pipezk-accelerating-zero-knowledge-proof-with-a-pipelined-architecture/)
 - [Algorithms for modern Hardware](https://en.algorithmica.org/hpc/)
@@ -39,3 +39,10 @@
 - [Cache oblivious algorithms](https://catonmat.net/wp-content/uploads/2009/07/cacheobliviousalgorithmsanddatastructures.pdf)
 - [Cache skipping](https://developer.nvidia.com/blog/improving-gpu-performance-by-reducing-instruction-cache-misses/)
 - [Techniques for caches in GPUs](http://www.ziti.uni-heidelberg.de/ziti/uploads/ce_group/seminar/2015-Guenther_Schindler.pdf)
+
+## Computer Architecture/ISAs
+
+- [basic computer architecture](https://www.geeksforgeeks.org/computer-organization-and-architecture-tutorials/?ref=lbp)
+- [RISCV manual](https://riscv.org/wp-content/uploads/2019/12/riscv-spec-20191213.pdf)
+- [VLIW introduction](https://web.archive.org/web/20110929113559/http://www.nxp.com/acrobat_download2/other/vliw-wp.pdf)
+- [Web Assembly](https://webassembly.github.io/spec/core/_download/WebAssembly.pdf)
