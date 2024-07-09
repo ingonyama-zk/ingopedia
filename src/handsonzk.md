@@ -73,6 +73,7 @@ Our hands-on approach to learning ZK proofs provides interactive and practical t
 - [Rust crash course](https://github.com/CleanCut/ultimate_rust_crash_course)
 - [Data engg with rust](https://datawithrust.com)
 - [Circomscribe - learn circom](https://www.zksecurity.xyz/blog/posts/circomscribe/)
+- [Ronkathon](https://github.com/pluto/ronkathon?tab=readme-ov-file)
 
 ## GPU- CUDA learning resources
 

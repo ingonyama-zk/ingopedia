@@ -41,7 +41,10 @@
 - [Low Degree Testing](https://medium.com/starkware/low-degree-testing-f7614f5172db)
 - [Data Availability sampling from FRI](https://eprint.iacr.org/2024/248)
 - [Circle STARKS](https://eprint.iacr.org/2024/278)
+  - [talk - Gabizon](https://www.youtube.com/watch?v=d1f9sBajj10)
+  - [circle starks and mersene primes](https://www.zksecurity.xyz/blog/posts/circle-starks-1/)
 - [STIR: Reed–Solomon Proximity Testing with Fewer Queries](https://eprint.kobi.one/2024/390)
+- [Note on adding ZK to starks](https://eprint.iacr.org/2024/1037)
 
 ## Permutation arguments
 

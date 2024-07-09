@@ -29,3 +29,7 @@ Potential vulnerabilities and security in ZK systems
 - [Boomerang values in ZK](https://www.zksecurity.xyz/blog/posts/boomerang/)
 - [GPUz.zip Sidechannel attacks on GPUs](https://www.hertzbleed.com/gpu.zip/)
 - [Last challenge attack](https://eprint.iacr.org/2024/398)
+- [The State of Security Tools for ZKPs](https://www.zksecurity.xyz/blog/posts/zksecurity-tools/)
+  - [paper](https://arxiv.org/abs/2402.15293)
+- [Disarming Fiat Shamir footguns](https://blog.trailofbits.com/2024/06/24/disarming-fiat-shamir-footguns/)
+  - [Decree FS library](https://github.com/trailofbits/decree)

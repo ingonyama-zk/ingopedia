@@ -11,5 +11,5 @@ Protogalaxy - 2023|[→📝](https://eprint.iacr.org/2023/1106)||[Notes on Proto
 CycleFold - 2023|[→📝](https://eprint.iacr.org/2023/1106)|||||
 BaseFold|[→📝](https://eprint.iacr.org/2023/1705)
 Proofs for deep thought - 2024| [→📝](https://eprint.iacr.org/2024/325)|||||
-Latticefold| [→📝](https://eprint.iacr.org/2024/257.pdf)|||||
+Latticefold| [→📝](https://eprint.iacr.org/2024/257.pdf)||[talk - Binyi Chen](https://www.youtube.com/watch?v=-k8s7vVUx6s&list=PLj80z0cJm8QHm_9BdZ1BqcGbgE-BEn-3Y&index=3)|||
 Accumulation without homomorphism | [→📝](https://eprint.iacr.org/2024/474)|||||
