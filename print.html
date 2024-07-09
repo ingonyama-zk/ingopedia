@@ -814,6 +814,8 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <li><a href="https://www.alchemy.com/overviews/zkevm">What is a ZK EVM</a></li>
 <li><a href="https://www.mikkoikola.com/blog/2023/12/11/new-paradigm-in-ethereum-l2-scaling-multi-proving-and-zk-vms">New paradigm in ZK proving</a></li>
 <li><a href="https://www.lita.foundation/blog/zero-knowledge-paradigm-zkvm">A zero Knowledge Paradigm - ZKVM by lita</a></li>
+<li><a href="https://www.lita.foundation/blog/a-zero-knowledge-paradigm-part-2--exploring-zk-vm-design-trade-offs">A zk paradigm 2- ZKVM by lita</a></li>
+<li><a href="https://www.lita.foundation/blog/custom-instruction-set-architecture-achieving-ultimate-efficiency-in-zk-proving">A zk paradigm 3 - ZKVM ISA by lita</a></li>
 <li><a href="https://eprint.iacr.org/2024/387.pdf">Parallel ZKVM</a></li>
 <li><a href="https://mirror.xyz/privacy-scaling-explorations.eth/I5BzurX-T6slFaPbA4i3hVrO7U2VkBR45eO-N3CSnSg">zkEVM community edition</a></li>
 <li><a href="https://ethworks.io/assets/download/zero-knowledge-blockchain-scaling-ethworks.pdf">Ethworks: Blockchain scaling</a></li>
@@ -1026,6 +1028,16 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <li><a href="https://www.zksecurity.xyz/blog/posts/boomerang/">Boomerang values in ZK</a></li>
 <li><a href="https://www.hertzbleed.com/gpu.zip/">GPUz.zip Sidechannel attacks on GPUs</a></li>
 <li><a href="https://eprint.iacr.org/2024/398">Last challenge attack</a></li>
+<li><a href="https://www.zksecurity.xyz/blog/posts/zksecurity-tools/">The State of Security Tools for ZKPs</a>
+<ul>
+<li><a href="https://arxiv.org/abs/2402.15293">paper</a></li>
+</ul>
+</li>
+<li><a href="https://blog.trailofbits.com/2024/06/24/disarming-fiat-shamir-footguns/">Disarming Fiat Shamir footguns</a>
+<ul>
+<li><a href="https://github.com/trailofbits/decree">Decree FS library</a></li>
+</ul>
+</li>
 </ul>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css">
 <h1 id="hands-on-zkcryptography"><a class="header" href="#hands-on-zkcryptography">Hands-On ZK/Cryptography</a></h1>
@@ -1110,6 +1122,7 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <li><a href="https://github.com/CleanCut/ultimate_rust_crash_course">Rust crash course</a></li>
 <li><a href="https://datawithrust.com">Data engg with rust</a></li>
 <li><a href="https://www.zksecurity.xyz/blog/posts/circomscribe/">Circomscribe - learn circom</a></li>
+<li><a href="https://github.com/pluto/ronkathon?tab=readme-ov-file">Ronkathon</a></li>
 </ul>
 <h2 id="gpu--cuda-learning-resources"><a class="header" href="#gpu--cuda-learning-resources">GPU- CUDA learning resources</a></h2>
 <ul>
@@ -1226,7 +1239,7 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <tr><td style="text-align: center">CycleFold - 2023</td><td><a href="https://eprint.iacr.org/2023/1106">→📝</a></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 <tr><td style="text-align: center">BaseFold</td><td><a href="https://eprint.iacr.org/2023/1705">→📝</a></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 <tr><td style="text-align: center">Proofs for deep thought - 2024</td><td><a href="https://eprint.iacr.org/2024/325">→📝</a></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
-<tr><td style="text-align: center">Latticefold</td><td><a href="https://eprint.iacr.org/2024/257.pdf">→📝</a></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
+<tr><td style="text-align: center">Latticefold</td><td><a href="https://eprint.iacr.org/2024/257.pdf">→📝</a></td><td style="text-align: center"></td><td style="text-align: center"><a href="https://www.youtube.com/watch?v=-k8s7vVUx6s&amp;list=PLj80z0cJm8QHm_9BdZ1BqcGbgE-BEn-3Y&amp;index=3">talk - Binyi Chen</a></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 <tr><td style="text-align: center">Accumulation without homomorphism</td><td><a href="https://eprint.iacr.org/2024/474">→📝</a></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 </tbody></table>
 </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css">
@@ -1673,8 +1686,14 @@ designed to educate and inform a wide range of audiences, and will contain serie
 <li><a href="https://notes.ethereum.org/@dankrad/barycentric_low_degree_check">Barycentric low deg check - Dankrad Feist</a></li>
 <li><a href="https://medium.com/starkware/low-degree-testing-f7614f5172db">Low Degree Testing</a></li>
 <li><a href="https://eprint.iacr.org/2024/248">Data Availability sampling from FRI</a></li>
-<li><a href="https://eprint.iacr.org/2024/278">Circle STARKS</a></li>
+<li><a href="https://eprint.iacr.org/2024/278">Circle STARKS</a>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=d1f9sBajj10">talk - Gabizon</a></li>
+<li><a href="https://www.zksecurity.xyz/blog/posts/circle-starks-1/">circle starks and mersene primes</a></li>
+</ul>
+</li>
 <li><a href="https://eprint.kobi.one/2024/390">STIR: Reed–Solomon Proximity Testing with Fewer Queries</a></li>
+<li><a href="https://eprint.iacr.org/2024/1037">Note on adding ZK to starks</a></li>
 </ul>
 <h2 id="permutation-arguments"><a class="header" href="#permutation-arguments">Permutation arguments</a></h2>
 <ul>
