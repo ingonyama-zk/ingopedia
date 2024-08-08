@@ -3,6 +3,8 @@
 ## Algorithms and methods
 
 - [FFT - Vitalik](https://vitalik.eth.limo/general/2019/05/12/fft.html)
+- [Bailey's method](https://www.davidhbailey.com/dhbpapers/fftq.pdf)
+- [FFTs for fun and profit - GentleMan Sande](https://www.cis.rit.edu/class/simg716/FFT_Fun_Profit.pdf)
 - [Reed-Solomon code: Vitalik](https://ethresear.ch/t/reed-solomon-erasure-code-recovery-in-n-log-2-n-time-with-ffts/3039)
 - [FFT Notes](https://www.csee.umbc.edu/~phatak/691a/fft-lnotes/fftnotes.pdf)
 - [The Fast Fourier Transform in a Finite Field - Pollard](https://www.ams.org/journals/mcom/1971-25-114/S0025-5718-1971-0301966-0/S0025-5718-1971-0301966-0.pdf)
@@ -25,6 +27,16 @@
 - [Barycentric interpolation - Math Oxford](https://people.maths.ox.ac.uk/trefethen/barycentric.pdf)
 - [Walsh Hadamard Transform - Borgeaud](https://solvable.group/posts/walshhadamard-transform/)
 - [FFT on finite fields intro](https://t.co/qXTu1Z4OzK)
+- [Algebraic FFTs - Sage](https://rje.li/24-07-03-alg-fft.html)
+
+## Large FFTs
+
+- [Large-Scale Discrete Fourier Transform on TPUs](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9465154)
+- [Hybrid CPU/GPU FFTs - Chen](https://www.eecis.udel.edu/~xli/publications/chen2013hybrid.pdf)
+  - [Thesis](https://udspace.udel.edu/server/api/core/bitstreams/3d81b1ab-87da-4379-ab3b-7b3c716b7ba9/content)
+- [Large Scale 3d FFT on GPU](https://onlinelibrary.wiley.com/doi/epdf/10.4218/etrij.2022-0297)
+- 
+
 
 ## Implementations
 

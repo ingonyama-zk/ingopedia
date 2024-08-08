@@ -34,11 +34,15 @@
 - [TEE for CPU and GPU Nvidia](https://github.com/NVIDIA/nvtrust)
 - [TEE for blockchain applications](https://www.youtube.com/watch?v=Xq7oWtiwWII)
 
-## Niche tricks
+## Niche tricks and guides 
 
 - [Cache oblivious algorithms](https://catonmat.net/wp-content/uploads/2009/07/cacheobliviousalgorithmsanddatastructures.pdf)
 - [Cache skipping](https://developer.nvidia.com/blog/improving-gpu-performance-by-reducing-instruction-cache-misses/)
 - [Techniques for caches in GPUs](http://www.ziti.uni-heidelberg.de/ziti/uploads/ce_group/seminar/2015-Guenther_Schindler.pdf)
+- [Multi GPU programming guide](https://medium.com/gpgpu/multi-gpu-programming-6768eeb42e2c)
+- [GPU matrix mul](https://siboehm.com/articles/22/CUDA-MMM)
+- [Sparse matrix mul](https://medium.com/gpgpu/block-sparse-matrix-vector-multiplication-with-cuda-4e616b30267)
+- [Large Integer arithmetic in GPU for cryptography](http://eprints.utar.edu.my/2494/1/CS-2017-1401837-1.pdf)
 
 ## Computer Architecture/ISAs
 

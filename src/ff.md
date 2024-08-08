@@ -18,6 +18,7 @@
 - [Montgomery REDC using positive inverse mod r](https://jeffhurchalla.com/2022/04/28/montgomery-redc-using-the-positive-inverse-mod-r/)
 - [Low latency multipliers and cryptographic puzzles](https://blog.janestreet.com/really-low-latency-multipliers-and-cryptographic-puzzles/)
 - [optimizing pairing based cryptography, montgomery arithmetic in rust](https://research.nccgroup.com/2021/06/09/optimizing-pairing-based-cryptography-montgomery-arithmetic-in-rust/)
+- [Montgomery arithmetic from a software perspective - Bos and The Montgomery](https://eprint.iacr.org/2017/1057.pdf)
 
 ## Related Math
 

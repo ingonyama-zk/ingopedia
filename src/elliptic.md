@@ -33,9 +33,12 @@
 - [Applications of Riemann Roch theorem in cryptography - Borgeaud](https://solvable.group/posts/riemann-roch-crypto/)
 - [Quaternion algebras and Isogeny based cryptography](https://www.lix.polytechnique.fr/Labo/Antonin.LEROUX/manuscrit_these.pdf)
 - [Notes on Discrete log](https://math.mit.edu/classes/18.783/2022/LectureNotes9.pdf)
+- [All you need to know about Schnorr signatures - Tomescu](https://alinush.github.io/2024/05/31/Schnorr-signatures.html)
 
 ## Pairings
 
+- [Pairings for the rest of us Part 1 - Barakov](https://hackmd.io/@brozorec/pairings-for-the-rest-of-us-1)
+- [Pairings for the rest of us Part 2 -Barakov](https://hackmd.io/@brozorec/pairings-for-the-rest-of-us-2)
 - [Pairings for beginners - Craig Costello](https://static1.squarespace.com/static/5fdbb09f31d71c1227082339/t/5ff394720493bd28278889c6/1609798774687/PairingsForBeginners.pdf)
 - [Pairings - Vitalik Buterin](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627)
 - [Pairing friendly curves](https://members.loria.fr/AGuillevic/pairing-friendly-curves/)

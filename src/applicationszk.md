@@ -100,6 +100,7 @@ A compilation of materials that showcase various applications of zk technology.
 - [Verifiable evaluations of ML models using ZKSnarks](https://arxiv.org/abs/2402.02675)
 - [An overview of Decentralized inference](https://medium.com/dragonfly-research/dont-trust-verify-an-overview-of-decentralized-inference-c471a9f7a586)
 - [Analysis of leading ZKML frameworks on neural networks](https://hackmd.io/@Guy1m0/B1G8YyE3a)
+- [zkML tradeoffs in accuracy vs proving cost](https://np.engineering/posts/zkml-tradeoffs/)
 
 ## ZK Gaming
 
