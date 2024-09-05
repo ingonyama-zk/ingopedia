@@ -9,6 +9,7 @@ Our hands-on approach to learning ZK proofs provides interactive and practical t
 ## General
 
 - [A beginners intro to coding Zero knowledge Proofs](https://dev.to/spalladino/a-beginners-intro-to-coding-zero-knowledge-proofs-c56)
+- [Programming ZKP from zero to hero](https://zkintro.com/articles/programming-zkps-from-zero-to-hero)
 - [Babysnark do do dodo dodo](https://github.com/initc3/babySNARK)
 - [typescript zk](https://alysiatech.medium.com/how-to-code-a-zk-app-each-step-explained-so-you-can-create-privacy-preserving-apps-be7e92d7189d)
 - [zero knowledge with Bellman](https://hongchao.me/zksnark/)
