@@ -1,9 +1,9 @@
 # Fully Homomorphic Encryption
 
-## [Articles](https://github.com/ingonyama-zk/ingopedia/blob/Otsars-patch/src/introfhe.md)
+## [Articles](./introfhe.md)
 
-## [Schemes](https://github.com/ingonyama-zk/ingopedia/blob/Otsars-patch/src/schemesfhe.md)
+## [Schemes](./schemesfhe.md)
 
-## [Libraries](https://github.com/ingonyama-zk/ingopedia/blob/Otsars-patch/src/fhelibraries.md)
+## [Libraries](./fhelibraries.md)
 
-## [Mathematics](https://github.com/ingonyama-zk/ingopedia/blob/Otsars-patch/src/mathfhe.md)
+## [Mathematics](./mathfhe.md)
