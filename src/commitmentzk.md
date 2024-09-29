@@ -1,0 +1,40 @@
+# Commitment Schemes
+
+- **General**
+  - [Overview of commitment schemes: Justin Drakes](https://youtu.be/bz16BURH_u8)
+  - [Comparison of Commitment Schemes](https://hackernoon.com/kzg10-ipa-fri-and-darks-analysis-of-polynomial-commitment-schemes)
+  - [review of polynomial commmitments](https://research.polytope.technology/polynomial-commitments)
+  - [Benchmarking multilinear PCS](https://www.hungrycats.studio/posts/benching-pcs/)
+- **KZG**
+  - [KZG commitments](https://alinush.github.io/2020/05/06/kzg-polynomial-commitments.html)
+  - [KZG - Suyash](https://hackmd.io/@suyash67/BydEa7DaK)
+  - [Polynomial commitments - Dankrad Feist](https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html)
+    - [How to use KZG in proofs](https://notes.ethereum.org/@dankrad/kzg_commitments_in_proofs#)
+    - [Fast KZG proofs](https://alinush.github.io/2021/06/17/Feist-Khovratovich-technique-for-computing-KZG-proofs-fast.html)
+    - [Amortized KZG - Feist Khovratovich](https://eprint.iacr.org/2023/033.pdf)
+    - [Multiplying a vector by a Toeplitz matrix](https://alinush.github.io/2020/03/19/multiplying-a-vector-by-a-toeplitz-matrix.html)
+    - [PCS multiproofs - Feist](https://dankradfeist.de/ethereum/2021/06/18/pcs-multiproofs.html)
+    - [New sharding design with tight beacon and shard block integration - Dankrad Feist](https://notes.ethereum.org/@dankrad/new_sharding#)
+    - [Protodanksharding - FAQ Vitalik](https://notes.ethereum.org/@vbuterin/proto_danksharding_faq#What-is-Danksharding)
+  - [Universal verification equation for data availability sampling](https://ethresear.ch/t/a-universal-verification-equation-for-data-availability-sampling/13240)
+  - [KZG friendly curves: El Housseini](https://ethresear.ch/t/yet-another-curve-but-the-curve-for-your-kzg/12861)
+  - [KZG in practice: Scroll](https://scroll.io/blog/kzg#heading-0)
+  - [Constant-Size zk-SNARKs in ROM from Falsifiable Assumptions](https://eprint.iacr.org/2024/173)
+    - [Knowledge soundness of KZG](https://twitter.com/rel_zeta_tech/status/1754844721212522793?s=61&t=fp9M5oimOITfDrZMsTnKNw)
+- **Merkle commitment** 
+  - [Sparse Merkle trees](https://docs.iden3.io/publications/pdfs/Merkle-Tree.pdf)
+  - [Merkle Commitment scheme](https://courses.cs.ut.ee/MTAT.07.003/2019_fall/uploads/Main/0701-merkle-trees.pdf)
+  - [Field Merkle Tree](https://hackmd.io/@0xKanekiKen/H1ww-qWKa)
+  - [Merkle trees and proof of inclusion](https://www.derpturkey.com/merkle-tree-construction-and-proof-of-inclusion/)
+- **Vector Commitments**
+  - [Verkle Trie - Dankrad Feist](https://dankradfeist.de/ethereum/2021/06/18/verkle-trie-for-eth1.html)
+  - [Aggregatable vector sub commitments](https://alinush.github.io/2020/05/06/aggregatable-subvector-commitments-for-stateless-cryptocurrencies.html#aggregating-proofs-into-subvector-profs)
+  - [Catalano-Fiore VC](https://alinush.github.io/2020/11/24/Catalano-Fiore-Vector-Commitments.html)
+- **Inner product Arguments (IPA)** 
+  - [Inner product arguments - Dankrad Feist](https://dankradfeist.de/ethereum/2021/07/27/inner-product-arguments.html)
+  - [IPA by hand - arnacube](https://arnaucube.com/blog/ipa.html)
+  - [IPA commitment scheme Lambdaclass](https://blog.lambdaclass.com/ipa-and-a-polynomial-commitment-scheme/)
+- **Lattice based commitment Schemes**
+  - [Vortex](https://eprint.iacr.org/2022/1633)
+  - [SLAP](https://eprint.iacr.org/2023/1469)
+    - [Blog](https://gfenzi.io/lattices/slap/)

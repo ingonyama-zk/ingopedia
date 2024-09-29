@@ -1,0 +1,17 @@
+[book]
+authors = ["Ingonyama"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Ingopedia"
+
+[output.html]
+curly-quotes = true
+git-repository-url = "https://github.com/ingonyama-zk/ingopedia"
+edit-url-template = " https://github.com/ingonyama-zk/ingopedia/edit/master/{path}"
+
+[output.html.print]
+page-break = false
+
+[preprocessor.katex]
+after = ["links"]
