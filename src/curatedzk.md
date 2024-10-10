@@ -43,6 +43,8 @@ A collection of libraries where you can create a ZKP.
 - [Arkworks](https://github.com/arkworks-rs)
 - [Lambdaworks by Lambdaclass](https://github.com/lambdaclass/lambdaworks)
 - [Gnark: in Golang](https://github.com/consensys/gnark)
+- [Noir](https://github.com/noir-lang/noir)
+  - [Awesome Noir](https://github.com/noir-lang/awesome-noir/)
 - [Circom: creating zk circuits](https://github.com/iden3/circom)
   - [Circom tutorials by 0xparc](http://learn.0xparc.org/materials/circom/prereq-materials/intro/)
   - [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10002421)
