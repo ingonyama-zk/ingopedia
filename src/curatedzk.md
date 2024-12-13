@@ -75,6 +75,7 @@ A collection of libraries where you can create a ZKP.
   - [Zero cost commitments in Halo2](https://blog.ezkl.xyz/post/commits/)
   - [Splitting and parallelizing proofs in ezkl](https://blog.ezkl.xyz/post/splitting/)
   - [origami folding scheme for halo2 lookup](https://hackmd.io/@aardvark/rkHqa3NZ2)
+  - [Halo2: Zk security book](https://halo2.zksecurity.xyz/intro/)
 - [Zokrates](https://github.com/Zokrates/ZoKrates)
 - [Crrl: Cryptography research library - Thomas Pornin](https://github.com/pornin/crrl)
 - [Bellman (not updated)](https://github.com/zkcrypto/bellman)
@@ -84,12 +85,15 @@ A collection of libraries where you can create a ZKP.
 - [Cairo](https://github.com/starkware-libs/cairo)
   - [Cairo resource](https://www.cairo-lang.org/resources/)
 
-## Math/Crypto libraries
+## Math/Crypto/Lattice libraries
 
 - [FLINT - number theory](https://flintlib.org/doc/index.html)
 - [CryptoPP](https://github.com/weidai11/cryptopp)
 - [nalgebra - linear algebra for rust](https://github.com/dimforge/nalgebra)
 - [NTL lattice lib](https://github.com/libntl/ntl)
+- [Lazarus rust](https://github.com/lattice-complete/Lazarus)
+- [Lazer c++](https://github.com/lazer-crypto/lazer)
+- [Lattice based snarks over libsnark - c++](https://github.com/lattice-based-zkSNARKs/lattice-zksnark)
 
 ## HW libraries
 

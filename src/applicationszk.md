@@ -8,6 +8,8 @@ A compilation of materials that showcase various applications of zk technology.
 
 ## General
 
+- [A map of ZK applications](https://zkv.xyz/the-map-of-zk/)
+- [Open engineering problems in ZK](https://equilibrium.co/writing/open-problems-in-privacy)
 - [A cambrian explosion of crypto proofs - Ben Sasson](https://nakamoto.com/cambrian-explosion-of-crypto-proofs/)
 - [Using ZKP to fight disinformation - Boneh, Datta](https://medium.com/@boneh/using-zk-proofs-to-fight-disinformation-17e7d57fe52f)
   - [talk](https://iacr.org/submit/files/slides/2023/rwc/rwc2023/13/slides.pdf)
@@ -57,6 +59,11 @@ A compilation of materials that showcase various applications of zk technology.
   - [RISC0 ZK VM](https://www.risczero.com)
     - [RISC0 proof system](https://www.risczero.com/proof-system-in-detail.pdf)
     - [RISC0 Code](https://github.com/risc0/risc0)
+  - [Jolt VM](https://github.com/a16z/jolt)
+    - [Jolt book](https://jolt.a16zcrypto.com/intro.html)
+    - [Jolt a technical deep dive](https://www.zksecurity.xyz/blog/posts/how-jolt-works/)
+    - [FAQs on implementation](https://a16zcrypto.com/posts/article/faqs-on-jolts-initial-implementation/)
+    - [Jolt from theory to code](https://a16zcrypto.com/posts/article/building-on-lasso-and-jolt/)
   - [OlaVM](https://sin7y.org/)
   - [zkWasm](http://www.delphinuslab.com/)
   - [Loopring](https://loopring.org/#/about)

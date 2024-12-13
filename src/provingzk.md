@@ -2,6 +2,8 @@
 
 (**To add papers: Work in progress**)
 
+- [10 papers to read: Papers that shaped modern ZKPs](https://www.zksecurity.xyz/blog/posts/ten-zk-papers/)
+
 ## Sumcheck Protocol
 
 - [Unreasonable power of Sumcheck - Thaler](https://people.cs.georgetown.edu/jthaler/blogpost.pdf)

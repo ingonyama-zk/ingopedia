@@ -20,7 +20,7 @@ Understanding ZK from beginner to advanced on a surface level.
 
 - [An introduction to how zk snarks are possible - Vitalik](https://vitalik.eth.limo/general/2021/01/26/snarks.html)
 - [Zk blog](http://www.zeroknowledgeblog.com/index.php)
-- [Math survival kit for zk developers - lambdaclass](https://www.notamonadtutorial.com/math-survival-kit-for-developers/)
+- [Math survival kit for zk developers - lambdaclass](https://blog.lambdaclass.com/math-survival-kit-for-developers/)
 - [Understanding polynomials](https://www.zkcamp.xyz/blog/you-cant-understand-zkps-without-understanding-polynomials)
 - [Intro to ZK in block chain and economics](https://files.stlouisfed.org/files/htdocs/publications/review/2023/05/12/an-introduction-to-zero-knowledge-proofs-in-blockchains-and-economics.pdf)
 - [A journey into ZKP - David Wong](https://www.cryptologie.net/article/600/a-journey-into-zero-knowledge-proofs/)

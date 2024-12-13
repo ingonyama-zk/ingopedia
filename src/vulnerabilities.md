@@ -33,3 +33,8 @@ Potential vulnerabilities and security in ZK systems
   - [paper](https://arxiv.org/abs/2402.15293)
 - [Disarming Fiat Shamir footguns](https://blog.trailofbits.com/2024/06/24/disarming-fiat-shamir-footguns/)
   - [Decree FS library](https://github.com/trailofbits/decree)
+
+## Hardware vulnerabilities
+
+- [Hardware backdoors in x86 CPUs](https://i.blackhat.com/us-18/Thu-August-9/us-18-Domas-God-Mode-Unlocked-Hardware-Backdoors-In-x86-CPUs-wp.pdf)
+- [Breaching Processor Security via Rogue Memory Modules](https://badram.eu)

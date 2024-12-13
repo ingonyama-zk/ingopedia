@@ -30,13 +30,13 @@ Our hands-on approach to learning ZK proofs provides interactive and practical t
 - [Proofs args and zk study group implementations](https://github.com/thor314/pazk)
 - [Cryptopals challenges](https://cryptopals.com)
 - [Starkware101](https://github.com/starkware-industries/stark101/tree/master)
-- [Verifiable AES](https://www.notamonadtutorial.com/verifiable-encryption-using-zero-knowledge-proofs/)
+- [Verifiable AES](https://blog.lambdaclass.com/verifiable-encryption-using-zero-knowledge-proofs/)
   - [code: lambdaclass](https://github.com/lambdaclass/AES_zero_knowledge_proof_circuit)
 - [Merkle patricia tree: lambdaclass](https://github.com/lambdaclass/merkle_patricia_tree)
 - [Haskell: Introduction](https://simonjohnthompson.github.io/craft3e/craft3e.pdf)
 - [Practical Cryptography for Devs: Nakov](https://cryptobook.nakov.com)
-- [Transforming code into arithmetic circuits](https://www.notamonadtutorial.com/how-to-transform-code-into-arithmetic-circuits/)
-- [Differential fuzzing](https://www.notamonadtutorial.com/do-you-want-quality-code-learn-how-to-use-differential-fuzzers/)
+- [Transforming code into arithmetic circuits](https://blog.lambdaclass.com/how-to-transform-code-into-arithmetic-circuits/)
+- [Differential fuzzing](https://blog.lambdaclass.com/do-you-want-quality-code-learn-how-to-use-differential-fuzzers/)
 - [Zkvm step by step](https://eprint.iacr.org/2023/1032)
 - [Zk smart contract tutorial](https://medium.com/cyfrin/how-to-create-a-zk-smart-contract-cd948a673749)
 - [optimizing pairing based cryptography, montgomery arithmetic in rust](https://research.nccgroup.com/2021/06/09/optimizing-pairing-based-cryptography-montgomery-arithmetic-in-rust/)
@@ -53,7 +53,6 @@ Our hands-on approach to learning ZK proofs provides interactive and practical t
 - [Zk hack puzzles](https://zkhack.dev/puzzles/)
 - [Ingonyama ZK CTF-May 2023](https://github.com/ingonyama-zk/zkctf-2023-writeups)
 - [List of open problems in Crypto II](https://crypto.mirror.xyz/hl284jc3A2MI_QeTE39nRsTPihOigNuLKIWjiU2pFzw)
-
 
 ## Rust learning resources for ZK/cryptography
 
@@ -80,16 +79,14 @@ Our hands-on approach to learning ZK proofs provides interactive and practical t
 
 - [GPU-Puzzles](https://github.com/srush/GPU-Puzzles)
 
-
 ## Benchmarking tools
 
 - [code](https://github.com/delendum-xyz/zk-benchmarking)
-- [Benchmarking with Rust](https://www.notamonadtutorial.com/benchmarking-and-analyzing-rust-performance-with-criterion-and-iai/)
+- [Benchmarking with Rust](https://blog.lambdaclass.com/benchmarking-and-analyzing-rust-performance-with-criterion-and-iai/)
 - [Flamegraphs](https://www.brendangregg.com/flamegraphs.html)
   - [code](https://github.com/brendangregg/FlameGraph)
   - [code:flamegraphs from hierarchical data](https://github.com/spiermar/d3-flame-graph)
 - [Criterion](https://bheisler.github.io/criterion.rs/book/criterion_rs.html)
-  - [Criterion introduction](https://www.notamonadtutorial.com/benchmarking-and-analyzing-rust-performance-with-criterion-and-iai/)
 - [The benchmark game](https://benchmarksgame-team.pages.debian.net/benchmarksgame/why-measure-toy-benchmark-programs.html)
 - [Zkalc](https://zka.lc/charts)
 - [zkBench](https://eprint.iacr.org/2023/1503)
