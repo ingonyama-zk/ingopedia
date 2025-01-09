@@ -46,6 +46,9 @@ Our hands-on approach to learning ZK proofs provides interactive and practical t
   - [Part 2 : Curves](https://research.nccgroup.com/2020/07/13/pairing-over-bls12-381-part-2-curves/)
   - [Part 3 : Pairing](https://research.nccgroup.com/2020/08/13/pairing-over-bls12-381-part-3-pairing/)
 - [An overview of ZKtooling and proof systems right now: Sep 2023](https://blog.aayushg.com/posts/zk)
+- [Coding FRI from scratch](https://blog.lambdaclass.com/how-to-code-fri-from-scratch/)
+- 
+
 
 ## Challenges and hackathons
 

@@ -33,6 +33,7 @@ A collection of links and Almanacs breaking down ZKPs and related topics.
   - [Discord group](https://discord.com/channels/740913612368904192/972174269146611752)
 - [Hash based SNARGs book - Chiesa and Yogev](https://github.com/hash-based-snargs-book/hash-based-snargs-book)
 - [Awesome ZKEVM](https://github.com/LuozhuZhang/awesome-zkevm)
+- [Awesome ZKVM](https://github.com/rkdud007/awesome-zkvm)
 - [Awesome lattice FPGA's](https://github.com/kelu124/awesome-latticeFPGAs)
 
 ## Libraries
@@ -84,6 +85,11 @@ A collection of libraries where you can create a ZKP.
 - [Constantine](https://github.com/mratsim/constantine)
 - [Cairo](https://github.com/starkware-libs/cairo)
   - [Cairo resource](https://www.cairo-lang.org/resources/)
+- [Plonky3](https://github.com/Plonky3/Plonky3)
+  - [Small fields in P3](https://hackmd.io/@Syxton/small_fields_in_plonky3)
+  - [Brakedown in P3](https://hackmd.io/@sin7y/Bkun7AgFA)
+  - [Poseidon2 in P3](https://hackmd.io/@sin7y/r1VOOG8bR?utm_source=preview-mode&utm_medium=rec)
+  - [Audit](https://leastauthority.com/wp-content/uploads/2024/11/Updated_071124_Polygon_Plonky3_Final_Audit_Report.pdf)
 
 ## Math/Crypto/Lattice libraries
 

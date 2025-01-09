@@ -26,6 +26,7 @@
   - [Merkle Commitment scheme](https://courses.cs.ut.ee/MTAT.07.003/2019_fall/uploads/Main/0701-merkle-trees.pdf)
   - [Field Merkle Tree](https://hackmd.io/@0xKanekiKen/H1ww-qWKa)
   - [Merkle trees and proof of inclusion](https://www.derpturkey.com/merkle-tree-construction-and-proof-of-inclusion/)
+  - [Hybrid Merkle trees](https://np.engineering/posts/hybrid-merkle-trees/)
 - **Vector Commitments**
   - [Verkle Trie - Dankrad Feist](https://dankradfeist.de/ethereum/2021/06/18/verkle-trie-for-eth1.html)
   - [Aggregatable vector sub commitments](https://alinush.github.io/2020/05/06/aggregatable-subvector-commitments-for-stateless-cryptocurrencies.html#aggregating-proofs-into-subvector-profs)

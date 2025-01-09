@@ -47,6 +47,7 @@
   - [circle starks and mersene primes](https://www.zksecurity.xyz/blog/posts/circle-starks-1/)
 - [STIR: Reed–Solomon Proximity Testing with Fewer Queries](https://eprint.kobi.one/2024/390)
 - [Note on adding ZK to starks](https://eprint.iacr.org/2024/1037)
+- [Note on FRI and low degree testing](https://eprint.iacr.org/2022/1216)
 
 ## Permutation arguments
 

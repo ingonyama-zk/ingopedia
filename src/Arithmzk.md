@@ -20,6 +20,10 @@
   - [AIR to RAPs - Gabizon](https://hackmd.io/@aztec-network/plonk-arithmetiization-air)
   - [AIR-Multivariate Sumcheck - W.Borgeaud](https://solvable.group/posts/air-multivariate-sumcheck/)
   - [AIR assembly Bobbin Threadbare](https://docs.zkproof.org/pages/standards/accepted-workshop3/proposal-airAssembly.pdf)
+  - [Arithmetization methods for STARKS](https://eprint.iacr.org/2023/661.pdf)
+  - [Intro to AIR](https://threesigma.xyz/blog/arithmetization-starks-algebraic-intermediate-representation)
+  - [Intro to PAIR](https://threesigma.xyz/blog/preprocessed-air-arithmetization-starks)
+  - [Notes on AIR arithmetization](https://cronokirby.com/posts/2022/09/notes-on-stark-arithmetization/)
 - **Customizable Constraint system CCS**
   - [CCS: Customizable constraint systems for succinct arguments](https://eprint.iacr.org/2023/552)
   - [A multivariate AIR using Superspartan- Borgeaud](https://solvable.group/posts/super-air/)
