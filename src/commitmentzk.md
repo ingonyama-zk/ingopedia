@@ -6,7 +6,7 @@
   - [review of polynomial commmitments](https://research.polytope.technology/polynomial-commitments)
   - [Benchmarking multilinear PCS](https://www.hungrycats.studio/posts/benching-pcs/)
 - **KZG**
-  - [KZG commitments](https://alinush.github.io/2020/05/06/kzg-polynomial-commitments.html)
+  - [KZG commitments](https://alinush.github.io/kzg)
   - [KZG - Suyash](https://hackmd.io/@suyash67/BydEa7DaK)
   - [Polynomial commitments - Dankrad Feist](https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html)
     - [How to use KZG in proofs](https://notes.ethereum.org/@dankrad/kzg_commitments_in_proofs#)
