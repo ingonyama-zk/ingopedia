@@ -37,6 +37,9 @@ A compilation of materials that showcase various applications of zk technology.
   - [Zk evm comparison guide](https://blog.jarrodwatts.com/the-ultimate-zk-evm-comparison-guide)
   - [BrainSTARK](https://aszepieniec.github.io/stark-brainfuck/)
   - [Enhancing VM efficiency in parallel envs](https://blog.lambdaclass.com/beyond-single-core-enhancing-vm-efficiency-in-parallel-environments/)
+  - [Projects that shaped modern ZKVMS -1](https://blog.zksecurity.xyz/posts/zkvm-projects-1/)
+  - [Glue and Coprocessor Architectures](https://vitalik.eth.limo/general/2024/09/02/gluecp.html)
+  - [Demystifying Executable Linkable Format (ELF)](https://medium.com/@razika28/demystifying-the-elf-format-unveiling-the-secrets-of-binary-executables-2835387cc6d4)
 
 - **EVM/VMs**
   - [Aztec protocol](https://aztec.network)
@@ -56,6 +59,15 @@ A compilation of materials that showcase various applications of zk technology.
     - [Miden VM program decoder](https://hackmd.io/_aaDBzbWRz6EwQQRtK1pzw)
     - [Memory in MidenVM](https://hackmd.io/@bobbinth/HJr56BKKt)
     - [u32 in MidenVM](https://hackmd.io/NC-yRmmtRQSvToTHb96e8Q#u32-operations-in-Miden-VM)
+  - [TinyvnRAM](https://www.scipr-lab.org/doc/TinyRAM-spec-2.000.pdf)
+    - [Succinct NIZK for VN architecture](https://eprint.iacr.org/2013/879.pdf)
+    - [Snarks for C](https://eprint.iacr.org/2013/507.pdf)
+      - [talk](https://www.youtube.com/watch?v=nS3smRAfUd8)
+    - [blog](https://hackernoon.com/tiny-ram-review-architecture-design-and-assembly-instructions)
+    - [blog](https://hackmd.io/@sin7y/rkz28TKY5)
+    - [blog](https://blog.plan99.net/vntinyram-7b9d5b299097)
+    - [libnsark: code](https://github.com/scipr-lab/libsnark)
+    - [pepper project: code](https://github.com/pepper-project/tinyram)
   - [RISC0 ZK VM](https://www.risczero.com)
     - [RISC0 proof system](https://www.risczero.com/proof-system-in-detail.pdf)
     - [RISC0 Code](https://github.com/risc0/risc0)
@@ -69,11 +81,13 @@ A compilation of materials that showcase various applications of zk technology.
   - [zkWasm](http://www.delphinuslab.com/)
   - [Loopring](https://loopring.org/#/about)
   - [NexusVM](https://github.com/nexus-xyz/nexus-zkvm)
+    - [whitepaper](https://nexus-xyz.github.io/assets/nexus_whitepaper.pdf)
   - [SP1](https://github.com/succinctlabs/sp1)
     - [book](https://succinctlabs.github.io/sp1/)
     - [intro to SP1 source code](https://trapdoortech.medium.com/zero-knowledge-proof-introduction-to-sp1-zkvm-source-code-d26f88f90ce4)
     - [Sp1 audit](https://hackmd.io/wztOd455QKWf-K8LXh_Fqw)
     - [whitepaper](https://drive.google.com/file/d/1aTCELr2b2Kc1NS-wZ0YYLKdw1Y2HcLTr/view)
+  - [Ceno](https://eprint.iacr.org/2024/387.pdf)
 
 ## ZK bridges
 

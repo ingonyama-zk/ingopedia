@@ -14,6 +14,7 @@
 - [Ryah Henry - Thesis](https://cacr.uwaterloo.ca/techreports/2010/cacr2010-26.pdf)
 - [Efficient Multi exponentiation: Bucket method - Bootle](https://jbootle.github.io/Misc/pippenger.pdf)
 - [MSM tricks](https://gist.github.com/mratsim/27c78c71fd423f731615a91d237162c3#file-multi-scalar-mul-md)
+- [Verifiable MSM](https://decentralizedthoughts.github.io/2025-02-14-verifiable-MSM/)
 
 ## Implementations
 <!-- markdown-link-check-disable -->

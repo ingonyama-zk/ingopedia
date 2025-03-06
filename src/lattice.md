@@ -6,6 +6,7 @@
 - [Lattice based cryptography - Micciancio and Regev](https://cims.nyu.edu/~regev/papers/pqc.pdf)
 - [A decade of Lattice cryptography - Peikert](https://eprint.iacr.org/2015/939.pdf)
 - [Survey of polynomial multiplications for lattice based cryptosystems](https://eprint.iacr.org/2023/1962.pdf)
+- [Lattice based proof systems](https://mirror.xyz/privacy-scaling-explorations.eth/4OyAht_dHsVT1MgcZTwrK2qJ-bwxpINcpBmLNfF4I2E)
 
 ### Lecture series/Conferences
 

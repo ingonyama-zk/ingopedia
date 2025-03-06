@@ -33,6 +33,7 @@ Potential vulnerabilities and security in ZK systems
   - [paper](https://arxiv.org/abs/2402.15293)
 - [Disarming Fiat Shamir footguns](https://blog.trailofbits.com/2024/06/24/disarming-fiat-shamir-footguns/)
   - [Decree FS library](https://github.com/trailofbits/decree)
+- [VZKVM bugs](https://bugs.zksecurity.xyz)
 
 ## Hardware vulnerabilities
 

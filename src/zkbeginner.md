@@ -28,6 +28,7 @@ Understanding ZK from beginner to advanced on a surface level.
 ## Advanced
 
 - [An incomplete guide to zk: why zk matters](https://mirror.xyz/fundamentalabs.eth/24i98adRylhjdcqV1TnsT8ZbkIXCulCrDTIrsrziQmY)
+- [Understanding the math behind ZKPs](https://zkintro.com/articles/understanding-math-behind-zkps)
 - [Why and how Zero knowledge works](https://arxiv.org/pdf/1906.07221.pdf)
 - [zk Snarks a gentle introduction](https://www.di.ens.fr/~nitulesc/files/Survey-SNARKs.pdf)
 - [The math behind ZkSNARK - video](https://www.youtube.com/watch?v=iRQw2RpQAVc)
@@ -46,3 +47,4 @@ Understanding ZK from beginner to advanced on a surface level.
 - [Misconceptions in ZK-Snarks - Thaler](https://a16zcrypto.com/posts/article/17-misconceptions-about-snarks/)
 - [Introduction to range proofs](https://tech.mystenlabs.com/zero-knowledge-range-proofs/)
 - [Whats next in programmable cryptography](https://mirror.xyz/privacy-scaling-explorations.eth)
+- [SOK: Understanding zk-SNARKS: gap between research and practice](https://eprint.iacr.org/2025/172)

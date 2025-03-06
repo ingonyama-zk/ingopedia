@@ -48,5 +48,7 @@
 
 - [basic computer architecture](https://www.geeksforgeeks.org/computer-organization-and-architecture-tutorials/?ref=lbp)
 - [RISCV manual](https://riscv.org/wp-content/uploads/2019/12/riscv-spec-20191213.pdf)
+  - [rv8 for x86-64](https://michaeljclark.github.io)
+  - [embedded riscv resources](https://five-embeddev.com/riscv-isa-manual/)
 - [VLIW introduction](https://web.archive.org/web/20110929113559/http://www.nxp.com/acrobat_download2/other/vliw-wp.pdf)
 - [Web Assembly](https://webassembly.github.io/spec/core/_download/WebAssembly.pdf)
