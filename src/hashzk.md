@@ -21,6 +21,7 @@
       - [in Bulletproofs](https://blog.trailofbits.com/2022/04/15/the-frozen-heart-vulnerability-in-bulletproofs/)
       - [in Plonk](https://blog.trailofbits.com/2022/04/18/the-frozen-heart-vulnerability-in-plonk/)
 - **Hashes**
+  - [Keccak implementation overview](https://keccak.team/files/Keccak-implementation-3.2.pdf) - interesting optimization techniques for keccak (🔥 bit interleaving 🔥)
   - [Keccak: Sponge and Duplex constructions](https://keccak.team/sponge_duplex.html)
   - **SHA256**
     - [Halo2 16 bit lookup implementation](https://zcash.github.io/halo2/design/gadgets/sha256/table16.html)

@@ -114,6 +114,11 @@ A collection of libraries where you can create a ZKP.
 - [tinyGPU - tutorials](https://github.com/adam-maj/tiny-gpu)
 - [GPU puzzles](https://github.com/srush/GPU-Puzzles)
 - [fpga4fun.com](https://www.fpga4fun.com/HDLtutorials.html)
+- [GPU MODE](https://www.youtube.com/@GPUMODE) - awasome youtube channel
+
+### Papers
+- [🔥 Understanding Latency Hiding on GPUs 🔥](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-143.pdf) - a must read
+- [Dissecting the NVidia Turing T4 GPU via Microbenchmarking](https://arxiv.org/abs/1903.07486)
 
 ### FPGA for ZK
 
