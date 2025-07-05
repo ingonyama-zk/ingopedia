@@ -46,6 +46,7 @@ A collection of libraries where you can create a ZKP.
 - [Gnark: in Golang](https://github.com/consensys/gnark)
 - [Noir](https://github.com/noir-lang/noir)
   - [Awesome Noir](https://github.com/noir-lang/awesome-noir/)
+  - [Course](https://updraft.cyfrin.io/courses/noir-programming-and-zk-circuits)
 - [Circom: creating zk circuits](https://github.com/iden3/circom)
   - [Circom tutorials by 0xparc](http://learn.0xparc.org/materials/circom/prereq-materials/intro/)
   - [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10002421)

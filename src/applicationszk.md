@@ -40,6 +40,7 @@ A compilation of materials that showcase various applications of zk technology.
   - [Projects that shaped modern ZKVMS -1](https://blog.zksecurity.xyz/posts/zkvm-projects-1/)
   - [Glue and Coprocessor Architectures](https://vitalik.eth.limo/general/2024/09/02/gluecp.html)
   - [Demystifying Executable Linkable Format (ELF)](https://medium.com/@razika28/demystifying-the-elf-format-unveiling-the-secrets-of-binary-executables-2835387cc6d4)
+  - [Best ISA for ethereum](https://hackmd.io/@leoalt/best-isa-ethereum)
 
 - **EVM/VMs**
   - [Aztec protocol](https://aztec.network)
@@ -103,7 +104,26 @@ A compilation of materials that showcase various applications of zk technology.
 ## Client side
 
 - [Accelerating client side ZK with webGPU](https://geometry.xyz/notebook/accelerating-client-side-zk-with-webgpu)
+- [Challenges in webGPU](https://blog.zksecurity.xyz/posts/webgpu)
 - [Whale Song Explained](https://medium.com/alliancedao/whale-songs-explained-28e14ddf7c27)
+- [PSE -Client side proving](https://pse.dev/projects/client-side-proving)
+  - [ZKP for mobile: Survey](https://hackmd.io/@clientsideproving/HyKBkz7jye)
+  - [Mobile baseline benchmarking HW](https://hackmd.io/@clientsideproving/AvgMobileHardware)
+  - [Benchmarks for digital ID wallet](https://hackmd.io/@clientsideproving/zkIDBenchmarks#fn1)
+  - [ZK email](https://pse.dev/projects/zk-email)
+  - [ZKPDF](https://pse.dev/blog/zkpdf-unlocking-verifiable-data)
+  - [ZKID](https://pse.dev/blog/efficient-client-side-proving-for-zkid)
+- **Worldfnd**
+  - [Provekit](https://github.com/worldfnd/ProveKit/tree/main)
+    - [WHIR PCS](https://xn--2-umb.com/24/whir/)
+    - [WHIR ZK PCS](https://github.com/worldfnd/ProveKit/blob/main/sage/fri-and-friends/Zero%20Knowledge%20for%20WHIR.md)
+    - [Skyscraper hash](https://eprint.iacr.org/2025/058.pdf)
+- **Google Prover**
+  - [Longfellow-zk](https://github.com/google/longfellow-zk)
+    - [Paper: Anonymous credentials from ECDSA](https://eprint.iacr.org/2024/2010)
+    - [IETF draft - Libzk](https://www.ietf.org/archive/id/draft-google-cfrg-libzk-00.html)
+    - [Highlights of libzk](https://nmohnblatt.github.io/libzk-highlights/)
+    - [blog](https://news.dyne.org/longfellow-zero-knowledge-google-zk)
 
 ## ZKML
 

@@ -28,6 +28,7 @@
 - [Walsh Hadamard Transform - Borgeaud](https://solvable.group/posts/walshhadamard-transform/)
 - [FFT on finite fields intro](https://t.co/qXTu1Z4OzK)
 - [Algebraic FFTs - Sage](https://rje.li/24-07-03-alg-fft.html)
+- [Additive FFT](https://blog.lambdaclass.com/additive-fft-background)
 
 ## Large FFTs
 

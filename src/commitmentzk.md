@@ -7,6 +7,7 @@
   - [Benchmarking multilinear PCS](https://www.hungrycats.studio/posts/benching-pcs/)
 - **KZG**
   - [KZG commitments](https://alinush.github.io/kzg)
+  - [Variants of KZG1](https://blog.zksecurity.xyz/posts/kzg-1)
   - [KZG - Suyash](https://hackmd.io/@suyash67/BydEa7DaK)
   - [Polynomial commitments - Dankrad Feist](https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html)
     - [How to use KZG in proofs](https://notes.ethereum.org/@dankrad/kzg_commitments_in_proofs#)
@@ -39,3 +40,12 @@
   - [Vortex](https://eprint.iacr.org/2022/1633)
   - [SLAP](https://eprint.iacr.org/2023/1469)
     - [Blog](https://gfenzi.io/lattices/slap/)
+- **MLE Commitment schemes**
+  - [Spartan (SPARK)](https://eprint.iacr.org/2019/550)
+  - [Lasso (SUrge)](https://eprint.iacr.org/2023/1216)
+  - [Twist and Shout (Surge++)](https://eprint.iacr.org/2025/105)
+  - [Jagged PCS](https://eprint.iacr.org/2025/917)
+    - [blog: Coratger](https://hackmd.io/@tcoratger/SJs7y7sbel)
+    - [blog](https://blog.lambdaclass.com/our-succinct-explanation-of-jagged-polynomial-commitments)
+  - [Mercury](https://eprint.iacr.org/2025/385)
+  - [Samaritan](https://eprint.iacr.org/2025/419)

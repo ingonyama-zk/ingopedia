@@ -30,6 +30,8 @@
   - [Part 2 - Lambdaclass](https://blog.lambdaclass.com/binius-part-2/)
 - [Explaining the GKR method - Gabizon](https://www.youtube.com/watch?v=REVXWyQjmPQ)
 - [GKR based ZKP - Kalai](https://www.youtube.com/watch?v=x8pUxFptfb0)
+- [GKR step bu step](https://blog.lambdaclass.com/gkr-protocol-a-step-by-step-example)
+- [Speeding up sumcheck](https://eprint.iacr.org/2025/1117)
 
 ## Low degree Testing/Reed-Solomon Proximity testing
 

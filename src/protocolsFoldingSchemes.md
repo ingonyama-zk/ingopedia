@@ -14,3 +14,6 @@ Proofs for deep thought - 2024| [→📝](https://eprint.iacr.org/2024/325)|||||
 Latticefold| [→📝](https://eprint.iacr.org/2024/257.pdf)||[talk - Binyi Chen](https://www.youtube.com/watch?v=-k8s7vVUx6s&list=PLj80z0cJm8QHm_9BdZ1BqcGbgE-BEn-3Y&index=3)|||
 Accumulation without homomorphism | [→📝](https://eprint.iacr.org/2024/474)|||||
 | Mira | [→📝](https://eprint.iacr.org/2024/2025)| [Implementation](https://github.com/joshbeal/mira)
+| ARC | [→📝](https://eprint.iacr.org/2024/1731.pdf)| |
+|Linear time accumulation schemes | [→📝](https://eprint.iacr.org/2025/753)
+|FICS and FACS | [→📝](https://eprint.iacr.org/2025/737)
