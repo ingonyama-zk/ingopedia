@@ -4,13 +4,13 @@
 
 ## A
 
-**ASIC (Application-Specific Integrated Circuit)** - A specialized integrated circuit designed for a specific application or function, offering optimized performance and efficiency by implementing dedicated hardware tailored to that specific task.
+**ASIC (Application-Specific Integrated Circuit)** - A specialized integrated circuit designed for a specific application or function, offering optimized performance and efficiency by implementing dedicated hardware tailored to that particular task.
 
 **Authentication** - The process of verifying the identity of a user, device, or system to ensure that it is genuine and authorized to access certain resources or information.
 
 **Aurora** - Aurora is a Zero Knowledge Proof system that combines zk-SNARKs and Bulletproofs to achieve compact proofs for general-purpose computations.
 
-**AuroraLight** - AuroraLight is an improvement over Aurora that achieves faster prover times and smaller proof sizes while maintaining its generality and security properties.
+**AuroraLight** - AuroraLight is an improvement over Aurora, achieving faster prover times and smaller proof sizes while maintaining its generality and security properties.
 
 ## B
 
