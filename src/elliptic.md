@@ -34,6 +34,13 @@
 - [Quaternion algebras and Isogeny based cryptography](https://www.lix.polytechnique.fr/Labo/Antonin.LEROUX/manuscrit_these.pdf)
 - [Notes on Discrete log](https://math.mit.edu/classes/18.783/2022/LectureNotes9.pdf)
 - [All you need to know about Schnorr signatures - Tomescu](https://alinush.github.io/2024/05/31/Schnorr-signatures.html)
+- [Wierstrass](http://koclab.cs.ucsb.edu/teaching/ecc/eccPapers/WeierstrassHW.pdf)
+- [EC addition optimizations](https://www.hyperelliptic.org/EFD/precomp.pdf)
+- [EC in cryptography](https://www.math.uwaterloo.ca/~djao/co789.2007/co789.pdf)
+- [The point at infinity for elliptic curves](https://www.johndcook.com/blog/2019/02/24/the-point-at-infinity/)
+- [What is the relationship between p (prime), n (order) and h (cofactor) of an elliptic curve? - Cryptography Stack Exchange](https://crypto.stackexchange.com/questions/51350/what-is-the-relationship-between-p-prime-n-order-and-h-cofactor-of-an-ell?rq=1)
+- [Explicit-Formulas Database / Bibliography](https://hyperelliptic.org/EFD/bib.html)
+- [j invariant of an EC](https://math.mit.edu/research/highschool/primes/materials/2018/conf/14-2%20Pentland.pdf)
 
 ## Pairings
 
@@ -54,10 +61,25 @@
 - [optimizing pairing based cryptography, montgomery arithmetic in rust](https://research.nccgroup.com/2021/06/09/optimizing-pairing-based-cryptography-montgomery-arithmetic-in-rust/)
 - [On proving pairings - Eagen and Novakovic](https://eprint.iacr.org/2024/640)
 - [Implementing pairing in BN254 - lambdaclass](https://blog.lambdaclass.com/how-we-implemented-the-bn254-ate-pairing-in-lambdaworks/)
+- [Arithmetic of pairing based proofs](https://hal.science/tel-03922488/document)
+- [High speed pairing for BN curves](https://eprint.iacr.org/2010/354.pdf)
+- [Mult and squaring on pairing friendly curves](https://eprint.iacr.org/2006/471.pdf)
+- [Notes about optimizing emulated pairing (part 1) - HackMD](https://hackmd.io/@ivokub/SyJRV7ye2)
+- [bilinear parings of elliptic curves](https://tjerandsilde.no/files/Bachelor_Thesis.pdf)
+- [Weil pairing and cryptographic applications](https://digitalcommons.unf.edu/cgi/viewcontent.cgi?article=1138&context=etd)
+- [Bilinear pairings on elliptic curves](https://inria.hal.science/hal-00767404v1/document)
+- [pairings on EC](https://www.math.auckland.ac.nz/~sgal018/crypto-book/ch26.pdf)
+- [proving pairings](https://eprint.iacr.org/2024/640.pdf)
+- [elliptic curves - What's the difference between Optimal ate pairing and R-ate pairing? - Cryptography Stack Exchange](https://crypto.stackexchange.com/questions/93682/whats-the-difference-between-optimal-ate-pairing-and-r-ate-pairing)
+- [pairings in R1CS](https://eprint.iacr.org/2022/1162.pdf)
+- [taxonomy of pairing friendly curves](https://eprint.iacr.org/2006/372.pdf)
+- [Pairing-Friendly Curves](https://www.ietf.org/archive/id/draft-irtf-cfrg-pairing-friendly-curves-08.html)
+- [Pairing-friendly curves – Aurore GUILLEVIC](https://members.loria.fr/AGuillevic/pairing-friendly-curves/#bls12-381)
 
 ## Specific curves
 
 - [BLS12-381 For The Rest Of Us](https://hackmd.io/mikF5LkFQoqXM1EuplRj2Q)
+- [BLS12-381 For The Rest Of Us - HackMD](https://hackmd.io/@benjaminion/bls12-381)
 - [BN254 for the rest of us](https://hackmd.io/@jpw/bn254)
 - [Benchmarking pairing-friendly elliptic curves libraries](https://hackmd.io/2JH4uBFCTbehqorEzQxv9w)
 - [ecgfp5 - Pornin: Goldilocks](https://github.com/pornin/ecgfp5/blob/main/doc/ecgfp5.pdf)

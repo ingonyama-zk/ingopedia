@@ -19,6 +19,28 @@
 - [Low latency multipliers and cryptographic puzzles](https://blog.janestreet.com/really-low-latency-multipliers-and-cryptographic-puzzles/)
 - [optimizing pairing based cryptography, montgomery arithmetic in rust](https://research.nccgroup.com/2021/06/09/optimizing-pairing-based-cryptography-montgomery-arithmetic-in-rust/)
 - [Montgomery arithmetic from a software perspective - Bos and The Montgomery](https://eprint.iacr.org/2017/1057.pdf)
+- [How fast can you multiply really big numbers?](https://www.johndcook.com/blog/2019/01/14/multiply-big-numbers/)
+- [Missing a trick - karatsuba variations](https://eprint.iacr.org/2015/1247.pdf)
+- [Even fast integer multiplication](https://arxiv.org/pdf/1407.3360)
+- [Faster arithmetic for NTT](https://arxiv.org/pdf/1205.2926)
+- [Integer multiplication in nlogn](https://hal.science/hal-02070778/document)
+- [Montgomery inversion](https://cetinkayakoc.net/docs/j82.pdf)
+- [constant time modular inversion](https://www.joppebos.com/files/CTInversion.pdf)
+- [A fast modular reduction method](https://eprint.iacr.org/2014/040.pdf)
+- [Multi digit multiplication for mathematicians](http://cr.yp.to/papers/m3.pdf)
+- [Fast modular reduction](https://www.lirmm.fr/arith18/papers/hasenplaugh-FastModularReduction.pdf)
+- [Hardware aspects of Montgomery modular mults](https://eprint.iacr.org/2017/1115.pdf)
+- [implementation - How does Montgomery reduction work? - Cryptography Stack Exchange](https://crypto.stackexchange.com/questions/84327/how-does-montgomery-reduction-work)
+- [Faster big-integer modular multiplication for most moduli - HackMD](https://hackmd.io/@gnark/modular_multiplication)
+- [Mont arith from a software perspective](https://eprint.iacr.org/2017/1057.pdf)
+- [Optimising big integer mult on bitcoin](https://eprint.iacr.org/2024/1236.pdf)
+- [Optimizing Pairing-Based Cryptography: Montgomery Multiplication in Assembly | NCC Group](https://www.nccgroup.com/us/research-blog/optimizing-pairing-based-cryptography-montgomery-multiplication-in-assembly/?sq=modular%20reduction)
+- [Optimizing Pairing-Based Cryptography: Montgomery Arithmetic in Rust | NCC Group](https://www.nccgroup.com/research-blog/optimizing-pairing-based-cryptography-montgomery-arithmetic-in-rust/?utm_source=chatgpt.com)
+
+## Primes
+
+- [Golden ratio primes](https://www.johndcook.com/blog/2019/05/12/golden-ratio-primes/)
+- [Pi primes - prime numbers from the digits of pi](https://www.johndcook.com/blog/2018/09/04/pi-primes/)
 
 ## Related Math
 
@@ -30,3 +52,5 @@
 - [Finite fields and polynomials](https://www.maths.tcd.ie/pub/Maths/Courseware/373-2000/FiniteFields.pdf)
 - [Schwarz - Zippel Lemma](https://brilliant.org/wiki/schwartz-zippel-lemma/)
 - [Curious History of Schwarz-Zippel lemma](https://rjlipton.wpcomstaging.com/2009/11/30/the-curious-history-of-the-schwartz-zippel-lemma/)
+- [Faster polynomial mults over finite fields](https://arxiv.org/pdf/1407.3361.pdf)
+- [Polynomial Arithmetic - HackMD](https://hackmd.io/CuYv5GK7QPmvYVIrrXtB8w?view)

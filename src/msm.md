@@ -15,6 +15,16 @@
 - [Efficient Multi exponentiation: Bucket method - Bootle](https://jbootle.github.io/Misc/pippenger.pdf)
 - [MSM tricks](https://gist.github.com/mratsim/27c78c71fd423f731615a91d237162c3#file-multi-scalar-mul-md)
 - [Verifiable MSM](https://decentralizedthoughts.github.io/2025-02-14-verifiable-MSM/)
+- [Scalar multiplication algorithms](https://cryptojedi.org/peter/data/eccss-20130911b.pdf)
+- [MSM | Twisted Edwards Point Representation](https://zprize.hardcaml.com/msm-point-representation.html)
+- [2022-entries/open-division/prize1-msm/prize1b-msm-fpga/nickray/zprize-fpga-msm.pdf at main · z-prize/2022-entries](https://github.com/z-prize/2022-entries/blob/main/open-division/prize1-msm/prize1b-msm-fpga/nickray/zprize-fpga-msm.pdf)
+- [A deep dive into optimizing Multi-Scalar Multiplication" (Niall Emmart, Yrrid) - YouTube](https://www.youtube.com/watch?v=KAWlySN7Hm8)
+- [Signed Bucket Indexes for Multi-Scalar Multiplication (MSM) - HackMD](https://hackmd.io/@drouyang/signed-bucket-index)
+- [efficient algorithms for MSM](https://download.hrz.tu-darmstadt.de/media/FB20/Dekanat/Publikationen/CDC/Erik_Dahmen.diplom.pdf)
+- [Fast montgomery for MSMs](https://hal.science/hal-03922635/document)
+- [elliptic curves - Strauss-Shamir trick on EC multiplication by scalar - Cryptography Stack Exchange](https://crypto.stackexchange.com/questions/99975/strauss-shamir-trick-on-ec-multiplication-by-scalar)
+- [Trading Inversions for Multiplications in Elliptic Curve Cryptography](https://eprint.iacr.org/2003/257)
+- [GLV Decomposition for Multi-Scalar Multiplication (MSM) - HackMD](https://hackmd.io/@drouyang/glv)
 
 ## Implementations
 <!-- markdown-link-check-disable -->

@@ -29,6 +29,17 @@
 - [FFT on finite fields intro](https://t.co/qXTu1Z4OzK)
 - [Algebraic FFTs - Sage](https://rje.li/24-07-03-alg-fft.html)
 - [Additive FFT](https://blog.lambdaclass.com/additive-fft-background)
+- [The Fast Fourier Transform over finite fields](https://decentralizedthoughts.github.io/2023-09-01-FFT/)
+- [Speeding up NTT for lattice based cryptography](https://eprint.iacr.org/2016/504.pdf)
+- [Barycentric Lagrange Interpolation](https://epubs.siam.org/doi/epdf/10.1137/S0036144502417715)
+- [Polynomial mult over finite fields in n log n](https://hal.science/hal-02070816/document)
+- [NTT for lattices](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/05/RLWE-1.pdf)
+- [FFT for binary ext and RS codes](https://arxiv.org/pdf/1503.05761)
+- [Additive FFT](http://www.math.clemson.edu/~sgao/papers/GM10.pdf)
+- [Lesser known FFTs](https://www.nato-us.org/analysis2000/papers/tolimieri.pdf)
+- [Rader's FFT | Aditya Agrawal](https://www.adityaagrawal.net/blog/mathematics/rader_fft)
+- [Schonhage Strassen algorithm for multipying terabit integers](https://people.apache.org/~szetszwo/ssmr20110430.pdf)
+- [Algebraic FFTs](https://rje.li/24-07-03-alg-fft.html)
 
 ## Large FFTs
 
@@ -36,8 +47,6 @@
 - [Hybrid CPU/GPU FFTs - Chen](https://www.eecis.udel.edu/~xli/publications/chen2013hybrid.pdf)
   - [Thesis](https://udspace.udel.edu/server/api/core/bitstreams/3d81b1ab-87da-4379-ab3b-7b3c716b7ba9/content)
 - [Large Scale 3d FFT on GPU](https://onlinelibrary.wiley.com/doi/epdf/10.4218/etrij.2022-0297)
-- 
-
 
 ## Implementations
 
