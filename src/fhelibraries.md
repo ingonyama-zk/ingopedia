@@ -1,10 +1,11 @@
 # Libraries
-A curated list of Homomorphic Encryption libraries, and what schemes they use. 
+
+A curated list of Homomorphic Encryption libraries, and what schemes they use.
 
 ## **UNDER CONSTRUCTION** 👷
 
+# Libraries
 
-# Libraries 
 |Libraries|Scheme|Resources|
 |:---:|---|:---:|
 |[Microsoft SEAL ](https://github.com/microsoft/SEAL#introduction)|${\color{red}BFV}$ ${\color{orange}BGV}$|
@@ -15,5 +16,5 @@ A curated list of Homomorphic Encryption libraries, and what schemes they use.
 |[OpenFHE](https://github.com/openfheorg/openfhe-development)|${\color{red}BFV}$ ${\color{orange}BGV}$ ${\color{green}CKKS}$ ${\color{blue}FHEW}$ ${\color{purple}TFHE}$ |[OpenFHE.com](https://www.openfhe.org)
 |[TenSEAL - Openmined](https://github.com/OpenMined/TenSEAL)|${\color{red}BFV}$ ${\color{green}CKKS}$|
 |[Zama AI - Concrete - Python compiler](https://github.com/zama-ai/concrete)|${\color{purple}TFHE}$ 
-|[Zama AI - TFHE-rs - Rust library](https://github.com/zama-ai/tfhe-rs)|${\color{purple}TFHE}$ 
-|[Google - FHE](https://github.com/google/fully-homomorphic-encryption)|${\color{purple}TFHE}$ 
+|[Zama AI - TFHE-rs - Rust library](https://github.com/zama-ai/tfhe-rs)|${\color{purple}TFHE}$
+|[Google - FHE](https://github.com/google/fully-homomorphic-encryption)|${\color{purple}TFHE}$

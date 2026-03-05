@@ -8,12 +8,16 @@
 - [Survey of polynomial multiplications for lattice based cryptosystems](https://eprint.iacr.org/2023/1962.pdf)
 - [Lattice based proof systems](https://mirror.xyz/privacy-scaling-explorations.eth/4OyAht_dHsVT1MgcZTwrK2qJ-bwxpINcpBmLNfF4I2E)
 - [Greyhound](https://blog.zksecurity.xyz/posts/greyhound)
+- [Computational challenges in theory of lattices](https://icerm.brown.edu/program/semester_program_workshop/sp-s18-w4)
 
 ### Lecture series/Conferences
 
 - [Lattices algorithms and complexity bootcamp](https://www.youtube.com/playlist?list=PLgKuh-lKre10rqiTYqJi6P4UlBRMQtPn0)
 - [Computational challenges in the theory of lattices](https://icerm.brown.edu/programs/sp-s18/w4/)
 - [Lattices LWE and PQC - Vinod Vaikuntanathan](https://people.csail.mit.edu/vinodv/CS294/)
+- [LWE winter school - Peikert](https://www.youtube.com/watch?v=Fp-IiVpgDlc)
+- [Lattice cryptography and FHE tutorial](https://arxiv.org/pdf/2208.08125)
+- [Mathematics of Lattices](https://www.youtube.com/watch?v=21IzHN9-CjE&list=PLgKuh-lKre10rqiTYqJi6P4UlBRMQtPn0&index=7)
 
 ## Lattice problems
 
@@ -29,6 +33,7 @@
 - [RLWE in polynomial rings](https://eprint.iacr.org/2012/235)
 - [RLWE in any number field](https://eprint.iacr.org/2017/258)
 - [Pseudorandomness of RLWE for any ring and modulus](https://eprint.iacr.org/2017/258)
+- 
 
 ### Short Integer Solution (SIS)
 
@@ -36,11 +41,14 @@
 - [Relationships between LWE and SIS](https://www.youtube.com/watch?v=H3trFEeJ2Wg)
 - [Ring SIS and ideal lattices - notes](https://people.csail.mit.edu/vinodv/6876-Fall2018/RingSISclass.pdf)
 - [Lattice cryptography and SIS problem](https://crypto.stanford.edu/cs355/18sp/lec9.pdf)
+- [SWIFFT hash](https://web.eecs.umich.edu/~cpeikert/pubs/swifft.pdf)
+- [Collision resistant hashes from cyclic lattices](https://iacr.org/archive/tcc2006/38760145/38760145.pdf)
 
 ### Security
 
 - [Lattice based attacks](https://blog.simons.berkeley.edu/2020/04/lattice-blog-reduction-part-i-bkz/)
 - [Lattice estimator](https://github.com/malb/lattice-estimator)
+- [Variants of lattice attacks](https://pure.royalholloway.ac.uk/ws/portalfiles/portal/36929800/2020deoraiphd.pdf)
 
 ## Cryptographic schemes built on Lattice based cryptography
 

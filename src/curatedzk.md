@@ -101,6 +101,12 @@ A collection of libraries where you can create a ZKP.
 - [Lazarus rust](https://github.com/lattice-complete/Lazarus)
 - [Lazer c++](https://github.com/lazer-crypto/lazer)
 - [Lattice based snarks over libsnark - c++](https://github.com/lattice-based-zkSNARKs/lattice-zksnark)
+- [liboqs](https://github.com/open-quantum-safe/liboqs)
+- [dilithium](https://github.com/pq-crystals/dilithium)
+- [kyber](https://github.com/pq-crystals/kyber)
+- [ntl](https://github.com/libntl/ntl)
+- [nfllib](https://github.com/quarkslab/NFLlib?tab=readme-ov-file)
+- [RSA & LLL attacks](https://github.com/mimoo/RSA-and-LLL-attacks)
 
 ## HW libraries
 
@@ -118,6 +124,7 @@ A collection of libraries where you can create a ZKP.
 - [GPU MODE](https://www.youtube.com/@GPUMODE) - awasome youtube channel
 
 ### Papers
+
 - [🔥 Understanding Latency Hiding on GPUs 🔥](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-143.pdf) - a must read
 - [Dissecting the NVidia Turing T4 GPU via Microbenchmarking](https://arxiv.org/abs/1903.07486)
 
